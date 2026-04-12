@@ -1,0 +1,495 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    dirreno-B650-AORUS-ELITE-AX (AVX512, FMA3, 30 GB RAM)
+Command: iqtree3 --threads-max 16 -s E_DENV1-delim.fasta -m GTR+G --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo
+Seed:    782376 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr 12 13:57:54 2026
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file E_DENV1-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00307435 secs using 96.54% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00483248 secs using 1368% CPU
+Alignment has 293 sequences with 1485 columns, 376 distinct patterns
+259 parsimony-informative, 111 singleton sites, 1115 constant sites
+                                                                                        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.0397e-05 secs
+   1  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101_DELIM-0x2f_2013                        0.00%    passed     99.80%
+   2  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-341_DELIM-0x2f_2013                        0.00%    passed     99.80%
+   3  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-102_DELIM-0x2f_2013                        0.00%    passed     99.71%
+   4  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-340_DELIM-0x2f_2013                        0.00%    passed     99.71%
+   5  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101234_DELIM-0x2f_2013                     0.00%    passed     99.58%
+   6  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-348_DELIM-0x2f_2013                        0.00%    passed     99.58%
+   7  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10123_DELIM-0x2f_2012                      0.00%    passed     99.80%
+   8  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-520_DELIM-0x2f_2012                        0.00%    passed     99.80%
+   9  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10125_DELIM-0x2f_2013                      0.00%    passed     99.80%
+  10  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10126_DELIM-0x2f_2013                      0.00%    passed     99.80%
+  11  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101210_DELIM-0x2f_2013                     0.00%    passed     99.80%
+  12  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101226_DELIM-0x2f_2012                     0.00%    passed     99.80%
+  13  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101228_DELIM-0x2f_2013                     0.00%    passed     99.80%
+  14  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-523_DELIM-0x2f_2013                        0.00%    passed     99.80%
+  15  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-521_DELIM-0x2f_2013                        0.00%    passed     99.80%
+  16  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-519_DELIM-0x2f_2013                        0.00%    passed     99.80%
+  17  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-506_DELIM-0x2f_2013                        0.00%    passed     99.80%
+  18  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-507_DELIM-0x2f_2012                        0.00%    passed     99.80%
+  19  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101220_DELIM-0x2f_2013                     0.00%    passed     99.80%
+  20  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-342_DELIM-0x2f_2013                        0.00%    passed     99.80%
+  21  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101218_DELIM-0x2f_2013                     0.00%    passed     99.58%
+  22  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-522_DELIM-0x2f_2013                        0.00%    passed     99.58%
+  23  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101223_DELIM-0x2f_2013                     0.00%    passed     95.21%
+  24  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-333_DELIM-0x2f_2013                        0.00%    passed     95.21%
+  25  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101225_DELIM-0x2f_2013                     0.00%    passed     94.36%
+  26  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-526_DELIM-0x2f_2013                        0.00%    passed     94.36%
+  27  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000087_DELIM-0x2f_2013                    0.00%    passed     97.67%
+  28  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000060_DELIM-0x2f_2013                    0.00%    passed     98.59%
+  29  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000010_DELIM-0x2f_2013                    0.00%    passed     98.37%
+  30  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000005_DELIM-0x2f_2013                    0.00%    passed     98.37%
+  31  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000023_DELIM-0x2f_2013                    0.00%    passed     98.37%
+  32  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000014_DELIM-0x2f_2012                    0.00%    passed     98.59%
+  33  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101227_DELIM-0x2f_2013                     0.00%    passed     99.00%
+  34  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-510_DELIM-0x2f_2013                        0.00%    passed     99.00%
+  35  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000054_DELIM-0x2f_2016                     0.00%    passed     95.87%
+  36  DenV1_DELIM-0x2f_mosquito_DELIM-0x2f_Colombia_DELIM-0x2f_MAG-CIST-0151_DELIM-0x2f_2018    0.00%    passed     97.99%
+  37  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000019_DELIM-0x2f_2016                     0.00%    passed     97.95%
+  38  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_CUN-INS-450339_DELIM-0x2f_2015                      0.00%    passed     92.08%
+  39  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC088_DELIM-0x2f_2021                      0.00%    passed     96.97%
+  40  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-FUAA-AFI224_DELIM-0x2f_2022                     0.00%    passed     96.78%
+  41  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2400146_DELIM-0x2f_2024                  0.00%    passed     96.78%
+  42  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2400298_DELIM-0x2f_2024                  0.07%    passed     97.38%
+  43  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405754_DELIM-0x2f_2024                  0.07%    passed     98.58%
+  44  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2403830_DELIM-0x2f_2024                  0.07%    passed     97.55%
+  45  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405525_DELIM-0x2f_2024                  0.00%    passed     96.78%
+  46  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405553_DELIM-0x2f_2024                  0.07%    passed     97.38%
+  47  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2404263_DELIM-0x2f_2024                  0.07%    passed     97.38%
+  48  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2404314_DELIM-0x2f_2024                  0.07%    passed     97.04%
+  49  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405774_DELIM-0x2f_2024                  0.07%    passed     97.38%
+  50  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2400227_DELIM-0x2f_2024                  0.00%    passed     95.16%
+  51  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02429_DELIM-0x2f_2023                     0.27%    passed     97.95%
+  52  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02838_DELIM-0x2f_2024                     0.20%    passed     96.59%
+  53  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02386_DELIM-0x2f_2023                     0.20%    passed     96.59%
+  54  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_HUI-UEB-033_DELIM-0x2f_2011                         0.00%    passed     96.28%
+  55  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2404461_DELIM-0x2f_2024                  0.00%    passed     99.28%
+  56  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405731_DELIM-0x2f_2024                  0.00%    passed     99.28%
+  57  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02730_DELIM-0x2f_2024                     0.34%    passed     98.91%
+  58  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101229_DELIM-0x2f_2013                     0.00%    passed     98.77%
+  59  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-332_DELIM-0x2f_2013                        0.00%    passed     98.77%
+  60  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-103_DELIM-0x2f_2013                        0.00%    passed     99.76%
+  61  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-353_DELIM-0x2f_2013                        0.00%    passed     99.76%
+  62  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101219_DELIM-0x2f_2013                     0.00%    passed     99.76%
+  63  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-356_DELIM-0x2f_2013                        0.00%    passed     99.76%
+  64  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000011_DELIM-0x2f_2012                    0.00%    passed     99.97%
+  65  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000008_DELIM-0x2f_2013                    0.00%    passed     99.95%
+  66  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000088_DELIM-0x2f_2012                    0.00%    passed     99.95%
+  67  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000093_DELIM-0x2f_2013                    0.00%    passed     99.95%
+  68  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000045_DELIM-0x2f_2013                    0.00%    passed     99.99%
+  69  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000043_DELIM-0x2f_2013                    0.00%    passed     99.98%
+  70  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-104_DELIM-0x2f_2013                        0.00%    passed     99.97%
+  71  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-338_DELIM-0x2f_2013                        0.00%    passed     99.97%
+  72  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000081_DELIM-0x2f_2013                    0.00%    passed     99.97%
+  73  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000046_DELIM-0x2f_2013                    0.00%    passed     99.83%
+  74  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101253_DELIM-0x2f_2013                     0.00%    passed     99.89%
+  75  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101235_DELIM-0x2f_2013                     0.00%    passed     99.89%
+  76  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-133_DELIM-0x2f_2013                        0.00%    passed     99.89%
+  77  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-132_DELIM-0x2f_2013                        0.00%    passed     99.89%
+  78  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101245_DELIM-0x2f_2013                     0.00%    passed     99.98%
+  79  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-508_DELIM-0x2f_2013                        0.00%    passed     99.98%
+  80  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000096_DELIM-0x2f_2013                    0.00%    passed     99.89%
+  81  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000068_DELIM-0x2f_2013                    0.00%    passed     99.99%
+  82  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10122_DELIM-0x2f_2013                      0.00%    passed     99.76%
+  83  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-360_DELIM-0x2f_2013                        0.00%    passed     99.76%
+  84  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000003_DELIM-0x2f_2013                    0.00%    passed     99.95%
+  85  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000076_DELIM-0x2f_2013                    0.00%    passed     99.91%
+  86  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101221_DELIM-0x2f_2013                     0.00%    passed     99.99%
+  87  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-131_DELIM-0x2f_2013                        0.00%    passed     99.99%
+  88  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000034_DELIM-0x2f_2014                     0.00%    passed     99.89%
+  89  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000048_DELIM-0x2f_2014                     0.00%    passed     99.17%
+  90  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000007_DELIM-0x2f_2015                     0.00%    passed     99.54%
+  91  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-F15030291_DELIM-0x2f_2014                    0.00%    passed     99.95%
+  92  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-556_DELIM-0x2f_2015                        0.00%    passed     99.90%
+  93  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000016_DELIM-0x2f_2015                     0.00%    passed     99.95%
+  94  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000017_DELIM-0x2f_2015                     0.00%    passed    100.00%
+  95  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000055_DELIM-0x2f_2015                     0.00%    passed     99.97%
+  96  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000008_DELIM-0x2f_2014                     0.00%    passed    100.00%
+  97  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000030_DELIM-0x2f_2010                     0.00%    passed    100.00%
+  98  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00003_DELIM-0x2f_2008                       0.00%    passed    100.00%
+  99  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00002_DELIM-0x2f_2008                       0.00%    passed    100.00%
+ 100  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00001_DELIM-0x2f_2008                       0.00%    passed    100.00%
+ 101  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000012_DELIM-0x2f_2010                     0.00%    passed     99.75%
+ 102  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000056_DELIM-0x2f_2013                     0.00%    passed     99.89%
+ 103  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000013_DELIM-0x2f_2010                     0.00%    passed     99.98%
+ 104  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000059_DELIM-0x2f_2016                     0.00%    passed     99.24%
+ 105  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-559_DELIM-0x2f_2015                        0.00%    passed     99.84%
+ 106  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-555_DELIM-0x2f_2001                        0.00%    passed     99.82%
+ 107  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000051_DELIM-0x2f_2016                     0.00%    passed     99.70%
+ 108  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000031_DELIM-0x2f_2016                     0.00%    passed     99.55%
+ 109  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000014_DELIM-0x2f_2016                     0.00%    passed     99.28%
+ 110  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000015_DELIM-0x2f_2016                     0.00%    passed     99.54%
+ 111  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000047_DELIM-0x2f_2016                     0.00%    passed     99.94%
+ 112  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000074_DELIM-0x2f_2013                    0.00%    passed     99.90%
+ 113  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-424233_DELIM-0x2f_2013                       0.00%    passed     99.89%
+ 114  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-476947_DELIM-0x2f_2016                      0.00%    passed     99.77%
+ 115  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-484948_DELIM-0x2f_2016                       0.00%    passed     99.91%
+ 116  DenV1_DELIM-0x2f_mosquito_DELIM-0x2f_Colombia_DELIM-0x2f_MAG-CIST-0134_DELIM-0x2f_2018    0.00%    passed     99.75%
+ 117  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000057_DELIM-0x2f_2014                     0.00%    passed     99.77%
+ 118  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-484942_DELIM-0x2f_2016                       0.00%    passed     99.91%
+ 119  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COT0012_DELIM-0x2f_2023                    0.00%    passed     99.38%
+ 120  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000032_DELIM-0x2f_2008                   0.00%    passed    100.00%
+ 121  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-INS-485061_DELIM-0x2f_2016                      0.00%    passed     99.16%
+ 122  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-FUAA-AFI101_DELIM-0x2f_2021                     0.00%    passed     98.83%
+ 123  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-FUAA-AFI082_DELIM-0x2f_2021                     0.00%    passed     98.83%
+ 124  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-FUAA-AFI031_DELIM-0x2f_2021                     0.00%    passed     98.83%
+ 125  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-AFI007673_DELIM-0x2f_2019                   0.00%    passed     99.57%
+ 126  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_FUADLA-AFI025_676_DELIM-0x2f_2021                   0.00%    passed     98.83%
+ 127  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_FUADLA-AFI059_677_DELIM-0x2f_2021                   0.00%    passed     99.69%
+ 128  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0746586_DELIM-0x2f_2013                     0.00%    passed     99.87%
+ 129  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2400035_DELIM-0x2f_2024                  0.07%    passed     99.99%
+ 130  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2400368_DELIM-0x2f_2024                  0.00%    passed     99.70%
+ 131  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405179_DELIM-0x2f_2024                  0.00%    passed     99.95%
+ 132  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-FUAA-DFC059_DELIM-0x2f_2021                     0.00%    passed     99.95%
+ 133  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC245_DELIM-0x2f_2022                      0.00%    passed     99.97%
+ 134  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC217_DELIM-0x2f_2021                      0.00%    passed     99.97%
+ 135  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC161_DELIM-0x2f_2021                      0.00%    passed     99.97%
+ 136  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC162_DELIM-0x2f_2021                      0.00%    passed     99.97%
+ 137  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC265_DELIM-0x2f_2022                      0.00%    passed     99.95%
+ 138  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC114_DELIM-0x2f_2021                      0.00%    passed     99.95%
+ 139  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC238_DELIM-0x2f_2021                      0.00%    passed     99.95%
+ 140  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC263_DELIM-0x2f_2022                      0.00%    passed     99.95%
+ 141  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC264_DELIM-0x2f_2022                      0.00%    passed     99.95%
+ 142  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC096_DELIM-0x2f_2021                      0.00%    passed     99.93%
+ 143  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC112_DELIM-0x2f_2021                      0.00%    passed     99.93%
+ 144  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC063_DELIM-0x2f_2021                      0.00%    passed     99.84%
+ 145  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC222_DELIM-0x2f_2021                      0.00%    passed     99.89%
+ 146  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC087_DELIM-0x2f_2021                      0.00%    passed     99.84%
+ 147  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02379_DELIM-0x2f_2023                     0.40%    passed    100.00%
+ 148  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02363_DELIM-0x2f_2023                     0.54%    passed     99.88%
+ 149  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02505_DELIM-0x2f_2024                     0.40%    passed     99.79%
+ 150  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02440_DELIM-0x2f_2023                     0.13%    passed    100.00%
+ 151  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC177_DELIM-0x2f_2021                      0.00%    passed     99.99%
+ 152  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02556_DELIM-0x2f_2024                     0.13%    passed     99.87%
+ 153  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02741_DELIM-0x2f_2024                     0.20%    passed     99.95%
+ 154  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101224_DELIM-0x2f_2011                     0.00%    passed     98.04%
+ 155  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-525_DELIM-0x2f_2011                        0.00%    passed     98.04%
+ 156  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101232_DELIM-0x2f_2013                     0.00%    passed     95.98%
+ 157  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-513_DELIM-0x2f_2013                        0.00%    passed     95.98%
+ 158  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000048_DELIM-0x2f_2013                    0.00%    passed     97.62%
+ 159  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000052_DELIM-0x2f_2013                    0.00%    passed     97.62%
+ 160  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000006_DELIM-0x2f_2012                    0.00%    passed     97.85%
+ 161  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000040_DELIM-0x2f_2013                    0.00%    passed     97.85%
+ 162  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000092_DELIM-0x2f_2012                    0.00%    passed     97.88%
+ 163  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000069_DELIM-0x2f_2012                    0.00%    passed     97.85%
+ 164  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000070_DELIM-0x2f_2012                    0.00%    passed     97.85%
+ 165  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000018_DELIM-0x2f_2016                     0.00%    passed     97.35%
+ 166  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-558_DELIM-0x2f_2016                        0.00%    passed     99.80%
+ 167  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000037_DELIM-0x2f_2005                   0.00%    passed     99.79%
+ 168  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00011_DELIM-0x2f_2006                       0.00%    passed     99.48%
+ 169  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00014_DELIM-0x2f_2006                       0.00%    passed     99.48%
+ 170  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00015_DELIM-0x2f_2006                       0.00%    passed     99.48%
+ 171  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00013_DELIM-0x2f_2006                       0.00%    passed     99.48%
+ 172  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00012_DELIM-0x2f_2005                       0.00%    passed     99.79%
+ 173  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00005_DELIM-0x2f_2006                       0.00%    passed     99.57%
+ 174  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00009_DELIM-0x2f_2006                       0.00%    passed     99.95%
+ 175  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00007_DELIM-0x2f_2006                       0.00%    passed     99.88%
+ 176  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00010_DELIM-0x2f_2006                       0.00%    passed     99.88%
+ 177  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00008_DELIM-0x2f_2006                       0.00%    passed     99.88%
+ 178  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00006_DELIM-0x2f_2006                       0.00%    passed     99.88%
+ 179  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00004_DELIM-0x2f_2008                       0.00%    passed     97.16%
+ 180  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000090_DELIM-0x2f_2012                    0.00%    passed     93.57%
+ 181  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000095_DELIM-0x2f_2012                    0.00%    passed     93.79%
+ 182  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000041_DELIM-0x2f_2010                     0.00%    passed     98.63%
+ 183  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00027_DELIM-0x2f_2008                       0.00%    passed     98.04%
+ 184  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00028_DELIM-0x2f_2007                       0.00%    passed     98.63%
+ 185  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00026_DELIM-0x2f_2007                       0.00%    passed     98.63%
+ 186  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00024_DELIM-0x2f_2008                       0.00%    passed     97.88%
+ 187  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00023_DELIM-0x2f_2008                       0.00%    passed     97.88%
+ 188  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00016_DELIM-0x2f_2007                       0.00%    passed     99.13%
+ 189  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00025_DELIM-0x2f_2007                       0.00%    passed     97.88%
+ 190  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00030_DELIM-0x2f_2008                       0.00%    passed     99.71%
+ 191  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00029_DELIM-0x2f_2008                       0.00%    passed     99.71%
+ 192  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00031_DELIM-0x2f_2004                       0.00%    passed     99.48%
+ 193  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00020_DELIM-0x2f_2006                       0.00%    passed     99.13%
+ 194  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00021_DELIM-0x2f_2007                       0.00%    passed     98.63%
+ 195  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000011_DELIM-0x2f_2009                     0.00%    passed     97.88%
+ 196  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00022_DELIM-0x2f_2008                       0.00%    passed     97.88%
+ 197  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00018_DELIM-0x2f_2008                       0.00%    passed     98.93%
+ 198  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000043_DELIM-0x2f_2009                     0.00%    passed     99.48%
+ 199  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000040_DELIM-0x2f_2009                     0.00%    passed     98.60%
+ 200  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000050_DELIM-0x2f_2009                     0.00%    passed     99.08%
+ 201  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000020_DELIM-0x2f_2010                     0.00%    passed     99.44%
+ 202  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00017_DELIM-0x2f_2007                       0.00%    passed     99.05%
+ 203  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000046_DELIM-0x2f_2009                     0.00%    passed     98.50%
+ 204  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000009_DELIM-0x2f_2010                     0.00%    passed     95.91%
+ 205  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-557_DELIM-0x2f_2009                        0.00%    passed     99.41%
+ 206  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00019_DELIM-0x2f_2008                       0.00%    passed     99.80%
+ 207  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000052_DELIM-0x2f_2010                     0.00%    passed     99.13%
+ 208  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000029_DELIM-0x2f_2010                     0.00%    passed     99.69%
+ 209  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000058_DELIM-0x2f_2000                     0.00%    passed     99.88%
+ 210  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00049_DELIM-0x2f_1999                       0.00%    passed     99.99%
+ 211  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00051_DELIM-0x2f_2002                       0.00%    passed     98.87%
+ 212  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00050_DELIM-0x2f_2001                       0.00%    passed     99.81%
+ 213  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00048_DELIM-0x2f_1998                       0.00%    passed     99.99%
+ 214  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00047_DELIM-0x2f_1998                       0.00%    passed     99.96%
+ 215  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00045_DELIM-0x2f_2006                       0.00%    passed     99.84%
+ 216  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00046_DELIM-0x2f_2006                       0.00%    passed     99.84%
+ 217  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00043_DELIM-0x2f_2006                       0.00%    passed     99.73%
+ 218  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00044_DELIM-0x2f_2006                       0.00%    passed     99.99%
+ 219  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-CDC-002_DELIM-0x2f_2007                          0.34%    passed     99.88%
+ 220  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00036_DELIM-0x2f_2007                       0.00%    passed     99.93%
+ 221  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00038_DELIM-0x2f_2006                       0.00%    passed     99.93%
+ 222  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00040_DELIM-0x2f_2006                       0.00%    passed     99.93%
+ 223  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00035_DELIM-0x2f_2008                       0.00%    passed     99.93%
+ 224  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00041_DELIM-0x2f_2006                       0.00%    passed     99.93%
+ 225  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00042_DELIM-0x2f_2006                       0.00%    passed     99.93%
+ 226  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00037_DELIM-0x2f_2006                       0.00%    passed     99.76%
+ 227  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00039_DELIM-0x2f_2006                       0.00%    passed     99.98%
+ 228  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00034_DELIM-0x2f_2006                       0.00%    passed     99.93%
+ 229  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00033_DELIM-0x2f_2008                       0.00%    passed     99.98%
+ 230  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00032_DELIM-0x2f_2007                       0.00%    passed     99.96%
+ 231  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV121086_DELIM-0x2f_2010                     0.00%    passed     99.73%
+ 232  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV122007_DELIM-0x2f_2009                     0.00%    passed     99.94%
+ 233  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000053_DELIM-0x2f_2007                   0.00%    passed     99.93%
+ 234  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000019_DELIM-0x2f_2006                   0.00%    passed     99.93%
+ 235  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000020_DELIM-0x2f_2006                   0.00%    passed     99.93%
+ 236  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000025_DELIM-0x2f_2006                   0.00%    passed     99.76%
+ 237  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000036_DELIM-0x2f_2007                   0.00%    passed     99.96%
+ 238  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000023_DELIM-0x2f_2006                   0.00%    passed     99.99%
+ 239  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000048_DELIM-0x2f_1998                   0.00%    passed     99.96%
+ 240  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000031_DELIM-0x2f_1998                   0.00%    passed     99.99%
+ 241  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000060_DELIM-0x2f_1999                   0.00%    passed     99.99%
+ 242  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-BROAD-0000003_DELIM-0x2f_1998                    0.00%    passed     99.99%
+ 243  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000058_DELIM-0x2f_2001                   0.00%    passed     99.81%
+ 244  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000046_DELIM-0x2f_2007                   0.00%    passed     98.63%
+ 245  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000029_DELIM-0x2f_2007                   0.00%    passed     98.63%
+ 246  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DH141_DELIM-0x2f_2004                       0.13%    passed     99.47%
+ 247  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-Yale-DH141-P2_DELIM-0x2f_2004                   0.00%    passed     99.48%
+ 248  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-BROAD-0000002_DELIM-0x2f_1998                    0.00%    passed     99.48%
+ 249  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-BROAD-0000007_DELIM-0x2f_2005                    0.00%    passed     97.88%
+ 250  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10124_DELIM-0x2f_2013                      0.00%    passed     99.59%
+ 251  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-134_DELIM-0x2f_2013                        0.00%    passed     99.59%
+ 252  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101212_DELIM-0x2f_2013                     0.00%    passed     99.84%
+ 253  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-511_DELIM-0x2f_2013                        0.00%    passed     99.84%
+ 254  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000063_DELIM-0x2f_2013                    0.00%    passed    100.00%
+ 255  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_CAU-INS-483718_DELIM-0x2f_2016                      0.00%    passed     99.95%
+ 256  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02733_DELIM-0x2f_2024                     0.13%    passed     99.18%
+ 257  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-BNITM-363_DELIM-0x2f_2018                        0.00%    passed     99.80%
+ 258  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2402583_DELIM-0x2f_2024                  0.00%    passed     99.44%
+ 259  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405404_DELIM-0x2f_2024                  0.07%    passed     99.70%
+ 260  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-0211-1854-VIG_DELIM-0x2f_2025            0.07%    passed     99.93%
+ 261  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-20250211-1854-VIG_DELIM-0x2f_2025        0.07%    passed     99.93%
+ 262  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COA0214_DELIM-0x2f_2022                    0.00%    passed     99.94%
+ 263  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COT0026_DELIM-0x2f_2023                    0.00%    passed     99.75%
+ 264  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COA0053_DELIM-0x2f_2021                    0.00%    passed     99.28%
+ 265  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000061_DELIM-0x2f_2012                    0.00%    passed     99.96%
+ 266  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-UDS-Ov07582_DELIM-0x2f_2013                      0.00%    passed     99.87%
+ 267  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COT0221_DELIM-0x2f_2023                    0.00%    passed     99.71%
+ 268  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COT0017_DELIM-0x2f_2023                    0.00%    passed     99.38%
+ 269  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COT0011_DELIM-0x2f_2023                    0.00%    passed     99.38%
+ 270  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COT0028_DELIM-0x2f_2023                    0.00%    passed     99.71%
+ 271  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000028_DELIM-0x2f_2013                     0.07%    passed     99.32%
+ 272  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-1_DELIM-0x2f_2013                          0.00%    passed     99.83%
+ 273  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-135_DELIM-0x2f_2013                        0.00%    passed     99.83%
+ 274  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101216_DELIM-0x2f_2013                     0.00%    passed     99.83%
+ 275  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-136_DELIM-0x2f_2013                        0.00%    passed     99.83%
+ 276  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10128_DELIM-0x2f_2013                      0.00%    passed     99.30%
+ 277  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-512_DELIM-0x2f_2013                        0.00%    passed     99.30%
+ 278  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101236_DELIM-0x2f_2013                     0.00%    passed     99.79%
+ 279  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-509_DELIM-0x2f_2013                        0.00%    passed     99.79%
+ 280  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000005_DELIM-0x2f_2015                     1.21%    passed     98.75%
+ 281  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-P201080030_DELIM-0x2f_2015                   1.21%    passed     99.34%
+ 282  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000049_DELIM-0x2f_2013                    1.21%    passed     99.69%
+ 283  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000053_DELIM-0x2f_2013                    1.21%    passed     99.04%
+ 284  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000075_DELIM-0x2f_2013                    1.21%    passed     99.66%
+ 285  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_MET-INS-424735_DELIM-0x2f_2013                      1.14%    passed     98.22%
+ 286  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101230_DELIM-0x2f_2013                     0.00%    passed     95.79%
+ 287  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-358_DELIM-0x2f_2013                        0.00%    passed     95.79%
+ 288  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-IVIC-371869-2_DELIM-0x2f_1996                    0.00%    passed     99.61%
+ 289  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DH012_DELIM-0x2f_1988                       0.20%    passed     99.73%
+ 290  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DH011_DELIM-0x2f_1990                       0.27%    passed     98.20%
+ 291  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-IVIC-347869_DELIM-0x2f_1985                      0.00%    passed     99.81%
+ 292  hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COA0234_DELIM-0x2f_2022                    0.00%    passed     99.94%
+ 293  DenV1_DELIM-0x2f_un_DELIM-0x2f_Colombia_DELIM-0x2f_un-UniNorte-1_DELIM-0x2f_2001         10.24%    passed     84.79%
+****  TOTAL                                                                                     0.08%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-341_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-340_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-102_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-348_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101234_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-520_DELIM-0x2f_2012 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10123_DELIM-0x2f_2012 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-522_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101218_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-333_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101223_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-526_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101225_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000005_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000010_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-510_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101227_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405525_DELIM-0x2f_2024 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2400146_DELIM-0x2f_2024 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405553_DELIM-0x2f_2024 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2400298_DELIM-0x2f_2024 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02386_DELIM-0x2f_2023 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02838_DELIM-0x2f_2024 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405731_DELIM-0x2f_2024 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2404461_DELIM-0x2f_2024 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-332_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101229_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-353_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-103_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000088_DELIM-0x2f_2012 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000008_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-338_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-104_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101235_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101253_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-508_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101245_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-484948_DELIM-0x2f_2016 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000076_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-131_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101221_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000032_DELIM-0x2f_2008 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00002_DELIM-0x2f_2008 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COT0017_DELIM-0x2f_2023 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COT0012_DELIM-0x2f_2023 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-FUAA-AFI082_DELIM-0x2f_2021 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-FUAA-AFI101_DELIM-0x2f_2021 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC265_DELIM-0x2f_2022 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405179_DELIM-0x2f_2024 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC161_DELIM-0x2f_2021 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC217_DELIM-0x2f_2021 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC112_DELIM-0x2f_2021 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC096_DELIM-0x2f_2021 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-525_DELIM-0x2f_2011 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101224_DELIM-0x2f_2011 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-513_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101232_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000052_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000048_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000070_DELIM-0x2f_2012 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000069_DELIM-0x2f_2012 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00012_DELIM-0x2f_2005 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000037_DELIM-0x2f_2005 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00015_DELIM-0x2f_2006 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00014_DELIM-0x2f_2006 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00010_DELIM-0x2f_2006 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00007_DELIM-0x2f_2006 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00026_DELIM-0x2f_2007 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00028_DELIM-0x2f_2007 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00023_DELIM-0x2f_2008 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00024_DELIM-0x2f_2008 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00029_DELIM-0x2f_2008 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00030_DELIM-0x2f_2008 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-Yale-DH141-P2_DELIM-0x2f_2004 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00031_DELIM-0x2f_2004 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000046_DELIM-0x2f_2007 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00021_DELIM-0x2f_2007 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00022_DELIM-0x2f_2008 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000011_DELIM-0x2f_2009 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000060_DELIM-0x2f_1999 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00049_DELIM-0x2f_1999 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000058_DELIM-0x2f_2001 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00050_DELIM-0x2f_2001 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000048_DELIM-0x2f_1998 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00047_DELIM-0x2f_1998 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00046_DELIM-0x2f_2006 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00045_DELIM-0x2f_2006 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000023_DELIM-0x2f_2006 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00044_DELIM-0x2f_2006 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00038_DELIM-0x2f_2006 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00036_DELIM-0x2f_2007 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000025_DELIM-0x2f_2006 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00037_DELIM-0x2f_2006 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000036_DELIM-0x2f_2007 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00032_DELIM-0x2f_2007 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-134_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10124_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-511_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101212_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-20250211-1854-VIG_DELIM-0x2f_2025 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-0211-1854-VIG_DELIM-0x2f_2025 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COA0234_DELIM-0x2f_2022 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COA0214_DELIM-0x2f_2022 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COT0028_DELIM-0x2f_2023 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COT0221_DELIM-0x2f_2023 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-135_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-1_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-512_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10128_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-509_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101236_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-358_DELIM-0x2f_2013 is identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101230_DELIM-0x2f_2013 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00110051 secs using 1337% CPU
+Identifying sites to remove: done in 0.00108293 secs using 1298% CPU
+NOTE: 48 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10125_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10123_DELIM-0x2f_2012) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10126_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10123_DELIM-0x2f_2012) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101210_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10123_DELIM-0x2f_2012) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101226_DELIM-0x2f_2012 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10123_DELIM-0x2f_2012) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101228_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10123_DELIM-0x2f_2012) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-523_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10123_DELIM-0x2f_2012) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-521_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10123_DELIM-0x2f_2012) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-519_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10123_DELIM-0x2f_2012) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-506_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10123_DELIM-0x2f_2012) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-507_DELIM-0x2f_2012 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10123_DELIM-0x2f_2012) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101220_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10123_DELIM-0x2f_2012) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-342_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10123_DELIM-0x2f_2012) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000023_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000010_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2404263_DELIM-0x2f_2024 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2400298_DELIM-0x2f_2024) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101219_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-103_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-356_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-103_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-10122_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-103_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-360_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-103_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000093_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000008_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000003_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000008_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000081_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-104_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-133_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101253_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-132_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101253_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-424233_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101253_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-484942_DELIM-0x2f_2016 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000076_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COT0011_DELIM-0x2f_2023 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDEA-COT0012_DELIM-0x2f_2023) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-FUAA-AFI031_DELIM-0x2f_2021 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-FUAA-AFI101_DELIM-0x2f_2021) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_FUADLA-AFI025_676_DELIM-0x2f_2021 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-FUAA-AFI101_DELIM-0x2f_2021) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC114_DELIM-0x2f_2021 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405179_DELIM-0x2f_2024) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC238_DELIM-0x2f_2021 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405179_DELIM-0x2f_2024) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC263_DELIM-0x2f_2022 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405179_DELIM-0x2f_2024) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC162_DELIM-0x2f_2021 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-FUAA-DFC217_DELIM-0x2f_2021) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00013_DELIM-0x2f_2006 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00014_DELIM-0x2f_2006) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00008_DELIM-0x2f_2006 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00007_DELIM-0x2f_2006) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00006_DELIM-0x2f_2006 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00007_DELIM-0x2f_2006) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000029_DELIM-0x2f_2007 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00028_DELIM-0x2f_2007) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-BROAD-0000007_DELIM-0x2f_2005 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00024_DELIM-0x2f_2008) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-BROAD-0000002_DELIM-0x2f_1998 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00031_DELIM-0x2f_2004) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-BROAD-0000003_DELIM-0x2f_1998 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00049_DELIM-0x2f_1999) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00040_DELIM-0x2f_2006 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00036_DELIM-0x2f_2007) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00035_DELIM-0x2f_2008 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00036_DELIM-0x2f_2007) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00041_DELIM-0x2f_2006 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00036_DELIM-0x2f_2007) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-00042_DELIM-0x2f_2006 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00036_DELIM-0x2f_2007) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000053_DELIM-0x2f_2007 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00036_DELIM-0x2f_2007) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000019_DELIM-0x2f_2006 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00036_DELIM-0x2f_2007) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000020_DELIM-0x2f_2006 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-00036_DELIM-0x2f_2007) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-101216_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-1_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-136_DELIM-0x2f_2013 (identical to hDenV1_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-1_DELIM-0x2f_2013) is ignored but added at the end
+Alignment was printed to E_DENV1-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to E_DENV1-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.009 seconds
+
+NOTE: 12 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+213 trees examined
+Threads: 1 / Time: 16.022 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -20788
+Threads: 2 / Time: 10.343 sec / Speedup: 1.549 / Efficiency: 77% / LogL: -20788
+Threads: 3 / Time: 9.533 sec / Speedup: 1.681 / Efficiency: 56% / LogL: -20788
+Threads: 4 / Time: 8.183 sec / Speedup: 1.958 / Efficiency: 49% / LogL: -20788
+Determining AUTO threadcount: done in 44.0832 secs using 217.2% CPU
+BEST NUMBER OF THREADS: 3
+
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -7360.060
+2. Current log-likelihood: -6746.176
+Optimal log-likelihood: -6745.895
+Rate parameters:  A-C: 1.04148  A-G: 12.17590  A-T: 2.06352  C-G: 0.93080  C-T: 41.70632  G-T: 1.00000
+Base frequencies:  A: 0.318  C: 0.207  G: 0.268  T: 0.208
+Gamma shape alpha: 0.285
+Parameters optimization took 2 rounds (0.200 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0301094 secs using 303.6% CPU
+Computing ML distances took 0.030225 sec (of wall-clock time) 0.091522 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000469333 secs using 277.4% CPU
+Constructing RapidNJ tree: done in 0.0248798 secs using 150.1% CPU
+Computing RapidNJ tree took 0.025410 sec (of wall-clock time) 0.038769 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -6764.105
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.0780244 secs using 291.9% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -6734.624
+Optimizing NNI: done in 0.0894397 secs using 287.7% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -6734.624 / CPU time: 0.199
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:44s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -6734.624
+Optimal log-likelihood: -6734.623
+Rate parameters:  A-C: 1.01656  A-G: 11.84376  A-T: 2.11662  C-G: 0.91594  C-T: 41.83545  G-T: 1.00000
+Base frequencies:  A: 0.318  C: 0.207  G: 0.268  T: 0.208
+Gamma shape alpha: 0.288
+Parameters optimization took 1 rounds (0.017 sec)
+BEST SCORE FOUND : -6734.623
+Total tree length: 0.496
+
+Total number of iterations: 2
+CPU time used for tree search: 0.577 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.199 sec (0h:0m:0s)
+Total CPU time used: 97.284 sec (0h:1m:37s)
+Total wall-clock time used: 44.606 sec (0h:0m:44s)
+
+Analysis results written to: 
+  IQ-TREE report:                E_DENV1-delim.fasta.iqtree
+  Maximum-likelihood tree:       E_DENV1-delim.fasta.treefile
+  Likelihood distances:          E_DENV1-delim.fasta.mldist
+  Screen log file:               E_DENV1-delim.fasta.log
+
+Date and Time: Sun Apr 12 13:58:39 2026
