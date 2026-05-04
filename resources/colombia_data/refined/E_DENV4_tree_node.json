@@ -1,0 +1,848 @@
+{
+  "alignment": "../resources/colombia_data/cropped/align_DENV4.fasta",
+  "clock": {
+    "cov": [
+      [
+        1.8598591843981976e-08,
+        -3.725081432150977e-05
+      ],
+      [
+        -3.725081432150978e-05,
+        0.07461983980907379
+      ]
+    ],
+    "intercept": -1.084079231380432,
+    "rate": 0.0005575377889308681,
+    "rate_std": 0.00013637665432170558,
+    "rtt_Tmrca": 1944.4049406216166
+  },
+  "generated_by": {
+    "program": "augur",
+    "version": "33.0.0"
+  },
+  "input_tree": "../resources/colombia_data/tree/E_DENV4_tree.nwk",
+  "nodes": {
+    "DenV4/un/Colombia/CSU-371813/1996": {
+      "branch_length": 0.00139677402845656,
+      "clock_length": 0.00139677402845656,
+      "date": "1996-12-31",
+      "date_inferred": true,
+      "mutation_length": 0.0033895734782374673,
+      "numdate": 1996.9986338797814,
+      "raw_date": "1996"
+    },
+    "DenV4/un/Colombia/un-WU-00001/1982": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "1982-01-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 1982.0013698630137,
+      "raw_date": "1982"
+    },
+    "NODE_0000000": {
+      "branch_length": 0.001,
+      "clock_length": 0.001,
+      "date": "1948-10-31",
+      "date_inferred": true,
+      "mutation_length": 0.001,
+      "numdate": 1948.8332502143157
+    },
+    "NODE_0000001": {
+      "branch_length": 0.0018181490332638724,
+      "clock_length": 0.0018181490332638724,
+      "date": "1982-01-01",
+      "date_inferred": true,
+      "mutation_length": 0.000675929691471669,
+      "numdate": 1982.0013698630137
+    },
+    "NODE_0000003": {
+      "branch_length": 0.006964767391464608,
+      "clock_length": 0.006964767391464608,
+      "date": "1994-06-30",
+      "date_inferred": true,
+      "mutation_length": 0.012292074126981899,
+      "numdate": 1994.4933794267424
+    },
+    "NODE_0000004": {
+      "branch_length": 0.0019503091746274279,
+      "clock_length": 0.0019503091746274279,
+      "date": "1997-12-28",
+      "date_inferred": true,
+      "mutation_length": 0.0027085892225997502,
+      "numdate": 1997.991454738135
+    },
+    "NODE_0000005": {
+      "branch_length": 0.002247550370824032,
+      "clock_length": 0.002247550370824032,
+      "date": "1978-09-15",
+      "date_inferred": true,
+      "mutation_length": 0.003387236287083968,
+      "numdate": 1978.7046121529747
+    },
+    "NODE_0000006": {
+      "branch_length": 0.014406862716809552,
+      "clock_length": 0.014406862716809552,
+      "date": "1974-09-03",
+      "date_inferred": true,
+      "mutation_length": 0.015779664921193256,
+      "numdate": 1974.6734049138495
+    },
+    "NODE_0000007": {
+      "branch_length": 0.03712319237795407,
+      "clock_length": 0.03712319237795407,
+      "date": "2015-06-02",
+      "date_inferred": true,
+      "mutation_length": 0.03848504643888571,
+      "numdate": 2015.4174228300255
+    },
+    "NODE_0000008": {
+      "branch_length": 0.006370766021189385,
+      "clock_length": 0.006370766021189385,
+      "date": "1986-02-06",
+      "date_inferred": true,
+      "mutation_length": 0.005428886648326017,
+      "numdate": 1986.1000133835748
+    },
+    "NODE_0000009": {
+      "branch_length": 0.005353359196335932,
+      "clock_length": 0.005353359196335932,
+      "date": "1995-09-14",
+      "date_inferred": true,
+      "mutation_length": 0.004067959362011047,
+      "numdate": 1995.701800567546
+    },
+    "NODE_0000010": {
+      "branch_length": 0.0027105426105681,
+      "clock_length": 0.0027105426105681,
+      "date": "2000-07-25",
+      "date_inferred": true,
+      "mutation_length": 0.0027068019442286493,
+      "numdate": 2000.5634308720419
+    },
+    "NODE_0000011": {
+      "branch_length": 0.0006561578084819161,
+      "clock_length": 0.0006561578084819161,
+      "date": "2001-09-28",
+      "date_inferred": true,
+      "mutation_length": 0.000675534765420966,
+      "numdate": 2001.7403157783372
+    },
+    "NODE_0000012": {
+      "branch_length": 0.0035067198794101005,
+      "clock_length": 0.0035067198794101005,
+      "date": "2001-12-28",
+      "date_inferred": true,
+      "mutation_length": 0.003387303275348618,
+      "numdate": 2001.991454738135
+    },
+    "NODE_0000013": {
+      "branch_length": 1.9917971032010306e-05,
+      "clock_length": 1.9917971032010306e-05,
+      "date": "1978-09-28",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 1978.7403370337406
+    },
+    "NODE_0000016": {
+      "branch_length": 0.00492820458346566,
+      "clock_length": 0.00492820458346566,
+      "date": "1994-12-09",
+      "date_inferred": true,
+      "mutation_length": 0.006117820659044601,
+      "numdate": 1994.9392430847865
+    },
+    "NODE_0000017": {
+      "branch_length": 0.0023399332764025924,
+      "clock_length": 0.0023399332764025924,
+      "date": "1999-02-19",
+      "date_inferred": true,
+      "mutation_length": 0.0040647286332622795,
+      "numdate": 1999.136148340105
+    },
+    "NODE_0000018": {
+      "branch_length": 0.0008236053610351842,
+      "clock_length": 0.0008236053610351842,
+      "date": "2000-08-12",
+      "date_inferred": true,
+      "mutation_length": 0.0020286642812849666,
+      "numdate": 2000.6133672432659
+    },
+    "NODE_0000020": {
+      "branch_length": 0.0002108001526572676,
+      "clock_length": 0.0002108001526572676,
+      "date": "2000-12-28",
+      "date_inferred": true,
+      "mutation_length": 0.0006753929728351539,
+      "numdate": 2000.9914584809226
+    },
+    "NODE_0000021": {
+      "branch_length": 0.0006844567702229548,
+      "clock_length": 0.0006844567702229548,
+      "date": "1996-03-02",
+      "date_inferred": true,
+      "mutation_length": 0.0006754081380624671,
+      "numdate": 1996.166885020117
+    },
+    "NODE_0000022": {
+      "branch_length": 0.003738622856576598,
+      "clock_length": 0.003738622856576598,
+      "date": "2002-11-15",
+      "date_inferred": true,
+      "mutation_length": 0.004072342929305937,
+      "numdate": 2002.8724804627968
+    },
+    "NODE_0000023": {
+      "branch_length": 0.005439492715543136,
+      "clock_length": 0.005439492715543136,
+      "date": "2012-08-18",
+      "date_inferred": true,
+      "mutation_length": 0.005429221043090296,
+      "numdate": 2012.6287567610793
+    },
+    "NODE_0000024": {
+      "branch_length": 0.0027158650609636955,
+      "clock_length": 0.0027158650609636955,
+      "date": "2007-09-29",
+      "date_inferred": true,
+      "mutation_length": 0.004064456506054855,
+      "numdate": 2007.7436571164396
+    },
+    "NODE_0000025": {
+      "branch_length": 0.0005129243338588951,
+      "clock_length": 0.0005129243338588951,
+      "date": "2008-08-30",
+      "date_inferred": true,
+      "mutation_length": 0.0013514456077409905,
+      "numdate": 2008.6636384056765
+    },
+    "NODE_0000026": {
+      "branch_length": 0.002522418997106626,
+      "clock_length": 0.002522418997106626,
+      "date": "2013-03-10",
+      "date_inferred": true,
+      "mutation_length": 0.006106670468014034,
+      "numdate": 2013.1878501222377
+    },
+    "NODE_0000027": {
+      "branch_length": 0.002133138055247454,
+      "clock_length": 0.002133138055247454,
+      "date": "2012-06-28",
+      "date_inferred": true,
+      "mutation_length": 0.003384951849685442,
+      "numdate": 2012.4896356700735
+    },
+    "NODE_0000028": {
+      "branch_length": 0.0038662715520541343,
+      "clock_length": 0.0038662715520541343,
+      "date": "2014-09-05",
+      "date_inferred": true,
+      "mutation_length": 0.0033855800786704304,
+      "numdate": 2014.678203310103
+    },
+    "NODE_0000029": {
+      "branch_length": 0.002096684070266709,
+      "clock_length": 0.002096684070266709,
+      "date": "2004-05-16",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2004.373980625701
+    },
+    "NODE_0000031": {
+      "branch_length": 0.0024758625198678576,
+      "clock_length": 0.0024758625198678576,
+      "date": "2000-08-10",
+      "date_inferred": true,
+      "mutation_length": 0.00202914910418596,
+      "numdate": 2000.6075930205839
+    },
+    "NODE_0000032": {
+      "branch_length": 0.008171236040401856,
+      "clock_length": 0.008171236040401856,
+      "date": "2015-04-07",
+      "date_inferred": true,
+      "mutation_length": 0.010899056021345622,
+      "numdate": 2015.2635252329474
+    },
+    "NODE_0000033": {
+      "branch_length": 0.0011004335021194203,
+      "clock_length": 0.0011004335021194203,
+      "date": "2002-08-01",
+      "date_inferred": true,
+      "mutation_length": 0.0006751113246707709,
+      "numdate": 2002.581330987708
+    },
+    "NODE_0000035": {
+      "branch_length": 0.0009994699154942527,
+      "clock_length": 0.0009994699154942527,
+      "date": "2004-05-16",
+      "date_inferred": true,
+      "mutation_length": 0.0013511172264883337,
+      "numdate": 2004.373980625701
+    },
+    "NODE_0000037": {
+      "branch_length": 0.0010168066594852497,
+      "clock_length": 0.0010168066594852497,
+      "date": "2004-05-28",
+      "date_inferred": true,
+      "mutation_length": 0.0020285032383589824,
+      "numdate": 2004.4050758166193
+    },
+    "NODE_0000038": {
+      "branch_length": 0.002833557718091812,
+      "clock_length": 0.002833557718091812,
+      "date": "2009-06-27",
+      "date_inferred": true,
+      "mutation_length": 0.002705336367895309,
+      "numdate": 2009.487346066902
+    },
+    "NODE_0000039": {
+      "branch_length": 0.00042886777028150035,
+      "clock_length": 0.00042886777028150035,
+      "date": "2015-06-13",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2015.4474207134722
+    },
+    "NODE_0000040": {
+      "branch_length": 0.0019013122982936038,
+      "clock_length": 0.0019013122982936038,
+      "date": "2005-12-28",
+      "date_inferred": true,
+      "mutation_length": 0.0013524525061214385,
+      "numdate": 2005.9915254822185
+    },
+    "NODE_0000041": {
+      "branch_length": 0.0013400000796421185,
+      "clock_length": 0.0013400000796421185,
+      "date": "2008-05-24",
+      "date_inferred": true,
+      "mutation_length": 0.0006754392846716366,
+      "numdate": 2008.394950158081
+    },
+    "NODE_0000042": {
+      "branch_length": 0.0009374646683059061,
+      "clock_length": 0.0009374646683059061,
+      "date": "2010-01-28",
+      "date_inferred": true,
+      "mutation_length": 0.0013515473317707526,
+      "numdate": 2010.0763871600527
+    },
+    "NODE_0000043": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2012-08-17",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2012.6272838300288
+    },
+    "NODE_0000044": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2002-08-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2002.581330987708
+    },
+    "NODE_0000045": {
+      "branch_length": 0.0013958792588264404,
+      "clock_length": 0.0013958792588264404,
+      "date": "2008-06-30",
+      "date_inferred": true,
+      "mutation_length": 0.0020287562248988934,
+      "numdate": 2008.4951750760931
+    },
+    "NODE_0000046": {
+      "branch_length": 0.002304627993012412,
+      "clock_length": 0.002304627993012412,
+      "date": "2012-08-18",
+      "date_inferred": true,
+      "mutation_length": 0.0027064346639148144,
+      "numdate": 2012.6287567610793
+    },
+    "NODE_0000047": {
+      "branch_length": 0.002303806778291175,
+      "clock_length": 0.002303806778291175,
+      "date": "2012-08-17",
+      "date_inferred": true,
+      "mutation_length": 0.004748466950226798,
+      "numdate": 2012.6272838300288
+    },
+    "NODE_0000049": {
+      "branch_length": 0.0005018472526859227,
+      "clock_length": 0.0005018472526859227,
+      "date": "2013-07-12",
+      "date_inferred": true,
+      "mutation_length": 0.0006746519271109215,
+      "numdate": 2013.5273972620676
+    },
+    "hDenV4/Colombia/ANT-UDS-0179595/2013": {
+      "branch_length": 0.00022078710603300796,
+      "clock_length": 0.00022078710603300796,
+      "date": "2013-01-09",
+      "date_inferred": false,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2013.0232876712328,
+      "raw_date": "2013-01-09"
+    },
+    "hDenV4/Colombia/ANT-UDS-0676596/2013": {
+      "branch_length": 0.0002559196242397331,
+      "clock_length": 0.0002559196242397331,
+      "date": "2013-02-01",
+      "date_inferred": false,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2013.0863013698631,
+      "raw_date": "2013-02-01"
+    },
+    "hDenV4/Colombia/ANT-UDS-0678597/2013": {
+      "branch_length": 0.00027730463532195555,
+      "clock_length": 0.00027730463532195555,
+      "date": "2013-02-15",
+      "date_inferred": false,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2013.1246575342466,
+      "raw_date": "2013-02-15"
+    },
+    "hDenV4/Colombia/ANT-UDS-0681598/2013": {
+      "branch_length": 0.0002879971408630659,
+      "clock_length": 0.0002879971408630659,
+      "date": "2013-02-22",
+      "date_inferred": false,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2013.1438356164383,
+      "raw_date": "2013-02-22"
+    },
+    "hDenV4/Colombia/ANT-UDS-0728599/2013": {
+      "branch_length": 0,
+      "clock_length": 0,
+      "date": "2013-07-12",
+      "date_inferred": false,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2013.5273972620676,
+      "raw_date": "2013-07-12"
+    },
+    "hDenV4/Colombia/ANT-UDS-0732600/2013": {
+      "branch_length": 5.0407525122544115e-05,
+      "clock_length": 5.0407525122544115e-05,
+      "date": "2013-08-14",
+      "date_inferred": false,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2013.6178082191782,
+      "raw_date": "2013-08-14"
+    },
+    "hDenV4/Colombia/ANT-UDS-1723601/2013": {
+      "branch_length": 0.002889028223410045,
+      "clock_length": 0.002889028223410045,
+      "date": "2013-07-30",
+      "date_inferred": false,
+      "mutation_length": 0.0027063496238033205,
+      "numdate": 2013.5767123287671,
+      "raw_date": "2013-07-30"
+    },
+    "hDenV4/Colombia/CES-UR-P201080317/2015": {
+      "branch_length": 0.0001801775653661325,
+      "clock_length": 0.0001801775653661325,
+      "date": "2015-01-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2015.0013698630137,
+      "raw_date": "2015-01"
+    },
+    "hDenV4/Colombia/CUN-UEB-032/2014": {
+      "branch_length": 0.005409869095429251,
+      "clock_length": 0.005409869095429251,
+      "date": "2014-02-09",
+      "date_inferred": false,
+      "mutation_length": 0.007468326620092149,
+      "numdate": 2014.1082191780822,
+      "raw_date": "2014-02-09"
+    },
+    "hDenV4/Colombia/NSA-BROAD-0000022/2005": {
+      "branch_length": 0.0003497932081703483,
+      "clock_length": 0.0003497932081703483,
+      "date": "2005-01-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2005.0013698630137,
+      "raw_date": "2005"
+    },
+    "hDenV4/Colombia/NSA-UIS-0000003/2005": {
+      "branch_length": 0.0032700826394722413,
+      "clock_length": 0.0032700826394722413,
+      "date": "2005-01-01",
+      "date_inferred": true,
+      "mutation_length": 0.002028910275070576,
+      "numdate": 2005.0013698630137,
+      "raw_date": "2005"
+    },
+    "hDenV4/Colombia/NSA-UIS-0000004/2005": {
+      "branch_length": 0.0003497932081703483,
+      "clock_length": 0.0003497932081703483,
+      "date": "2005-01-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2005.0013698630137,
+      "raw_date": "2005"
+    },
+    "hDenV4/Colombia/SAN-BROAD-0000027/2001": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2001-09-28",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2001.7403157783372,
+      "raw_date": "2001"
+    },
+    "hDenV4/Colombia/SAN-BROAD-0000028/2001": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2001-12-28",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2001.991454738135,
+      "raw_date": "2001"
+    },
+    "hDenV4/Colombia/SAN-BROAD-0000039/2001": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2001-12-28",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2001.991454738135,
+      "raw_date": "2001"
+    },
+    "hDenV4/Colombia/SAN-BROAD-0000044/1997": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "1997-12-28",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 1997.991454738135,
+      "raw_date": "1997"
+    },
+    "hDenV4/Colombia/SAN-BROAD-0000047/2004": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2004-05-16",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2004.373980625701,
+      "raw_date": "2004"
+    },
+    "hDenV4/Colombia/SAN-BROAD-0000051/2004": {
+      "branch_length": 0.0016781372500992084,
+      "clock_length": 0.0016781372500992084,
+      "date": "2004-01-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2004.0013661202186,
+      "raw_date": "2004"
+    },
+    "hDenV4/Colombia/SAN-BROAD-0000056/2001": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2001-12-28",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2001.991454738135,
+      "raw_date": "2001"
+    },
+    "hDenV4/Colombia/SAN-UIS-0000021/2004": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2004-05-16",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2004.373980625701,
+      "raw_date": "2004"
+    },
+    "hDenV4/Colombia/SAN-UIS-0000022/2001": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2001-12-28",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2001.991454738135,
+      "raw_date": "2001"
+    },
+    "hDenV4/Colombia/SAN-UIS-0000023/2000": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2000-12-28",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2000.9914584809226,
+      "raw_date": "2000"
+    },
+    "hDenV4/Colombia/SAN-UIS-0000024/2004": {
+      "branch_length": 0.0011206015479138798,
+      "clock_length": 0.0011206015479138798,
+      "date": "2004-01-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2004.0013661202186,
+      "raw_date": "2004"
+    },
+    "hDenV4/Colombia/SAN-UIS-0000025/2004": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2004-05-16",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2004.373980625701,
+      "raw_date": "2004"
+    },
+    "hDenV4/Colombia/SAN-UIS-0000026/2001": {
+      "branch_length": 0.000523253694924908,
+      "clock_length": 0.000523253694924908,
+      "date": "2001-07-03",
+      "date_inferred": true,
+      "mutation_length": 0.0006757109861822863,
+      "numdate": 2001.5019389073955,
+      "raw_date": "2001"
+    },
+    "hDenV4/Colombia/SAN-UIS-0000027/2001": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2001-09-28",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2001.7403157783372,
+      "raw_date": "2001"
+    },
+    "hDenV4/Colombia/SAN-UIS-0000035/2015": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2015-06-02",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2015.4174228300255,
+      "raw_date": "2015"
+    },
+    "hDenV4/Colombia/SAN-UIS-0000039/2016": {
+      "branch_length": 0.000325570450875199,
+      "clock_length": 0.000325570450875199,
+      "date": "2016-01-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2016.0013661202186,
+      "raw_date": "2016"
+    },
+    "hDenV4/Colombia/SAN-UIS-0000042/2016": {
+      "branch_length": 0.0019857995629643716,
+      "clock_length": 0.0019857995629643716,
+      "date": "2016-01-19",
+      "date_inferred": true,
+      "mutation_length": 0.0020311594846762694,
+      "numdate": 2016.0513665561043,
+      "raw_date": "2016"
+    },
+    "hDenV4/Colombia/SAN-UR-F14100091/2014": {
+      "branch_length": 8.700001707901729e-05,
+      "clock_length": 8.700001707901729e-05,
+      "date": "2014-11-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2014.8342465753424,
+      "raw_date": "2014-11"
+    },
+    "hDenV4/Colombia/SAN-UR-LV111117/2014": {
+      "branch_length": 0.0025595088701575505,
+      "clock_length": 0.0025595088701575505,
+      "date": "2014-09-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2014.6671232876713,
+      "raw_date": "2014-09"
+    },
+    "hDenV4/Colombia/SAN-UR-LV121101/2010": {
+      "branch_length": 5.527546616718865e-06,
+      "clock_length": 5.527546616718865e-06,
+      "date": "2010-02-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2010.0863013698631,
+      "raw_date": "2010-02"
+    },
+    "hDenV4/Colombia/SAN-UR-LV122006/2009": {
+      "branch_length": 5.288006962837072e-05,
+      "clock_length": 5.288006962837072e-05,
+      "date": "2009-08-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2009.5821917808219,
+      "raw_date": "2009-08"
+    },
+    "hDenV4/Colombia/SAN-UR-LV141007/2010": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2010-01-28",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2010.0763871600527,
+      "raw_date": "2010-01"
+    },
+    "hDenV4/Colombia/SAN-UR-LV141010/2010": {
+      "branch_length": 9.565009332056923e-05,
+      "clock_length": 9.565009332056923e-05,
+      "date": "2010-04-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2010.2479452054795,
+      "raw_date": "2010-04"
+    },
+    "hDenV4/Colombia/SAN-UR-LV141021/2010": {
+      "branch_length": 0.00028658769074187997,
+      "clock_length": 0.00028658769074187997,
+      "date": "2010-01-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2010.0013698630137,
+      "raw_date": "2010-01"
+    },
+    "hDenV4/Colombia/SAN-UR-LV192075/2009": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2009-06-27",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2009.487346066902,
+      "raw_date": "2009-06"
+    },
+    "hDenV4/Colombia/SAN-UR-P200120105/2015": {
+      "branch_length": 0.0001683175111891061,
+      "clock_length": 0.0001683175111891061,
+      "date": "2015-10-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2015.7493150684932,
+      "raw_date": "2015-10"
+    },
+    "hDenV4/Colombia/SAN-UR-P202090076/2015": {
+      "branch_length": 0.00021567003572838493,
+      "clock_length": 0.00021567003572838493,
+      "date": "2015-11-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2015.8342465753424,
+      "raw_date": "2015-11"
+    },
+    "hDenV4/Colombia/VAC-LSPVAC-2401630/2024": {
+      "branch_length": 0.00487319981561109,
+      "clock_length": 0.00487319981561109,
+      "date": "2024-01-02",
+      "date_inferred": false,
+      "mutation_length": 0.0061105953800766,
+      "numdate": 2024.0040983606557,
+      "raw_date": "2024-01-02"
+    },
+    "hDenV4/Colombia/VAC-LSPVAC-2403871/2024": {
+      "branch_length": 0.004967646107725087,
+      "clock_length": 0.004967646107725087,
+      "date": "2024-03-04",
+      "date_inferred": false,
+      "mutation_length": 0.003382156689605954,
+      "numdate": 2024.1734972677596,
+      "raw_date": "2024-03-04"
+    },
+    "hDenV4/Colombia/un-CDC-039/2006": {
+      "branch_length": 0.0044658303682488,
+      "clock_length": 0.0044658303682488,
+      "date": "2006-01-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2006.0013698630137,
+      "raw_date": "2006"
+    },
+    "hDenV4/Colombia/un-ICGEB-360/1982": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "1982-01-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 1982.0013698630137,
+      "raw_date": "1982"
+    },
+    "hDenV4/Colombia/un-INS-480579/2016": {
+      "branch_length": 0.002172711578689747,
+      "clock_length": 0.002172711578689747,
+      "date": "2016-05-21",
+      "date_inferred": false,
+      "mutation_length": 0.0013516090691693603,
+      "numdate": 2016.386612021858,
+      "raw_date": "2016-05-21"
+    },
+    "hDenV4/Colombia/un-OUCRU-401211/2013": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2013-03-10",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2013.1878501222377,
+      "raw_date": "2013"
+    },
+    "hDenV4/Colombia/un-OUCRU-401213/2013": {
+      "branch_length": 0.0002077458849790905,
+      "clock_length": 0.0002077458849790905,
+      "date": "2013-01-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2013.0013698630137,
+      "raw_date": "2013"
+    },
+    "hDenV4/Colombia/un-OUCRU-401215/2013": {
+      "branch_length": 0.0002077458849790905,
+      "clock_length": 0.0002077458849790905,
+      "date": "2013-01-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2013.0013698630137,
+      "raw_date": "2013"
+    },
+    "hDenV4/Colombia/un-OUCRU-594/2013": {
+      "branch_length": 0.0,
+      "clock_length": 0.0,
+      "date": "2013-03-10",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2013.1878501222377,
+      "raw_date": "2013"
+    },
+    "hDenV4/Colombia/un-OUCRU-595/2013": {
+      "branch_length": 0.0002077458849790905,
+      "clock_length": 0.0002077458849790905,
+      "date": "2013-01-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2013.0013698630137,
+      "raw_date": "2013"
+    },
+    "hDenV4/Colombia/un-OUCRU-596/2013": {
+      "branch_length": 0.0002077458849790905,
+      "clock_length": 0.0002077458849790905,
+      "date": "2013-01-01",
+      "date_inferred": true,
+      "mutation_length": 1.1392355137891458e-17,
+      "numdate": 2013.0013698630137,
+      "raw_date": "2013"
+    },
+    "hDenV4/Colombia/un-WRAIR-00001/1982": {
+      "branch_length": 0.0018181490332638724,
+      "clock_length": 0.0018181490332638724,
+      "date": "1982-01-01",
+      "date_inferred": true,
+      "mutation_length": 0.0013529192234480762,
+      "numdate": 1982.0013698630137,
+      "raw_date": "1982"
+    },
+    "hDenV4/Colombia/un-Yale-DH129/1988": {
+      "branch_length": 0.005183291651131378,
+      "clock_length": 0.005183291651131378,
+      "date": "1988-01-01",
+      "date_inferred": false,
+      "mutation_length": 0.014398032364253834,
+      "numdate": 1988.0013661202186,
+      "raw_date": "1988-01-01"
+    }
+  }
+}

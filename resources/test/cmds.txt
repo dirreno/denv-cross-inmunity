@@ -1,9 +1,0 @@
-augur align   --sequences col_DENV4.fasta   --reference-sequence ref_DENV4.fasta   --output align_DENV4.fasta   --fill-gaps   --nthreads auto
-
-augur tree   --alignment E_DENV1.fasta   --method iqtree   --substitution-model GTR+G   --nthreads auto   --output E_DENV1_tree.nwk
-
-augur refine   --tree E_DENV1_tree.nwk   --alignment E_DENV1.fasta   --metadata E_DENV1_meta.tsv   --timetree   --clock-filter-iqd 4   --output-tree E_DENV1_time.nwk   --output-node-data E_DENV1_time.json
-
-augur ancestral   --tree E_DENV1_time.nwk   --alignment E_DENV1.fasta   --output-node-data E_DENV1_ancestral.json   --output-sequences E_DENV1_ancestral.fasta
-
-augur translate   --tree E_DENV1_time.nwk   --ancestral-sequences E_DENV1_ancestral.json   --reference-sequence E_DENV1.gff   --genes E   --output-node-data E_DENV1_aa.json   --alignment-output E_DENV1_aa_%GENE.fasta
