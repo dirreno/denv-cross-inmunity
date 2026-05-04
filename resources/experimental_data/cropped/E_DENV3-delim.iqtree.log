@@ -5,820 +5,822 @@ Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
 
 Host:    dirreno-B650-AORUS-ELITE-AX (AVX512, FMA3, 30 GB RAM)
 Command: iqtree3 --threads-max 16 -s ../resources/experimental_data/cropped/E_DENV3-delim.fasta -m GTR+G --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo
-Seed:    151360 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Mon May  4 00:37:09 2026
+Seed:    399284 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon May  4 02:10:58 2026
 Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
 
 Reading alignment file ../resources/experimental_data/cropped/E_DENV3-delim.fasta ... Fasta format detected
-Reading fasta file: done in 0.00655299 secs using 61.51% CPU
+Reading fasta file: done in 0.00623065 secs using 98.88% CPU
 Alignment most likely contains DNA/RNA sequences
-Constructing alignment: done in 0.00625388 secs using 991.4% CPU
-WARNING: 6 sites contain only gaps or ambiguous characters.
-Alignment has 624 sequences with 1479 columns, 585 distinct patterns
-444 parsimony-informative, 118 singleton sites, 917 constant sites
-            Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 5.9603e-05 secs using 6127% CPU
-   1  1973.5        0.41%    passed     99.79%
-   2  1977.5        0.41%    passed     98.20%
-   3  1980.5        0.41%    passed     98.83%
-   4  1980.5_2      0.41%    passed     99.52%
-   5  1980.538      0.47%    passed     98.05%
-   6  1983.5        0.61%    passed     97.98%
-   7  1983.5_2      0.47%    passed     99.06%
-   8  1983.5_3      0.41%    passed     99.89%
-   9  1983.5_4      0.41%    passed     99.41%
-  10  1983.622      0.41%    passed     99.21%
-  11  1984.5        0.41%    passed     99.26%
-  12  1984.5_2      0.41%    passed     99.21%
-  13  1985.5        0.41%    passed     99.48%
-  14  1986.5        0.41%    passed     99.49%
-  15  1986.5_2      0.47%    passed     98.69%
-  16  1986.956      0.41%    passed     98.63%
-  17  1987.203      0.41%    passed     99.82%
-  18  1987.37       0.41%    passed     98.08%
-  19  1987.37_2     0.41%    passed     99.93%
-  20  1987.370      0.41%    passed     98.93%
-  21  1987.5        0.41%    passed     91.29%
-  22  1987.5_2      0.41%    passed     98.63%
-  23  1987.5_3      0.41%    passed     98.83%
-  24  1987.5_4      0.41%    passed     99.21%
-  25  1987.5_5      0.41%    passed     98.59%
-  26  1987.5_6      0.41%    passed     98.08%
-  27  1987.5_7      0.41%    passed     98.94%
-  28  1987.5_8      0.47%    passed     99.86%
-  29  1987.5_9      0.41%    passed     98.59%
-  30  1987.5_10     0.41%    passed     99.77%
-  31  1987.5_11     0.41%    passed     99.62%
-  32  1987.537      0.41%    passed     99.21%
-  33  1988.708      0.41%    passed     98.97%
-  34  1988.708_2    0.41%    passed     96.23%
-  35  1988.79       0.41%    passed     99.31%
-  36  1988.79_2     0.41%    passed     99.64%
-  37  1988.79_3     0.41%    passed     99.31%
-  38  1994.019      0.41%    passed     99.92%
-  39  1994.027      0.41%    passed     99.09%
-  40  1994.036      0.41%    passed     99.81%
-  41  1994.038      0.41%    passed     99.31%
-  42  1994.038_2    0.41%    passed     99.31%
-  43  1994.112      0.41%    passed     99.95%
-  44  1994.359      0.41%    passed    100.00%
-  45  1994.5        0.41%    passed     99.75%
-  46  1994.5_2      0.41%    passed     99.96%
-  47  1994.5_3      0.41%    passed     99.66%
-  48  1994.5_4      0.41%    passed     99.82%
-  49  1994.5_5      0.41%    passed     99.82%
-  50  1994.5_6      0.41%    passed     99.98%
-  51  1994.5_7      0.41%    passed     99.36%
-  52  1994.5_8      0.41%    passed     99.33%
-  53  1994.5_9      0.41%    passed     99.81%
-  54  1994.5_10     0.41%    passed     99.66%
-  55  1994.5_11     0.41%    passed     99.98%
-  56  1994.5_12     0.41%    passed    100.00%
-  57  1994.501      0.41%    passed     99.87%
-  58  1994.507      0.41%    passed     99.93%
-  59  1994.584      0.41%    passed     99.60%
-  60  1994.6        0.41%    passed     99.97%
-  61  1994.608      0.41%    passed     99.09%
-  62  1994.614      0.41%    passed     99.60%
-  63  1994.644      0.41%    passed     99.81%
-  64  1994.666      0.41%    passed     99.81%
-  65  1994.732      0.41%    passed     99.98%
-  66  1994.764      0.41%    passed     99.80%
-  67  1994.805      0.41%    passed     99.98%
-  68  1994.855      0.41%    passed     99.98%
-  69  1994.942      0.41%    passed     99.87%
-  70  1994.967      0.41%    passed     99.81%
-  71  1994.984      0.41%    passed     99.94%
-  72  1995.063      0.41%    passed     99.94%
-  73  1995.099      0.47%    passed     99.74%
-  74  1995.178      0.41%    passed     99.80%
-  75  1995.205      0.41%    passed     99.87%
-  76  1995.282      0.41%    passed     99.70%
-  77  1995.282_2    0.41%    passed     99.87%
-  78  1995.307      0.47%    passed     99.48%
-  79  1995.351      0.41%    passed     99.87%
-  80  1995.384      0.41%    passed     99.98%
-  81  1995.416      0.41%    passed     99.75%
-  82  1995.43       0.41%    passed     99.98%
-  83  1995.49       0.41%    passed     99.99%
-  84  1995.496      0.41%    passed     99.97%
-  85  1995.5        0.41%    passed     99.98%
-  86  1995.5_2      0.41%    passed     99.95%
-  87  1995.5_3      0.41%    passed     99.60%
-  88  1995.532      0.41%    passed     99.97%
-  89  1995.551      0.41%    passed     99.98%
-  90  1995.581      0.47%    passed    100.00%
-  91  1995.592      0.41%    passed     99.98%
-  92  1995.622      0.41%    passed     99.98%
-  93  1995.636      0.41%    passed     99.90%
-  94  1995.655      0.41%    passed     99.77%
-  95  1995.66       0.41%    passed     99.92%
-  96  1995.668      0.41%    passed     99.60%
-  97  1995.679      0.41%    passed    100.00%
-  98  1995.696      0.41%    passed     99.98%
-  99  1995.734      0.41%    passed     99.94%
- 100  1995.745      0.47%    passed     99.94%
- 101  1995.805      0.47%    passed     99.70%
- 102  1995.849      0.47%    passed     99.60%
- 103  1996.022      0.41%    passed     99.81%
- 104  1996.049      0.41%    passed     98.97%
- 105  1996.363      0.41%    passed     98.97%
- 106  1996.396      0.41%    passed     99.92%
- 107  1996.423      0.41%    passed     98.97%
- 108  1996.464      0.41%    passed     99.09%
- 109  1996.5        0.41%    passed     99.81%
- 110  1996.511      0.41%    passed     99.91%
- 111  1996.538      0.41%    passed     98.96%
- 112  1996.59       0.41%    passed     98.97%
- 113  1996.598      0.41%    passed    100.00%
- 114  1996.634      0.41%    passed     99.13%
- 115  1996.634_2    0.41%    passed     99.80%
- 116  1996.656      0.41%    passed     99.60%
- 117  1996.669      0.41%    passed     99.98%
- 118  1996.694      0.41%    passed     99.97%
- 119  1996.697      0.41%    passed     99.93%
- 120  1996.71       0.41%    passed     98.70%
- 121  1996.716      0.41%    passed     99.82%
- 122  1996.762      0.41%    passed     99.86%
- 123  1996.77       0.41%    passed     99.08%
- 124  1996.776      0.41%    passed     99.98%
- 125  1996.784      0.41%    passed    100.00%
- 126  1996.801      0.41%    passed     99.98%
- 127  1996.833      0.41%    passed     99.76%
- 128  1996.844      0.41%    passed     98.29%
- 129  1996.902      0.41%    passed     99.87%
- 130  1996.904      0.41%    passed     99.94%
- 131  1996.923      0.41%    passed     99.81%
- 132  1997.151      0.41%    passed     99.94%
- 133  1997.384      0.41%    passed     98.70%
- 134  1997.419      0.41%    passed     99.80%
- 135  1997.422      0.41%    passed     99.94%
- 136  1997.537      0.41%    passed     99.94%
- 137  1997.551      0.41%    passed     99.93%
- 138  1997.57       0.41%    passed     99.90%
- 139  1997.597      0.41%    passed     99.95%
- 140  1997.603      0.41%    passed     99.60%
- 141  1997.641      0.41%    passed     99.81%
- 142  1997.663      0.41%    passed     98.97%
- 143  1997.679      0.41%    passed     99.87%
- 144  1997.682      0.47%    passed     99.68%
- 145  1997.699      0.41%    passed     99.95%
- 146  1997.721      0.41%    passed     99.81%
- 147  1997.764      0.41%    passed     99.98%
- 148  1997.778      0.41%    passed     99.94%
- 149  1997.784      0.41%    passed     97.09%
- 150  1997.858      0.41%    passed     99.74%
- 151  1997.877      0.41%    passed     99.97%
- 152  1997.91       0.41%    passed     99.51%
- 153  1997.91_2     0.41%    passed     99.94%
- 154  1997.915      0.41%    passed     99.98%
- 155  1997.915_2    0.41%    passed     99.95%
- 156  1997.948      0.47%    passed    100.00%
- 157  1997.951      0.41%    passed     99.94%
- 158  1997.992      0.41%    passed     97.64%
- 159  1998.025      0.41%    passed     99.89%
- 160  1998.038      0.41%    passed     99.91%
- 161  1998.074      0.47%    passed     99.95%
- 162  1998.082      0.41%    passed     99.87%
- 163  1998.093      0.41%    passed     98.87%
- 164  1998.118      0.41%    passed     99.89%
- 165  1998.123      0.41%    passed     99.89%
- 166  1998.134      0.41%    passed     99.35%
- 167  1998.178      0.47%    passed     99.75%
- 168  1998.181      0.41%    passed     97.84%
- 169  1998.192      0.47%    passed     99.68%
- 170  1998.208      0.41%    passed     97.63%
- 171  1998.23       0.41%    passed     99.90%
- 172  1998.236      0.47%    passed    100.00%
- 173  1998.244      0.41%    passed     99.98%
- 174  1998.274      0.41%    passed     99.94%
- 175  1998.29       0.41%    passed     99.60%
- 176  1998.326      0.41%    passed     99.98%
- 177  1998.334      0.41%    passed     99.98%
- 178  1998.34       0.41%    passed     99.87%
- 179  1998.362      0.41%    passed     98.64%
- 180  1998.367      0.47%    passed     99.99%
- 181  1998.384      0.41%    passed     96.34%
- 182  1998.384_2    0.54%    passed     99.16%
- 183  1998.496      0.41%    passed     99.80%
- 184  1998.5        0.41%    passed     99.50%
- 185  1998.5_2      0.41%    passed     99.94%
- 186  1998.553      0.41%    passed     99.87%
- 187  1998.586      0.41%    passed     98.12%
- 188  1998.597      0.41%    passed     99.98%
- 189  1998.69       0.41%    passed     99.82%
- 190  1998.707      0.41%    passed     98.97%
- 191  1998.734      0.41%    passed     97.00%
- 192  1998.74       0.54%    passed     99.33%
- 193  1998.77       0.41%    passed     99.83%
- 194  1998.781      0.41%    passed     97.76%
- 195  1998.781_2    0.41%    passed     96.82%
- 196  1998.838      0.47%    passed     99.56%
- 197  1998.953      0.41%    passed     98.25%
- 198  1998.984      0.41%    passed     99.91%
- 199  1999.038      0.41%    passed     99.97%
- 200  1999.068      0.41%    passed     99.98%
- 201  1999.118      0.41%    passed     99.89%
- 202  1999.225      0.41%    passed     99.66%
- 203  1999.241      0.41%    passed     99.90%
- 204  1999.244      0.41%    passed     99.98%
- 205  1999.277      0.41%    passed     99.86%
- 206  1999.307      0.41%    passed     99.98%
- 207  1999.367      0.41%    passed     99.98%
- 208  1999.392      0.41%    passed     97.81%
- 209  1999.425      0.54%    passed     99.77%
- 210  1999.43       0.41%    passed     99.94%
- 211  1999.438      0.41%    passed     99.93%
- 212  1999.474      0.41%    passed     99.97%
- 213  1999.479      0.41%    passed     99.98%
- 214  1999.5        0.41%    passed     99.63%
- 215  1999.504      0.41%    passed     99.82%
- 216  1999.504_2    0.47%    passed     99.85%
- 217  1999.54       0.41%    passed     99.71%
- 218  1999.542      0.41%    passed     98.95%
- 219  1999.542_2    0.47%    passed     99.85%
- 220  1999.559      0.41%    passed     99.71%
- 221  1999.564      0.41%    passed     99.36%
- 222  1999.564_2    0.54%    passed     97.63%
- 223  1999.648      0.47%    passed     99.96%
- 224  1999.696      0.41%    passed    100.00%
- 225  1999.718      0.41%    passed    100.00%
- 226  1999.731      0.41%    passed    100.00%
- 227  1999.825      0.41%    passed     99.94%
- 228  1999.827      0.41%    passed     99.86%
- 229  1999.874      0.41%    passed     99.99%
- 230  1999.97       0.41%    passed     99.80%
- 231  1999.975      0.41%    passed     99.08%
- 232  1999.986      0.41%    passed     99.89%
- 233  1999.997      0.41%    passed    100.00%
- 234  2000.194      0.41%    passed     99.98%
- 235  2000.197      0.41%    passed     99.93%
- 236  2000.249      0.41%    passed     99.91%
- 237  2000.251      0.41%    passed     99.98%
- 238  2000.314      0.47%    passed     99.84%
- 239  2000.418      0.41%    passed     99.91%
- 240  2000.481      0.47%    passed     99.84%
- 241  2000.486      0.41%    passed     99.91%
- 242  2000.5        0.41%    passed     99.72%
- 243  2000.5_2      0.41%    passed     99.72%
- 244  2000.574      0.41%    passed     99.71%
- 245  2000.582      0.41%    passed     99.93%
- 246  2000.582_2    0.41%    passed     99.71%
- 247  2000.587      0.41%    passed     99.81%
- 248  2000.631      0.41%    passed     99.31%
- 249  2000.653      0.41%    passed     98.64%
- 250  2000.669      0.41%    passed     99.89%
- 251  2000.689      0.41%    passed     99.91%
- 252  2000.731      0.61%    passed     99.76%
- 253  2000.754      0.41%    passed     99.72%
- 254  2000.814      0.81%    passed     99.37%
- 255  2000.817      0.41%    passed     96.25%
- 256  2000.817_2    0.41%    passed     99.81%
- 257  2000.822      0.47%    passed     99.79%
- 258  2000.828      0.41%    passed     99.90%
- 259  2000.836      0.41%    passed     99.98%
- 260  2000.858      0.41%    passed     99.71%
- 261  2000.88       0.41%    passed     99.91%
- 262  2000.896      0.54%    passed     99.99%
- 263  2000.91       0.41%    passed     99.74%
- 264  2000.923      0.41%    passed     99.91%
- 265  2000.948      0.47%    passed     99.73%
- 266  2000.964      0.41%    passed     99.97%
- 267  2000.973      0.41%    passed     99.82%
- 268  2000.992      0.41%    passed     97.64%
- 269  2001.005      0.41%    passed     99.97%
- 270  2001.008      0.54%    passed     99.96%
- 271  2001.014      0.41%    passed     99.89%
- 272  2001.047      0.41%    passed     99.89%
- 273  2001.071      0.41%    passed     99.64%
- 274  2001.148      0.41%    passed     99.63%
- 275  2001.181      0.41%    passed    100.00%
- 276  2001.216      0.41%    passed     98.70%
- 277  2001.227      0.41%    passed     99.98%
- 278  2001.23       0.41%    passed     99.88%
- 279  2001.236      0.41%    passed     99.98%
- 280  2001.326      0.41%    passed     99.70%
- 281  2001.334      0.41%    passed     99.93%
- 282  2001.386      0.41%    passed     98.29%
- 283  2001.395      0.61%    passed     99.00%
- 284  2001.433      0.41%    passed     99.75%
- 285  2001.447      0.47%    passed     99.88%
- 286  2001.46       0.41%    passed     97.35%
- 287  2001.471      0.41%    passed     99.93%
- 288  2001.488      0.41%    passed     99.75%
- 289  2001.49       0.54%    passed     99.97%
- 290  2001.499      0.47%    passed     99.90%
- 291  2001.5        0.41%    passed     99.40%
- 292  2001.5_2      0.41%    passed     98.67%
- 293  2001.5_3      1.01%    passed     99.70%
- 294  2001.507      0.41%    passed     99.93%
- 295  2001.512      0.41%    passed     99.89%
- 296  2001.515      0.41%    passed     99.70%
- 297  2001.521      0.41%    passed     99.93%
- 298  2001.523      0.41%    passed     99.36%
- 299  2001.523_2    0.41%    passed     99.93%
- 300  2001.532      0.41%    passed     99.71%
- 301  2001.534      0.41%    passed     99.97%
- 302  2001.562      0.41%    passed     98.70%
- 303  2001.562_2    0.41%    passed     99.93%
- 304  2001.563      1.42%    passed     99.62%
- 305  2001.564      0.41%    passed     98.85%
- 306  2001.564_2    0.41%    passed     99.36%
- 307  2001.578      0.41%    passed     99.75%
- 308  2001.581      0.47%    passed     99.54%
- 309  2001.6        0.41%    passed     99.93%
- 310  2001.6_2      0.41%    passed     99.93%
- 311  2001.603      0.41%    passed     99.93%
- 312  2001.603_2    0.41%    passed     99.90%
- 313  2001.611      0.41%    passed     99.95%
- 314  2001.638      0.41%    passed     99.93%
- 315  2001.647      0.68%    passed     99.73%
- 316  2001.647_2    0.68%    passed     99.98%
- 317  2001.658      0.41%    passed     99.99%
- 318  2001.66       0.41%    passed     99.58%
- 319  2001.696      0.41%    passed     99.71%
- 320  2001.701      0.41%    passed     99.93%
- 321  2001.707      0.41%    passed     99.14%
- 322  2001.748      0.47%    passed     99.79%
- 323  2001.803      0.41%    passed     99.89%
- 324  2001.803_2    0.41%    passed     99.36%
- 325  2001.819      0.41%    passed     99.63%
- 326  2001.819_2    0.41%    passed     99.91%
- 327  2001.822      0.41%    passed     98.63%
- 328  2001.836      0.41%    passed     99.36%
- 329  2001.866      0.41%    passed     99.83%
- 330  2001.879      0.41%    passed     99.94%
- 331  2001.94       0.41%    passed    100.00%
- 332  2002.025      0.41%    passed     92.33%
- 333  2002.036      0.41%    passed     99.90%
- 334  2002.044      0.41%    passed     99.89%
- 335  2002.063      0.41%    passed     99.63%
- 336  2002.063_2    0.61%    passed     99.83%
- 337  2002.066      0.41%    passed     99.89%
- 338  2002.074      0.41%    passed     99.89%
- 339  2002.079      0.41%    passed     99.98%
- 340  2002.096      0.41%    passed     99.97%
- 341  2002.107      0.41%    passed     99.93%
- 342  2002.153      0.41%    passed     99.63%
- 343  2002.167      0.41%    passed     99.83%
- 344  2002.178      0.41%    passed     99.98%
- 345  2002.192      0.41%    passed     99.89%
- 346  2002.258      0.41%    passed     99.82%
- 347  2002.26       0.47%    passed     99.98%
- 348  2002.31       0.41%    passed     99.98%
- 349  2002.312      0.41%    passed     99.83%
- 350  2002.329      0.41%    passed     99.89%
- 351  2002.334      0.41%    passed     99.51%
- 352  2002.389      0.41%    passed     99.98%
- 353  2002.419      0.41%    passed     98.97%
- 354  2002.485      0.41%    passed     99.53%
- 355  2002.49       0.41%    passed     99.50%
- 356  2002.493      0.47%    passed     99.99%
- 357  2002.496      0.47%    passed     99.09%
- 358  2002.499      0.41%    passed     99.63%
- 359  2002.5        0.41%    passed     98.86%
- 360  2002.5_2      0.41%    passed     99.82%
- 361  2002.5_3      0.41%    passed     99.73%
- 362  2002.5_4      1.08%    passed     99.79%
- 363  2002.537      0.41%    passed     99.91%
- 364  2002.592      0.41%    passed     99.31%
- 365  2002.619      0.41%    passed     99.95%
- 366  2002.647      0.47%    passed     99.91%
- 367  2002.73       3.38%    passed     99.31%
- 368  2002.984      0.41%    passed     98.70%
- 369  2003.036      0.41%    passed     99.98%
- 370  2003.118      0.41%    passed     99.94%
- 371  2003.178      0.41%    passed     99.98%
- 372  2003.197      0.41%    passed     99.94%
- 373  2003.225      0.41%    passed     99.31%
- 374  2003.225_2    0.41%    passed     99.86%
- 375  2003.227      0.41%    passed     97.71%
- 376  2003.263      0.41%    passed     98.70%
- 377  2003.282      0.41%    passed     99.98%
- 378  2003.313      0.88%    passed     99.62%
- 379  2003.345      0.41%    passed     99.98%
- 380  2003.433      0.54%    passed     99.52%
- 381  2003.5        0.41%    passed     99.94%
- 382  2003.5_2      0.41%    passed     99.97%
- 383  2003.5_3      0.41%    passed     99.94%
- 384  2003.5_4      0.61%    passed     99.36%
- 385  2003.586      0.41%    passed     99.70%
- 386  2003.614      0.41%    passed     99.86%
- 387  2003.668      0.41%    passed     98.95%
- 388  2003.677      0.41%    passed     99.98%
- 389  2003.753      0.41%    passed     99.98%
- 390  2003.762      0.41%    passed     99.82%
- 391  2003.808      0.41%    passed     99.89%
- 392  2003.816      0.41%    passed     99.70%
- 393  2003.83       0.41%    passed     99.58%
- 394  2003.866      0.41%    passed     98.70%
- 395  2003.885      0.41%    passed     99.66%
- 396  2003.885_2    0.41%    passed     99.97%
- 397  2003.89       0.41%    passed     99.97%
- 398  2003.897      0.95%    passed     99.78%
- 399  2004.038      0.47%    passed     99.63%
- 400  2004.063      0.88%    passed     99.96%
- 401  2004.322      0.41%    passed     99.53%
- 402  2004.451      0.47%    passed     99.42%
- 403  2004.5        0.41%    passed     93.13%
- 404  2004.5_2      0.41%    passed     99.98%
- 405  2004.541      0.41%    passed     99.99%
- 406  2004.721      0.41%    passed     99.99%
- 407  2004.721_2    0.41%    passed     99.18%
- 408  2004.762      0.41%    passed     99.86%
- 409  2004.781      0.41%    passed     99.99%
- 410  2004.839      0.41%    passed     99.89%
- 411  2005.088      0.41%    passed     99.63%
- 412  2005.474      0.41%    passed     99.97%
- 413  2005.5        0.41%    passed     99.97%
- 414  2005.5_2      0.41%    passed     90.68%
- 415  2005.5_3      0.41%    passed     93.31%
- 416  2005.5_4      0.41%    passed     99.94%
- 417  2005.5_5      0.41%    passed     99.86%
- 418  2005.534      0.41%    passed     97.63%
- 419  2005.584      0.41%    passed     99.74%
- 420  2005.611      0.41%    passed     99.89%
- 421  2005.619      0.41%    passed     99.81%
- 422  2005.625      0.41%    passed     99.89%
- 423  2005.69       0.41%    passed     99.89%
- 424  2005.89       0.41%    passed     99.51%
- 425  2005.89_2     0.41%    passed     95.55%
- 426  2005.893      0.41%    passed     99.89%
- 427  2005.926      0.41%    passed     99.74%
- 428  2005.942      0.41%    passed     98.72%
- 429  2005.956      0.41%    passed     99.89%
- 430  2005.959      0.41%    passed     99.89%
- 431  2006.011      0.41%    passed     99.14%
- 432  2006.019      0.41%    passed     96.25%
- 433  2006.074      0.41%    passed     99.63%
- 434  2006.101      0.41%    passed     99.89%
- 435  2006.159      0.41%    passed     99.56%
- 436  2006.17       0.41%    passed     99.57%
- 437  2006.175      0.41%    passed     99.89%
- 438  2006.175_2    0.41%    passed     97.71%
- 439  2006.216      0.41%    passed     98.43%
- 440  2006.268      0.41%    passed     98.63%
- 441  2006.326      0.41%    passed     99.89%
- 442  2006.34       0.41%    passed     99.89%
- 443  2006.348      0.41%    passed     93.09%
- 444  2006.367      0.41%    passed     99.89%
- 445  2006.381      0.41%    passed     99.63%
- 446  2006.384      0.41%    passed     98.70%
- 447  2006.403      0.41%    passed     99.98%
- 448  2006.405      0.41%    passed     99.60%
- 449  2006.408      0.41%    passed     99.98%
- 450  2006.425      0.41%    passed     97.76%
- 451  2006.447      0.41%    passed     98.46%
- 452  2006.49       0.41%    passed     99.87%
- 453  2006.496      0.47%    passed     99.26%
- 454  2006.5        0.41%    passed     99.95%
- 455  2006.5_2      0.41%    passed     99.91%
- 456  2006.5_3      0.41%    passed     99.83%
- 457  2006.5_4      0.41%    passed     99.72%
- 458  2006.5_5      0.41%    passed     99.72%
- 459  2006.5_6      0.41%    passed     99.72%
- 460  2006.5_7      0.41%    passed    100.00%
- 461  2006.501      0.41%    passed     99.50%
- 462  2006.51       0.41%    passed     99.81%
- 463  2006.512      0.41%    passed     97.76%
- 464  2006.526      0.41%    passed     99.57%
- 465  2006.551      0.41%    passed     99.93%
- 466  2006.551_2    0.41%    passed     98.90%
- 467  2006.553      0.41%    passed     98.94%
- 468  2006.559      0.41%    passed     99.63%
- 469  2006.57       0.41%    passed     99.63%
- 470  2006.573      0.41%    passed     98.46%
- 471  2006.573_2    0.41%    passed     97.35%
- 472  2006.578      0.41%    passed     97.76%
- 473  2006.581      0.41%    passed     99.31%
- 474  2006.586      0.41%    passed     99.63%
- 475  2006.619      0.41%    passed     99.82%
- 476  2006.622      0.41%    passed     98.70%
- 477  2006.647      0.41%    passed     99.63%
- 478  2006.658      0.41%    passed     99.82%
- 479  2006.671      0.41%    passed     99.89%
- 480  2006.732      0.41%    passed     97.76%
- 481  2006.732_2    0.47%    passed     99.60%
- 482  2006.762      0.41%    passed     98.46%
- 483  2006.762_2    0.41%    passed     98.46%
- 484  2006.77       0.41%    passed     97.77%
- 485  2006.781      0.41%    passed     97.76%
- 486  2006.784      0.41%    passed     99.63%
- 487  2006.795      0.54%    passed     99.32%
- 488  2006.8        0.47%    passed     99.79%
- 489  2006.803      0.41%    passed     94.86%
- 490  2006.814      0.41%    passed     94.86%
- 491  2006.827      0.41%    passed     99.89%
- 492  2006.836      0.41%    passed     99.89%
- 493  2006.852      0.41%    passed     99.63%
- 494  2006.858      0.41%    passed     97.95%
- 495  2006.858_2    0.41%    passed     99.56%
- 496  2006.882      0.41%    passed     99.90%
- 497  2006.888      0.41%    passed     97.41%
- 498  2006.899      0.41%    passed     97.63%
- 499  2006.918      0.41%    passed     97.63%
- 500  2006.926      0.41%    passed     90.64%
- 501  2006.934      0.41%    passed     99.14%
- 502  2006.934_2    0.41%    passed     97.76%
- 503  2006.953      0.41%    passed     99.57%
- 504  2006.959      0.41%    passed     96.34%
- 505  2006.97       0.41%    passed     99.15%
- 506  2006.97_2     0.41%    passed     99.95%
- 507  2007.063      3.45%    passed     81.36%
- 508  2007.37       0.41%    passed     88.46%
- 509  2007.5        0.41%    passed    100.00%
- 510  2007.5_2      0.41%    passed    100.00%
- 511  2007.5_3      0.41%    passed     99.98%
- 512  2007.5_4      0.41%    passed     99.82%
- 513  2007.5_5      0.41%    passed     98.12%
- 514  2007.5_6      0.41%    passed     99.97%
- 515  2007.5_7      0.41%    passed    100.00%
- 516  2007.5_8      0.41%    passed     99.98%
- 517  2007.563      1.96%    passed     97.24%
- 518  2007.73       1.28%    passed     91.61%
- 519  2008.5        0.41%    passed     99.98%
- 520  2008.5_2      0.41%    passed     99.94%
- 521  2008.5_3      0.41%    passed     99.83%
- 522  2008.5_4      0.41%    passed     99.58%
- 523  2008.5_5      0.41%    passed     99.90%
- 524  2008.5_6      0.41%    passed     99.90%
- 525  2008.5_7      0.41%    passed     97.04%
- 526  2008.5_8      0.41%    passed     82.56%
- 527  2008.5_9      0.41%    passed     99.14%
- 528  2008.5_10     1.49%    passed     95.65%
- 529  2008.5_11     0.41%    passed     99.97%
- 530  2008.527      0.41%    passed     93.22%
- 531  2008.563      0.41%    passed     99.71%
- 532  2008.73       1.49%    passed     90.81%
- 533  2008.813      0.41%    passed     95.46%
- 534  2009.063      0.68%    passed     95.47%
- 535  2009.5        1.01%    passed     95.77%
- 536  2009.553      0.41%    passed     98.87%
- 537  2009.73       0.74%    passed     94.80%
- 538  2009.808      0.41%    passed     98.51%
- 539  2009.813      2.03%    passed     96.05%
- 540  2009.914      4.06%    passed     97.57%
- 541  2009.953      0.41%    passed     97.43%
- 542  2010.049      0.41%    passed     98.18%
- 543  2010.063      1.01%    passed     97.80%
- 544  2010.17       0.41%    passed     97.43%
- 545  2010.244      0.41%    passed     97.43%
- 546  2010.4        0.41%    passed     94.70%
- 547  2010.5        1.62%    passed     96.34%
- 548  2010.564      0.41%    passed     94.70%
- 549  2010.647      5.95%    passed     84.64%
- 550  2010.652      0.41%    passed     96.80%
- 551  2010.73       0.88%    passed     95.46%
- 552  2010.789      0.41%    passed     98.25%
- 553  2010.795      0.41%    passed     99.94%
- 554  2010.825      0.41%    passed     99.97%
- 555  2010.838      0.41%    passed     98.90%
- 556  2010.858      0.41%    passed     97.45%
- 557  2010.907      0.41%    passed     98.12%
- 558  2010.926      0.41%    passed     98.61%
- 559  2011.008      0.41%    passed     95.83%
- 560  2011.09       0.41%    passed     96.71%
- 561  2011.147      0.41%    passed     98.46%
- 562  2011.195      0.41%    passed     98.24%
- 563  2011.307      0.41%    passed     98.28%
- 564  2011.411      0.41%    passed     96.49%
- 565  2011.419      0.41%    passed     98.11%
- 566  2011.419_2    0.41%    passed     97.74%
- 567  2011.43       0.41%    passed     99.99%
- 568  2011.433      0.41%    passed     98.12%
- 569  2011.5        0.41%    passed     99.66%
- 570  2011.532      0.41%    passed     98.28%
- 571  2011.534      0.41%    passed     99.01%
- 572  2011.57       0.41%    passed     97.89%
- 573  2011.636      0.41%    passed     99.89%
- 574  2011.827      0.41%    passed     98.11%
- 575  2011.879      0.41%    passed     97.45%
- 576  2011.967      0.41%    passed     98.52%
- 577  2012.025      0.41%    passed     98.18%
- 578  2012.063      1.28%    passed     96.84%
- 579  2012.15       0.41%    passed     91.90%
- 580  2012.467      0.41%    passed     97.30%
- 581  2012.56       0.41%    passed     96.15%
- 582  2012.598      0.41%    passed     95.54%
- 583  2012.702      0.41%    passed     98.11%
- 584  2012.77       0.41%    passed     98.78%
- 585  2012.798      0.41%    passed     97.97%
- 586  2012.798_2    0.41%    passed     97.01%
- 587  2012.836      0.41%    passed     98.11%
- 588  2012.855      0.41%    passed     94.65%
- 589  2012.858      0.41%    passed     93.75%
- 590  2012.874      0.41%    passed     93.75%
- 591  2012.94       0.41%    passed     99.14%
- 592  2012.973      0.41%    passed     99.14%
- 593  2012.984      0.41%    passed     95.65%
- 594  2013.025      0.41%    passed     98.12%
- 595  2013.5        0.41%    passed     98.61%
- 596  2013.5_2      0.41%    passed     90.76%
- 597  2013.504      0.41%    passed     99.53%
- 598  2013.507      0.41%    passed     97.47%
- 599  2013.51       0.41%    passed     99.38%
- 600  2013.515      0.41%    passed     98.73%
- 601  2013.523      0.41%    passed     99.14%
- 602  2013.564      0.41%    passed     99.14%
- 603  2013.605      0.47%    passed     93.89%
- 604  2013.605_2    0.41%    passed     98.34%
- 605  2013.625      0.41%    passed     99.13%
- 606  2013.808      0.41%    passed     98.94%
- 607  2014.115      0.41%    passed     99.14%
- 608  2014.608      0.41%    passed     97.19%
- 609  2014.66       0.47%    passed     98.67%
- 610  2014.674      0.41%    passed     98.34%
- 611  2014.71       0.41%    passed     98.78%
- 612  2014.748      0.41%    passed     99.53%
- 613  2014.844      0.41%    passed     95.47%
- 614  2014.877      0.41%    passed     95.47%
- 615  2014.882      0.41%    passed     95.47%
- 616  2014.885      0.41%    passed     95.65%
- 617  2014.91       0.41%    passed     99.98%
- 618  2014.921      0.41%    passed     98.73%
- 619  2014.937      0.41%    passed     97.19%
- 620  2014.956      0.41%    passed     83.20%
- 621  2015.288      0.41%    passed     99.14%
- 622  2016.79       0.41%    passed     99.93%
- 623  2016.956      0.41%    passed     99.93%
- 624  2016.956_2    0.41%    passed     99.63%
-****  TOTAL         0.46%  0 sequences failed composition chi2 test (p-value<5%; df=3)
-NOTE: 1987.5_2 is identical to 1986.956 but kept for subsequent analysis
-NOTE: 1994.038_2 is identical to 1994.038 but kept for subsequent analysis
-NOTE: 1994.5_12 is identical to 1994.359 but kept for subsequent analysis
-NOTE: 1994.5_5 is identical to 1994.5_4 but kept for subsequent analysis
-NOTE: 1994.644 is identical to 1994.5_9 but kept for subsequent analysis
-NOTE: 1994.732 is identical to 1994.5_11 but kept for subsequent analysis
-NOTE: 1995.178 is identical to 1994.764 but kept for subsequent analysis
-NOTE: 1995.063 is identical to 1994.984 but kept for subsequent analysis
-NOTE: 1996.776 is identical to 1995.384 but kept for subsequent analysis
-NOTE: 1995.622 is identical to 1995.592 but kept for subsequent analysis
-NOTE: 1996.923 is identical to 1996.022 but kept for subsequent analysis
-NOTE: 1996.423 is identical to 1996.363 but kept for subsequent analysis
-NOTE: 2006.551 is identical to 1996.697 but kept for subsequent analysis
-NOTE: 2001.879 is identical to 1996.904 but kept for subsequent analysis
-NOTE: 2002.619 is identical to 1997.699 but kept for subsequent analysis
-NOTE: 1998.123 is identical to 1998.025 but kept for subsequent analysis
-NOTE: 2002.192 is identical to 1998.118 but kept for subsequent analysis
-NOTE: 1998.326 is identical to 1998.244 but kept for subsequent analysis
-NOTE: 2006.959 is identical to 1998.384 but kept for subsequent analysis
-NOTE: 2006.425 is identical to 1998.781 but kept for subsequent analysis
-NOTE: 2001.014 is identical to 1999.118 but kept for subsequent analysis
-NOTE: 1999.367 is identical to 1999.244 but kept for subsequent analysis
-NOTE: 2003.668 is identical to 1999.542 but kept for subsequent analysis
-NOTE: 2003.225_2 is identical to 1999.827 but kept for subsequent analysis
-NOTE: 2000.251 is identical to 2000.194 but kept for subsequent analysis
-NOTE: 2000.689 is identical to 2000.418 but kept for subsequent analysis
-NOTE: 2000.582_2 is identical to 2000.574 but kept for subsequent analysis
-NOTE: 2001.562 is identical to 2001.216 but kept for subsequent analysis
-NOTE: 2003.677 is identical to 2001.236 but kept for subsequent analysis
-NOTE: 2001.488 is identical to 2001.433 but kept for subsequent analysis
-NOTE: 2001.507 is identical to 2001.471 but kept for subsequent analysis
-NOTE: 2004.839 is identical to 2001.803 but kept for subsequent analysis
-NOTE: 2006.381 is identical to 2002.063 but kept for subsequent analysis
-NOTE: 2006.074 is identical to 2002.153 but kept for subsequent analysis
-NOTE: 2003.5_3 is identical to 2003.5 but kept for subsequent analysis
-NOTE: 2003.816 is identical to 2003.586 but kept for subsequent analysis
-NOTE: 2004.781 is identical to 2004.541 but kept for subsequent analysis
-NOTE: 2005.926 is identical to 2005.584 but kept for subsequent analysis
-NOTE: 2006.934 is identical to 2006.011 but kept for subsequent analysis
-NOTE: 2006.858_2 is identical to 2006.159 but kept for subsequent analysis
-NOTE: 2006.671 is identical to 2006.367 but kept for subsequent analysis
-NOTE: 2006.408 is identical to 2006.403 but kept for subsequent analysis
-NOTE: 2006.573 is identical to 2006.447 but kept for subsequent analysis
-NOTE: 2006.5_5 is identical to 2006.5_4 but kept for subsequent analysis
-NOTE: 2007.5 is identical to 2006.5_7 but kept for subsequent analysis
-NOTE: 2006.658 is identical to 2006.619 but kept for subsequent analysis
-NOTE: 2006.814 is identical to 2006.803 but kept for subsequent analysis
-NOTE: 2006.918 is identical to 2006.899 but kept for subsequent analysis
-NOTE: 2008.5_6 is identical to 2008.5_5 but kept for subsequent analysis
-NOTE: 2010.17 is identical to 2009.953 but kept for subsequent analysis
-NOTE: 2012.025 is identical to 2010.049 but kept for subsequent analysis
-NOTE: 2010.564 is identical to 2010.4 but kept for subsequent analysis
-NOTE: 2011.827 is identical to 2011.419 but kept for subsequent analysis
+Constructing alignment: done in 0.00430949 secs using 1321% CPU
+Alignment has 626 sequences with 1479 columns, 584 distinct patterns
+440 parsimony-informative, 121 singleton sites, 918 constant sites
+             Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 5.7129e-05 secs using 1295% CPU
+   1  NC_001475.2    0.00%    passed     99.08%
+   2  2004.5         0.00%    passed     94.39%
+   3  2005.5_2       0.00%    passed     92.17%
+   4  2005.5_3       0.00%    passed     94.01%
+   5  2007.37        0.00%    passed     91.96%
+   6  2008.5_8       0.00%    passed     88.97%
+   7  2014.956       0.00%    passed     90.99%
+   8  2002.025       0.00%    passed     93.41%
+   9  2006.348       0.00%    passed     94.39%
+  10  2006.926       0.00%    passed     92.17%
+  11  2010.795       0.00%    passed     99.84%
+  12  2010.825       0.00%    passed     99.94%
+  13  2011.43        0.00%    passed     99.96%
+  14  2013.51        0.00%    passed     99.05%
+  15  2013.808       0.00%    passed     98.72%
+  16  2011.008       0.00%    passed     95.87%
+  17  2011.09        0.00%    passed     97.06%
+  18  2012.798_2     0.00%    passed     96.93%
+  19  2012.77        0.00%    passed     99.61%
+  20  2013.507       0.00%    passed     98.49%
+  21  2011.636       0.00%    passed     99.62%
+  22  2012.94        0.00%    passed     99.21%
+  23  2012.973       0.00%    passed     99.21%
+  24  2014.115       0.00%    passed     99.21%
+  25  2013.564       0.00%    passed     99.21%
+  26  2012.984       0.00%    passed     96.14%
+  27  2013.523       0.00%    passed     99.21%
+  28  2014.608       0.00%    passed     98.53%
+  29  2014.937       0.00%    passed     98.53%
+  30  2013.605_2     0.00%    passed     98.53%
+  31  2014.877       0.00%    passed     95.98%
+  32  2013.625       0.00%    passed     99.21%
+  33  2014.748       0.00%    passed     99.53%
+  34  2014.71        0.00%    passed     99.35%
+  35  2014.885       0.00%    passed     96.14%
+  36  2015.288       0.00%    passed     99.10%
+  37  2014.66        0.07%    passed     98.68%
+  38  2014.674       0.00%    passed     97.52%
+  39  2013.515       0.00%    passed     99.05%
+  40  2016.79        0.00%    passed     99.75%
+  41  2016.956       0.00%    passed     99.75%
+  42  2013.504       0.00%    passed     99.53%
+  43  2014.91        0.00%    passed     99.92%
+  44  2016.956_2     0.00%    passed     99.21%
+  45  2014.921       0.00%    passed     98.66%
+  46  2014.844       0.00%    passed     97.37%
+  47  2014.882       0.00%    passed     97.37%
+  48  2012.874       0.00%    passed     94.67%
+  49  2012.858       0.00%    passed     95.13%
+  50  2008.73        1.28%    passed     95.78%
+  51  2009.914       3.38%    passed     97.27%
+  52  2013.5_2       0.00%    passed     94.01%
+  53  2010.647       5.54%    passed     83.78%
+  54  2007.563       1.56%    passed     97.00%
+  55  1973.5         0.00%    passed     99.84%
+  56  1973.5_2       0.00%    passed     99.92%
+  57  1980.5_2       0.00%    passed     99.36%
+  58  1977.5         0.00%    passed     99.08%
+  59  1983.5         0.20%    passed     98.31%
+  60  1987.5         0.00%    passed     91.84%
+  61  1980.5         0.00%    passed     98.97%
+  62  1984.5_2       0.00%    passed     99.69%
+  63  1983.622       0.00%    passed     99.36%
+  64  1983.5_2       0.07%    passed     99.18%
+  65  1983.5_4       0.00%    passed     99.51%
+  66  1987.5_6       0.00%    passed     98.20%
+  67  1986.5         0.00%    passed     99.80%
+  68  1987.5_5       0.00%    passed     98.79%
+  69  1987.5_7       0.00%    passed     99.03%
+  70  1986.5_2       0.07%    passed     98.77%
+  71  1986.956       0.00%    passed     98.75%
+  72  1987.5_2       0.00%    passed     98.75%
+  73  1988.708_2     0.00%    passed     96.24%
+  74  1988.79_2      0.00%    passed     99.51%
+  75  1987.37        0.00%    passed     98.13%
+  76  1987.537       0.00%    passed     99.08%
+  77  1987.5_4       0.00%    passed     99.08%
+  78  1987.370       0.00%    passed     99.03%
+  79  1988.708       0.00%    passed     99.19%
+  80  1988.79        0.00%    passed     99.77%
+  81  1988.79_3      0.00%    passed     99.77%
+  82  1987.5_3       0.00%    passed     98.79%
+  83  1987.203       0.00%    passed     99.85%
+  84  1987.5_8       0.07%    passed     99.95%
+  85  1987.5_11      0.00%    passed     99.37%
+  86  1987.37_2      0.00%    passed     99.93%
+  87  1987.5_10      0.00%    passed     99.72%
+  88  1987.5_9       0.00%    passed     98.43%
+  89  1983.5_3       0.00%    passed     99.51%
+  90  1980.538       0.07%    passed     97.35%
+  91  1984.5         0.00%    passed     99.59%
+  92  1985.5         0.00%    passed     99.84%
+  93  1994.038       0.00%    passed     98.90%
+  94  1994.038_2     0.00%    passed     98.90%
+  95  1994.5_4       0.00%    passed     99.75%
+  96  1994.5_5       0.00%    passed     99.75%
+  97  1994.5_3       0.00%    passed     99.44%
+  98  1994.5_8       0.00%    passed     99.01%
+  99  1994.5_7       0.00%    passed     99.06%
+ 100  1997.721       0.00%    passed     99.59%
+ 101  1998.384       0.00%    passed     97.63%
+ 102  2006.573_2     0.00%    passed     98.33%
+ 103  2006.959       0.00%    passed     97.63%
+ 104  2006.803       0.00%    passed     96.57%
+ 105  2006.814       0.00%    passed     96.57%
+ 106  2005.942       0.00%    passed     99.37%
+ 107  2010.789       0.00%    passed     98.81%
+ 108  2011.967       0.00%    passed     98.90%
+ 109  2006.888       0.00%    passed     99.10%
+ 110  1998.734       0.00%    passed     98.81%
+ 111  1998.781       0.00%    passed     98.81%
+ 112  2006.425       0.00%    passed     98.81%
+ 113  2006.512       0.00%    passed     98.81%
+ 114  2006.762       0.00%    passed     99.33%
+ 115  2006.578       0.00%    passed     98.81%
+ 116  2006.732       0.00%    passed     98.81%
+ 117  1998.781_2     0.00%    passed     98.07%
+ 118  2006.934_2     0.00%    passed     98.81%
+ 119  2006.447       0.00%    passed     99.33%
+ 120  2006.551_2     0.00%    passed     99.33%
+ 121  2006.77        0.00%    passed     99.10%
+ 122  2006.573       0.00%    passed     99.33%
+ 123  1998.953       0.00%    passed     99.03%
+ 124  2006.762_2     0.00%    passed     99.10%
+ 125  2006.781       0.00%    passed     98.81%
+ 126  2010.838       0.00%    passed     99.40%
+ 127  2008.527       0.00%    passed     95.44%
+ 128  2011.147       0.00%    passed     99.33%
+ 129  2012.56        0.00%    passed     99.10%
+ 130  2008.813       0.00%    passed     98.67%
+ 131  2009.73        0.27%    passed     98.31%
+ 132  2010.4         0.00%    passed     96.88%
+ 133  2010.564       0.00%    passed     96.88%
+ 134  2012.15        0.00%    passed     94.94%
+ 135  2010.652       0.00%    passed     98.40%
+ 136  2010.858       0.00%    passed     98.39%
+ 137  2013.605       0.07%    passed     95.19%
+ 138  2011.307       0.00%    passed     98.87%
+ 139  2011.532       0.00%    passed     98.87%
+ 140  2007.73        0.95%    passed     94.23%
+ 141  2008.5_10      1.28%    passed     97.36%
+ 142  2009.063       0.27%    passed     98.01%
+ 143  2010.5         1.22%    passed     98.95%
+ 144  2010.73        0.34%    passed     98.34%
+ 145  2009.813       1.76%    passed     97.77%
+ 146  2010.063       0.88%    passed     98.20%
+ 147  1994.019       0.00%    passed     99.99%
+ 148  1994.666       0.00%    passed     99.99%
+ 149  1995.5_2       0.00%    passed     99.88%
+ 150  1995.655       0.00%    passed     99.88%
+ 151  1994.984       0.00%    passed    100.00%
+ 152  1995.063       0.00%    passed    100.00%
+ 153  1994.967       0.00%    passed     99.99%
+ 154  1996.049       0.00%    passed     99.64%
+ 155  1994.5_11      0.00%    passed     99.94%
+ 156  1994.732       0.00%    passed     99.94%
+ 157  1995.5         0.00%    passed     99.90%
+ 158  1995.5_3       0.00%    passed     99.77%
+ 159  1995.532       0.00%    passed     99.83%
+ 160  1994.6         0.00%    passed     99.98%
+ 161  1994.805       0.00%    passed     99.94%
+ 162  1995.416       0.00%    passed     99.38%
+ 163  1995.805       0.07%    passed     98.92%
+ 164  1994.036       0.00%    passed     99.97%
+ 165  1994.5_6       0.00%    passed     99.99%
+ 166  1994.5_10      0.00%    passed     99.97%
+ 167  1994.5_9       0.00%    passed     99.99%
+ 168  1994.644       0.00%    passed     99.99%
+ 169  1995.205       0.00%    passed     99.97%
+ 170  1995.592       0.00%    passed     99.94%
+ 171  1995.622       0.00%    passed     99.94%
+ 172  1995.551       0.00%    passed     99.99%
+ 173  1996.784       0.00%    passed     99.90%
+ 174  1995.581       0.07%    passed     99.99%
+ 175  1996.598       0.00%    passed    100.00%
+ 176  2002.334       0.00%    passed     99.44%
+ 177  1996.634_2     0.00%    passed     99.93%
+ 178  2001.326       0.00%    passed     99.76%
+ 179  2001.578       0.00%    passed     99.70%
+ 180  1995.668       0.00%    passed     99.77%
+ 181  1995.696       0.00%    passed     99.90%
+ 182  1997.603       0.00%    passed     99.77%
+ 183  1996.511       0.00%    passed     99.84%
+ 184  1996.697       0.00%    passed     99.88%
+ 185  2006.551       0.00%    passed     99.88%
+ 186  1999.038       0.00%    passed     99.98%
+ 187  1999.474       0.00%    passed     99.98%
+ 188  2001.515       0.00%    passed     99.79%
+ 189  1999.54        0.00%    passed     99.93%
+ 190  2002.036       0.00%    passed     99.93%
+ 191  2001.433       0.00%    passed     99.68%
+ 192  2001.488       0.00%    passed     99.68%
+ 193  2001.471       0.00%    passed     99.88%
+ 194  2001.507       0.00%    passed     99.88%
+ 195  2001.521       0.00%    passed     99.88%
+ 196  2001.638       0.00%    passed     99.88%
+ 197  2001.658       0.00%    passed     99.95%
+ 198  2001.6         0.00%    passed     99.88%
+ 199  2001.603       0.00%    passed     99.88%
+ 200  2001.701       0.00%    passed     99.88%
+ 201  2001.562_2     0.00%    passed     99.88%
+ 202  2001.6_2       0.00%    passed     99.88%
+ 203  2001.603_2     0.00%    passed     99.88%
+ 204  2001.532       0.00%    passed     99.75%
+ 205  2001.523_2     0.00%    passed     99.88%
+ 206  2001.447       0.07%    passed     99.82%
+ 207  2001.819_2     0.00%    passed     99.74%
+ 208  2001.707       0.00%    passed     99.38%
+ 209  2002.107       0.00%    passed     99.88%
+ 210  2001.696       0.00%    passed     99.51%
+ 211  2000.631       0.00%    passed     99.38%
+ 212  2000.817       0.00%    passed     96.43%
+ 213  2001.334       0.00%    passed     99.88%
+ 214  2001.836       0.00%    passed     99.28%
+ 215  2001.499       0.07%    passed     99.67%
+ 216  1998.181       0.00%    passed     98.28%
+ 217  1999.564_2     0.14%    passed     97.79%
+ 218  2001.822       0.00%    passed     98.74%
+ 219  2000.948       0.07%    passed     99.87%
+ 220  2006.405       0.00%    passed     99.86%
+ 221  2004.063       0.47%    passed     99.96%
+ 222  2003.225       0.00%    passed     99.60%
+ 223  2006.496       0.07%    passed     99.15%
+ 224  1996.634       0.00%    passed     99.09%
+ 225  1997.91        0.00%    passed     99.32%
+ 226  2003.586       0.00%    passed     99.66%
+ 227  2003.816       0.00%    passed     99.66%
+ 228  2001.395       0.20%    passed     98.52%
+ 229  1994.027       0.00%    passed     99.87%
+ 230  1996.363       0.00%    passed     99.89%
+ 231  1996.59        0.00%    passed     99.89%
+ 232  1996.423       0.00%    passed     99.89%
+ 233  1996.464       0.00%    passed     99.87%
+ 234  2002.419       0.00%    passed     99.64%
+ 235  1997.663       0.00%    passed     99.89%
+ 236  1997.682       0.07%    passed    100.00%
+ 237  1997.641       0.00%    passed     99.99%
+ 238  1995.849       0.07%    passed     99.94%
+ 239  1997.679       0.00%    passed     99.94%
+ 240  2002.49        0.00%    passed     99.74%
+ 241  1997.419       0.00%    passed     99.61%
+ 242  1994.5         0.00%    passed     99.95%
+ 243  1994.614       0.00%    passed     99.90%
+ 244  1994.584       0.00%    passed     99.47%
+ 245  1994.608       0.00%    passed     99.10%
+ 246  1996.656       0.00%    passed     99.90%
+ 247  1996.77        0.00%    passed     99.77%
+ 248  1997.784       0.00%    passed     99.10%
+ 249  1997.91_2      0.00%    passed     99.96%
+ 250  1999.244       0.00%    passed     99.89%
+ 251  1999.367       0.00%    passed     99.89%
+ 252  1998.23        0.00%    passed     99.86%
+ 253  1998.192       0.07%    passed     99.95%
+ 254  1999.225       0.00%    passed     99.97%
+ 255  1997.384       0.00%    passed     98.69%
+ 256  1998.134       0.00%    passed     98.32%
+ 257  1999.97        0.00%    passed     99.49%
+ 258  1996.833       0.00%    passed     99.96%
+ 259  1999.825       0.00%    passed     99.79%
+ 260  2003.753       0.00%    passed     99.94%
+ 261  1994.112       0.00%    passed     99.76%
+ 262  1994.507       0.00%    passed     99.68%
+ 263  1994.359       0.00%    passed    100.00%
+ 264  1994.5_2       0.00%    passed     99.94%
+ 265  1994.5_12      0.00%    passed    100.00%
+ 266  1995.43        0.00%    passed     99.98%
+ 267  1995.679       0.00%    passed    100.00%
+ 268  1996.669       0.00%    passed     99.98%
+ 269  1997.948       0.07%    passed     99.98%
+ 270  1998.244       0.00%    passed     99.99%
+ 271  1998.334       0.00%    passed     99.99%
+ 272  1998.326       0.00%    passed     99.99%
+ 273  1999.307       0.00%    passed     99.99%
+ 274  1999.479       0.00%    passed    100.00%
+ 275  1999.438       0.00%    passed     99.96%
+ 276  2002.31        0.00%    passed     99.98%
+ 277  1997.537       0.00%    passed     99.89%
+ 278  2003.282       0.00%    passed     99.97%
+ 279  1998.074       0.07%    passed     99.92%
+ 280  1997.764       0.00%    passed     99.97%
+ 281  2002.26        0.07%    passed     99.97%
+ 282  1998.274       0.00%    passed     99.97%
+ 283  1998.367       0.07%    passed     99.95%
+ 284  1999.997       0.00%    passed     99.99%
+ 285  1997.699       0.00%    passed     99.88%
+ 286  2002.619       0.00%    passed     99.88%
+ 287  2001.94        0.00%    passed     99.99%
+ 288  2001.534       0.00%    passed     99.92%
+ 289  2003.178       0.00%    passed     99.96%
+ 290  1997.915       0.00%    passed     99.97%
+ 291  1997.915_2     0.00%    passed     99.88%
+ 292  1998.038       0.00%    passed     99.94%
+ 293  1997.551       0.00%    passed     99.86%
+ 294  1994.942       0.00%    passed     99.86%
+ 295  1995.282_2     0.00%    passed     99.89%
+ 296  1995.351       0.00%    passed     99.86%
+ 297  1995.745       0.07%    passed     99.95%
+ 298  1995.282       0.00%    passed     99.77%
+ 299  1995.307       0.07%    passed     99.57%
+ 300  1995.49        0.00%    passed     99.99%
+ 301  1995.636       0.00%    passed     99.94%
+ 302  2001.866       0.00%    passed     99.50%
+ 303  1998.77        0.00%    passed     99.70%
+ 304  1994.501       0.00%    passed     99.89%
+ 305  1994.855       0.00%    passed     99.99%
+ 306  1994.764       0.00%    passed     99.87%
+ 307  1995.496       0.00%    passed     99.99%
+ 308  1995.734       0.00%    passed     99.97%
+ 309  1996.022       0.00%    passed     99.90%
+ 310  1996.923       0.00%    passed     99.94%
+ 311  1997.151       0.00%    passed     99.99%
+ 312  1997.422       0.00%    passed     99.85%
+ 313  1995.178       0.00%    passed     99.87%
+ 314  1997.778       0.00%    passed     99.99%
+ 315  1997.57        0.00%    passed     99.89%
+ 316  1999.542_2     0.07%    passed     99.79%
+ 317  1996.538       0.00%    passed     99.10%
+ 318  1996.844       0.00%    passed     98.62%
+ 319  1996.902       0.00%    passed     99.89%
+ 320  1995.099       0.07%    passed     99.82%
+ 321  2006.51        0.00%    passed     99.94%
+ 322  1997.877       0.00%    passed     99.97%
+ 323  1998.496       0.00%    passed     99.87%
+ 324  1999.425       0.14%    passed     99.85%
+ 325  1998.586       0.00%    passed     98.30%
+ 326  1999.392       0.00%    passed     98.09%
+ 327  2001.46        0.00%    passed     97.74%
+ 328  1999.277       0.00%    passed     99.94%
+ 329  2001.386       0.00%    passed     98.62%
+ 330  1998.34        0.00%    passed     99.99%
+ 331  1998.553       0.00%    passed     99.89%
+ 332  2003.345       0.00%    passed     99.99%
+ 333  1999.564       0.20%    passed     99.05%
+ 334  1996.5         0.00%    passed     99.75%
+ 335  1996.694       0.00%    passed     99.89%
+ 336  1999.731       0.00%    passed     99.92%
+ 337  2002.312       0.00%    passed     99.85%
+ 338  2003.118       0.00%    passed     99.92%
+ 339  2002.592       0.00%    passed     99.71%
+ 340  1995.66        0.00%    passed     99.94%
+ 341  1998.178       0.07%    passed     99.87%
+ 342  1999.542       0.00%    passed     99.50%
+ 343  2003.668       0.00%    passed     99.50%
+ 344  1997.597       0.00%    passed     99.94%
+ 345  2000.197       0.00%    passed     99.93%
+ 346  2000.481       0.07%    passed     99.82%
+ 347  2000.486       0.00%    passed     99.88%
+ 348  2000.817_2     0.00%    passed     99.74%
+ 349  2000.574       0.00%    passed     99.68%
+ 350  2000.582_2     0.00%    passed     99.68%
+ 351  2000.754       0.00%    passed     99.65%
+ 352  2000.91        0.00%    passed     99.68%
+ 353  2001.66        0.00%    passed     99.51%
+ 354  2003.89        0.00%    passed     99.95%
+ 355  2000.249       0.00%    passed     99.94%
+ 356  1996.71        0.00%    passed     98.74%
+ 357  1998.984       0.00%    passed     99.88%
+ 358  2000.964       0.00%    passed     99.95%
+ 359  2000.418       0.00%    passed     99.88%
+ 360  2000.582       0.00%    passed     99.93%
+ 361  2000.858       0.00%    passed     99.68%
+ 362  2000.689       0.00%    passed     99.88%
+ 363  2000.88        0.00%    passed     99.88%
+ 364  2000.923       0.00%    passed     99.88%
+ 365  2001.564_2     0.00%    passed     99.75%
+ 366  1998.208       0.00%    passed     97.76%
+ 367  2001.216       0.00%    passed     98.74%
+ 368  2001.562       0.00%    passed     98.74%
+ 369  2006.384       0.00%    passed     98.74%
+ 370  2000.992       0.00%    passed     97.64%
+ 371  2001.803_2     0.00%    passed     99.38%
+ 372  2001.523       0.00%    passed     99.38%
+ 373  2002.496       0.07%    passed     99.12%
+ 374  2002.984       0.00%    passed     97.77%
+ 375  1999.504_2     0.07%    passed     99.80%
+ 376  2003.83        0.00%    passed     99.74%
+ 377  1997.992       0.00%    passed     97.64%
+ 378  2003.227       0.00%    passed     97.77%
+ 379  2002.5_4       0.61%    passed     99.95%
+ 380  2004.721       0.00%    passed     99.98%
+ 381  2005.534       0.00%    passed     97.76%
+ 382  2006.216       0.00%    passed     98.72%
+ 383  2006.268       0.00%    passed     98.74%
+ 384  2005.89        0.00%    passed     99.59%
+ 385  2006.622       0.00%    passed     98.62%
+ 386  2006.011       0.00%    passed     99.25%
+ 387  2006.934       0.00%    passed     99.25%
+ 388  2006.581       0.00%    passed     99.37%
+ 389  2006.899       0.00%    passed     97.76%
+ 390  2006.918       0.00%    passed     97.76%
+ 391  2006.795       0.14%    passed     99.40%
+ 392  2006.858       0.00%    passed     98.08%
+ 393  2008.5_9       0.00%    passed     99.01%
+ 394  2006.019       0.00%    passed     96.41%
+ 395  2008.563       0.00%    passed     99.75%
+ 396  2003.5_4       0.20%    passed     99.77%
+ 397  2003.313       0.47%    passed     99.62%
+ 398  2003.866       0.00%    passed     97.77%
+ 399  2006.175_2     0.00%    passed     97.76%
+ 400  2005.89_2      0.00%    passed     95.43%
+ 401  1998.082       0.00%    passed     99.97%
+ 402  1998.362       0.00%    passed     99.28%
+ 403  1998.384_2     0.14%    passed     99.54%
+ 404  2000.587       0.00%    passed     99.84%
+ 405  2001.564       0.00%    passed     99.51%
+ 406  2002.647       0.07%    passed     99.96%
+ 407  2002.73        2.97%    passed     99.56%
+ 408  2000.653       0.00%    passed     99.68%
+ 409  2003.263       0.00%    passed     99.38%
+ 410  1999.559       0.00%    passed     99.42%
+ 411  1998.29        0.00%    passed     99.87%
+ 412  1998.838       0.07%    passed     99.82%
+ 413  2006.49        0.00%    passed     99.97%
+ 414  1998.5         0.00%    passed     99.47%
+ 415  2006.501       0.00%    passed     99.47%
+ 416  1999.975       0.00%    passed     99.10%
+ 417  2003.197       0.00%    passed     99.90%
+ 418  1998.69        0.00%    passed     99.85%
+ 419  2001.748       0.07%    passed     99.73%
+ 420  2002.167       0.00%    passed     99.73%
+ 421  2001.803       0.00%    passed     99.88%
+ 422  2005.611       0.00%    passed     99.88%
+ 423  2005.893       0.00%    passed     99.88%
+ 424  2005.69        0.00%    passed     99.88%
+ 425  2005.959       0.00%    passed     99.88%
+ 426  2006.34        0.00%    passed     99.88%
+ 427  2006.367       0.00%    passed     99.84%
+ 428  2006.101       0.00%    passed     99.88%
+ 429  2006.175       0.00%    passed     99.88%
+ 430  2006.403       0.00%    passed     99.96%
+ 431  2006.408       0.00%    passed     99.96%
+ 432  2005.625       0.00%    passed     99.88%
+ 433  2005.956       0.00%    passed     99.88%
+ 434  2006.671       0.00%    passed     99.84%
+ 435  2006.836       0.00%    passed     99.84%
+ 436  2006.784       0.00%    passed     99.55%
+ 437  2006.827       0.00%    passed     99.84%
+ 438  2006.97_2      0.00%    passed     99.88%
+ 439  2006.8         0.00%    passed     99.84%
+ 440  2006.619       0.00%    passed     99.85%
+ 441  2006.658       0.00%    passed     99.85%
+ 442  2004.541       0.00%    passed     99.94%
+ 443  2004.781       0.00%    passed     99.94%
+ 444  2004.839       0.00%    passed     99.88%
+ 445  2005.088       0.00%    passed     99.60%
+ 446  2006.326       0.00%    passed     99.84%
+ 447  2003.5         0.00%    passed     99.97%
+ 448  2003.5_3       0.00%    passed     99.97%
+ 449  2003.433       0.07%    passed     99.36%
+ 450  2003.5_2       0.00%    passed     99.97%
+ 451  2004.5_2       0.00%    passed     99.84%
+ 452  2005.5_4       0.00%    passed     99.90%
+ 453  2005.619       0.00%    passed     99.74%
+ 454  2005.5_5       0.00%    passed     99.94%
+ 455  2006.882       0.00%    passed     99.84%
+ 456  2006.5_4       0.00%    passed     99.71%
+ 457  2006.5_5       0.00%    passed     99.71%
+ 458  2006.5_6       0.00%    passed     99.71%
+ 459  2007.5_5       0.00%    passed     98.98%
+ 460  2005.5         0.00%    passed     99.98%
+ 461  1999.5         0.00%    passed     99.60%
+ 462  2007.5_4       0.00%    passed     99.88%
+ 463  2008.5         0.00%    passed     99.99%
+ 464  1998.707       0.00%    passed     98.90%
+ 465  2008.5_5       0.00%    passed     99.93%
+ 466  2008.5_6       0.00%    passed     99.93%
+ 467  1995.384       0.00%    passed     99.99%
+ 468  1996.801       0.00%    passed     99.99%
+ 469  2002.389       0.00%    passed     99.99%
+ 470  1996.776       0.00%    passed     99.99%
+ 471  2002.066       0.00%    passed     99.98%
+ 472  1997.858       0.00%    passed     99.76%
+ 473  1996.396       0.00%    passed     99.94%
+ 474  2002.258       0.00%    passed     99.88%
+ 475  1998.118       0.00%    passed     99.96%
+ 476  2002.192       0.00%    passed     99.96%
+ 477  2002.329       0.00%    passed     99.96%
+ 478  2002.063       0.00%    passed     99.84%
+ 479  2006.381       0.00%    passed     99.84%
+ 480  2000.973       0.00%    passed     99.98%
+ 481  2002.485       0.00%    passed     99.88%
+ 482  2000.731       0.20%    passed     99.88%
+ 483  2001.581       0.07%    passed     99.80%
+ 484  2001.148       0.00%    passed     99.55%
+ 485  1998.025       0.00%    passed     99.96%
+ 486  1998.123       0.00%    passed     99.96%
+ 487  1999.986       0.00%    passed     99.96%
+ 488  2000.669       0.00%    passed     99.96%
+ 489  2000.822       0.07%    passed     99.92%
+ 490  2002.074       0.00%    passed     99.96%
+ 491  2001.512       0.00%    passed     99.98%
+ 492  2001.611       0.00%    passed     99.99%
+ 493  1999.718       0.00%    passed     99.99%
+ 494  2003.885_2     0.00%    passed     99.99%
+ 495  1998.236       0.07%    passed    100.00%
+ 496  2005.474       0.00%    passed     99.98%
+ 497  1999.43        0.00%    passed     99.99%
+ 498  2000.194       0.00%    passed     99.96%
+ 499  2000.251       0.00%    passed     99.84%
+ 500  2003.036       0.00%    passed     99.96%
+ 501  2001.005       0.00%    passed     99.98%
+ 502  2001.008       0.14%    passed     99.97%
+ 503  2001.181       0.00%    passed     99.96%
+ 504  1999.068       0.00%    passed     99.98%
+ 505  2001.49        0.14%    passed     99.98%
+ 506  1999.118       0.00%    passed     99.84%
+ 507  2002.079       0.00%    passed     99.96%
+ 508  2001.014       0.00%    passed     99.84%
+ 509  2001.047       0.00%    passed     99.84%
+ 510  2001.227       0.00%    passed     99.98%
+ 511  2002.044       0.00%    passed     99.84%
+ 512  2002.499       0.00%    passed     99.60%
+ 513  2004.038       0.07%    passed     99.57%
+ 514  2004.451       0.07%    passed     99.34%
+ 515  2000.896       0.14%    passed    100.00%
+ 516  2002.178       0.00%    passed     99.98%
+ 517  1998.597       0.00%    passed     99.94%
+ 518  1999.874       0.00%    passed     99.99%
+ 519  1997.951       0.00%    passed     99.97%
+ 520  2003.885       0.00%    passed     99.75%
+ 521  2003.808       0.00%    passed     99.96%
+ 522  2002.493       0.00%    passed    100.00%
+ 523  2002.537       0.00%    passed     99.89%
+ 524  1998.093       0.00%    passed     98.98%
+ 525  2006.553       0.00%    passed     98.84%
+ 526  2001.819       0.00%    passed     99.94%
+ 527  2000.814       0.41%    passed     99.76%
+ 528  2001.5_3       0.68%    passed     99.82%
+ 529  2001.647_2     0.20%    passed     99.99%
+ 530  2001.563       1.08%    passed     99.67%
+ 531  1996.716       0.00%    passed     99.86%
+ 532  1999.696       0.00%    passed     99.99%
+ 533  2001.647       0.47%    passed     99.52%
+ 534  1998.5_2       0.00%    passed     99.99%
+ 535  1998.74        0.14%    passed     99.41%
+ 536  2003.897       0.54%    passed     99.76%
+ 537  2004.721_2     0.00%    passed     99.69%
+ 538  2005.584       0.00%    passed     99.76%
+ 539  2005.926       0.00%    passed     99.38%
+ 540  2000.314       0.07%    passed     99.92%
+ 541  2000.828       0.00%    passed     99.97%
+ 542  2001.23        0.00%    passed     99.92%
+ 543  2000.836       0.00%    passed     99.96%
+ 544  2000.5         0.00%    passed     99.85%
+ 545  2001.5         0.00%    passed     99.72%
+ 546  2000.5_2       0.00%    passed     99.89%
+ 547  2002.5_2       0.00%    passed     99.97%
+ 548  2002.5_3       0.00%    passed     99.86%
+ 549  2001.5_2       0.00%    passed     99.32%
+ 550  2002.5         0.00%    passed     99.40%
+ 551  2004.322       0.00%    passed     99.60%
+ 552  1999.241       0.00%    passed     99.96%
+ 553  1996.762       0.00%    passed     99.94%
+ 554  1999.648       0.14%    passed     99.90%
+ 555  1996.904       0.00%    passed     99.85%
+ 556  2001.879       0.00%    passed     99.85%
+ 557  2002.096       0.00%    passed     99.97%
+ 558  2001.071       0.00%    passed     99.90%
+ 559  1999.504       0.00%    passed     99.56%
+ 560  1999.827       0.00%    passed     99.94%
+ 561  2003.614       0.00%    passed     99.94%
+ 562  2003.225_2     0.00%    passed     99.94%
+ 563  2003.762       0.00%    passed     99.90%
+ 564  2004.762       0.00%    passed     99.94%
+ 565  2001.236       0.00%    passed     99.99%
+ 566  2003.677       0.00%    passed     99.99%
+ 567  2002.153       0.00%    passed     99.79%
+ 568  2006.159       0.00%    passed     99.79%
+ 569  2006.858_2     0.00%    passed     99.79%
+ 570  2006.732_2     0.07%    passed     99.78%
+ 571  2006.586       0.00%    passed     99.79%
+ 572  2006.074       0.00%    passed     99.79%
+ 573  2006.559       0.00%    passed     99.79%
+ 574  2006.57        0.00%    passed     99.79%
+ 575  2006.17        0.00%    passed     99.73%
+ 576  2006.953       0.00%    passed     99.73%
+ 577  2006.526       0.00%    passed     99.73%
+ 578  2006.97        0.00%    passed     99.42%
+ 579  2006.647       0.00%    passed     99.73%
+ 580  2006.852       0.00%    passed     99.79%
+ 581  2009.808       0.00%    passed     98.94%
+ 582  2011.195       0.00%    passed     98.65%
+ 583  2011.419_2     0.00%    passed     98.16%
+ 584  2009.553       0.00%    passed     99.24%
+ 585  2009.953       0.00%    passed     97.64%
+ 586  2010.244       0.00%    passed     97.64%
+ 587  2010.17        0.00%    passed     97.64%
+ 588  2010.049       0.00%    passed     98.62%
+ 589  2012.025       0.00%    passed     98.85%
+ 590  2012.798       0.00%    passed     98.46%
+ 591  2010.926       0.00%    passed     99.02%
+ 592  2010.907       0.00%    passed     98.65%
+ 593  2011.419       0.00%    passed     98.46%
+ 594  2011.433       0.00%    passed     98.65%
+ 595  2011.879       0.00%    passed     98.07%
+ 596  2011.827       0.00%    passed     98.46%
+ 597  2012.836       0.00%    passed     98.65%
+ 598  2012.702       0.00%    passed     98.46%
+ 599  2013.025       0.00%    passed     98.65%
+ 600  2011.57        0.00%    passed     98.46%
+ 601  2011.411       0.00%    passed     97.27%
+ 602  2012.467       0.00%    passed     97.94%
+ 603  2012.598       0.00%    passed     96.90%
+ 604  2012.855       0.00%    passed     96.90%
+ 605  2013.5         0.00%    passed     98.94%
+ 606  2008.5_11      0.00%    passed     99.99%
+ 607  2011.5         0.00%    passed     99.90%
+ 608  2011.534       0.00%    passed     99.04%
+ 609  2008.5_7       0.00%    passed     95.70%
+ 610  2002.063_2     0.20%    passed     99.61%
+ 611  2012.063       0.95%    passed     97.35%
+ 612  2006.5         0.00%    passed     99.92%
+ 613  2006.5_3       0.00%    passed     99.92%
+ 614  2006.5_7       0.00%    passed     99.86%
+ 615  2007.5         0.00%    passed     99.86%
+ 616  2008.5_3       0.00%    passed     99.71%
+ 617  2007.5_8       0.00%    passed     99.97%
+ 618  2007.5_7       0.00%    passed     99.86%
+ 619  2007.5_6       0.00%    passed     99.87%
+ 620  2008.5_2       0.00%    passed     99.44%
+ 621  2008.5_4       0.00%    passed     98.08%
+ 622  2007.5_2       0.00%    passed     99.89%
+ 623  2007.5_3       0.00%    passed     99.86%
+ 624  2006.5_2       0.00%    passed     99.93%
+ 625  2009.5         0.47%    passed     96.43%
+ 626  2007.063       2.77%    passed     70.15%
+****  TOTAL          0.06%  0 sequences failed composition chi2 test (p-value<5%; df=3)
 NOTE: 2012.973 is identical to 2012.94 but kept for subsequent analysis
 NOTE: 2014.937 is identical to 2014.608 but kept for subsequent analysis
-NOTE: 2014.882 is identical to 2014.844 but kept for subsequent analysis
 NOTE: 2016.956 is identical to 2016.79 but kept for subsequent analysis
-Checking for duplicate sequences: done in 0.00135297 secs using 2160% CPU
-Identifying sites to remove: done in 0.00326847 secs using 1345% CPU
-NOTE: 47 identical sequences (see below) will be ignored for subsequent analysis
-NOTE: 1995.679 (identical to 1994.359) is ignored but added at the end
-NOTE: 1996.801 (identical to 1995.384) is ignored but added at the end
-NOTE: 2002.389 (identical to 1995.384) is ignored but added at the end
-NOTE: 1996.59 (identical to 1996.363) is ignored but added at the end
+NOTE: 2014.882 is identical to 2014.844 but kept for subsequent analysis
+NOTE: 1987.5_2 is identical to 1986.956 but kept for subsequent analysis
+NOTE: 1994.038_2 is identical to 1994.038 but kept for subsequent analysis
+NOTE: 1994.5_5 is identical to 1994.5_4 but kept for subsequent analysis
+NOTE: 2006.959 is identical to 1998.384 but kept for subsequent analysis
+NOTE: 2006.814 is identical to 2006.803 but kept for subsequent analysis
+NOTE: 1998.781 is identical to 1998.734 but kept for subsequent analysis
+NOTE: 2006.551_2 is identical to 2006.447 but kept for subsequent analysis
+NOTE: 2010.564 is identical to 2010.4 but kept for subsequent analysis
+NOTE: 1995.063 is identical to 1994.984 but kept for subsequent analysis
+NOTE: 1994.732 is identical to 1994.5_11 but kept for subsequent analysis
+NOTE: 1994.644 is identical to 1994.5_9 but kept for subsequent analysis
+NOTE: 1995.622 is identical to 1995.592 but kept for subsequent analysis
+NOTE: 2006.551 is identical to 1996.697 but kept for subsequent analysis
+NOTE: 2001.488 is identical to 2001.433 but kept for subsequent analysis
+NOTE: 2001.507 is identical to 2001.471 but kept for subsequent analysis
+NOTE: 2003.816 is identical to 2003.586 but kept for subsequent analysis
+NOTE: 1996.59 is identical to 1996.363 but kept for subsequent analysis
+NOTE: 1999.367 is identical to 1999.244 but kept for subsequent analysis
+NOTE: 1994.5_12 is identical to 1994.359 but kept for subsequent analysis
+NOTE: 1998.334 is identical to 1998.244 but kept for subsequent analysis
+NOTE: 2002.619 is identical to 1997.699 but kept for subsequent analysis
+NOTE: 1995.178 is identical to 1994.764 but kept for subsequent analysis
+NOTE: 2003.668 is identical to 1999.542 but kept for subsequent analysis
+NOTE: 2000.582_2 is identical to 2000.574 but kept for subsequent analysis
+NOTE: 2000.689 is identical to 2000.418 but kept for subsequent analysis
+NOTE: 2001.562 is identical to 2001.216 but kept for subsequent analysis
+NOTE: 2006.934 is identical to 2006.011 but kept for subsequent analysis
+NOTE: 2006.918 is identical to 2006.899 but kept for subsequent analysis
+NOTE: 2005.611 is identical to 2001.803 but kept for subsequent analysis
+NOTE: 2006.671 is identical to 2006.367 but kept for subsequent analysis
+NOTE: 2006.408 is identical to 2006.403 but kept for subsequent analysis
+NOTE: 2006.658 is identical to 2006.619 but kept for subsequent analysis
+NOTE: 2004.781 is identical to 2004.541 but kept for subsequent analysis
+NOTE: 2003.5_3 is identical to 2003.5 but kept for subsequent analysis
+NOTE: 2006.5_5 is identical to 2006.5_4 but kept for subsequent analysis
+NOTE: 2008.5_6 is identical to 2008.5_5 but kept for subsequent analysis
+NOTE: 1996.801 is identical to 1995.384 but kept for subsequent analysis
+NOTE: 2002.192 is identical to 1998.118 but kept for subsequent analysis
+NOTE: 2006.381 is identical to 2002.063 but kept for subsequent analysis
+NOTE: 1998.123 is identical to 1998.025 but kept for subsequent analysis
+NOTE: 2003.036 is identical to 2000.194 but kept for subsequent analysis
+NOTE: 2001.014 is identical to 1999.118 but kept for subsequent analysis
+NOTE: 2001.879 is identical to 1996.904 but kept for subsequent analysis
+NOTE: 2003.614 is identical to 1999.827 but kept for subsequent analysis
+NOTE: 2003.677 is identical to 2001.236 but kept for subsequent analysis
+NOTE: 2006.159 is identical to 2002.153 but kept for subsequent analysis
+NOTE: 2010.244 is identical to 2009.953 but kept for subsequent analysis
+NOTE: 2011.827 is identical to 2011.419 but kept for subsequent analysis
+NOTE: 2012.855 is identical to 2012.598 but kept for subsequent analysis
+NOTE: 2007.5 is identical to 2006.5_7 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00128829 secs using 2202% CPU
+Identifying sites to remove: done in 0.00259977 secs using 1206% CPU
+NOTE: 52 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: 2014.115 (identical to 2012.94) is ignored but added at the end
+NOTE: 2006.425 (identical to 1998.734) is ignored but added at the end
+NOTE: 2006.512 (identical to 1998.734) is ignored but added at the end
+NOTE: 2006.578 (identical to 1998.734) is ignored but added at the end
+NOTE: 2006.732 (identical to 1998.734) is ignored but added at the end
+NOTE: 2006.934_2 (identical to 1998.734) is ignored but added at the end
+NOTE: 2006.573 (identical to 2006.447) is ignored but added at the end
+NOTE: 2001.521 (identical to 2001.471) is ignored but added at the end
+NOTE: 2001.638 (identical to 2001.471) is ignored but added at the end
+NOTE: 2001.6 (identical to 2001.471) is ignored but added at the end
+NOTE: 2001.603 (identical to 2001.471) is ignored but added at the end
+NOTE: 2001.701 (identical to 2001.471) is ignored but added at the end
+NOTE: 2001.562_2 (identical to 2001.471) is ignored but added at the end
+NOTE: 2001.6_2 (identical to 2001.471) is ignored but added at the end
+NOTE: 2001.603_2 (identical to 2001.471) is ignored but added at the end
+NOTE: 1996.423 (identical to 1996.363) is ignored but added at the end
 NOTE: 1997.663 (identical to 1996.363) is ignored but added at the end
-NOTE: 1999.986 (identical to 1998.025) is ignored but added at the end
-NOTE: 2000.669 (identical to 1998.025) is ignored but added at the end
-NOTE: 2002.074 (identical to 1998.025) is ignored but added at the end
-NOTE: 2002.329 (identical to 1998.118) is ignored but added at the end
-NOTE: 1998.334 (identical to 1998.244) is ignored but added at the end
+NOTE: 1995.679 (identical to 1994.359) is ignored but added at the end
+NOTE: 1998.326 (identical to 1998.244) is ignored but added at the end
 NOTE: 1999.307 (identical to 1998.244) is ignored but added at the end
-NOTE: 2006.512 (identical to 1998.781) is ignored but added at the end
-NOTE: 2006.578 (identical to 1998.781) is ignored but added at the end
-NOTE: 2006.732 (identical to 1998.781) is ignored but added at the end
-NOTE: 2006.934_2 (identical to 1998.781) is ignored but added at the end
-NOTE: 2001.047 (identical to 1999.118) is ignored but added at the end
-NOTE: 2003.614 (identical to 1999.827) is ignored but added at the end
-NOTE: 2004.762 (identical to 1999.827) is ignored but added at the end
-NOTE: 2003.036 (identical to 2000.194) is ignored but added at the end
 NOTE: 2000.88 (identical to 2000.418) is ignored but added at the end
 NOTE: 2000.923 (identical to 2000.418) is ignored but added at the end
 NOTE: 2006.384 (identical to 2001.216) is ignored but added at the end
-NOTE: 2001.521 (identical to 2001.471) is ignored but added at the end
-NOTE: 2001.562_2 (identical to 2001.471) is ignored but added at the end
-NOTE: 2001.6 (identical to 2001.471) is ignored but added at the end
-NOTE: 2001.6_2 (identical to 2001.471) is ignored but added at the end
-NOTE: 2001.603 (identical to 2001.471) is ignored but added at the end
-NOTE: 2001.638 (identical to 2001.471) is ignored but added at the end
-NOTE: 2001.701 (identical to 2001.471) is ignored but added at the end
-NOTE: 2005.611 (identical to 2001.803) is ignored but added at the end
-NOTE: 2005.625 (identical to 2001.803) is ignored but added at the end
-NOTE: 2005.69 (identical to 2001.803) is ignored but added at the end
 NOTE: 2005.893 (identical to 2001.803) is ignored but added at the end
-NOTE: 2005.956 (identical to 2001.803) is ignored but added at the end
+NOTE: 2005.69 (identical to 2001.803) is ignored but added at the end
 NOTE: 2005.959 (identical to 2001.803) is ignored but added at the end
+NOTE: 2006.34 (identical to 2001.803) is ignored but added at the end
 NOTE: 2006.101 (identical to 2001.803) is ignored but added at the end
 NOTE: 2006.175 (identical to 2001.803) is ignored but added at the end
-NOTE: 2006.34 (identical to 2001.803) is ignored but added at the end
+NOTE: 2005.625 (identical to 2001.803) is ignored but added at the end
+NOTE: 2005.956 (identical to 2001.803) is ignored but added at the end
+NOTE: 2004.839 (identical to 2001.803) is ignored but added at the end
+NOTE: 2006.836 (identical to 2006.367) is ignored but added at the end
+NOTE: 2006.827 (identical to 2006.367) is ignored but added at the end
+NOTE: 2006.5_6 (identical to 2006.5_4) is ignored but added at the end
+NOTE: 2002.389 (identical to 1995.384) is ignored but added at the end
+NOTE: 1996.776 (identical to 1995.384) is ignored but added at the end
+NOTE: 2002.329 (identical to 1998.118) is ignored but added at the end
+NOTE: 1999.986 (identical to 1998.025) is ignored but added at the end
+NOTE: 2000.669 (identical to 1998.025) is ignored but added at the end
+NOTE: 2002.074 (identical to 1998.025) is ignored but added at the end
+NOTE: 2001.047 (identical to 1999.118) is ignored but added at the end
+NOTE: 2003.225_2 (identical to 1999.827) is ignored but added at the end
+NOTE: 2004.762 (identical to 1999.827) is ignored but added at the end
+NOTE: 2006.858_2 (identical to 2002.153) is ignored but added at the end
+NOTE: 2006.074 (identical to 2002.153) is ignored but added at the end
 NOTE: 2006.559 (identical to 2002.153) is ignored but added at the end
 NOTE: 2006.57 (identical to 2002.153) is ignored but added at the end
 NOTE: 2006.852 (identical to 2002.153) is ignored but added at the end
-NOTE: 2006.827 (identical to 2006.367) is ignored but added at the end
-NOTE: 2006.836 (identical to 2006.367) is ignored but added at the end
-NOTE: 2006.5_6 (identical to 2006.5_4) is ignored but added at the end
+NOTE: 2010.17 (identical to 2009.953) is ignored but added at the end
+NOTE: 2011.57 (identical to 2011.419) is ignored but added at the end
 NOTE: 2007.5_7 (identical to 2006.5_7) is ignored but added at the end
-NOTE: 2010.244 (identical to 2009.953) is ignored but added at the end
-NOTE: 2014.115 (identical to 2012.94) is ignored but added at the end
 Alignment was printed to ../resources/experimental_data/cropped/E_DENV3-delim.fasta.uniqueseq.phy
 
 For your convenience alignment with unique sequences printed to ../resources/experimental_data/cropped/E_DENV3-delim.fasta.uniqueseq.phy
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.051 seconds
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.045 seconds
 
-NOTE: 44 MB RAM (0 GB) is required!
+NOTE: 43 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 16 CPU cores
 Increase to 10 rounds for branch lengths
-51 trees examined
-Threads: 1 / Time: 16.275 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -60508
-Threads: 2 / Time: 11.049 sec / Speedup: 1.473 / Efficiency: 74% / LogL: -60508
-Threads: 3 / Time: 9.084 sec / Speedup: 1.792 / Efficiency: 60% / LogL: -60508
-Threads: 4 / Time: 8.213 sec / Speedup: 1.982 / Efficiency: 50% / LogL: -60508
-Determining AUTO threadcount: done in 44.6341 secs using 216.9% CPU
+52 trees examined
+Threads: 1 / Time: 16.232 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -63210
+Threads: 2 / Time: 10.662 sec / Speedup: 1.522 / Efficiency: 76% / LogL: -63210
+Threads: 3 / Time: 8.869 sec / Speedup: 1.830 / Efficiency: 61% / LogL: -63210
+Threads: 4 / Time: 8.645 sec / Speedup: 1.878 / Efficiency: 47% / LogL: -63210
+Determining AUTO threadcount: done in 44.4215 secs using 218.4% CPU
 BEST NUMBER OF THREADS: 3
 
 Estimate model parameters (epsilon = 0.500)
-1. Initial log-likelihood: -15140.798
-2. Current log-likelihood: -13571.848
-3. Current log-likelihood: -13449.842
-4. Current log-likelihood: -13439.911
-5. Current log-likelihood: -13439.349
-Optimal log-likelihood: -13439.147
-Rate parameters:  A-C: 0.66020  A-G: 14.30876  A-T: 1.82582  C-G: 0.45201  C-T: 46.15499  G-T: 1.00000
-Base frequencies:  A: 0.322  C: 0.198  G: 0.263  T: 0.217
-Gamma shape alpha: 0.313
-Parameters optimization took 5 rounds (1.176 sec)
+1. Initial log-likelihood: -15167.293
+2. Current log-likelihood: -13630.727
+3. Current log-likelihood: -13515.929
+4. Current log-likelihood: -13508.801
+Optimal log-likelihood: -13508.287
+Rate parameters:  A-C: 0.82330  A-G: 14.68907  A-T: 1.92678  C-G: 0.55999  C-T: 45.87723  G-T: 1.00000
+Base frequencies:  A: 0.313  C: 0.195  G: 0.273  T: 0.220
+Gamma shape alpha: 0.309
+Parameters optimization took 4 rounds (0.878 sec)
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.23415 secs using 299.9% CPU
-Computing ML distances took 0.234784 sec (of wall-clock time) 0.703682 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.00216229 secs using 295.1% CPU
-Constructing RapidNJ tree: done in 0.0766695 secs using 169.7% CPU
-Computing RapidNJ tree took 0.078909 sec (of wall-clock time) 0.136537 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -13687.073
+Calculating distance matrix: done in 0.247177 secs using 299.4% CPU
+Computing ML distances took 0.248833 sec (of wall-clock time) 0.743285 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00196524 secs using 398% CPU
+Constructing RapidNJ tree: done in 0.076028 secs using 173.8% CPU
+Computing RapidNJ tree took 0.078058 sec (of wall-clock time) 0.139989 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -13712.336
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 
 Do NNI search on 2 best initial trees
-Optimizing NNI: done in 0.301758 secs using 292.5% CPU
+Optimizing NNI: done in 0.269527 secs using 291.4% CPU
 Estimate model parameters (epsilon = 0.500)
-BETTER TREE FOUND at iteration 1: -13423.424
-Optimizing NNI: done in 0.556952 secs using 293.7% CPU
+BETTER TREE FOUND at iteration 1: -13493.182
+Optimizing NNI: done in 0.517988 secs using 294.4% CPU
 Finish initializing candidate tree set (4)
-Current best tree score: -13423.424 / CPU time: 0.992
+Current best tree score: -13493.182 / CPU time: 0.935
 Number of iterations: 2
-TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:47s
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:46s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.050)
-1. Initial log-likelihood: -13423.424
-Optimal log-likelihood: -13423.419
-Rate parameters:  A-C: 0.65988  A-G: 14.14587  A-T: 1.77914  C-G: 0.45063  C-T: 46.22946  G-T: 1.00000
-Base frequencies:  A: 0.322  C: 0.198  G: 0.263  T: 0.217
-Gamma shape alpha: 0.310
-Parameters optimization took 1 rounds (0.079 sec)
-BEST SCORE FOUND : -13423.419
-Total tree length: 1.069
+1. Initial log-likelihood: -13493.182
+Optimal log-likelihood: -13493.178
+Rate parameters:  A-C: 0.83861  A-G: 14.57125  A-T: 1.87724  C-G: 0.55842  C-T: 45.92496  G-T: 1.00000
+Base frequencies:  A: 0.313  C: 0.195  G: 0.273  T: 0.220
+Gamma shape alpha: 0.304
+Parameters optimization took 1 rounds (0.081 sec)
+BEST SCORE FOUND : -13493.178
+Total tree length: 1.068
 
 Total number of iterations: 2
-CPU time used for tree search: 2.918 sec (0h:0m:2s)
-Wall-clock time used for tree search: 0.993 sec (0h:0m:0s)
-Total CPU time used: 104.965 sec (0h:1m:44s)
-Total wall-clock time used: 47.460 sec (0h:0m:47s)
+CPU time used for tree search: 2.756 sec (0h:0m:2s)
+Wall-clock time used for tree search: 0.936 sec (0h:0m:0s)
+Total CPU time used: 104.149 sec (0h:1m:44s)
+Total wall-clock time used: 46.902 sec (0h:0m:46s)
 
 Analysis results written to: 
   IQ-TREE report:                ../resources/experimental_data/cropped/E_DENV3-delim.fasta.iqtree
@@ -826,4 +828,4 @@ Analysis results written to:
   Likelihood distances:          ../resources/experimental_data/cropped/E_DENV3-delim.fasta.mldist
   Screen log file:               ../resources/experimental_data/cropped/E_DENV3-delim.fasta.log
 
-Date and Time: Mon May  4 00:37:56 2026
+Date and Time: Mon May  4 02:11:45 2026
