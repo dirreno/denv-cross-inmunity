@@ -1,3 +1,3 @@
 ##gff-version 3
-1973.5	.	source	1	1479	.	+	.	ID=nuc
-1973.5	.	gene	1	1479	.	+	.	ID=E;Name=E;gene=E
+NC_001475.2	.	source	1	1479	.	+	.	ID=nuc
+NC_001475.2	.	gene	1	1479	.	+	.	ID=E;Name=E;gene=E
