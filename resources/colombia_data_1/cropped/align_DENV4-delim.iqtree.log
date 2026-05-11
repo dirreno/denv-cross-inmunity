@@ -1,0 +1,167 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    dirreno-B650-AORUS-ELITE-AX (AVX512, FMA3, 30 GB RAM)
+Command: iqtree3 --threads-max 16 -s ../resources/colombia_data_1/cropped/align_DENV4-delim.fasta -m GTR+G --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo
+Seed:    752776 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon May 11 11:39:33 2026
+Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file ../resources/colombia_data_1/cropped/align_DENV4-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.000475563 secs using 82.43% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000943711 secs using 962.8% CPU
+Alignment has 48 sequences with 1485 columns, 180 distinct patterns
+179 parsimony-informative, 38 singleton sites, 1268 constant sites
+                                                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.141e-06 secs using 81.42% CPU
+   1  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-401211_DELIM-0x2f_2013       0.00%    passed     98.76%
+   2  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-594_DELIM-0x2f_2013          0.00%    passed     98.76%
+   3  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-401213_DELIM-0x2f_2013       0.00%    passed     99.99%
+   4  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-595_DELIM-0x2f_2013          0.00%    passed     99.99%
+   5  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000042_DELIM-0x2f_2016       0.00%    passed     99.71%
+   6  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-F14100091_DELIM-0x2f_2014      0.00%    passed     99.73%
+   7  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-P202090076_DELIM-0x2f_2015     0.00%    passed     99.73%
+   8  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-P200120105_DELIM-0x2f_2015     0.00%    passed     99.73%
+   9  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_CES-UR-P201080317_DELIM-0x2f_2015     0.00%    passed     99.73%
+  10  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-480579_DELIM-0x2f_2016         0.00%    passed     99.98%
+  11  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-401215_DELIM-0x2f_2013       0.00%    passed     99.87%
+  12  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-596_DELIM-0x2f_2013          0.00%    passed     99.87%
+  13  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000022_DELIM-0x2f_2005     0.00%    passed     99.99%
+  14  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000021_DELIM-0x2f_2004       0.00%    passed     99.99%
+  15  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000025_DELIM-0x2f_2004       0.00%    passed     99.99%
+  16  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV141010_DELIM-0x2f_2010       0.00%    passed     99.86%
+  17  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV141007_DELIM-0x2f_2010       0.00%    passed     99.86%
+  18  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV111117_DELIM-0x2f_2014       0.00%    passed     99.86%
+  19  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV121101_DELIM-0x2f_2010       0.00%    passed     99.86%
+  20  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV141021_DELIM-0x2f_2010       0.00%    passed     99.70%
+  21  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV192075_DELIM-0x2f_2009       0.00%    passed     99.70%
+  22  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV122006_DELIM-0x2f_2009       0.00%    passed     99.70%
+  23  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000047_DELIM-0x2f_2004     0.00%    passed     99.98%
+  24  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000051_DELIM-0x2f_2004     0.00%    passed     99.96%
+  25  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-0000004_DELIM-0x2f_2005       0.00%    passed     99.98%
+  26  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-0000003_DELIM-0x2f_2005       0.00%    passed     99.96%
+  27  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_CUN-UEB-032_DELIM-0x2f_2014           0.00%    passed     99.40%
+  28  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0732600_DELIM-0x2f_2013       0.00%    passed     99.55%
+  29  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0678597_DELIM-0x2f_2013       0.00%    passed     99.76%
+  30  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0676596_DELIM-0x2f_2013       0.00%    passed     99.76%
+  31  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0179595_DELIM-0x2f_2013       0.00%    passed     99.76%
+  32  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0681598_DELIM-0x2f_2013      32.86%    passed     88.46%
+  33  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0728599_DELIM-0x2f_2013      29.23%    passed     88.21%
+  34  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-1723601_DELIM-0x2f_2013       0.00%    passed     99.86%
+  35  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000056_DELIM-0x2f_2001     0.00%    passed     99.34%
+  36  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000039_DELIM-0x2f_2001     0.00%    passed     99.34%
+  37  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000028_DELIM-0x2f_2001     0.00%    passed     99.34%
+  38  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000027_DELIM-0x2f_2001     0.00%    passed     98.69%
+  39  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000022_DELIM-0x2f_2001       0.00%    passed     99.34%
+  40  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000024_DELIM-0x2f_2004       0.00%    passed     99.34%
+  41  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000027_DELIM-0x2f_2001       0.00%    passed     98.69%
+  42  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000026_DELIM-0x2f_2001       0.00%    passed     98.28%
+  43  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_un-CDC-039_DELIM-0x2f_2006            0.00%    passed     96.85%
+  44  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2401630_DELIM-0x2f_2024    0.00%    passed     99.96%
+  45  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2403871_DELIM-0x2f_2024    0.00%    passed     97.48%
+  46  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-426553_DELIM-0x2f_2013        8.96%    passed     96.83%
+  47  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000035_DELIM-0x2f_2015       0.00%    passed     98.52%
+  48  hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000039_DELIM-0x2f_2016       0.00%    passed     98.52%
+****  TOTAL                                                                       1.48%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-594_DELIM-0x2f_2013 is identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-401211_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-595_DELIM-0x2f_2013 is identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-401213_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-P202090076_DELIM-0x2f_2015 is identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-F14100091_DELIM-0x2f_2014 but kept for subsequent analysis
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-596_DELIM-0x2f_2013 is identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-401215_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000021_DELIM-0x2f_2004 is identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000022_DELIM-0x2f_2005 but kept for subsequent analysis
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV141007_DELIM-0x2f_2010 is identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV141010_DELIM-0x2f_2010 but kept for subsequent analysis
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV192075_DELIM-0x2f_2009 is identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV141021_DELIM-0x2f_2010 but kept for subsequent analysis
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIS-0000004_DELIM-0x2f_2005 is identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000047_DELIM-0x2f_2004 but kept for subsequent analysis
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0676596_DELIM-0x2f_2013 is identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0678597_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000039_DELIM-0x2f_2001 is identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000056_DELIM-0x2f_2001 but kept for subsequent analysis
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000027_DELIM-0x2f_2001 is identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000027_DELIM-0x2f_2001 but kept for subsequent analysis
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000039_DELIM-0x2f_2016 is identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000035_DELIM-0x2f_2015 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000106623 secs using 99.42% CPU
+Identifying sites to remove: done in 0.000334034 secs using 99.99% CPU
+NOTE: 10 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-P200120105_DELIM-0x2f_2015 (identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-F14100091_DELIM-0x2f_2014) is ignored but added at the end
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_CES-UR-P201080317_DELIM-0x2f_2015 (identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-F14100091_DELIM-0x2f_2014) is ignored but added at the end
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000025_DELIM-0x2f_2004 (identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000022_DELIM-0x2f_2005) is ignored but added at the end
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV111117_DELIM-0x2f_2014 (identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV141010_DELIM-0x2f_2010) is ignored but added at the end
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV121101_DELIM-0x2f_2010 (identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV141010_DELIM-0x2f_2010) is ignored but added at the end
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV122006_DELIM-0x2f_2009 (identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UR-LV141021_DELIM-0x2f_2010) is ignored but added at the end
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0179595_DELIM-0x2f_2013 (identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0678597_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000028_DELIM-0x2f_2001 (identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000056_DELIM-0x2f_2001) is ignored but added at the end
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000022_DELIM-0x2f_2001 (identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000056_DELIM-0x2f_2001) is ignored but added at the end
+NOTE: hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000024_DELIM-0x2f_2004 (identical to hDenV4_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000056_DELIM-0x2f_2001) is ignored but added at the end
+Alignment was printed to ../resources/colombia_data_1/cropped/align_DENV4-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to ../resources/colombia_data_1/cropped/align_DENV4-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+4423 trees examined
+Threads: 1 / Time: 16.001 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -5976
+Threads: 2 / Time: 12.285 sec / Speedup: 1.303 / Efficiency: 65% / LogL: -5976
+Threads: 3 / Time: 10.547 sec / Speedup: 1.517 / Efficiency: 51% / LogL: -5976
+Threads: 4 / Time: 10.224 sec / Speedup: 1.565 / Efficiency: 39% / LogL: -5976
+Determining AUTO threadcount: done in 49.0576 secs using 222.9% CPU
+BEST NUMBER OF THREADS: 3
+
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -3955.397
+2. Current log-likelihood: -3732.630
+3. Current log-likelihood: -3693.800
+Optimal log-likelihood: -3693.527
+Rate parameters:  A-C: 0.74195  A-G: 9.61381  A-T: 0.86600  C-G: 0.39762  C-T: 31.72937  G-T: 1.00000
+Base frequencies:  A: 0.306  C: 0.191  G: 0.272  T: 0.230
+Gamma shape alpha: 0.234
+Parameters optimization took 3 rounds (0.018 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00131171 secs using 403.1% CPU
+Computing ML distances took 0.001329 sec (of wall-clock time) 0.005306 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 9.9258e-05 secs using 283.1% CPU
+Constructing RapidNJ tree: done in 0.00270295 secs using 142.4% CPU
+Computing RapidNJ tree took 0.002820 sec (of wall-clock time) 0.004156 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3695.823
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.00389791 secs using 304.9% CPU
+BETTER TREE FOUND at iteration 1: -3693.525
+Optimizing NNI: done in 0.00805499 secs using 273.1% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -3693.525 / CPU time: 0.013
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:49s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -3693.525
+Optimal log-likelihood: -3693.522
+Rate parameters:  A-C: 0.74432  A-G: 9.61492  A-T: 0.87892  C-G: 0.42161  C-T: 31.72820  G-T: 1.00000
+Base frequencies:  A: 0.306  C: 0.191  G: 0.272  T: 0.230
+Gamma shape alpha: 0.234
+Parameters optimization took 1 rounds (0.002 sec)
+BEST SCORE FOUND : -3693.522
+Total tree length: 0.216
+
+Total number of iterations: 2
+CPU time used for tree search: 0.037 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.013 sec (0h:0m:0s)
+Total CPU time used: 109.550 sec (0h:1m:49s)
+Total wall-clock time used: 49.102 sec (0h:0m:49s)
+
+Analysis results written to: 
+  IQ-TREE report:                ../resources/colombia_data_1/cropped/align_DENV4-delim.fasta.iqtree
+  Maximum-likelihood tree:       ../resources/colombia_data_1/cropped/align_DENV4-delim.fasta.treefile
+  Likelihood distances:          ../resources/colombia_data_1/cropped/align_DENV4-delim.fasta.mldist
+  Screen log file:               ../resources/colombia_data_1/cropped/align_DENV4-delim.fasta.log
+
+Date and Time: Mon May 11 11:40:22 2026
