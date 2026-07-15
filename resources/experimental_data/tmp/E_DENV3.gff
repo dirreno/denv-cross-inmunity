@@ -1,3 +1,3 @@
 ##gff-version 3
-DENV3/THAILAND/2001/00005/01	.	source	1	1485	.	+	.	ID=nuc
-DENV3/THAILAND/2001/00005/01	.	gene	1	1485	.	+	.	ID=E;Name=E;gene=E
+DENV3/THAILAND/2011/00007/11	.	source	1	1479	.	+	.	ID=nuc
+DENV3/THAILAND/2011/00007/11	.	gene	1	1479	.	+	.	ID=E;Name=E;gene=E

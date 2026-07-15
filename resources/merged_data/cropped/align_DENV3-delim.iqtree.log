@@ -5,9 +5,967 @@ Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
 
 Host:    dirreno-B650-AORUS-ELITE-AX (AVX512, FMA3, 30 GB RAM)
 Command: iqtree3 --threads-max 16 -s ../resources/merged_data/cropped/align_DENV3-delim.fasta -m GTR+G --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo
-Seed:    71196 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Tue Jul 14 20:45:53 2026
+Seed:    153549 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jul 15 14:57:46 2026
 Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
 
 Reading alignment file ../resources/merged_data/cropped/align_DENV3-delim.fasta ... Fasta format detected
-Reading fasta file: done in 0.00870291 secs using 97.99% CPU
+Reading fasta file: done in 0.00782125 secs using 98.44% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00539308 secs using 1444% CPU
+Alignment has 736 sequences with 1479 columns, 722 distinct patterns
+479 parsimony-informative, 144 singleton sites, 856 constant sites
+                                                                                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00013161 secs using 4298% CPU
+   1  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-30121_DELIM-0x2f_2012                  0.00%    passed     99.26%
+   2  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-603_DELIM-0x2f_2012                    0.00%    passed     99.26%
+   3  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000108_DELIM-0x2f_2012                0.00%    passed     99.66%
+   4  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000112_DELIM-0x2f_2013                0.00%    passed     99.70%
+   5  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000059_DELIM-0x2f_2013                0.00%    passed     99.49%
+   6  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000057_DELIM-0x2f_2013                0.00%    passed     99.95%
+   7  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-562_DELIM-0x2f_2015                    0.00%    passed     99.40%
+   8  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-563_DELIM-0x2f_2014                    0.00%    passed     99.30%
+   9  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000110_DELIM-0x2f_2013                0.00%    passed     97.88%
+  10  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000111_DELIM-0x2f_2013                0.00%    passed     98.90%
+  11  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000054_DELIM-0x2f_2013                0.00%    passed     99.20%
+  12  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000056_DELIM-0x2f_2013                0.00%    passed     99.66%
+  13  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000055_DELIM-0x2f_2013                0.00%    passed     99.70%
+  14  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0221590_DELIM-0x2f_2013                 0.00%    passed     98.80%
+  15  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0690589_DELIM-0x2f_2013                 0.00%    passed     97.88%
+  16  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0671588_DELIM-0x2f_2012                 0.00%    passed     97.88%
+  17  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0109587_DELIM-0x2f_2012                 0.00%    passed     97.88%
+  18  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0757593_DELIM-0x2f_2013                 0.00%    passed     98.18%
+  19  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00017_DELIM-0x2f_2007                   0.00%    passed     99.95%
+  20  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-306_DELIM-0x2f_2009                    0.00%    passed     99.97%
+  21  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-308_DELIM-0x2f_2009                    0.00%    passed     99.88%
+  22  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-313_DELIM-0x2f_2010                    0.00%    passed     99.94%
+  23  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-310_DELIM-0x2f_2010                    0.00%    passed     99.95%
+  24  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-311_DELIM-0x2f_2010                    0.00%    passed     99.95%
+  25  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-312_DELIM-0x2f_2010                    0.00%    passed     99.95%
+  26  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-318_DELIM-0x2f_2010                    0.00%    passed     99.95%
+  27  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-319_DELIM-0x2f_2010                    0.00%    passed     99.95%
+  28  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-315_DELIM-0x2f_2010                    0.00%    passed     99.94%
+  29  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-317_DELIM-0x2f_2010                    0.00%    passed     99.91%
+  30  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-309_DELIM-0x2f_2010                    0.00%    passed     99.98%
+  31  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UIDS-1080215_DELIM-0x2f_2015                0.00%    passed     99.82%
+  32  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-291_DELIM-0x2f_2015                    0.00%    passed     99.13%
+  33  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000045_DELIM-0x2f_2016                 0.00%    passed     99.82%
+  34  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SUC-UDS-Cz19583_DELIM-0x2f_2013                 0.00%    passed     98.90%
+  35  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SUC-UDS-Cz08584_DELIM-0x2f_2013                 0.00%    passed     97.54%
+  36  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SUC-UDS-Si36585_DELIM-0x2f_2013                 0.00%    passed     98.50%
+  37  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000053_DELIM-0x2f_2014                 0.00%    passed     97.45%
+  38  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-301222_DELIM-0x2f_2013                 0.00%    passed     99.38%
+  39  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-605_DELIM-0x2f_2013                    0.00%    passed     99.38%
+  40  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000013_DELIM-0x2f_2013                0.00%    passed     99.81%
+  41  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000004_DELIM-0x2f_2013                0.00%    passed     99.81%
+  42  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000084_DELIM-0x2f_2013                0.00%    passed     99.81%
+  43  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000017_DELIM-0x2f_2012                0.00%    passed     99.81%
+  44  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000034_DELIM-0x2f_2012                0.00%    passed     99.81%
+  45  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000041_DELIM-0x2f_2012                0.00%    passed     99.81%
+  46  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000032_DELIM-0x2f_2013                0.00%    passed     99.95%
+  47  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000021_DELIM-0x2f_2012                0.00%    passed     99.95%
+  48  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000026_DELIM-0x2f_2013                0.00%    passed     99.94%
+  49  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000033_DELIM-0x2f_2013                0.00%    passed     99.81%
+  50  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000027_DELIM-0x2f_2013                0.00%    passed     99.62%
+  51  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000025_DELIM-0x2f_2012                0.00%    passed     99.81%
+  52  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000001_DELIM-0x2f_2013                0.00%    passed     99.95%
+  53  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000037_DELIM-0x2f_2012                0.00%    passed     99.82%
+  54  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000019_DELIM-0x2f_2013                0.00%    passed     99.41%
+  55  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000020_DELIM-0x2f_2013                0.00%    passed     99.41%
+  56  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000106_DELIM-0x2f_2013                0.00%    passed     99.67%
+  57  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000024_DELIM-0x2f_2013                0.00%    passed     99.82%
+  58  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000038_DELIM-0x2f_2013                0.00%    passed     99.90%
+  59  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000101_DELIM-0x2f_2013                0.00%    passed     99.95%
+  60  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000028_DELIM-0x2f_2013                0.00%    passed     99.81%
+  61  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000103_DELIM-0x2f_2012                0.00%    passed     99.62%
+  62  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000100_DELIM-0x2f_2013                0.00%    passed     99.81%
+  63  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000099_DELIM-0x2f_2012                0.00%    passed     99.90%
+  64  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000039_DELIM-0x2f_2012                0.00%    passed     99.85%
+  65  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000083_DELIM-0x2f_2013                0.00%    passed     99.85%
+  66  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000022_DELIM-0x2f_2012                0.00%    passed     99.85%
+  67  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000007_DELIM-0x2f_2013                0.00%    passed     99.95%
+  68  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000105_DELIM-0x2f_2013                0.00%    passed     99.79%
+  69  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000036_DELIM-0x2f_2013                0.00%    passed     99.96%
+  70  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000082_DELIM-0x2f_2013                0.00%    passed     99.97%
+  71  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000002_DELIM-0x2f_2012                0.00%    passed     99.71%
+  72  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000030_DELIM-0x2f_2012                0.00%    passed     99.61%
+  73  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000089_DELIM-0x2f_2012                0.00%    passed     99.72%
+  74  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000009_DELIM-0x2f_2013                0.00%    passed     99.37%
+  75  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000035_DELIM-0x2f_2013                0.00%    passed     99.94%
+  76  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000018_DELIM-0x2f_2012                0.00%    passed     99.72%
+  77  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-JAC_DELIM-0x2f_2009                      0.00%    passed     99.67%
+  78  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00019_DELIM-0x2f_2004                   0.00%    passed     99.84%
+  79  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-7370_DELIM-0x2f_2006                     0.00%    passed     98.94%
+  80  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-2836_DELIM-0x2f_2003                     0.07%    passed     99.81%
+  81  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-110490373_DELIM-0x2f_2003               0.00%    passed     99.90%
+  82  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-312330474_DELIM-0x2f_2004               0.00%    passed     99.86%
+  83  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-2731_DELIM-0x2f_2007                     0.00%    passed     99.71%
+  84  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-182060578_DELIM-0x2f_2005               0.00%    passed     99.82%
+  85  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-34540776_DELIM-0x2f_2007                0.00%    passed     99.51%
+  86  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-38320677_DELIM-0x2f_2006                0.00%    passed     99.86%
+  87  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-12363_DELIM-0x2f_2005                    0.00%    passed     99.67%
+  88  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-2754_DELIM-0x2f_2007                     0.00%    passed     99.31%
+  89  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-304_DELIM-0x2f_2007                    0.00%    passed     99.89%
+  90  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-49430675_DELIM-0x2f_2006                0.00%    passed     98.42%
+  91  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-305_DELIM-0x2f_2008                    0.00%    passed     99.83%
+  92  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UIS-0000002_DELIM-0x2f_2015                  0.00%    passed     98.44%
+  93  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-HCB-3123670_DELIM-0x2f_2016                  0.00%    passed     99.90%
+  94  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0758592_DELIM-0x2f_2013                 0.00%    passed     99.40%
+  95  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00020_DELIM-0x2f_2005                   0.00%    passed     99.78%
+  96  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-292_DELIM-0x2f_2014                    0.00%    passed     99.80%
+  97  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0267594_DELIM-0x2f_2014                 0.00%    passed     99.68%
+  98  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-3012_DELIM-0x2f_2001                  0.00%    passed     98.21%
+  99  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-2978_DELIM-0x2f_2001                  0.00%    passed     98.21%
+ 100  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000052_DELIM-0x2f_2001               0.00%    passed     98.21%
+ 101  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000049_DELIM-0x2f_2002               0.00%    passed     99.21%
+ 102  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000035_DELIM-0x2f_2003               0.00%    passed     99.88%
+ 103  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000054_DELIM-0x2f_2003               0.00%    passed     99.21%
+ 104  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000042_DELIM-0x2f_2003               0.00%    passed     99.30%
+ 105  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000034_DELIM-0x2f_2003               0.00%    passed     99.30%
+ 106  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000040_DELIM-0x2f_2004               0.00%    passed     99.21%
+ 107  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000059_DELIM-0x2f_2003               0.00%    passed     99.13%
+ 108  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DH163_DELIM-0x2f_2003                   0.00%    passed     99.13%
+ 109  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000038_DELIM-0x2f_2007               0.00%    passed     95.60%
+ 110  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000045_DELIM-0x2f_2004               0.00%    passed     99.46%
+ 111  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000057_DELIM-0x2f_2003               0.00%    passed     99.79%
+ 112  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000016_DELIM-0x2f_2005               0.00%    passed     93.93%
+ 113  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000026_DELIM-0x2f_2005               0.00%    passed     93.93%
+ 114  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000017_DELIM-0x2f_2005               0.00%    passed     98.96%
+ 115  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000043_DELIM-0x2f_2007               0.00%    passed     98.96%
+ 116  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000018_DELIM-0x2f_2006               0.00%    passed     99.59%
+ 117  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CDC-029_DELIM-0x2f_2007                      0.00%    passed     95.60%
+ 118  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-303_DELIM-0x2f_2007                    0.00%    passed     95.60%
+ 119  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00018_DELIM-0x2f_2007                   0.00%    passed     95.67%
+ 120  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00010_DELIM-0x2f_2003                   0.00%    passed     99.20%
+ 121  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00002_DELIM-0x2f_2001                   0.00%    passed     99.30%
+ 122  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-294_DELIM-0x2f_2002                    0.00%    passed     99.53%
+ 123  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-295_DELIM-0x2f_2002                    0.00%    passed     99.69%
+ 124  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-298_DELIM-0x2f_2003                    0.00%    passed     98.67%
+ 125  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-299_DELIM-0x2f_2003                    0.00%    passed     97.90%
+ 126  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-301_DELIM-0x2f_2003                    0.00%    passed     97.90%
+ 127  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-296_DELIM-0x2f_2003                    0.00%    passed     98.96%
+ 128  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-297_DELIM-0x2f_2003                    0.00%    passed     98.21%
+ 129  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-300_DELIM-0x2f_2003                    0.00%    passed     98.21%
+ 130  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00009_DELIM-0x2f_2003                   0.00%    passed     99.13%
+ 131  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00022_DELIM-0x2f_2002                   0.00%    passed     98.96%
+ 132  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00011_DELIM-0x2f_2004                   0.00%    passed     96.61%
+ 133  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00012_DELIM-0x2f_2004                   0.00%    passed     99.46%
+ 134  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00013_DELIM-0x2f_2004                   0.00%    passed     99.46%
+ 135  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00004_DELIM-0x2f_2002                   0.00%    passed     99.84%
+ 136  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00008_DELIM-0x2f_2003                   0.00%    passed     99.86%
+ 137  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-293_DELIM-0x2f_2002                    0.00%    passed     99.71%
+ 138  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00015_DELIM-0x2f_2006                   0.00%    passed     99.88%
+ 139  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-302_DELIM-0x2f_2007                    0.00%    passed     99.94%
+ 140  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00016_DELIM-0x2f_2006                   0.00%    passed     99.59%
+ 141  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00006_DELIM-0x2f_2003                   0.00%    passed     99.88%
+ 142  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-314_DELIM-0x2f_2010                    0.00%    passed     99.58%
+ 143  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-316_DELIM-0x2f_2010                    0.00%    passed     99.46%
+ 144  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00005_DELIM-0x2f_2003                   0.00%    passed     99.79%
+ 145  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00003_DELIM-0x2f_2001                   0.00%    passed     97.84%
+ 146  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00007_DELIM-0x2f_2003                   0.00%    passed     97.84%
+ 147  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-5952_DELIM-0x2f_2003                     0.00%    passed     97.06%
+ 148  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-5379_DELIM-0x2f_2003                     0.00%    passed     98.18%
+ 149  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-52920369_DELIM-0x2f_2003                0.00%    passed     98.18%
+ 150  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-28888_DELIM-0x2f_2006                    0.00%    passed     96.61%
+ 151  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-34190768_DELIM-0x2f_2007                0.00%    passed     97.57%
+ 152  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-223790472_DELIM-0x2f_2004               0.00%    passed     99.53%
+ 153  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-158590270_DELIM-0x2f_2002               0.00%    passed     99.53%
+ 154  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-6003_DELIM-0x2f_2007                     0.00%    passed     99.53%
+ 155  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-164070271_DELIM-0x2f_2002               0.00%    passed     98.81%
+ 156  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-307_DELIM-0x2f_2009                    0.00%    passed     99.81%
+ 157  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00023_DELIM-0x2f_2006                   0.00%    passed     98.18%
+ 158  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00014_DELIM-0x2f_2005                   0.00%    passed     93.93%
+ 159  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000038_DELIM-0x2f_2016                24.95%    passed     40.85%
+ 160  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000044_DELIM-0x2f_2016                 0.00%    passed     99.09%
+ 161  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000049_DELIM-0x2f_2016                 0.00%    passed     99.96%
+ 162  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-449241_DELIM-0x2f_2015                   0.00%    passed     99.82%
+ 163  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-449334_DELIM-0x2f_2015                   0.00%    passed     99.82%
+ 164  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CNIH-449686_DELIM-0x2f_2015                  0.00%    passed     99.81%
+ 165  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-449499_DELIM-0x2f_2015                  0.00%    passed     97.54%
+ 166  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CNIH-449982_DELIM-0x2f_2015                  0.00%    passed     99.75%
+ 167  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-449959_DELIM-0x2f_2015                  0.00%    passed     97.54%
+ 168  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000079_DELIM-0x2f_2013                0.00%    passed     99.91%
+ 169  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000102_DELIM-0x2f_2013                0.00%    passed     96.70%
+ 170  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-561_DELIM-0x2f_2015                    0.00%    passed     99.30%
+ 171  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-564_DELIM-0x2f_2014                    0.00%    passed     99.55%
+ 172  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0751591_DELIM-0x2f_2013                 0.00%    passed     99.55%
+ 173  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2306902_DELIM-0x2f_2023              0.00%    passed     97.39%
+ 174  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2306514_DELIM-0x2f_2023              0.00%    passed     96.16%
+ 175  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06515-VI_DELIM-0x2f_2023             0.00%    passed     94.56%
+ 176  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06323-VI_DELIM-0x2f_2023            18.73%    passed     78.55%
+ 177  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-08706-2-VI_DELIM-0x2f_2023           0.00%    passed     96.16%
+ 178  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2402603_DELIM-0x2f_2024              0.07%    passed     94.86%
+ 179  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2404366_DELIM-0x2f_2024              0.00%    passed     97.39%
+ 180  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2400189_DELIM-0x2f_2024              0.14%    passed     95.75%
+ 181  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02322_DELIM-0x2f_2023                 5.14%    passed     97.13%
+ 182  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02343_DELIM-0x2f_2023                 0.00%    passed     96.16%
+ 183  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02581_DELIM-0x2f_2024                 0.00%    passed     96.16%
+ 184  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02369_DELIM-0x2f_2023                 9.26%    passed     83.60%
+ 185  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02502_DELIM-0x2f_2024                 0.00%    passed     96.75%
+ 186  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02561_DELIM-0x2f_2024                 0.00%    passed     95.37%
+ 187  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02798_DELIM-0x2f_2024                 0.00%    passed     97.45%
+ 188  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02694_DELIM-0x2f_2024                 5.21%    passed     98.39%
+ 189  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02580_DELIM-0x2f_2024                 0.00%    passed     95.77%
+ 190  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06340-VI_DELIM-0x2f_2023             0.00%    passed     91.58%
+ 191  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-08356-2-VI_DELIM-0x2f_2023           8.25%    passed     75.10%
+ 192  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2401928_DELIM-0x2f_2024              0.00%    passed     92.97%
+ 193  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2404622_DELIM-0x2f_2024              0.00%    passed     92.97%
+ 194  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405830_DELIM-0x2f_2024              0.00%    passed     91.04%
+ 195  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2402565_DELIM-0x2f_2024              0.00%    passed     94.54%
+ 196  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2402864_DELIM-0x2f_2024              0.00%    passed     92.97%
+ 197  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-08627-2-VI_DELIM-0x2f_2023           0.00%    passed     96.68%
+ 198  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-08766-2-VI_DELIM-0x2f_2023           0.00%    passed     93.21%
+ 199  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-05877-VI_DELIM-0x2f_2023            18.73%    passed     64.34%
+ 200  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-08909-2-VI_DELIM-0x2f_2023           0.00%    passed     97.31%
+ 201  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06427-VI_DELIM-0x2f_2023            10.28%    passed     76.58%
+ 202  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2404889_DELIM-0x2f_2024              0.00%    passed     85.72%
+ 203  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2401605_DELIM-0x2f_2024              0.00%    passed     94.54%
+ 204  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02374_DELIM-0x2f_2023                 0.00%    passed     91.04%
+ 205  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02850_DELIM-0x2f_2024                 0.07%    passed     93.85%
+ 206  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-20240920-1033-VIG_DELIM-0x2f_2024   18.73%    passed     58.41%
+ 207  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02782_DELIM-0x2f_2024                 0.00%    passed     91.62%
+ 208  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02576_DELIM-0x2f_2024                 0.07%    passed     93.12%
+ 209  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02469_DELIM-0x2f_2023                 0.00%    passed     92.97%
+ 210  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02586_DELIM-0x2f_2024                 0.14%    passed     92.14%
+ 211  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02344_DELIM-0x2f_2023                 6.63%    passed     81.06%
+ 212  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02774_DELIM-0x2f_2024                 0.07%    passed     92.39%
+ 213  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02824_DELIM-0x2f_2024                 0.00%    passed     93.08%
+ 214  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02335_DELIM-0x2f_2023                 0.00%    passed     91.58%
+ 215  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02381_DELIM-0x2f_2023                12.91%    passed     99.58%
+ 216  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02514_DELIM-0x2f_2024                 0.00%    passed     91.58%
+ 217  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02783_DELIM-0x2f_2024                 0.00%    passed     91.58%
+ 218  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02477_DELIM-0x2f_2024                13.32%    passed     85.67%
+ 219  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02396_DELIM-0x2f_2023                 6.09%    passed     96.61%
+ 220  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02760_DELIM-0x2f_2024                 0.07%    passed     90.32%
+ 221  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02462_DELIM-0x2f_2023                 0.00%    passed     92.97%
+ 222  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02464_DELIM-0x2f_2023                 0.00%    passed     92.97%
+ 223  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02780_DELIM-0x2f_2024                 0.00%    passed     91.04%
+ 224  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02848_DELIM-0x2f_2024                 0.00%    passed     92.97%
+ 225  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02785_DELIM-0x2f_2024                 0.00%    passed     88.72%
+ 226  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02539_DELIM-0x2f_2024                 0.00%    passed     94.54%
+ 227  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02773_DELIM-0x2f_2024                 0.00%    passed     94.13%
+ 228  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02433_DELIM-0x2f_2023                 0.00%    passed     98.34%
+ 229  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02341_DELIM-0x2f_2023                10.48%    passed     91.85%
+ 230  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02422_DELIM-0x2f_2023                 0.00%    passed     97.63%
+ 231  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02564_DELIM-0x2f_2024                 0.00%    passed     97.63%
+ 232  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02411_DELIM-0x2f_2023                 9.33%    passed     91.55%
+ 233  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02852_DELIM-0x2f_2024                 0.00%    passed     89.58%
+ 234  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02819_DELIM-0x2f_2024                25.02%    passed     99.54%
+ 235  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2306512_DELIM-0x2f_2023              0.00%    passed     96.67%
+ 236  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06576-VI_DELIM-0x2f_2023            18.73%    passed     85.89%
+ 237  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02716_DELIM-0x2f_2024                 0.00%    passed     94.88%
+ 238  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02415_DELIM-0x2f_2023                 0.00%    passed     97.63%
+ 239  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02583_DELIM-0x2f_2024                 0.00%    passed     96.16%
+ 240  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2406989-VI_DELIM-0x2f_2024          18.80%    passed     77.94%
+ 241  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2407187-VI_DELIM-0x2f_2024          18.73%    passed     69.47%
+ 242  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2407449-VI_DELIM-0x2f_2024           0.00%    passed     89.58%
+ 243  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2407349-VI_DELIM-0x2f_2024          18.73%    passed     67.01%
+ 244  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2406948-VI_DELIM-0x2f_2024           0.00%    passed     93.21%
+ 245  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2407697-VI_DELIM-0x2f_2024           0.07%    passed     95.15%
+ 246  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405862-VI_DELIM-0x2f_2024          18.73%    passed     78.02%
+ 247  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2407446-VI_DELIM-0x2f_2024          18.73%    passed     67.01%
+ 248  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2407990-VI_DELIM-0x2f_2024           0.00%    passed     95.73%
+ 249  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_CAS-INS-458997_DELIM-0x2f_2015                  0.00%    passed     99.03%
+ 250  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-449255_DELIM-0x2f_2015                   0.00%    passed     99.84%
+ 251  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-449683_DELIM-0x2f_2015                  0.00%    passed     99.78%
+ 252  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CNIH-449335_DELIM-0x2f_2015                  0.00%    passed     99.78%
+ 253  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-483948_DELIM-0x2f_2016                  0.00%    passed     99.78%
+ 254  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CNIH-476947_DELIM-0x2f_2016                  0.00%    passed     99.78%
+ 255  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-484832_DELIM-0x2f_2016                   0.00%    passed     99.40%
+ 256  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-459860_DELIM-0x2f_2016                  0.07%    passed     99.60%
+ 257  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_CUN-UEB-007_DELIM-0x2f_2014                     0.00%    passed     99.85%
+ 258  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-449326_DELIM-0x2f_2015                 11.76%    passed     95.71%
+ 259  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-476944_DELIM-0x2f_2016                  0.61%    passed     97.40%
+ 260  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000010_DELIM-0x2f_2015                 0.00%    passed     97.06%
+ 261  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UIS-0000001_DELIM-0x2f_2014                  0.00%    passed     97.88%
+ 262  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000037_DELIM-0x2f_2015                 0.14%    passed     96.14%
+ 263  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_CAS-INS-450397_DELIM-0x2f_2015                  5.21%    passed     99.81%
+ 264  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VID-UEB-010_DELIM-0x2f_2023                    51.93%    passed     75.14%
+ 265  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00007_DELIM-0x2f_11              0.00%    passed     98.63%
+ 266  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00106_DELIM-0x2f_11              0.00%    passed     99.13%
+ 267  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00639_DELIM-0x2f_12              0.00%    passed     99.09%
+ 268  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00608_DELIM-0x2f_12              0.00%    passed     99.95%
+ 269  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00695_DELIM-0x2f_13              0.00%    passed     99.74%
+ 270  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00544_DELIM-0x2f_11              0.00%    passed     99.94%
+ 271  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01385_DELIM-0x2f_10              0.00%    passed     99.96%
+ 272  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01434_DELIM-0x2f_10              0.00%    passed     99.82%
+ 273  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00709_DELIM-0x2f_13              0.00%    passed     99.73%
+ 274  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_01401_DELIM-0x2f_13              0.00%    passed     99.66%
+ 275  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00146_DELIM-0x2f_14              0.00%    passed     99.83%
+ 276  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00999_DELIM-0x2f_12              0.00%    passed     99.83%
+ 277  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_01094_DELIM-0x2f_12              0.00%    passed     99.83%
+ 278  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00807_DELIM-0x2f_13              0.00%    passed     99.83%
+ 279  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00432_DELIM-0x2f_14              0.00%    passed     99.57%
+ 280  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00759_DELIM-0x2f_14              0.00%    passed     99.57%
+ 281  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00731_DELIM-0x2f_13              0.00%    passed     99.83%
+ 282  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_01106_DELIM-0x2f_12              0.00%    passed     98.35%
+ 283  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00910_DELIM-0x2f_13              0.00%    passed     99.57%
+ 284  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00688_DELIM-0x2f_14              0.00%    passed     98.43%
+ 285  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00957_DELIM-0x2f_13              0.00%    passed     99.71%
+ 286  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00560_DELIM-0x2f_14              0.00%    passed     99.63%
+ 287  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00542_DELIM-0x2f_14              0.00%    passed     99.94%
+ 288  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00710_DELIM-0x2f_14              0.00%    passed     98.35%
+ 289  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_01035_DELIM-0x2f_11              0.00%    passed     99.83%
+ 290  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00507_DELIM-0x2f_14              0.07%    passed     99.72%
+ 291  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00521_DELIM-0x2f_14              0.00%    passed     99.10%
+ 292  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00715_DELIM-0x2f_13              0.00%    passed     99.73%
+ 293  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00693_DELIM-0x2f_13              0.00%    passed     99.63%
+ 294  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00739_DELIM-0x2f_14              0.00%    passed     99.89%
+ 295  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00749_DELIM-0x2f_14              0.00%    passed     99.64%
+ 296  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00059_DELIM-0x2f_02              0.00%    passed     96.21%
+ 297  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00588_DELIM-0x2f_06              0.00%    passed     97.45%
+ 298  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02678_DELIM-0x2f_06              0.00%    passed     95.98%
+ 299  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00654_DELIM-0x2f_14              0.00%    passed     99.17%
+ 300  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00705_DELIM-0x2f_14              0.00%    passed     99.17%
+ 301  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00833_DELIM-0x2f_12              0.00%    passed     97.88%
+ 302  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00817_DELIM-0x2f_12              0.00%    passed     98.02%
+ 303  DENV3_DELIM-0x2f_NICARAGUA_DELIM-0x2f_2009_DELIM-0x2f_BID-V4753                       0.00%    passed     98.36%
+ 304  DENV3_DELIM-0x2f_PUERTORICO_DELIM-0x2f_2006_DELIM-0x2f_429965                         0.00%    passed     99.20%
+ 305  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00005_DELIM-0x2f_01              0.00%    passed     99.94%
+ 306  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00009_DELIM-0x2f_01              0.14%    passed     99.91%
+ 307  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00779_DELIM-0x2f_01              0.00%    passed     99.98%
+ 308  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00072_DELIM-0x2f_03              0.00%    passed     99.98%
+ 309  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_00334_DELIM-0x2f_00              0.00%    passed     99.99%
+ 310  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_00245_DELIM-0x2f_00              0.00%    passed     99.98%
+ 311  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_02983_DELIM-0x2f_99              0.00%    passed     99.60%
+ 312  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_00190_DELIM-0x2f_98              0.00%    passed     99.98%
+ 313  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00430_DELIM-0x2f_02              0.00%    passed     99.98%
+ 314  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05443_DELIM-0x2f_00              0.07%    passed    100.00%
+ 315  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_02029_DELIM-0x2f_00              0.00%    passed     99.98%
+ 316  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_01293_DELIM-0x2f_98              0.00%    passed     99.98%
+ 317  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_06047_DELIM-0x2f_99              0.00%    passed     99.98%
+ 318  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04045_DELIM-0x2f_01              0.00%    passed     99.94%
+ 319  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04945_DELIM-0x2f_01              0.00%    passed     99.95%
+ 320  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_02213_DELIM-0x2f_03              0.00%    passed     99.70%
+ 321  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_04557_DELIM-0x2f_99              0.00%    passed     99.91%
+ 322  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00654_DELIM-0x2f_05              0.00%    passed     99.61%
+ 323  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02016_DELIM-0x2f_98              0.07%    passed     99.76%
+ 324  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00023_DELIM-0x2f_01              0.00%    passed     99.99%
+ 325  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00152_DELIM-0x2f_01              0.00%    passed     99.99%
+ 326  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00452_DELIM-0x2f_02              0.00%    passed     99.98%
+ 327  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_00557_DELIM-0x2f_99              0.00%    passed     99.99%
+ 328  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00975_DELIM-0x2f_01              0.00%    passed     99.94%
+ 329  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00104_DELIM-0x2f_02              0.00%    passed     99.99%
+ 330  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_00342_DELIM-0x2f_99              0.00%    passed     99.94%
+ 331  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_03879_DELIM-0x2f_01              0.14%    passed     99.96%
+ 332  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_00055_DELIM-0x2f_04              0.07%    passed     99.92%
+ 333  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_00441_DELIM-0x2f_04              0.07%    passed     99.91%
+ 334  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00142_DELIM-0x2f_02              0.00%    passed     99.99%
+ 335  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00651_DELIM-0x2f_06              0.00%    passed     99.99%
+ 336  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00767_DELIM-0x2f_02              0.00%    passed     99.98%
+ 337  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_01250_DELIM-0x2f_98              0.00%    passed     99.98%
+ 338  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01300_DELIM-0x2f_02              0.00%    passed     99.98%
+ 339  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_06028_DELIM-0x2f_00              0.00%    passed     99.94%
+ 340  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00679_DELIM-0x2f_01              0.00%    passed     99.95%
+ 341  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04680_DELIM-0x2f_01              0.07%    passed     99.73%
+ 342  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_00753_DELIM-0x2f_96              0.00%    passed     99.99%
+ 343  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01166_DELIM-0x2f_02              0.00%    passed     99.95%
+ 344  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00145_DELIM-0x2f_02              0.00%    passed     99.94%
+ 345  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00631_DELIM-0x2f_95              0.00%    passed     99.87%
+ 346  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01472_DELIM-0x2f_02              0.00%    passed     99.87%
+ 347  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01828_DELIM-0x2f_96              0.00%    passed     99.87%
+ 348  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01720_DELIM-0x2f_96              0.00%    passed     99.87%
+ 349  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_06406_DELIM-0x2f_97              0.00%    passed     99.91%
+ 350  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04378_DELIM-0x2f_98              0.00%    passed     99.33%
+ 351  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_05480_DELIM-0x2f_99              0.00%    passed     99.81%
+ 352  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00748_DELIM-0x2f_02              0.00%    passed     99.94%
+ 353  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_02208_DELIM-0x2f_03              0.00%    passed     99.61%
+ 354  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_07597_DELIM-0x2f_97              0.00%    passed     99.82%
+ 355  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_02006_DELIM-0x2f_02              0.00%    passed     99.54%
+ 356  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_00688_DELIM-0x2f_98              0.00%    passed     99.10%
+ 357  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01257_DELIM-0x2f_06              0.00%    passed     99.49%
+ 358  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_04514_DELIM-0x2f_99              0.00%    passed     99.91%
+ 359  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01552_DELIM-0x2f_96              0.00%    passed     99.68%
+ 360  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01967_DELIM-0x2f_03              0.00%    passed     99.98%
+ 361  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04996_DELIM-0x2f_98              0.14%    passed     97.77%
+ 362  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_00991_DELIM-0x2f_04              0.00%    passed     99.74%
+ 363  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00806_DELIM-0x2f_05              0.00%    passed     99.91%
+ 364  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01491_DELIM-0x2f_05              0.00%    passed     99.79%
+ 365  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_00317_DELIM-0x2f_04              0.00%    passed     99.90%
+ 366  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00984_DELIM-0x2f_01              0.00%    passed     99.78%
+ 367  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05456_DELIM-0x2f_00              0.00%    passed     99.68%
+ 368  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05499_DELIM-0x2f_00              0.00%    passed     99.58%
+ 369  DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2000_DELIM-0x2f_FJ639719                         0.00%    passed     99.39%
+ 370  DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2001_DELIM-0x2f_FJ639720                         0.00%    passed     98.94%
+ 371  DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2002_DELIM-0x2f_FJ639721                         0.00%    passed     99.68%
+ 372  DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2002_DELIM-0x2f_GQ868627                         0.00%    passed     98.28%
+ 373  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_01187_DELIM-0x2f_99              0.00%    passed     99.46%
+ 374  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00008_DELIM-0x2f_06              0.00%    passed     97.96%
+ 375  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02701_DELIM-0x2f_06              0.00%    passed     97.96%
+ 376  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01379_DELIM-0x2f_06              0.00%    passed     97.89%
+ 377  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00372_DELIM-0x2f_06              0.00%    passed     96.63%
+ 378  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00460_DELIM-0x2f_06              0.00%    passed     96.38%
+ 379  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00739_DELIM-0x2f_05              0.00%    passed     94.97%
+ 380  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01387_DELIM-0x2f_05              0.00%    passed     98.54%
+ 381  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01559_DELIM-0x2f_06              0.00%    passed     95.96%
+ 382  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02515_DELIM-0x2f_06              0.00%    passed     94.97%
+ 383  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02632_DELIM-0x2f_06              0.00%    passed     94.97%
+ 384  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02117_DELIM-0x2f_06              0.14%    passed     97.98%
+ 385  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02380_DELIM-0x2f_06              0.00%    passed     95.69%
+ 386  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00018_DELIM-0x2f_06              0.00%    passed     92.89%
+ 387  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00576_DELIM-0x2f_03              0.00%    passed     94.70%
+ 388  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_07887_DELIM-0x2f_97              0.00%    passed     94.23%
+ 389  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00676_DELIM-0x2f_06              0.00%    passed     96.38%
+ 390  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04502_DELIM-0x2f_01              0.00%    passed     96.38%
+ 391  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00936_DELIM-0x2f_01              0.00%    passed     96.38%
+ 392  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_01868_DELIM-0x2f_98              0.00%    passed     94.97%
+ 393  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_06123_DELIM-0x2f_01              0.00%    passed     97.67%
+ 394  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_06135_DELIM-0x2f_00              0.00%    passed     94.23%
+ 395  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_03135_DELIM-0x2f_02              0.00%    passed     94.70%
+ 396  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_03567_DELIM-0x2f_99              0.07%    passed     98.69%
+ 397  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01177_DELIM-0x2f_06              0.00%    passed     97.29%
+ 398  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01330_DELIM-0x2f_00              0.00%    passed     98.95%
+ 399  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01671_DELIM-0x2f_00              0.00%    passed     99.23%
+ 400  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05571_DELIM-0x2f_00              0.00%    passed     98.28%
+ 401  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_02080_DELIM-0x2f_00              0.00%    passed     98.95%
+ 402  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05632_DELIM-0x2f_00              0.00%    passed     98.95%
+ 403  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05815_DELIM-0x2f_00              0.00%    passed     98.95%
+ 404  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04540_DELIM-0x2f_01              0.00%    passed     98.61%
+ 405  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05969_DELIM-0x2f_00              0.00%    passed     99.37%
+ 406  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_07042_DELIM-0x2f_98              0.00%    passed     98.95%
+ 407  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01528_DELIM-0x2f_96              0.00%    passed     96.38%
+ 408  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_02035_DELIM-0x2f_03              0.00%    passed     98.51%
+ 409  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_00979_DELIM-0x2f_04              0.00%    passed     99.80%
+ 410  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_00637_DELIM-0x2f_98              0.00%    passed     99.41%
+ 411  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01720_DELIM-0x2f_00              0.00%    passed     98.99%
+ 412  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02506_DELIM-0x2f_98              0.00%    passed     97.29%
+ 413  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02553_DELIM-0x2f_98              0.14%    passed     97.88%
+ 414  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04526_DELIM-0x2f_01              0.00%    passed     97.78%
+ 415  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00664_DELIM-0x2f_03              0.00%    passed     97.67%
+ 416  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01996_DELIM-0x2f_00              0.00%    passed     98.28%
+ 417  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_03818_DELIM-0x2f_99              0.00%    passed     99.72%
+ 418  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00997_DELIM-0x2f_06              0.00%    passed     99.41%
+ 419  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02283_DELIM-0x2f_98              0.00%    passed     98.91%
+ 420  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_06343_DELIM-0x2f_98              0.07%    passed     98.71%
+ 421  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01041_DELIM-0x2f_06              0.00%    passed     97.68%
+ 422  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_05956_DELIM-0x2f_99              0.00%    passed     97.00%
+ 423  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00523_DELIM-0x2f_03              0.00%    passed     99.58%
+ 424  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00295_DELIM-0x2f_06              0.00%    passed     94.97%
+ 425  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_02141_DELIM-0x2f_03              0.00%    passed     94.70%
+ 426  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01400_DELIM-0x2f_05              0.00%    passed     90.46%
+ 427  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_00011_DELIM-0x2f_96              0.00%    passed     99.09%
+ 428  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00780_DELIM-0x2f_95              0.00%    passed     99.70%
+ 429  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01486_DELIM-0x2f_95              0.00%    passed     99.82%
+ 430  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00344_DELIM-0x2f_95              0.00%    passed     98.91%
+ 431  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00705_DELIM-0x2f_94              0.00%    passed     99.14%
+ 432  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_01388_DELIM-0x2f_94              0.00%    passed     99.60%
+ 433  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_01146_DELIM-0x2f_94              0.00%    passed     98.91%
+ 434  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_02222_DELIM-0x2f_96              0.00%    passed     99.42%
+ 435  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_00495_DELIM-0x2f_97              0.00%    passed     99.70%
+ 436  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_01976_DELIM-0x2f_97              0.00%    passed     99.84%
+ 437  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_05718_DELIM-0x2f_97              0.00%    passed     99.70%
+ 438  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_02906_DELIM-0x2f_97              0.00%    passed     99.77%
+ 439  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01037_DELIM-0x2f_96              0.00%    passed     97.00%
+ 440  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01941_DELIM-0x2f_96              0.00%    passed     95.81%
+ 441  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_02161_DELIM-0x2f_96              0.00%    passed     99.14%
+ 442  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00247_DELIM-0x2f_95              0.07%    passed     98.71%
+ 443  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01062_DELIM-0x2f_06              0.00%    passed     99.42%
+ 444  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_02972_DELIM-0x2f_99              0.14%    passed     98.91%
+ 445  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02993_DELIM-0x2f_98              0.00%    passed     98.91%
+ 446  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_06541_DELIM-0x2f_97              0.00%    passed     99.82%
+ 447  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_02902_DELIM-0x2f_99              0.00%    passed     94.95%
+ 448  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_03640_DELIM-0x2f_01              0.00%    passed     94.21%
+ 449  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04331_DELIM-0x2f_98              0.00%    passed     95.50%
+ 450  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_01982_DELIM-0x2f_99              0.00%    passed     99.42%
+ 451  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_03240_DELIM-0x2f_01              0.00%    passed     95.81%
+ 452  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00873_DELIM-0x2f_03              0.00%    passed     99.60%
+ 453  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04187_DELIM-0x2f_98              0.00%    passed     99.14%
+ 454  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02434_DELIM-0x2f_98              0.00%    passed     99.60%
+ 455  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00255_DELIM-0x2f_94              0.00%    passed     99.98%
+ 456  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00715_DELIM-0x2f_94              0.00%    passed     99.99%
+ 457  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_00317_DELIM-0x2f_98              0.00%    passed     99.49%
+ 458  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_07234_DELIM-0x2f_97              0.00%    passed     99.98%
+ 459  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00466_DELIM-0x2f_03              0.00%    passed     99.98%
+ 460  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_02251_DELIM-0x2f_02              0.00%    passed     99.98%
+ 461  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_04945_DELIM-0x2f_97              0.00%    passed     99.98%
+ 462  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_06757_DELIM-0x2f_01              0.00%    passed     99.91%
+ 463  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04236_DELIM-0x2f_01              0.00%    passed     99.91%
+ 464  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_07225_DELIM-0x2f_97              0.00%    passed     99.69%
+ 465  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00515_DELIM-0x2f_94              0.00%    passed     99.84%
+ 466  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_00596_DELIM-0x2f_98              0.07%    passed    100.00%
+ 467  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00657_DELIM-0x2f_95              0.00%    passed     99.94%
+ 468  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01317_DELIM-0x2f_95              0.00%    passed     99.84%
+ 469  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01421_DELIM-0x2f_96              0.00%    passed     99.94%
+ 470  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01262_DELIM-0x2f_02              0.00%    passed     99.94%
+ 471  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00708_DELIM-0x2f_03              0.00%    passed     99.69%
+ 472  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_02580_DELIM-0x2f_97              0.00%    passed     99.69%
+ 473  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01182_DELIM-0x2f_02              0.07%    passed     99.63%
+ 474  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_05578_DELIM-0x2f_97              0.00%    passed     99.69%
+ 475  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02224_DELIM-0x2f_98              0.00%    passed     99.41%
+ 476  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02519_DELIM-0x2f_98              0.07%    passed     99.42%
+ 477  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_06060_DELIM-0x2f_99              0.00%    passed     99.60%
+ 478  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_02673_DELIM-0x2f_97              0.00%    passed     99.43%
+ 479  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_06419_DELIM-0x2f_01              0.00%    passed     99.95%
+ 480  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_06012_DELIM-0x2f_98              0.00%    passed     99.94%
+ 481  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00541_DELIM-0x2f_95              0.00%    passed     99.14%
+ 482  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_01494_DELIM-0x2f_94              0.00%    passed     99.25%
+ 483  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01509_DELIM-0x2f_95              0.07%    passed     99.42%
+ 484  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00617_DELIM-0x2f_95              0.00%    passed     99.25%
+ 485  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00520_DELIM-0x2f_95              0.07%    passed     98.26%
+ 486  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00530_DELIM-0x2f_95              0.00%    passed     98.72%
+ 487  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00772_DELIM-0x2f_95              0.00%    passed     99.95%
+ 488  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01179_DELIM-0x2f_95              0.00%    passed     99.33%
+ 489  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01487_DELIM-0x2f_96              0.00%    passed     99.69%
+ 490  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00317_DELIM-0x2f_03              0.00%    passed     99.91%
+ 491  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01263_DELIM-0x2f_02              0.00%    passed     99.96%
+ 492  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_02173_DELIM-0x2f_02              0.00%    passed     99.60%
+ 493  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_00246_DELIM-0x2f_00              0.00%    passed     99.23%
+ 494  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01442_DELIM-0x2f_00              0.07%    passed     98.71%
+ 495  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01455_DELIM-0x2f_00              0.00%    passed     98.95%
+ 496  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05421_DELIM-0x2f_00              0.00%    passed     98.51%
+ 497  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01654_DELIM-0x2f_00              0.00%    passed     98.28%
+ 498  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01672_DELIM-0x2f_00              0.00%    passed     98.28%
+ 499  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_02242_DELIM-0x2f_00              0.00%    passed     98.26%
+ 500  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05772_DELIM-0x2f_00              0.00%    passed     98.54%
+ 501  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_05308_DELIM-0x2f_01              0.00%    passed     97.78%
+ 502  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_02234_DELIM-0x2f_03              0.00%    passed     99.37%
+ 503  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_03058_DELIM-0x2f_97              0.00%    passed     99.67%
+ 504  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01260_DELIM-0x2f_95              0.00%    passed     99.67%
+ 505  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_01700_DELIM-0x2f_98              0.07%    passed     99.22%
+ 506  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01619_DELIM-0x2f_03              0.00%    passed     98.12%
+ 507  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_03767_DELIM-0x2f_99              0.00%    passed     98.12%
+ 508  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_00329_DELIM-0x2f_00              0.00%    passed     99.49%
+ 509  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00031_DELIM-0x2f_95              0.00%    passed     99.84%
+ 510  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00081_DELIM-0x2f_95              0.00%    passed     99.84%
+ 511  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00950_DELIM-0x2f_94              0.00%    passed     99.60%
+ 512  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30246_DELIM-0x2f_95              0.00%    passed    100.00%
+ 513  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30457_DELIM-0x2f_95              0.00%    passed     99.95%
+ 514  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_01530_DELIM-0x2f_94              0.00%    passed     99.60%
+ 515  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00092_DELIM-0x2f_94              0.00%    passed     99.95%
+ 516  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_00037_DELIM-0x2f_96              0.00%    passed     98.40%
+ 517  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00831_DELIM-0x2f_94              0.00%    passed     99.94%
+ 518  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_01311_DELIM-0x2f_94              0.00%    passed     99.93%
+ 519  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30071_DELIM-0x2f_95              0.00%    passed     99.79%
+ 520  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_01096_DELIM-0x2f_94              0.00%    passed     99.42%
+ 521  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30590_DELIM-0x2f_94              0.00%    passed     99.42%
+ 522  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30317_DELIM-0x2f_95              0.00%    passed     99.09%
+ 523  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30460_DELIM-0x2f_95              0.00%    passed     98.53%
+ 524  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30125_DELIM-0x2f_95              0.00%    passed     99.26%
+ 525  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01658_DELIM-0x2f_95              0.07%    passed     98.99%
+ 526  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00073_DELIM-0x2f_02              0.00%    passed     99.23%
+ 527  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_03749_DELIM-0x2f_99              0.00%    passed     99.23%
+ 528  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_05611_DELIM-0x2f_01              0.00%    passed     97.67%
+ 529  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00503_DELIM-0x2f_02              0.00%    passed     98.95%
+ 530  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00536_DELIM-0x2f_02              0.00%    passed     98.95%
+ 531  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01906_DELIM-0x2f_00              0.00%    passed     97.67%
+ 532  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05420_DELIM-0x2f_00              0.00%    passed     92.60%
+ 533  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_00165_DELIM-0x2f_99              0.00%    passed     99.61%
+ 534  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_03417_DELIM-0x2f_99              0.00%    passed     99.80%
+ 535  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01251_DELIM-0x2f_06              0.00%    passed     98.95%
+ 536  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01505_DELIM-0x2f_96              0.00%    passed     98.95%
+ 537  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_06198_DELIM-0x2f_01              0.00%    passed     96.38%
+ 538  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_01716_DELIM-0x2f_98              0.00%    passed     96.03%
+ 539  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00710_DELIM-0x2f_06              0.00%    passed     99.43%
+ 540  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05884_DELIM-0x2f_00              0.07%    passed     99.18%
+ 541  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00125_DELIM-0x2f_94              0.00%    passed     99.41%
+ 542  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30301_DELIM-0x2f_94              0.00%    passed     99.70%
+ 543  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30551_DELIM-0x2f_94              0.00%    passed     99.69%
+ 544  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30520_DELIM-0x2f_94              0.00%    passed     99.60%
+ 545  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30621_DELIM-0x2f_94              0.00%    passed     99.60%
+ 546  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30677_DELIM-0x2f_94              0.00%    passed     99.60%
+ 547  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00422_DELIM-0x2f_95              0.00%    passed     99.41%
+ 548  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30110_DELIM-0x2f_95              0.00%    passed     99.42%
+ 549  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30175_DELIM-0x2f_95              0.00%    passed     99.42%
+ 550  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30195_DELIM-0x2f_95              0.00%    passed     99.42%
+ 551  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01042_DELIM-0x2f_95              0.00%    passed     99.70%
+ 552  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01781_DELIM-0x2f_96              0.00%    passed     99.58%
+ 553  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00965_DELIM-0x2f_95              0.07%    passed     99.79%
+ 554  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01171_DELIM-0x2f_96              0.00%    passed     99.84%
+ 555  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01313_DELIM-0x2f_02              0.00%    passed     98.54%
+ 556  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01249_DELIM-0x2f_96              0.00%    passed     99.38%
+ 557  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_02916_DELIM-0x2f_01              0.00%    passed     98.61%
+ 558  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04635_DELIM-0x2f_01              0.00%    passed     98.38%
+ 559  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01296_DELIM-0x2f_95              0.00%    passed     98.53%
+ 560  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01367_DELIM-0x2f_95              0.00%    passed     99.09%
+ 561  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_03080_DELIM-0x2f_97              0.00%    passed     98.91%
+ 562  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_00975_DELIM-0x2f_96              0.00%    passed     98.99%
+ 563  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00566_DELIM-0x2f_03              0.00%    passed     98.12%
+ 564  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01045_DELIM-0x2f_06              0.07%    passed     97.41%
+ 565  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01245_DELIM-0x2f_96              0.00%    passed     97.11%
+ 566  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_07176_DELIM-0x2f_97              0.00%    passed     97.82%
+ 567  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01393_DELIM-0x2f_03              0.00%    passed     98.54%
+ 568  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01979_DELIM-0x2f_03              0.00%    passed     98.54%
+ 569  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_03291_DELIM-0x2f_01              0.20%    passed     96.23%
+ 570  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00098_DELIM-0x2f_94              0.00%    passed     98.91%
+ 571  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_00833_DELIM-0x2f_96              0.00%    passed     98.91%
+ 572  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01537_DELIM-0x2f_02              0.00%    passed     98.40%
+ 573  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_03353_DELIM-0x2f_97              0.00%    passed     99.60%
+ 574  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01753_DELIM-0x2f_95              0.07%    passed     99.25%
+ 575  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01802_DELIM-0x2f_02              0.00%    passed     98.60%
+ 576  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_04710_DELIM-0x2f_97              0.00%    passed     99.42%
+ 577  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_01956_DELIM-0x2f_97              0.00%    passed     98.42%
+ 578  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00913_DELIM-0x2f_94              0.00%    passed     99.09%
+ 579  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00800_DELIM-0x2f_94              0.00%    passed     97.68%
+ 580  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00907_DELIM-0x2f_94              0.00%    passed     97.00%
+ 581  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01318_DELIM-0x2f_96              0.00%    passed     99.09%
+ 582  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01697_DELIM-0x2f_96              0.00%    passed     98.53%
+ 583  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_05746_DELIM-0x2f_97              0.00%    passed     97.00%
+ 584  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_01909_DELIM-0x2f_99              0.00%    passed     99.77%
+ 585  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_02864_DELIM-0x2f_99              0.00%    passed     99.77%
+ 586  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_07180_DELIM-0x2f_97              0.00%    passed     99.68%
+ 587  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02000_DELIM-0x2f_98              0.00%    passed     99.35%
+ 588  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_01335_DELIM-0x2f_98              0.00%    passed     96.32%
+ 589  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_01425_DELIM-0x2f_97              0.00%    passed     96.21%
+ 590  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_05951_DELIM-0x2f_99              0.00%    passed     98.34%
+ 591  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01908_DELIM-0x2f_96              0.00%    passed     99.97%
+ 592  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01837_DELIM-0x2f_03              0.00%    passed     99.42%
+ 593  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_05364_DELIM-0x2f_99              0.00%    passed     98.98%
+ 594  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00008_DELIM-0x2f_12              0.00%    passed     97.16%
+ 595  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_00075_DELIM-0x2f_10              0.00%    passed     96.99%
+ 596  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00638_DELIM-0x2f_12              0.00%    passed     95.95%
+ 597  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01601_DELIM-0x2f_10              0.00%    passed     97.46%
+ 598  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00065_DELIM-0x2f_13              0.00%    passed     96.70%
+ 599  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00519_DELIM-0x2f_12              0.00%    passed     96.05%
+ 600  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00507_DELIM-0x2f_11              0.00%    passed     96.05%
+ 601  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00541_DELIM-0x2f_11              0.00%    passed     96.70%
+ 602  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_01363_DELIM-0x2f_11              0.00%    passed     95.10%
+ 603  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01575_DELIM-0x2f_10              0.00%    passed     96.70%
+ 604  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_01278_DELIM-0x2f_11              0.00%    passed     96.05%
+ 605  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00749_DELIM-0x2f_12              0.00%    passed     96.70%
+ 606  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00923_DELIM-0x2f_11              0.00%    passed     96.05%
+ 607  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00266_DELIM-0x2f_12              0.00%    passed     94.96%
+ 608  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00497_DELIM-0x2f_11              0.00%    passed     94.31%
+ 609  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00112_DELIM-0x2f_06              0.00%    passed     98.98%
+ 610  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01276_DELIM-0x2f_06              0.00%    passed     98.98%
+ 611  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01333_DELIM-0x2f_06              0.00%    passed     98.98%
+ 612  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00288_DELIM-0x2f_06              0.00%    passed     99.18%
+ 613  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02763_DELIM-0x2f_06              0.00%    passed     99.18%
+ 614  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00253_DELIM-0x2f_06              0.00%    passed     98.98%
+ 615  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02384_DELIM-0x2f_06              0.00%    passed     98.98%
+ 616  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01935_DELIM-0x2f_06              0.07%    passed     99.13%
+ 617  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01423_DELIM-0x2f_06              0.00%    passed     98.98%
+ 618  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00669_DELIM-0x2f_02              0.00%    passed     98.98%
+ 619  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02812_DELIM-0x2f_06              0.00%    passed     98.57%
+ 620  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04298_DELIM-0x2f_98              0.00%    passed     98.57%
+ 621  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01128_DELIM-0x2f_06              0.00%    passed     99.18%
+ 622  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01651_DELIM-0x2f_06              0.00%    passed     99.18%
+ 623  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02341_DELIM-0x2f_06              0.00%    passed     98.98%
+ 624  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00567_DELIM-0x2f_03              0.00%    passed     99.42%
+ 625  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01468_DELIM-0x2f_03              0.00%    passed     99.42%
+ 626  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_05379_DELIM-0x2f_99              0.00%    passed     99.42%
+ 627  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01847_DELIM-0x2f_03              0.00%    passed     99.58%
+ 628  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_01144_DELIM-0x2f_04              0.00%    passed     99.42%
+ 629  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_01022_DELIM-0x2f_01              0.00%    passed     99.60%
+ 630  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01651_DELIM-0x2f_03              0.00%    passed     99.60%
+ 631  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00209_DELIM-0x2f_11              0.00%    passed     97.76%
+ 632  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00509_DELIM-0x2f_11              0.00%    passed     97.59%
+ 633  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2009_DELIM-0x2f_01231_DELIM-0x2f_09              0.00%    passed     96.97%
+ 634  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2009_DELIM-0x2f_00702_DELIM-0x2f_09              0.00%    passed     98.09%
+ 635  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00273_DELIM-0x2f_01              0.00%    passed     99.09%
+ 636  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01655_DELIM-0x2f_96              0.00%    passed     99.42%
+ 637  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00501_DELIM-0x2f_02              0.00%    passed     99.82%
+ 638  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_02171_DELIM-0x2f_96              0.00%    passed     99.84%
+ 639  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_06503_DELIM-0x2f_01              0.00%    passed     99.84%
+ 640  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_03565_DELIM-0x2f_99              0.00%    passed     99.76%
+ 641  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00368_DELIM-0x2f_12              0.00%    passed     95.26%
+ 642  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00798_DELIM-0x2f_12              0.00%    passed     95.26%
+ 643  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_01131_DELIM-0x2f_12              0.00%    passed     96.97%
+ 644  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00842_DELIM-0x2f_11              0.00%    passed     99.55%
+ 645  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00156_DELIM-0x2f_06              0.00%    passed     99.95%
+ 646  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00293_DELIM-0x2f_06              0.00%    passed     99.95%
+ 647  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00583_DELIM-0x2f_06              0.00%    passed     99.95%
+ 648  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00846_DELIM-0x2f_05              0.00%    passed     99.95%
+ 649  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01404_DELIM-0x2f_05              0.00%    passed     99.95%
+ 650  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00980_DELIM-0x2f_05              0.00%    passed     99.95%
+ 651  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00618_DELIM-0x2f_06              0.00%    passed     99.99%
+ 652  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01569_DELIM-0x2f_05              0.00%    passed     99.95%
+ 653  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00708_DELIM-0x2f_06              0.00%    passed     99.98%
+ 654  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00717_DELIM-0x2f_06              0.00%    passed     99.98%
+ 655  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00872_DELIM-0x2f_05              0.00%    passed     99.95%
+ 656  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_06117_DELIM-0x2f_01              0.00%    passed     99.95%
+ 657  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01565_DELIM-0x2f_05              0.00%    passed     99.95%
+ 658  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00706_DELIM-0x2f_02              0.00%    passed     99.99%
+ 659  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_05838_DELIM-0x2f_01              0.07%    passed     99.99%
+ 660  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01781_DELIM-0x2f_06              0.00%    passed     99.99%
+ 661  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02292_DELIM-0x2f_06              0.00%    passed     99.99%
+ 662  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02121_DELIM-0x2f_06              0.00%    passed     99.95%
+ 663  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02277_DELIM-0x2f_06              0.00%    passed     99.99%
+ 664  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02814_DELIM-0x2f_06              0.00%    passed     99.98%
+ 665  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02174_DELIM-0x2f_06              0.00%    passed     99.99%
+ 666  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01536_DELIM-0x2f_06              0.00%    passed     99.84%
+ 667  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01691_DELIM-0x2f_06              0.00%    passed     99.84%
+ 668  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00159_DELIM-0x2f_05              0.00%    passed     99.90%
+ 669  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00557_DELIM-0x2f_06              0.00%    passed     99.99%
+ 670  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_01393_DELIM-0x2f_04              0.00%    passed     99.95%
+ 671  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_00602_DELIM-0x2f_04              0.00%    passed     99.99%
+ 672  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_01184_DELIM-0x2f_04              0.00%    passed     99.99%
+ 673  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04763_DELIM-0x2f_98              0.00%    passed     99.84%
+ 674  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01085_DELIM-0x2f_03              0.07%    passed     99.70%
+ 675  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00852_DELIM-0x2f_05              0.00%    passed     98.51%
+ 676  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02485_DELIM-0x2f_06              0.00%    passed     98.99%
+ 677  DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2008_DELIM-0x2f_GU131905                         0.00%    passed     99.94%
+ 678  DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2007_DELIM-0x2f_FJ639713                         0.00%    passed     99.98%
+ 679  DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2007_DELIM-0x2f_FJ639714                         0.00%    passed     99.89%
+ 680  DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2007_DELIM-0x2f_FJ639731                         0.00%    passed     99.10%
+ 681  DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2008_DELIM-0x2f_FJ639716                         0.00%    passed     99.77%
+ 682  DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2008_DELIM-0x2f_HM631854                         0.00%    passed     99.95%
+ 683  DENV3_DELIM-0x2f_VIETNAM_DELIM-0x2f_2006_DELIM-0x2f_BID-V1329                         0.00%    passed     99.82%
+ 684  DENV3_DELIM-0x2f_VIETNAM_DELIM-0x2f_2007_DELIM-0x2f_BID-V1817                         0.00%    passed     99.25%
+ 685  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00088_DELIM-0x2f_12              0.00%    passed     97.91%
+ 686  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01029_DELIM-0x2f_10              0.00%    passed     99.29%
+ 687  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01508_DELIM-0x2f_10              0.00%    passed     99.00%
+ 688  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00912_DELIM-0x2f_13              0.07%    passed     97.95%
+ 689  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00323_DELIM-0x2f_11              0.00%    passed     99.71%
+ 690  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00838_DELIM-0x2f_11              0.00%    passed     99.71%
+ 691  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00633_DELIM-0x2f_06              0.00%    passed     99.61%
+ 692  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01067_DELIM-0x2f_06              0.00%    passed     99.61%
+ 693  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01285_DELIM-0x2f_06              0.00%    passed     99.61%
+ 694  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01375_DELIM-0x2f_06              0.00%    passed     99.61%
+ 695  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00778_DELIM-0x2f_06              0.00%    passed     99.61%
+ 696  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00819_DELIM-0x2f_06              0.00%    passed     99.61%
+ 697  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01262_DELIM-0x2f_06              0.00%    passed     99.61%
+ 698  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01284_DELIM-0x2f_06              0.00%    passed     99.61%
+ 699  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02038_DELIM-0x2f_06              0.00%    passed     99.84%
+ 700  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_06068_DELIM-0x2f_98              0.00%    passed     99.61%
+ 701  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01372_DELIM-0x2f_06              0.00%    passed     99.61%
+ 702  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01933_DELIM-0x2f_06              0.00%    passed     99.61%
+ 703  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04946_DELIM-0x2f_98              0.00%    passed     99.61%
+ 704  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_06070_DELIM-0x2f_98              0.00%    passed     99.22%
+ 705  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02704_DELIM-0x2f_06              0.00%    passed     99.61%
+ 706  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00831_DELIM-0x2f_06              0.00%    passed     99.84%
+ 707  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01253_DELIM-0x2f_06              0.00%    passed     99.84%
+ 708  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02051_DELIM-0x2f_06              0.00%    passed     99.86%
+ 709  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01369_DELIM-0x2f_06              0.00%    passed     99.84%
+ 710  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_06912_DELIM-0x2f_98              0.00%    passed     99.62%
+ 711  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02042_DELIM-0x2f_06              0.00%    passed     99.86%
+ 712  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02111_DELIM-0x2f_06              0.00%    passed     99.61%
+ 713  DENV3_DELIM-0x2f_MYANMAR_DELIM-0x2f_2008_DELIM-0x2f_80931                             0.00%    passed     99.02%
+ 714  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01467_DELIM-0x2f_10              0.00%    passed     99.71%
+ 715  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2008_DELIM-0x2f_01398_DELIM-0x2f_08              0.00%    passed     97.85%
+ 716  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02490_DELIM-0x2f_06              0.00%    passed     99.91%
+ 717  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01373_DELIM-0x2f_06              0.00%    passed     99.63%
+ 718  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02551_DELIM-0x2f_98              0.00%    passed     99.40%
+ 719  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02784_DELIM-0x2f_06              0.00%    passed     99.40%
+ 720  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02185_DELIM-0x2f_06              0.00%    passed     98.96%
+ 721  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02202_DELIM-0x2f_06              0.00%    passed     98.96%
+ 722  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01378_DELIM-0x2f_10              0.00%    passed     99.61%
+ 723  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_01445_DELIM-0x2f_11              0.00%    passed     99.45%
+ 724  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01530_DELIM-0x2f_05              0.00%    passed     99.96%
+ 725  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00128_DELIM-0x2f_94              0.00%    passed     97.48%
+ 726  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00130_DELIM-0x2f_94              0.00%    passed     97.48%
+ 727  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30055_DELIM-0x2f_94              0.00%    passed     99.25%
+ 728  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30060_DELIM-0x2f_94              0.00%    passed     99.25%
+ 729  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30017_DELIM-0x2f_94              0.00%    passed     98.54%
+ 730  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30362_DELIM-0x2f_94              0.00%    passed     97.88%
+ 731  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30334_DELIM-0x2f_94              0.00%    passed     98.02%
+ 732  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_05100_DELIM-0x2f_97              0.00%    passed     98.54%
+ 733  DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00929_DELIM-0x2f_01              0.00%    passed     72.41%
+ 734  DENV3_DELIM-0x2f_FIJI_DELIM-0x2f_1992_DELIM-0x2f_29472-L11422-I                       0.07%    passed     95.30%
+ 735  DENV3_DELIM-0x2f_INDONESIA_DELIM-0x2f_1978_DELIM-0x2f_SLEMAN-1280-AC25                0.00%    passed     93.21%
+ 736  DENV3_DELIM-0x2f_PUERTO-RICO_DELIM-0x2f_1963_DELIM-0x2f_PRS-228762-AC27               0.00%    passed     98.92%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                 0.53%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-603_DELIM-0x2f_2012 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-30121_DELIM-0x2f_2012 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0690589_DELIM-0x2f_2013 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000110_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-311_DELIM-0x2f_2010 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-310_DELIM-0x2f_2010 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-605_DELIM-0x2f_2013 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-301222_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000004_DELIM-0x2f_2013 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000013_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000034_DELIM-0x2f_2012 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000017_DELIM-0x2f_2012 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000103_DELIM-0x2f_2012 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000027_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000020_DELIM-0x2f_2013 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000019_DELIM-0x2f_2013 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-2978_DELIM-0x2f_2001 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-3012_DELIM-0x2f_2001 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00006_DELIM-0x2f_2003 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000035_DELIM-0x2f_2003 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000034_DELIM-0x2f_2003 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000042_DELIM-0x2f_2003 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DH163_DELIM-0x2f_2003 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000059_DELIM-0x2f_2003 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CDC-029_DELIM-0x2f_2007 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000038_DELIM-0x2f_2007 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00012_DELIM-0x2f_2004 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000045_DELIM-0x2f_2004 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00005_DELIM-0x2f_2003 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000057_DELIM-0x2f_2003 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000026_DELIM-0x2f_2005 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000016_DELIM-0x2f_2005 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00016_DELIM-0x2f_2006 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000018_DELIM-0x2f_2006 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-301_DELIM-0x2f_2003 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-299_DELIM-0x2f_2003 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00007_DELIM-0x2f_2003 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00003_DELIM-0x2f_2001 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-52920369_DELIM-0x2f_2003 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-5379_DELIM-0x2f_2003 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-158590270_DELIM-0x2f_2002 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-223790472_DELIM-0x2f_2004 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-449334_DELIM-0x2f_2015 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-449241_DELIM-0x2f_2015 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-449959_DELIM-0x2f_2015 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-449499_DELIM-0x2f_2015 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02343_DELIM-0x2f_2023 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-08706-2-VI_DELIM-0x2f_2023 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02335_DELIM-0x2f_2023 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06340-VI_DELIM-0x2f_2023 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2404622_DELIM-0x2f_2024 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2401928_DELIM-0x2f_2024 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02780_DELIM-0x2f_2024 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405830_DELIM-0x2f_2024 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02539_DELIM-0x2f_2024 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2402565_DELIM-0x2f_2024 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2406948-VI_DELIM-0x2f_2024 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-08766-2-VI_DELIM-0x2f_2023 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CNIH-449335_DELIM-0x2f_2015 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-449683_DELIM-0x2f_2015 but kept for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CNIH-476947_DELIM-0x2f_2016 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-483948_DELIM-0x2f_2016 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00999_DELIM-0x2f_12 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00146_DELIM-0x2f_14 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00759_DELIM-0x2f_14 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00432_DELIM-0x2f_14 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00705_DELIM-0x2f_14 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00654_DELIM-0x2f_14 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_00245_DELIM-0x2f_00 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00072_DELIM-0x2f_03 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00430_DELIM-0x2f_02 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_00190_DELIM-0x2f_98 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00152_DELIM-0x2f_01 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00023_DELIM-0x2f_01 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00651_DELIM-0x2f_06 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00142_DELIM-0x2f_02 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_01250_DELIM-0x2f_98 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00767_DELIM-0x2f_02 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01472_DELIM-0x2f_02 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00631_DELIM-0x2f_95 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02701_DELIM-0x2f_06 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00008_DELIM-0x2f_06 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02632_DELIM-0x2f_06 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02515_DELIM-0x2f_06 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04502_DELIM-0x2f_01 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00676_DELIM-0x2f_06 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_02080_DELIM-0x2f_00 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01330_DELIM-0x2f_00 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_01146_DELIM-0x2f_94 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00344_DELIM-0x2f_95 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_04945_DELIM-0x2f_97 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_02251_DELIM-0x2f_02 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01317_DELIM-0x2f_95 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00515_DELIM-0x2f_94 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01672_DELIM-0x2f_00 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01654_DELIM-0x2f_00 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_03767_DELIM-0x2f_99 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01619_DELIM-0x2f_03 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00081_DELIM-0x2f_95 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00031_DELIM-0x2f_95 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30590_DELIM-0x2f_94 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_01096_DELIM-0x2f_94 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00536_DELIM-0x2f_02 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00503_DELIM-0x2f_02 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01505_DELIM-0x2f_96 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01251_DELIM-0x2f_06 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30621_DELIM-0x2f_94 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30520_DELIM-0x2f_94 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30175_DELIM-0x2f_95 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30110_DELIM-0x2f_95 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01979_DELIM-0x2f_03 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01393_DELIM-0x2f_03 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_02864_DELIM-0x2f_99 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_01909_DELIM-0x2f_99 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_01278_DELIM-0x2f_11 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00507_DELIM-0x2f_11 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01276_DELIM-0x2f_06 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00112_DELIM-0x2f_06 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04298_DELIM-0x2f_98 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02812_DELIM-0x2f_06 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01468_DELIM-0x2f_03 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00567_DELIM-0x2f_03 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01651_DELIM-0x2f_03 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_01022_DELIM-0x2f_01 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_06503_DELIM-0x2f_01 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_02171_DELIM-0x2f_96 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00798_DELIM-0x2f_12 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00368_DELIM-0x2f_12 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00293_DELIM-0x2f_06 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00156_DELIM-0x2f_06 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01781_DELIM-0x2f_06 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00618_DELIM-0x2f_06 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00717_DELIM-0x2f_06 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00708_DELIM-0x2f_06 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01691_DELIM-0x2f_06 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01536_DELIM-0x2f_06 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_01184_DELIM-0x2f_04 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_00602_DELIM-0x2f_04 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01067_DELIM-0x2f_06 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00633_DELIM-0x2f_06 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01253_DELIM-0x2f_06 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00831_DELIM-0x2f_06 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02784_DELIM-0x2f_06 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02551_DELIM-0x2f_98 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02202_DELIM-0x2f_06 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02185_DELIM-0x2f_06 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00130_DELIM-0x2f_94 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00128_DELIM-0x2f_94 but kept for subsequent analysis
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30060_DELIM-0x2f_94 is identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30055_DELIM-0x2f_94 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00552907 secs using 1434% CPU
+Identifying sites to remove: done in 0.00361012 secs using 471% CPU
+NOTE: 60 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0671588_DELIM-0x2f_2012 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000110_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0109587_DELIM-0x2f_2012 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000110_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-312_DELIM-0x2f_2010 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-310_DELIM-0x2f_2010) is ignored but added at the end
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000084_DELIM-0x2f_2013 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000013_DELIM-0x2f_2013) is ignored but added at the end
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000028_DELIM-0x2f_2013 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000017_DELIM-0x2f_2012) is ignored but added at the end
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000100_DELIM-0x2f_2013 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000017_DELIM-0x2f_2012) is ignored but added at the end
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000052_DELIM-0x2f_2001 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-3012_DELIM-0x2f_2001) is ignored but added at the end
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00009_DELIM-0x2f_2003 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000059_DELIM-0x2f_2003) is ignored but added at the end
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-303_DELIM-0x2f_2007 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000038_DELIM-0x2f_2007) is ignored but added at the end
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00013_DELIM-0x2f_2004 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000045_DELIM-0x2f_2004) is ignored but added at the end
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00014_DELIM-0x2f_2005 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000016_DELIM-0x2f_2005) is ignored but added at the end
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02514_DELIM-0x2f_2024 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06340-VI_DELIM-0x2f_2023) is ignored but added at the end
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02783_DELIM-0x2f_2024 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06340-VI_DELIM-0x2f_2023) is ignored but added at the end
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2402864_DELIM-0x2f_2024 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2401928_DELIM-0x2f_2024) is ignored but added at the end
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02462_DELIM-0x2f_2023 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2401928_DELIM-0x2f_2024) is ignored but added at the end
+NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02848_DELIM-0x2f_2024 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2401928_DELIM-0x2f_2024) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_01094_DELIM-0x2f_12 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00146_DELIM-0x2f_14) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_02029_DELIM-0x2f_00 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_00190_DELIM-0x2f_98) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_01293_DELIM-0x2f_98 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_00190_DELIM-0x2f_98) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_06047_DELIM-0x2f_99 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_00190_DELIM-0x2f_98) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_00557_DELIM-0x2f_99 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00023_DELIM-0x2f_01) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01300_DELIM-0x2f_02 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00767_DELIM-0x2f_02) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01828_DELIM-0x2f_96 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00631_DELIM-0x2f_95) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01720_DELIM-0x2f_96 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00631_DELIM-0x2f_95) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00936_DELIM-0x2f_01 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00676_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05632_DELIM-0x2f_00 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01330_DELIM-0x2f_00) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05815_DELIM-0x2f_00 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01330_DELIM-0x2f_00) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30677_DELIM-0x2f_94 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30520_DELIM-0x2f_94) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30195_DELIM-0x2f_95 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30110_DELIM-0x2f_95) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00923_DELIM-0x2f_11 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00507_DELIM-0x2f_11) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01333_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00112_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00253_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00112_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02384_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00112_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00669_DELIM-0x2f_02 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00112_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02341_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00112_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_05379_DELIM-0x2f_99 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00567_DELIM-0x2f_03) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_01144_DELIM-0x2f_04 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00567_DELIM-0x2f_03) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00583_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00156_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00846_DELIM-0x2f_05 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00156_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01404_DELIM-0x2f_05 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00156_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00980_DELIM-0x2f_05 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00156_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01569_DELIM-0x2f_05 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00156_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00872_DELIM-0x2f_05 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00156_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_06117_DELIM-0x2f_01 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00156_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01565_DELIM-0x2f_05 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00156_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_01393_DELIM-0x2f_04 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00156_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02292_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00618_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02277_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00618_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01285_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00633_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01375_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00633_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00778_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00633_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00819_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00633_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01262_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00633_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01284_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00633_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_06068_DELIM-0x2f_98 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00633_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01372_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00633_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01933_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00633_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04946_DELIM-0x2f_98 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00633_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02704_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00633_DELIM-0x2f_06) is ignored but added at the end
+NOTE: DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01369_DELIM-0x2f_06 (identical to DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00831_DELIM-0x2f_06) is ignored but added at the end
+Alignment was printed to ../resources/merged_data/cropped/align_DENV3-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to ../resources/merged_data/cropped/align_DENV3-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.070 seconds
+
+NOTE: 63 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 16 CPU cores
+Increase to 10 rounds for branch lengths
+32 trees examined
+Threads: 1 / Time: 16.181 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -115337
+Threads: 2 / Time: 11.296 sec / Speedup: 1.432 / Efficiency: 72% / LogL: -115337
+Threads: 3 / Time: 9.495 sec / Speedup: 1.704 / Efficiency: 57% / LogL: -115337
+Threads: 4 / Time: 8.480 sec / Speedup: 1.908 / Efficiency: 48% / LogL: -115337
+Determining AUTO threadcount: done in 45.4697 secs using 219.5% CPU
+BEST NUMBER OF THREADS: 3
+
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -18107.347
+2. Current log-likelihood: -16182.503
+3. Current log-likelihood: -16167.108
+4. Current log-likelihood: -16165.930
+Optimal log-likelihood: -16165.754
+Rate parameters:  A-C: 1.14843  A-G: 14.11601  A-T: 2.41950  C-G: 0.74417  C-T: 43.75291  G-T: 1.00000
+Base frequencies:  A: 0.314  C: 0.196  G: 0.272  T: 0.218
+Gamma shape alpha: 0.315
+Parameters optimization took 4 rounds (1.853 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.292383 secs using 299.9% CPU
+Computing ML distances took 0.293035 sec (of wall-clock time) 0.877376 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00265116 secs using 332% CPU
+Constructing RapidNJ tree: done in 0.086289 secs using 178.1% CPU
+Computing RapidNJ tree took 0.089010 sec (of wall-clock time) 0.162655 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -16672.942
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.468583 secs using 293.5% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -16137.163
+Optimizing NNI: done in 1.08161 secs using 293.8% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -16137.163 / CPU time: 1.713
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:49s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -16137.163
+Optimal log-likelihood: -16137.155
+Rate parameters:  A-C: 1.14700  A-G: 14.09893  A-T: 2.36293  C-G: 0.74952  C-T: 43.75385  G-T: 1.00000
+Base frequencies:  A: 0.314  C: 0.196  G: 0.272  T: 0.218
+Gamma shape alpha: 0.311
+Parameters optimization took 1 rounds (0.118 sec)
+BEST SCORE FOUND : -16137.155
+Total tree length: 1.385
+
+Total number of iterations: 2
+CPU time used for tree search: 5.041 sec (0h:0m:5s)
+Wall-clock time used for tree search: 1.714 sec (0h:0m:1s)
+Total CPU time used: 112.667 sec (0h:1m:52s)
+Total wall-clock time used: 49.896 sec (0h:0m:49s)
+
+Analysis results written to: 
+  IQ-TREE report:                ../resources/merged_data/cropped/align_DENV3-delim.fasta.iqtree
+  Maximum-likelihood tree:       ../resources/merged_data/cropped/align_DENV3-delim.fasta.treefile
+  Likelihood distances:          ../resources/merged_data/cropped/align_DENV3-delim.fasta.mldist
+  Screen log file:               ../resources/merged_data/cropped/align_DENV3-delim.fasta.log
+
+Date and Time: Wed Jul 15 14:58:36 2026

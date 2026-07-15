@@ -1,3 +1,3 @@
 ##gff-version 3
-DENV1/THAILAND/2006/00002/06	.	source	1	1485	.	+	.	ID=nuc
-DENV1/THAILAND/2006/00002/06	.	gene	1	1485	.	+	.	ID=E;Name=E;gene=E
+DENV1/NAURU/1974/RDENV1-WP-1A	.	source	1	1485	.	+	.	ID=nuc
+DENV1/NAURU/1974/RDENV1-WP-1A	.	gene	1	1485	.	+	.	ID=E;Name=E;gene=E
