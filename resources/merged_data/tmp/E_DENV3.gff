@@ -1,5 +1,5 @@
 ##gff-version 3
 hDenV3/Colombia/un-OUCRU-30121/2012	.	source	1	1479	.	+	.	ID=nuc
 hDenV3/Colombia/un-OUCRU-30121/2012	.	gene	1	1479	.	+	.	ID=E;Name=E;gene=E
-NC_001475.2	.	source	1	1479	.	+	.	ID=nuc
-NC_001475.2	.	gene	1	1479	.	+	.	ID=E;Name=E;gene=E
+DENV3/THAILAND/2001/00005/01	.	source	1	1485	.	+	.	ID=nuc
+DENV3/THAILAND/2001/00005/01	.	gene	1	1485	.	+	.	ID=E;Name=E;gene=E

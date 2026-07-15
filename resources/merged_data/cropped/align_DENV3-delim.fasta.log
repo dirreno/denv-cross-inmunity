@@ -5,1139 +5,483 @@ Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
 
 Host:    dirreno-B650-AORUS-ELITE-AX (AVX512, FMA3, 30 GB RAM)
 Command: iqtree3 --threads-max 16 -s ../resources/merged_data/cropped/align_DENV3-delim.fasta -m GTR+G --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo
-Seed:    422571 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Wed May 13 18:23:34 2026
+Seed:    71196 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jul 14 20:45:53 2026
 Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
 
 Reading alignment file ../resources/merged_data/cropped/align_DENV3-delim.fasta ... Fasta format detected
-Reading fasta file: done in 0.00893467 secs using 89.58% CPU
-Alignment most likely contains DNA/RNA sequences
-Constructing alignment: done in 0.00600763 secs using 1298% CPU
-Alignment has 890 sequences with 1479 columns, 757 distinct patterns
-498 parsimony-informative, 150 singleton sites, 831 constant sites
-                                                                                    Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 8.2606e-05 secs using 3623% CPU
-   1  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-30121_DELIM-0x2f_2012                  0.00%    passed     99.03%
-   2  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-603_DELIM-0x2f_2012                    0.00%    passed     99.03%
-   3  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000108_DELIM-0x2f_2012                0.00%    passed     99.54%
-   4  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000112_DELIM-0x2f_2013                0.00%    passed     99.57%
-   5  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000059_DELIM-0x2f_2013                0.00%    passed     99.29%
-   6  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000057_DELIM-0x2f_2013                0.00%    passed     99.92%
-   7  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-562_DELIM-0x2f_2015                    0.00%    passed     99.17%
-   8  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-563_DELIM-0x2f_2014                    0.00%    passed     99.06%
-   9  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000110_DELIM-0x2f_2013                0.00%    passed     97.39%
-  10  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000111_DELIM-0x2f_2013                0.00%    passed     98.62%
-  11  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000054_DELIM-0x2f_2013                0.00%    passed     98.99%
-  12  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000056_DELIM-0x2f_2013                0.00%    passed     99.54%
-  13  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000055_DELIM-0x2f_2013                0.00%    passed     99.57%
-  14  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0221590_DELIM-0x2f_2013                 0.00%    passed     98.45%
-  15  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0690589_DELIM-0x2f_2013                 0.00%    passed     97.39%
-  16  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0671588_DELIM-0x2f_2012                 0.00%    passed     97.39%
-  17  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0109587_DELIM-0x2f_2012                 0.00%    passed     97.39%
-  18  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0757593_DELIM-0x2f_2013                 0.00%    passed     97.73%
-  19  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00017_DELIM-0x2f_2007                   0.00%    passed     99.94%
-  20  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-306_DELIM-0x2f_2009                    0.00%    passed     99.97%
-  21  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-308_DELIM-0x2f_2009                    0.00%    passed     99.85%
-  22  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-313_DELIM-0x2f_2010                    0.00%    passed     99.90%
-  23  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-310_DELIM-0x2f_2010                    0.00%    passed     99.94%
-  24  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-311_DELIM-0x2f_2010                    0.00%    passed     99.94%
-  25  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-312_DELIM-0x2f_2010                    0.00%    passed     99.94%
-  26  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-318_DELIM-0x2f_2010                    0.00%    passed     99.94%
-  27  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-319_DELIM-0x2f_2010                    0.00%    passed     99.94%
-  28  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-315_DELIM-0x2f_2010                    0.00%    passed     99.90%
-  29  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-317_DELIM-0x2f_2010                    0.00%    passed     99.94%
-  30  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-309_DELIM-0x2f_2010                    0.00%    passed     99.99%
-  31  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UIDS-1080215_DELIM-0x2f_2015                0.00%    passed     99.71%
-  32  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-291_DELIM-0x2f_2015                    0.00%    passed     98.85%
-  33  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000045_DELIM-0x2f_2016                 0.00%    passed     99.71%
-  34  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SUC-UDS-Cz19583_DELIM-0x2f_2013                 0.00%    passed     98.62%
-  35  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SUC-UDS-Cz08584_DELIM-0x2f_2013                 0.00%    passed     97.18%
-  36  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SUC-UDS-Si36585_DELIM-0x2f_2013                 0.00%    passed     98.26%
-  37  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000053_DELIM-0x2f_2014                 0.00%    passed     97.26%
-  38  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-301222_DELIM-0x2f_2013                 0.00%    passed     99.41%
-  39  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-605_DELIM-0x2f_2013                    0.00%    passed     99.41%
-  40  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000013_DELIM-0x2f_2013                0.00%    passed     99.81%
-  41  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000004_DELIM-0x2f_2013                0.00%    passed     99.81%
-  42  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000084_DELIM-0x2f_2013                0.00%    passed     99.81%
-  43  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000017_DELIM-0x2f_2012                0.00%    passed     99.81%
-  44  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000034_DELIM-0x2f_2012                0.00%    passed     99.81%
-  45  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000041_DELIM-0x2f_2012                0.00%    passed     99.81%
-  46  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000032_DELIM-0x2f_2013                0.00%    passed     99.94%
-  47  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000021_DELIM-0x2f_2012                0.00%    passed     99.94%
-  48  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000026_DELIM-0x2f_2013                0.00%    passed     99.90%
-  49  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000033_DELIM-0x2f_2013                0.00%    passed     99.81%
-  50  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000027_DELIM-0x2f_2013                0.00%    passed     99.60%
-  51  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000025_DELIM-0x2f_2012                0.00%    passed     99.81%
-  52  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000001_DELIM-0x2f_2013                0.00%    passed     99.94%
-  53  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000037_DELIM-0x2f_2012                0.00%    passed     99.80%
-  54  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000019_DELIM-0x2f_2013                0.00%    passed     99.34%
-  55  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000020_DELIM-0x2f_2013                0.00%    passed     99.34%
-  56  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000106_DELIM-0x2f_2013                0.00%    passed     99.64%
-  57  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000024_DELIM-0x2f_2013                0.00%    passed     99.80%
-  58  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000038_DELIM-0x2f_2013                0.00%    passed     99.91%
-  59  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000101_DELIM-0x2f_2013                0.00%    passed     99.94%
-  60  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000028_DELIM-0x2f_2013                0.00%    passed     99.81%
-  61  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000103_DELIM-0x2f_2012                0.00%    passed     99.60%
-  62  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000100_DELIM-0x2f_2013                0.00%    passed     99.81%
-  63  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000099_DELIM-0x2f_2012                0.00%    passed     99.91%
-  64  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000039_DELIM-0x2f_2012                0.00%    passed     99.80%
-  65  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000083_DELIM-0x2f_2013                0.00%    passed     99.80%
-  66  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000022_DELIM-0x2f_2012                0.00%    passed     99.80%
-  67  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000007_DELIM-0x2f_2013                0.00%    passed     99.94%
-  68  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000105_DELIM-0x2f_2013                0.00%    passed     99.68%
-  69  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000036_DELIM-0x2f_2013                0.00%    passed     99.94%
-  70  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000082_DELIM-0x2f_2013                0.00%    passed     99.97%
-  71  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000002_DELIM-0x2f_2012                0.00%    passed     99.65%
-  72  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000030_DELIM-0x2f_2012                0.00%    passed     99.65%
-  73  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000089_DELIM-0x2f_2012                0.00%    passed     99.78%
-  74  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000009_DELIM-0x2f_2013                0.00%    passed     99.46%
-  75  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000035_DELIM-0x2f_2013                0.00%    passed     99.90%
-  76  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000018_DELIM-0x2f_2012                0.00%    passed     99.78%
-  77  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-JAC_DELIM-0x2f_2009                      0.00%    passed     99.70%
-  78  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00019_DELIM-0x2f_2004                   0.00%    passed     99.77%
-  79  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-7370_DELIM-0x2f_2006                     0.00%    passed     99.13%
-  80  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-2836_DELIM-0x2f_2003                     0.07%    passed     99.75%
-  81  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-110490373_DELIM-0x2f_2003               0.00%    passed     99.87%
-  82  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-312330474_DELIM-0x2f_2004               0.00%    passed     99.88%
-  83  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-2731_DELIM-0x2f_2007                     0.00%    passed     99.63%
-  84  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-182060578_DELIM-0x2f_2005               0.00%    passed     99.80%
-  85  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-34540776_DELIM-0x2f_2007                0.00%    passed     99.52%
-  86  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-38320677_DELIM-0x2f_2006                0.00%    passed     99.88%
-  87  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-12363_DELIM-0x2f_2005                    0.00%    passed     99.64%
-  88  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-2754_DELIM-0x2f_2007                     0.00%    passed     99.12%
-  89  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-304_DELIM-0x2f_2007                    0.00%    passed     99.88%
-  90  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-49430675_DELIM-0x2f_2006                0.00%    passed     98.20%
-  91  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-305_DELIM-0x2f_2008                    0.00%    passed     99.76%
-  92  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UIS-0000002_DELIM-0x2f_2015                  0.00%    passed     98.08%
-  93  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-HCB-3123670_DELIM-0x2f_2016                  0.00%    passed     99.87%
-  94  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0758592_DELIM-0x2f_2013                 0.00%    passed     99.19%
-  95  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00020_DELIM-0x2f_2005                   0.00%    passed     99.68%
-  96  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-292_DELIM-0x2f_2014                    0.00%    passed     99.85%
-  97  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0267594_DELIM-0x2f_2014                 0.00%    passed     99.79%
-  98  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-3012_DELIM-0x2f_2001                  0.00%    passed     97.76%
-  99  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-2978_DELIM-0x2f_2001                  0.00%    passed     97.76%
- 100  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000052_DELIM-0x2f_2001               0.00%    passed     97.76%
- 101  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000049_DELIM-0x2f_2002               0.00%    passed     98.95%
- 102  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000035_DELIM-0x2f_2003               0.00%    passed     99.85%
- 103  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000054_DELIM-0x2f_2003               0.00%    passed     98.95%
- 104  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000042_DELIM-0x2f_2003               0.00%    passed     99.06%
- 105  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000034_DELIM-0x2f_2003               0.00%    passed     99.06%
- 106  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000040_DELIM-0x2f_2004               0.00%    passed     98.95%
- 107  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000059_DELIM-0x2f_2003               0.00%    passed     98.85%
- 108  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DH163_DELIM-0x2f_2003                   0.00%    passed     98.85%
- 109  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000038_DELIM-0x2f_2007               0.00%    passed     94.91%
- 110  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000045_DELIM-0x2f_2004               0.00%    passed     99.25%
- 111  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000057_DELIM-0x2f_2003               0.00%    passed     99.68%
- 112  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000016_DELIM-0x2f_2005               0.00%    passed     93.06%
- 113  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000026_DELIM-0x2f_2005               0.00%    passed     93.06%
- 114  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000017_DELIM-0x2f_2005               0.00%    passed     98.64%
- 115  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000043_DELIM-0x2f_2007               0.00%    passed     98.64%
- 116  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000018_DELIM-0x2f_2006               0.00%    passed     99.41%
- 117  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CDC-029_DELIM-0x2f_2007                      0.00%    passed     94.91%
- 118  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-303_DELIM-0x2f_2007                    0.00%    passed     94.91%
- 119  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00018_DELIM-0x2f_2007                   0.00%    passed     94.94%
- 120  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00010_DELIM-0x2f_2003                   0.00%    passed     98.92%
- 121  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00002_DELIM-0x2f_2001                   0.00%    passed     99.06%
- 122  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-294_DELIM-0x2f_2002                    0.00%    passed     99.36%
- 123  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-295_DELIM-0x2f_2002                    0.00%    passed     99.58%
- 124  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-298_DELIM-0x2f_2003                    0.00%    passed     98.29%
- 125  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-299_DELIM-0x2f_2003                    0.00%    passed     97.41%
- 126  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-301_DELIM-0x2f_2003                    0.00%    passed     97.41%
- 127  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-296_DELIM-0x2f_2003                    0.00%    passed     98.64%
- 128  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-297_DELIM-0x2f_2003                    0.00%    passed     97.76%
- 129  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-300_DELIM-0x2f_2003                    0.00%    passed     97.76%
- 130  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00009_DELIM-0x2f_2003                   0.00%    passed     98.85%
- 131  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00022_DELIM-0x2f_2002                   0.00%    passed     98.64%
- 132  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00011_DELIM-0x2f_2004                   0.00%    passed     95.95%
- 133  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00012_DELIM-0x2f_2004                   0.00%    passed     99.25%
- 134  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00013_DELIM-0x2f_2004                   0.00%    passed     99.25%
- 135  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00004_DELIM-0x2f_2002                   0.00%    passed     99.74%
- 136  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00008_DELIM-0x2f_2003                   0.00%    passed     99.79%
- 137  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-293_DELIM-0x2f_2002                    0.00%    passed     99.65%
- 138  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00015_DELIM-0x2f_2006                   0.00%    passed     99.85%
- 139  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-302_DELIM-0x2f_2007                    0.00%    passed     99.90%
- 140  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00016_DELIM-0x2f_2006                   0.00%    passed     99.41%
- 141  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00006_DELIM-0x2f_2003                   0.00%    passed     99.85%
- 142  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-314_DELIM-0x2f_2010                    0.00%    passed     99.41%
- 143  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-316_DELIM-0x2f_2010                    0.00%    passed     99.25%
- 144  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00005_DELIM-0x2f_2003                   0.00%    passed     99.68%
- 145  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00003_DELIM-0x2f_2001                   0.00%    passed     97.32%
- 146  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00007_DELIM-0x2f_2003                   0.00%    passed     97.32%
- 147  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-5952_DELIM-0x2f_2003                     0.00%    passed     96.46%
- 148  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-5379_DELIM-0x2f_2003                     0.00%    passed     97.73%
- 149  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-52920369_DELIM-0x2f_2003                0.00%    passed     97.73%
- 150  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-28888_DELIM-0x2f_2006                    0.00%    passed     95.95%
- 151  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-34190768_DELIM-0x2f_2007                0.00%    passed     97.03%
- 152  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-223790472_DELIM-0x2f_2004               0.00%    passed     99.36%
- 153  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-158590270_DELIM-0x2f_2002               0.00%    passed     99.36%
- 154  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-6003_DELIM-0x2f_2007                     0.00%    passed     99.36%
- 155  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-164070271_DELIM-0x2f_2002               0.00%    passed     98.48%
- 156  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-307_DELIM-0x2f_2009                    0.00%    passed     99.87%
- 157  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00023_DELIM-0x2f_2006                   0.00%    passed     97.73%
- 158  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00014_DELIM-0x2f_2005                   0.00%    passed     93.06%
- 159  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000038_DELIM-0x2f_2016                24.95%    passed     39.36%
- 160  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000044_DELIM-0x2f_2016                 0.00%    passed     98.83%
- 161  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000049_DELIM-0x2f_2016                 0.00%    passed     99.92%
- 162  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-449241_DELIM-0x2f_2015                   0.00%    passed     99.71%
- 163  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-449334_DELIM-0x2f_2015                   0.00%    passed     99.71%
- 164  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CNIH-449686_DELIM-0x2f_2015                  0.00%    passed     99.72%
- 165  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-449499_DELIM-0x2f_2015                  0.00%    passed     97.18%
- 166  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CNIH-449982_DELIM-0x2f_2015                  0.00%    passed     99.65%
- 167  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-449959_DELIM-0x2f_2015                  0.00%    passed     97.18%
- 168  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000079_DELIM-0x2f_2013                0.00%    passed     99.86%
- 169  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000102_DELIM-0x2f_2013                0.00%    passed     96.10%
- 170  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-561_DELIM-0x2f_2015                    0.00%    passed     99.06%
- 171  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-564_DELIM-0x2f_2014                    0.00%    passed     99.39%
- 172  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0751591_DELIM-0x2f_2013                 0.00%    passed     99.39%
- 173  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2306902_DELIM-0x2f_2023              0.00%    passed     96.82%
- 174  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2306514_DELIM-0x2f_2023              0.00%    passed     95.44%
- 175  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06515-VI_DELIM-0x2f_2023             0.00%    passed     93.68%
- 176  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06323-VI_DELIM-0x2f_2023            18.73%    passed     77.03%
- 177  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-08706-2-VI_DELIM-0x2f_2023           0.00%    passed     95.44%
- 178  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2402603_DELIM-0x2f_2024              0.07%    passed     94.02%
- 179  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2404366_DELIM-0x2f_2024              0.00%    passed     96.82%
- 180  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2400189_DELIM-0x2f_2024              0.14%    passed     94.99%
- 181  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02322_DELIM-0x2f_2023                 5.14%    passed     96.89%
- 182  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02343_DELIM-0x2f_2023                 0.00%    passed     95.44%
- 183  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02581_DELIM-0x2f_2024                 0.00%    passed     95.44%
- 184  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02369_DELIM-0x2f_2023                 9.26%    passed     82.32%
- 185  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02502_DELIM-0x2f_2024                 0.00%    passed     96.10%
- 186  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02561_DELIM-0x2f_2024                 0.00%    passed     94.58%
- 187  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02798_DELIM-0x2f_2024                 0.00%    passed     96.92%
- 188  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02694_DELIM-0x2f_2024                 5.21%    passed     98.31%
- 189  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02580_DELIM-0x2f_2024                 0.00%    passed     95.07%
- 190  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06340-VI_DELIM-0x2f_2023             0.00%    passed     90.51%
- 191  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-08356-2-VI_DELIM-0x2f_2023           8.25%    passed     73.53%
- 192  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2401928_DELIM-0x2f_2024              0.00%    passed     91.99%
- 193  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2404622_DELIM-0x2f_2024              0.00%    passed     91.99%
- 194  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405830_DELIM-0x2f_2024              0.00%    passed     89.90%
- 195  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2402565_DELIM-0x2f_2024              0.00%    passed     93.70%
- 196  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2402864_DELIM-0x2f_2024              0.00%    passed     91.99%
- 197  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-08627-2-VI_DELIM-0x2f_2023           0.00%    passed     96.11%
- 198  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-08766-2-VI_DELIM-0x2f_2023           0.00%    passed     92.29%
- 199  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-05877-VI_DELIM-0x2f_2023            18.73%    passed     62.60%
- 200  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-08909-2-VI_DELIM-0x2f_2023           0.00%    passed     96.85%
- 201  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06427-VI_DELIM-0x2f_2023            10.28%    passed     75.12%
- 202  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2404889_DELIM-0x2f_2024              0.00%    passed     84.32%
- 203  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2401605_DELIM-0x2f_2024              0.00%    passed     93.70%
- 204  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02374_DELIM-0x2f_2023                 0.00%    passed     89.90%
- 205  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02850_DELIM-0x2f_2024                 0.07%    passed     92.99%
- 206  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-20240920-1033-VIG_DELIM-0x2f_2024   18.73%    passed     56.62%
- 207  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02782_DELIM-0x2f_2024                 0.00%    passed     90.61%
- 208  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02576_DELIM-0x2f_2024                 0.07%    passed     92.34%
- 209  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02469_DELIM-0x2f_2023                 0.00%    passed     92.10%
- 210  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02586_DELIM-0x2f_2024                 0.14%    passed     91.31%
- 211  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02344_DELIM-0x2f_2023                 6.63%    passed     79.54%
- 212  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02774_DELIM-0x2f_2024                 0.07%    passed     91.39%
- 213  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02824_DELIM-0x2f_2024                 0.00%    passed     92.17%
- 214  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02335_DELIM-0x2f_2023                 0.00%    passed     90.51%
- 215  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02381_DELIM-0x2f_2023                12.91%    passed     99.41%
- 216  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02514_DELIM-0x2f_2024                 0.00%    passed     90.51%
- 217  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02783_DELIM-0x2f_2024                 0.00%    passed     90.51%
- 218  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02477_DELIM-0x2f_2024                13.32%    passed     84.57%
- 219  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02396_DELIM-0x2f_2023                 6.09%    passed     96.13%
- 220  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02760_DELIM-0x2f_2024                 0.07%    passed     89.14%
- 221  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02462_DELIM-0x2f_2023                 0.00%    passed     91.99%
- 222  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02464_DELIM-0x2f_2023                 0.00%    passed     91.99%
- 223  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02780_DELIM-0x2f_2024                 0.00%    passed     89.90%
- 224  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02848_DELIM-0x2f_2024                 0.00%    passed     91.99%
- 225  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02785_DELIM-0x2f_2024                 0.00%    passed     87.43%
- 226  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02539_DELIM-0x2f_2024                 0.00%    passed     93.70%
- 227  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02773_DELIM-0x2f_2024                 0.00%    passed     93.22%
- 228  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02433_DELIM-0x2f_2023                 0.00%    passed     97.93%
- 229  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02341_DELIM-0x2f_2023                10.48%    passed     90.89%
- 230  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02422_DELIM-0x2f_2023                 0.00%    passed     97.14%
- 231  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02564_DELIM-0x2f_2024                 0.00%    passed     97.14%
- 232  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02411_DELIM-0x2f_2023                 9.33%    passed     91.15%
- 233  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02852_DELIM-0x2f_2024                 0.00%    passed     88.37%
- 234  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02819_DELIM-0x2f_2024                25.02%    passed     99.57%
- 235  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2306512_DELIM-0x2f_2023              0.00%    passed     96.03%
- 236  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06576-VI_DELIM-0x2f_2023            18.73%    passed     84.67%
- 237  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02716_DELIM-0x2f_2024                 0.00%    passed     94.05%
- 238  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02415_DELIM-0x2f_2023                 0.00%    passed     97.13%
- 239  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02583_DELIM-0x2f_2024                 0.00%    passed     95.44%
- 240  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2406989-VI_DELIM-0x2f_2024          18.80%    passed     76.41%
- 241  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2407187-VI_DELIM-0x2f_2024          18.73%    passed     67.76%
- 242  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2407449-VI_DELIM-0x2f_2024           0.00%    passed     88.37%
- 243  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2407349-VI_DELIM-0x2f_2024          18.73%    passed     65.28%
- 244  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2406948-VI_DELIM-0x2f_2024           0.00%    passed     92.29%
- 245  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2407697-VI_DELIM-0x2f_2024           0.07%    passed     94.38%
- 246  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405862-VI_DELIM-0x2f_2024          18.73%    passed     76.53%
- 247  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2407446-VI_DELIM-0x2f_2024          18.73%    passed     65.28%
- 248  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2407990-VI_DELIM-0x2f_2024           0.00%    passed     95.00%
- 249  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_CAS-INS-458997_DELIM-0x2f_2015                  0.00%    passed     98.95%
- 250  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-449255_DELIM-0x2f_2015                   0.00%    passed     99.77%
- 251  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-449683_DELIM-0x2f_2015                  0.00%    passed     99.68%
- 252  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CNIH-449335_DELIM-0x2f_2015                  0.00%    passed     99.68%
- 253  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-483948_DELIM-0x2f_2016                  0.00%    passed     99.68%
- 254  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CNIH-476947_DELIM-0x2f_2016                  0.00%    passed     99.68%
- 255  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-484832_DELIM-0x2f_2016                   0.00%    passed     99.19%
- 256  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-459860_DELIM-0x2f_2016                  0.07%    passed     99.61%
- 257  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_CUN-UEB-007_DELIM-0x2f_2014                     0.00%    passed     99.80%
- 258  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-449326_DELIM-0x2f_2015                 11.76%    passed     95.97%
- 259  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-476944_DELIM-0x2f_2016                  0.61%    passed     97.09%
- 260  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000010_DELIM-0x2f_2015                 0.00%    passed     96.77%
- 261  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UIS-0000001_DELIM-0x2f_2014                  0.00%    passed     97.39%
- 262  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000037_DELIM-0x2f_2015                 0.14%    passed     95.65%
- 263  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_CAS-INS-450397_DELIM-0x2f_2015                  5.21%    passed     99.73%
- 264  hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VID-UEB-010_DELIM-0x2f_2023                    51.93%    passed     75.50%
- 265  NC_001475.2                                                                           0.00%    passed     99.77%
- 266  2004.5                                                                                0.00%    passed     96.96%
- 267  2005.5_2                                                                              0.00%    passed     95.34%
- 268  2005.5_3                                                                              0.00%    passed     96.84%
- 269  2007.37                                                                               0.00%    passed     95.22%
- 270  2008.5_8                                                                              0.00%    passed     93.38%
- 271  2014.956                                                                              0.00%    passed     94.36%
- 272  2002.025                                                                              0.00%    passed     95.72%
- 273  2006.348                                                                              0.00%    passed     96.96%
- 274  2006.926                                                                              0.00%    passed     95.34%
- 275  2010.795                                                                              0.00%    passed     99.96%
- 276  2010.825                                                                              0.00%    passed     99.87%
- 277  2011.43                                                                               0.00%    passed     99.96%
- 278  2013.51                                                                               0.00%    passed     99.65%
- 279  2013.808                                                                              0.00%    passed     99.54%
- 280  2011.008                                                                              0.00%    passed     98.26%
- 281  2011.09                                                                               0.00%    passed     98.85%
- 282  2012.798_2                                                                            0.00%    passed     98.83%
- 283  2012.77                                                                               0.00%    passed     99.94%
- 284  2013.507                                                                              0.00%    passed     99.61%
- 285  2011.636                                                                              0.00%    passed     99.83%
- 286  2012.94                                                                               0.00%    passed     99.76%
- 287  2012.973                                                                              0.00%    passed     99.76%
- 288  2014.115                                                                              0.00%    passed     99.76%
- 289  2013.564                                                                              0.00%    passed     99.76%
- 290  2012.984                                                                              0.00%    passed     98.01%
- 291  2013.523                                                                              0.00%    passed     99.76%
- 292  2014.608                                                                              0.00%    passed     99.44%
- 293  2014.937                                                                              0.00%    passed     99.44%
- 294  2013.605_2                                                                            0.00%    passed     99.44%
- 295  2014.877                                                                              0.00%    passed     98.06%
- 296  2013.625                                                                              0.00%    passed     99.65%
- 297  2014.748                                                                              0.00%    passed     99.64%
- 298  2014.71                                                                               0.00%    passed     99.90%
- 299  2014.885                                                                              0.00%    passed     98.01%
- 300  2015.288                                                                              0.00%    passed     99.79%
- 301  2014.66                                                                               0.07%    passed     99.60%
- 302  2014.674                                                                              0.00%    passed     98.88%
- 303  2013.515                                                                              0.00%    passed     99.65%
- 304  2016.79                                                                               0.00%    passed     99.88%
- 305  2016.956                                                                              0.00%    passed     99.88%
- 306  2013.504                                                                              0.00%    passed     99.64%
- 307  2014.91                                                                               0.00%    passed     99.92%
- 308  2016.956_2                                                                            0.00%    passed     99.76%
- 309  2014.921                                                                              0.00%    passed     99.53%
- 310  2014.844                                                                              0.00%    passed     98.92%
- 311  2014.882                                                                              0.00%    passed     98.92%
- 312  2012.874                                                                              0.00%    passed     97.39%
- 313  2012.858                                                                              0.00%    passed     97.57%
- 314  2008.73                                                                               1.28%    passed     97.76%
- 315  2009.914                                                                              3.38%    passed     97.59%
- 316  2013.5_2                                                                              0.00%    passed     97.05%
- 317  2010.647                                                                              5.54%    passed     86.79%
- 318  2007.563                                                                              1.56%    passed     98.45%
- 319  1973.5                                                                                0.00%    passed     99.97%
- 320  1973.5_2                                                                              0.00%    passed     99.80%
- 321  1980.5_2                                                                              0.00%    passed     98.79%
- 322  1977.5                                                                                0.00%    passed     98.64%
- 323  1983.5                                                                                0.20%    passed     97.84%
- 324  1987.5                                                                                0.00%    passed     89.34%
- 325  1980.5                                                                                0.00%    passed     97.86%
- 326  1984.5_2                                                                              0.00%    passed     99.41%
- 327  1983.622                                                                              0.00%    passed     98.79%
- 328  1983.5_2                                                                              0.07%    passed     98.29%
- 329  1983.5_4                                                                              0.00%    passed     98.81%
- 330  1987.5_6                                                                              0.00%    passed     96.40%
- 331  1986.5                                                                                0.00%    passed     99.43%
- 332  1987.5_5                                                                              0.00%    passed     97.84%
- 333  1987.5_7                                                                              0.00%    passed     97.74%
- 334  1986.5_2                                                                              0.07%    passed     97.21%
- 335  1986.956                                                                              0.00%    passed     97.30%
- 336  1987.5_2                                                                              0.00%    passed     97.30%
- 337  1988.708_2                                                                            0.00%    passed     93.92%
- 338  1988.79_2                                                                             0.00%    passed     99.13%
- 339  1987.37                                                                               0.00%    passed     96.55%
- 340  1987.537                                                                              0.00%    passed     98.64%
- 341  1987.5_4                                                                              0.00%    passed     98.64%
- 342  1987.370                                                                              0.00%    passed     97.74%
- 343  1988.708                                                                              0.00%    passed     98.93%
- 344  1988.79                                                                               0.00%    passed     99.18%
- 345  1988.79_3                                                                             0.00%    passed     99.18%
- 346  1987.5_3                                                                              0.00%    passed     97.84%
- 347  1987.203                                                                              0.00%    passed     99.99%
- 348  1987.5_8                                                                              0.07%    passed     99.96%
- 349  1987.5_11                                                                             0.00%    passed     99.91%
- 350  1987.37_2                                                                             0.00%    passed     99.56%
- 351  1987.5_10                                                                             0.00%    passed     99.15%
- 352  1987.5_9                                                                              0.00%    passed     97.91%
- 353  1983.5_3                                                                              0.00%    passed     98.81%
- 354  1980.538                                                                              0.07%    passed     96.06%
- 355  1984.5                                                                                0.00%    passed     99.49%
- 356  1985.5                                                                                0.00%    passed     99.34%
- 357  1994.038                                                                              0.00%    passed     97.90%
- 358  1994.038_2                                                                            0.00%    passed     97.90%
- 359  1994.5_4                                                                              0.00%    passed     99.44%
- 360  1994.5_5                                                                              0.00%    passed     99.44%
- 361  1994.5_3                                                                              0.00%    passed     98.83%
- 362  1994.5_8                                                                              0.00%    passed     98.23%
- 363  1994.5_7                                                                              0.00%    passed     98.36%
- 364  1997.721                                                                              0.00%    passed     98.86%
- 365  1998.384                                                                              0.00%    passed     99.19%
- 366  2006.573_2                                                                            0.00%    passed     99.50%
- 367  2006.959                                                                              0.00%    passed     99.19%
- 368  2006.803                                                                              0.00%    passed     98.64%
- 369  2006.814                                                                              0.00%    passed     98.64%
- 370  2005.942                                                                              0.00%    passed     99.91%
- 371  2010.789                                                                              0.00%    passed     99.56%
- 372  2011.967                                                                              0.00%    passed     99.44%
- 373  2006.888                                                                              0.00%    passed     99.84%
- 374  1998.734                                                                              0.00%    passed     99.56%
- 375  1998.781                                                                              0.00%    passed     99.56%
- 376  2006.425                                                                              0.00%    passed     99.56%
- 377  2006.512                                                                              0.00%    passed     99.56%
- 378  2006.762                                                                              0.00%    passed     99.82%
- 379  2006.578                                                                              0.00%    passed     99.56%
- 380  2006.732                                                                              0.00%    passed     99.56%
- 381  1998.781_2                                                                            0.00%    passed     99.13%
- 382  2006.934_2                                                                            0.00%    passed     99.56%
- 383  2006.447                                                                              0.00%    passed     99.82%
- 384  2006.551_2                                                                            0.00%    passed     99.82%
- 385  2006.77                                                                               0.00%    passed     99.80%
- 386  2006.573                                                                              0.00%    passed     99.82%
- 387  1998.953                                                                              0.00%    passed     99.60%
- 388  2006.762_2                                                                            0.00%    passed     99.80%
- 389  2006.781                                                                              0.00%    passed     99.56%
- 390  2010.838                                                                              0.00%    passed     99.72%
- 391  2008.527                                                                              0.00%    passed     97.58%
- 392  2011.147                                                                              0.00%    passed     99.82%
- 393  2012.56                                                                               0.00%    passed     99.84%
- 394  2008.813                                                                              0.00%    passed     99.68%
- 395  2009.73                                                                               0.27%    passed     99.51%
- 396  2010.4                                                                                0.00%    passed     98.65%
- 397  2010.564                                                                              0.00%    passed     98.65%
- 398  2012.15                                                                               0.00%    passed     97.53%
- 399  2010.652                                                                              0.00%    passed     99.24%
- 400  2010.858                                                                              0.00%    passed     99.01%
- 401  2013.605                                                                              0.07%    passed     97.62%
- 402  2011.307                                                                              0.00%    passed     99.65%
- 403  2011.532                                                                              0.00%    passed     99.65%
- 404  2007.73                                                                               0.95%    passed     97.13%
- 405  2008.5_10                                                                             1.28%    passed     98.85%
- 406  2009.063                                                                              0.27%    passed     99.38%
- 407  2010.5                                                                                1.22%    passed     99.58%
- 408  2010.73                                                                               0.34%    passed     99.50%
- 409  2009.813                                                                              1.76%    passed     98.80%
- 410  2010.063                                                                              0.88%    passed     99.18%
- 411  1994.019                                                                              0.00%    passed     99.98%
- 412  1994.666                                                                              0.00%    passed     99.74%
- 413  1995.5_2                                                                              0.00%    passed     99.96%
- 414  1995.655                                                                              0.00%    passed    100.00%
- 415  1994.984                                                                              0.00%    passed     99.92%
- 416  1995.063                                                                              0.00%    passed     99.92%
- 417  1994.967                                                                              0.00%    passed     99.74%
- 418  1996.049                                                                              0.00%    passed     98.76%
- 419  1994.5_11                                                                             0.00%    passed     99.58%
- 420  1994.732                                                                              0.00%    passed     99.58%
- 421  1995.5                                                                                0.00%    passed     99.33%
- 422  1995.5_3                                                                              0.00%    passed     98.87%
- 423  1995.532                                                                              0.00%    passed     99.41%
- 424  1994.6                                                                                0.00%    passed     99.97%
- 425  1994.805                                                                              0.00%    passed     99.95%
- 426  1995.416                                                                              0.00%    passed     99.75%
- 427  1995.805                                                                              0.07%    passed     99.00%
- 428  1994.036                                                                              0.00%    passed     99.60%
- 429  1994.5_6                                                                              0.00%    passed     99.80%
- 430  1994.5_10                                                                             0.00%    passed     99.80%
- 431  1994.5_9                                                                              0.00%    passed     99.74%
- 432  1994.644                                                                              0.00%    passed     99.74%
- 433  1995.205                                                                              0.00%    passed     99.60%
- 434  1995.592                                                                              0.00%    passed     99.58%
- 435  1995.622                                                                              0.00%    passed     99.58%
- 436  1995.551                                                                              0.00%    passed     99.80%
- 437  1996.784                                                                              0.00%    passed     99.68%
- 438  1995.581                                                                              0.07%    passed     99.87%
- 439  1996.598                                                                              0.00%    passed     99.92%
- 440  2002.334                                                                              0.00%    passed     98.83%
- 441  1996.634_2                                                                            0.00%    passed     99.56%
- 442  2001.326                                                                              0.00%    passed     98.93%
- 443  2001.578                                                                              0.00%    passed     98.75%
- 444  1995.668                                                                              0.00%    passed     98.87%
- 445  1995.696                                                                              0.00%    passed     99.33%
- 446  1997.603                                                                              0.00%    passed     99.18%
- 447  1996.511                                                                              0.00%    passed     99.22%
- 448  1996.697                                                                              0.00%    passed     99.22%
- 449  2006.551                                                                              0.00%    passed     99.22%
- 450  1999.038                                                                              0.00%    passed     99.74%
- 451  1999.474                                                                              0.00%    passed     99.87%
- 452  2001.515                                                                              0.00%    passed     99.16%
- 453  1999.54                                                                               0.00%    passed     99.45%
- 454  2002.036                                                                              0.00%    passed     99.45%
- 455  2001.433                                                                              0.00%    passed     98.66%
- 456  2001.488                                                                              0.00%    passed     98.66%
- 457  2001.471                                                                              0.00%    passed     99.22%
- 458  2001.507                                                                              0.00%    passed     99.22%
- 459  2001.521                                                                              0.00%    passed     99.22%
- 460  2001.638                                                                              0.00%    passed     99.22%
- 461  2001.658                                                                              0.00%    passed     99.55%
- 462  2001.6                                                                                0.00%    passed     99.22%
- 463  2001.603                                                                              0.00%    passed     99.22%
- 464  2001.701                                                                              0.00%    passed     99.22%
- 465  2001.562_2                                                                            0.00%    passed     99.22%
- 466  2001.6_2                                                                              0.00%    passed     99.22%
- 467  2001.603_2                                                                            0.00%    passed     99.22%
- 468  2001.532                                                                              0.00%    passed     98.94%
- 469  2001.523_2                                                                            0.00%    passed     99.22%
- 470  2001.447                                                                              0.07%    passed     99.03%
- 471  2001.819_2                                                                            0.00%    passed     98.84%
- 472  2001.707                                                                              0.00%    passed     98.14%
- 473  2002.107                                                                              0.00%    passed     99.22%
- 474  2001.696                                                                              0.00%    passed     98.22%
- 475  2000.631                                                                              0.00%    passed     98.14%
- 476  2000.817                                                                              0.00%    passed     93.53%
- 477  2001.334                                                                              0.00%    passed     99.22%
- 478  2001.836                                                                              0.00%    passed     97.81%
- 479  2001.499                                                                              0.07%    passed     98.73%
- 480  1998.181                                                                              0.00%    passed     96.64%
- 481  1999.564_2                                                                            0.14%    passed     95.54%
- 482  2001.822                                                                              0.00%    passed     96.99%
- 483  2000.948                                                                              0.07%    passed     99.40%
- 484  2006.405                                                                              0.00%    passed     99.59%
- 485  2004.063                                                                              0.47%    passed     99.85%
- 486  2003.225                                                                              0.00%    passed     98.53%
- 487  2006.496                                                                              0.07%    passed     97.84%
- 488  1996.634                                                                              0.00%    passed     97.60%
- 489  1997.91                                                                               0.00%    passed     98.19%
- 490  2003.586                                                                              0.00%    passed     98.84%
- 491  2003.816                                                                              0.00%    passed     98.84%
- 492  2001.395                                                                              0.20%    passed     96.79%
- 493  1994.027                                                                              0.00%    passed     99.19%
- 494  1996.363                                                                              0.00%    passed     99.38%
- 495  1996.59                                                                               0.00%    passed     99.38%
- 496  1996.423                                                                              0.00%    passed     99.38%
- 497  1996.464                                                                              0.00%    passed     99.19%
- 498  2002.419                                                                              0.00%    passed     98.76%
- 499  1997.663                                                                              0.00%    passed     99.38%
- 500  1997.682                                                                              0.07%    passed     99.86%
- 501  1997.641                                                                              0.00%    passed     99.74%
- 502  1995.849                                                                              0.07%    passed     99.46%
- 503  1997.679                                                                              0.00%    passed     99.58%
- 504  2002.49                                                                               0.00%    passed     98.90%
- 505  1997.419                                                                              0.00%    passed     98.72%
- 506  1994.5                                                                                0.00%    passed     99.55%
- 507  1994.614                                                                              0.00%    passed     99.33%
- 508  1994.584                                                                              0.00%    passed     98.15%
- 509  1994.608                                                                              0.00%    passed     97.55%
- 510  1996.656                                                                              0.00%    passed     99.33%
- 511  1996.77                                                                               0.00%    passed     98.87%
- 512  1997.784                                                                              0.00%    passed     97.55%
- 513  1997.91_2                                                                             0.00%    passed     99.78%
- 514  1999.244                                                                              0.00%    passed     99.82%
- 515  1999.367                                                                              0.00%    passed     99.82%
- 516  1998.23                                                                               0.00%    passed     99.50%
- 517  1998.192                                                                              0.07%    passed     99.60%
- 518  1999.225                                                                              0.00%    passed     99.80%
- 519  1997.384                                                                              0.00%    passed     96.78%
- 520  1998.134                                                                              0.00%    passed     96.75%
- 521  1999.97                                                                               0.00%    passed     98.62%
- 522  1996.833                                                                              0.00%    passed     99.99%
- 523  1999.825                                                                              0.00%    passed     99.20%
- 524  2003.753                                                                              0.00%    passed     99.58%
- 525  1994.112                                                                              0.00%    passed     99.97%
- 526  1994.507                                                                              0.00%    passed     99.98%
- 527  1994.359                                                                              0.00%    passed     99.92%
- 528  1994.5_2                                                                              0.00%    passed     99.77%
- 529  1994.5_12                                                                             0.00%    passed     99.92%
- 530  1995.43                                                                               0.00%    passed     99.97%
- 531  1995.679                                                                              0.00%    passed     99.92%
- 532  1996.669                                                                              0.00%    passed     99.97%
- 533  1997.948                                                                              0.07%    passed     99.91%
- 534  1998.244                                                                              0.00%    passed     99.95%
- 535  1998.334                                                                              0.00%    passed     99.95%
- 536  1998.326                                                                              0.00%    passed     99.95%
- 537  1999.307                                                                              0.00%    passed     99.95%
- 538  1999.479                                                                              0.00%    passed     99.92%
- 539  1999.438                                                                              0.00%    passed     99.99%
- 540  2002.31                                                                               0.00%    passed     99.97%
- 541  1997.537                                                                              0.00%    passed     99.78%
- 542  2003.282                                                                              0.00%    passed     99.80%
- 543  1998.074                                                                              0.07%    passed    100.00%
- 544  1997.764                                                                              0.00%    passed     99.80%
- 545  2002.26                                                                               0.07%    passed     99.76%
- 546  1998.274                                                                              0.00%    passed     99.60%
- 547  1998.367                                                                              0.07%    passed     99.60%
- 548  1999.997                                                                              0.00%    passed     99.74%
- 549  1997.699                                                                              0.00%    passed     99.99%
- 550  2002.619                                                                              0.00%    passed     99.99%
- 551  2001.94                                                                               0.00%    passed     99.95%
- 552  2001.534                                                                              0.00%    passed     99.94%
- 553  2003.178                                                                              0.00%    passed     99.99%
- 554  1997.915                                                                              0.00%    passed     99.80%
- 555  1997.915_2                                                                            0.00%    passed     99.99%
- 556  1998.038                                                                              0.00%    passed     99.65%
- 557  1997.551                                                                              0.00%    passed     99.59%
- 558  1994.942                                                                              0.00%    passed     99.46%
- 559  1995.282_2                                                                            0.00%    passed     99.38%
- 560  1995.351                                                                              0.00%    passed     99.46%
- 561  1995.745                                                                              0.07%    passed     99.60%
- 562  1995.282                                                                              0.00%    passed     99.03%
- 563  1995.307                                                                              0.07%    passed     98.63%
- 564  1995.49                                                                               0.00%    passed     99.98%
- 565  1995.636                                                                              0.00%    passed     99.53%
- 566  2001.866                                                                              0.00%    passed     99.93%
- 567  1998.77                                                                               0.00%    passed     99.94%
- 568  1994.501                                                                              0.00%    passed     99.38%
- 569  1994.855                                                                              0.00%    passed     99.74%
- 570  1994.764                                                                              0.00%    passed     99.19%
- 571  1995.496                                                                              0.00%    passed     99.80%
- 572  1995.734                                                                              0.00%    passed     99.88%
- 573  1996.022                                                                              0.00%    passed     99.33%
- 574  1996.923                                                                              0.00%    passed     99.58%
- 575  1997.151                                                                              0.00%    passed     99.80%
- 576  1997.422                                                                              0.00%    passed     99.87%
- 577  1995.178                                                                              0.00%    passed     99.19%
- 578  1997.778                                                                              0.00%    passed     99.80%
- 579  1997.57                                                                               0.00%    passed     99.82%
- 580  1999.542_2                                                                            0.07%    passed     99.79%
- 581  1996.538                                                                              0.00%    passed     97.55%
- 582  1996.844                                                                              0.00%    passed     96.50%
- 583  1996.902                                                                              0.00%    passed     99.38%
- 584  1995.099                                                                              0.07%    passed     99.03%
- 585  2006.51                                                                               0.00%    passed     99.58%
- 586  1997.877                                                                              0.00%    passed     99.88%
- 587  1998.496                                                                              0.00%    passed     99.19%
- 588  1999.425                                                                              0.14%    passed     99.19%
- 589  1998.586                                                                              0.00%    passed     96.21%
- 590  1999.392                                                                              0.00%    passed     95.72%
- 591  2001.46                                                                               0.00%    passed     95.04%
- 592  1999.277                                                                              0.00%    passed     99.58%
- 593  2001.386                                                                              0.00%    passed     96.50%
- 594  1998.34                                                                               0.00%    passed     99.74%
- 595  1998.553                                                                              0.00%    passed     99.38%
- 596  2003.345                                                                              0.00%    passed     99.74%
- 597  1999.564                                                                              0.20%    passed     97.54%
- 598  1996.5                                                                                0.00%    passed     99.44%
- 599  1996.694                                                                              0.00%    passed     99.78%
- 600  1999.731                                                                              0.00%    passed     99.94%
- 601  2002.312                                                                              0.00%    passed     99.97%
- 602  2003.118                                                                              0.00%    passed     99.94%
- 603  2002.592                                                                              0.00%    passed     99.69%
- 604  1995.66                                                                               0.00%    passed     99.77%
- 605  1998.178                                                                              0.07%    passed     99.42%
- 606  1999.542                                                                              0.00%    passed     98.50%
- 607  2003.668                                                                              0.00%    passed     98.50%
- 608  1997.597                                                                              0.00%    passed     99.77%
- 609  2000.197                                                                              0.00%    passed     99.45%
- 610  2000.481                                                                              0.07%    passed     99.03%
- 611  2000.486                                                                              0.00%    passed     99.22%
- 612  2000.817_2                                                                            0.00%    passed     98.84%
- 613  2000.574                                                                              0.00%    passed     98.66%
- 614  2000.582_2                                                                            0.00%    passed     98.66%
- 615  2000.754                                                                              0.00%    passed     98.63%
- 616  2000.91                                                                               0.00%    passed     98.85%
- 617  2001.66                                                                               0.00%    passed     98.22%
- 618  2003.89                                                                               0.00%    passed     99.55%
- 619  2000.249                                                                              0.00%    passed     99.65%
- 620  1996.71                                                                               0.00%    passed     96.99%
- 621  1998.984                                                                              0.00%    passed     99.22%
- 622  2000.964                                                                              0.00%    passed     99.55%
- 623  2000.418                                                                              0.00%    passed     99.22%
- 624  2000.582                                                                              0.00%    passed     99.45%
- 625  2000.858                                                                              0.00%    passed     98.66%
- 626  2000.689                                                                              0.00%    passed     99.22%
- 627  2000.88                                                                               0.00%    passed     99.22%
- 628  2000.923                                                                              0.00%    passed     99.22%
- 629  2001.564_2                                                                            0.00%    passed     98.94%
- 630  1998.208                                                                              0.00%    passed     95.68%
- 631  2001.216                                                                              0.00%    passed     96.99%
- 632  2001.562                                                                              0.00%    passed     96.99%
- 633  2006.384                                                                              0.00%    passed     96.99%
- 634  2000.992                                                                              0.00%    passed     95.06%
- 635  2001.803_2                                                                            0.00%    passed     98.14%
- 636  2001.523                                                                              0.00%    passed     98.14%
- 637  2002.496                                                                              0.07%    passed     97.67%
- 638  2002.984                                                                              0.00%    passed     95.46%
- 639  1999.504_2                                                                            0.07%    passed     99.00%
- 640  2003.83                                                                               0.00%    passed     98.84%
- 641  1997.992                                                                              0.00%    passed     95.06%
- 642  2003.227                                                                              0.00%    passed     95.46%
- 643  2002.5_4                                                                              0.61%    passed     99.93%
- 644  2004.721                                                                              0.00%    passed     99.87%
- 645  2005.534                                                                              0.00%    passed     95.68%
- 646  2006.216                                                                              0.00%    passed     97.19%
- 647  2006.268                                                                              0.00%    passed     96.99%
- 648  2005.89                                                                               0.00%    passed     98.86%
- 649  2006.622                                                                              0.00%    passed     96.62%
- 650  2006.011                                                                              0.00%    passed     98.34%
- 651  2006.934                                                                              0.00%    passed     98.34%
- 652  2006.581                                                                              0.00%    passed     98.31%
- 653  2006.899                                                                              0.00%    passed     95.68%
- 654  2006.918                                                                              0.00%    passed     95.68%
- 655  2006.795                                                                              0.14%    passed     98.39%
- 656  2006.858                                                                              0.00%    passed     96.32%
- 657  2008.5_9                                                                              0.00%    passed     98.23%
- 658  2006.019                                                                              0.00%    passed     93.76%
- 659  2008.563                                                                              0.00%    passed     98.94%
- 660  2003.5_4                                                                              0.20%    passed     99.08%
- 661  2003.313                                                                              0.47%    passed     98.83%
- 662  2003.866                                                                              0.00%    passed     95.46%
- 663  2006.175_2                                                                            0.00%    passed     95.68%
- 664  2005.89_2                                                                             0.00%    passed     91.59%
- 665  1998.082                                                                              0.00%    passed     99.60%
- 666  1998.362                                                                              0.00%    passed     97.81%
- 667  1998.384_2                                                                            0.14%    passed     98.32%
- 668  2000.587                                                                              0.00%    passed     99.22%
- 669  2001.564                                                                              0.00%    passed     98.22%
- 670  2002.647                                                                              0.07%    passed     99.62%
- 671  2002.73                                                                               2.97%    passed     99.16%
- 672  2000.653                                                                              0.00%    passed     98.66%
- 673  2003.263                                                                              0.00%    passed     98.14%
- 674  1999.559                                                                              0.00%    passed     99.70%
- 675  1998.29                                                                               0.00%    passed     99.19%
- 676  1998.838                                                                              0.07%    passed     99.03%
- 677  2006.49                                                                               0.00%    passed     99.60%
- 678  1998.5                                                                                0.00%    passed     98.15%
- 679  2006.501                                                                              0.00%    passed     98.15%
- 680  1999.975                                                                              0.00%    passed     97.55%
- 681  2003.197                                                                              0.00%    passed     99.68%
- 682  1998.69                                                                               0.00%    passed     99.87%
- 683  2001.748                                                                              0.07%    passed     99.98%
- 684  2002.167                                                                              0.00%    passed     99.98%
- 685  2001.803                                                                              0.00%    passed     99.96%
- 686  2005.611                                                                              0.00%    passed     99.96%
- 687  2005.893                                                                              0.00%    passed     99.96%
- 688  2005.69                                                                               0.00%    passed     99.96%
- 689  2005.959                                                                              0.00%    passed     99.96%
- 690  2006.34                                                                               0.00%    passed     99.96%
- 691  2006.367                                                                              0.00%    passed     99.99%
- 692  2006.101                                                                              0.00%    passed     99.96%
- 693  2006.175                                                                              0.00%    passed     99.96%
- 694  2006.403                                                                              0.00%    passed     99.99%
- 695  2006.408                                                                              0.00%    passed     99.99%
- 696  2005.625                                                                              0.00%    passed     99.96%
- 697  2005.956                                                                              0.00%    passed     99.96%
- 698  2006.671                                                                              0.00%    passed     99.99%
- 699  2006.836                                                                              0.00%    passed     99.99%
- 700  2006.784                                                                              0.00%    passed     99.92%
- 701  2006.827                                                                              0.00%    passed     99.99%
- 702  2006.97_2                                                                             0.00%    passed     99.99%
- 703  2006.8                                                                                0.00%    passed     99.99%
- 704  2006.619                                                                              0.00%    passed     99.87%
- 705  2006.658                                                                              0.00%    passed     99.87%
- 706  2004.541                                                                              0.00%    passed    100.00%
- 707  2004.781                                                                              0.00%    passed    100.00%
- 708  2004.839                                                                              0.00%    passed     99.96%
- 709  2005.088                                                                              0.00%    passed     99.87%
- 710  2006.326                                                                              0.00%    passed     99.99%
- 711  2003.5                                                                                0.00%    passed     99.88%
- 712  2003.5_3                                                                              0.00%    passed     99.88%
- 713  2003.433                                                                              0.07%    passed     99.67%
- 714  2003.5_2                                                                              0.00%    passed     99.88%
- 715  2004.5_2                                                                              0.00%    passed     99.99%
- 716  2005.5_4                                                                              0.00%    passed     99.33%
- 717  2005.619                                                                              0.00%    passed     98.84%
- 718  2005.5_5                                                                              0.00%    passed     99.58%
- 719  2006.882                                                                              0.00%    passed     99.22%
- 720  2006.5_4                                                                              0.00%    passed     99.83%
- 721  2006.5_5                                                                              0.00%    passed     99.83%
- 722  2006.5_6                                                                              0.00%    passed     99.83%
- 723  2007.5_5                                                                              0.00%    passed     99.09%
- 724  2005.5                                                                                0.00%    passed     99.87%
- 725  1999.5                                                                                0.00%    passed     99.87%
- 726  2007.5_4                                                                              0.00%    passed     99.99%
- 727  2008.5                                                                                0.00%    passed     99.98%
- 728  1998.707                                                                              0.00%    passed     97.90%
- 729  2008.5_5                                                                              0.00%    passed     99.84%
- 730  2008.5_6                                                                              0.00%    passed     99.84%
- 731  1995.384                                                                              0.00%    passed     99.93%
- 732  1996.801                                                                              0.00%    passed     99.93%
- 733  2002.389                                                                              0.00%    passed     99.93%
- 734  1996.776                                                                              0.00%    passed     99.93%
- 735  2002.066                                                                              0.00%    passed     99.97%
- 736  1997.858                                                                              0.00%    passed     99.90%
- 737  1996.396                                                                              0.00%    passed    100.00%
- 738  2002.258                                                                              0.00%    passed     99.96%
- 739  1998.118                                                                              0.00%    passed     99.99%
- 740  2002.192                                                                              0.00%    passed     99.99%
- 741  2002.329                                                                              0.00%    passed     99.99%
- 742  2002.063                                                                              0.00%    passed     99.99%
- 743  2006.381                                                                              0.00%    passed     99.99%
- 744  2000.973                                                                              0.00%    passed     99.97%
- 745  2002.485                                                                              0.00%    passed     99.96%
- 746  2000.731                                                                              0.20%    passed     99.94%
- 747  2001.581                                                                              0.07%    passed     99.77%
- 748  2001.148                                                                              0.00%    passed     99.92%
- 749  1998.025                                                                              0.00%    passed     99.99%
- 750  1998.123                                                                              0.00%    passed     99.99%
- 751  1999.986                                                                              0.00%    passed     99.99%
- 752  2000.669                                                                              0.00%    passed     99.99%
- 753  2000.822                                                                              0.07%    passed    100.00%
- 754  2002.074                                                                              0.00%    passed     99.99%
- 755  2001.512                                                                              0.00%    passed     99.97%
- 756  2001.611                                                                              0.00%    passed     99.98%
- 757  1999.718                                                                              0.00%    passed     99.95%
- 758  2003.885_2                                                                            0.00%    passed     99.80%
- 759  1998.236                                                                              0.07%    passed     99.86%
- 760  2005.474                                                                              0.00%    passed     99.74%
- 761  1999.43                                                                               0.00%    passed     99.74%
- 762  2000.194                                                                              0.00%    passed     99.99%
- 763  2000.251                                                                              0.00%    passed     99.99%
- 764  2003.036                                                                              0.00%    passed     99.99%
- 765  2001.005                                                                              0.00%    passed     99.97%
- 766  2001.008                                                                              0.14%    passed     99.94%
- 767  2001.181                                                                              0.00%    passed     99.99%
- 768  1999.068                                                                              0.00%    passed     99.97%
- 769  2001.49                                                                               0.14%    passed     99.98%
- 770  1999.118                                                                              0.00%    passed     99.99%
- 771  2002.079                                                                              0.00%    passed     99.99%
- 772  2001.014                                                                              0.00%    passed     99.99%
- 773  2001.047                                                                              0.00%    passed     99.99%
- 774  2001.227                                                                              0.00%    passed     99.97%
- 775  2002.044                                                                              0.00%    passed     99.99%
- 776  2002.499                                                                              0.00%    passed     99.87%
- 777  2004.038                                                                              0.07%    passed     99.89%
- 778  2004.451                                                                              0.07%    passed     99.86%
- 779  2000.896                                                                              0.14%    passed     99.80%
- 780  2002.178                                                                              0.00%    passed     99.97%
- 781  1998.597                                                                              0.00%    passed     99.53%
- 782  1999.874                                                                              0.00%    passed     99.89%
- 783  1997.951                                                                              0.00%    passed     99.88%
- 784  2003.885                                                                              0.00%    passed     99.66%
- 785  2003.808                                                                              0.00%    passed     99.99%
- 786  2002.493                                                                              0.00%    passed     99.92%
- 787  2002.537                                                                              0.00%    passed     99.67%
- 788  1998.093                                                                              0.00%    passed     99.09%
- 789  2006.553                                                                              0.00%    passed     99.41%
- 790  2001.819                                                                              0.00%    passed     99.58%
- 791  2000.814                                                                              0.41%    passed     99.70%
- 792  2001.5_3                                                                              0.68%    passed     99.77%
- 793  2001.647_2                                                                            0.20%    passed     99.95%
- 794  2001.563                                                                              1.08%    passed     99.76%
- 795  1996.716                                                                              0.00%    passed     99.74%
- 796  1999.696                                                                              0.00%    passed     99.95%
- 797  2001.647                                                                              0.47%    passed     99.42%
- 798  1998.5_2                                                                              0.00%    passed     99.89%
- 799  1998.74                                                                               0.14%    passed     98.22%
- 800  2003.897                                                                              0.54%    passed     99.97%
- 801  2004.721_2                                                                            0.00%    passed     99.75%
- 802  2005.584                                                                              0.00%    passed     99.90%
- 803  2005.926                                                                              0.00%    passed     99.75%
- 804  2000.314                                                                              0.07%    passed     99.47%
- 805  2000.828                                                                              0.00%    passed     99.78%
- 806  2001.23                                                                               0.00%    passed     99.84%
- 807  2000.836                                                                              0.00%    passed     99.72%
- 808  2000.5                                                                                0.00%    passed     99.28%
- 809  2001.5                                                                                0.00%    passed     99.15%
- 810  2000.5_2                                                                              0.00%    passed     99.55%
- 811  2002.5_2                                                                              0.00%    passed     99.78%
- 812  2002.5_3                                                                              0.00%    passed     99.66%
- 813  2001.5_2                                                                              0.00%    passed     98.19%
- 814  2002.5                                                                                0.00%    passed     98.56%
- 815  2004.322                                                                              0.00%    passed     99.87%
- 816  1999.241                                                                              0.00%    passed     99.63%
- 817  1996.762                                                                              0.00%    passed     99.58%
- 818  1999.648                                                                              0.14%    passed     99.82%
- 819  1996.904                                                                              0.00%    passed     99.87%
- 820  2001.879                                                                              0.00%    passed     99.87%
- 821  2002.096                                                                              0.00%    passed     99.88%
- 822  2001.071                                                                              0.00%    passed     99.33%
- 823  1999.504                                                                              0.00%    passed     99.75%
- 824  1999.827                                                                              0.00%    passed     99.58%
- 825  2003.614                                                                              0.00%    passed     99.58%
- 826  2003.225_2                                                                            0.00%    passed     99.58%
- 827  2003.762                                                                              0.00%    passed     99.68%
- 828  2004.762                                                                              0.00%    passed     99.58%
- 829  2001.236                                                                              0.00%    passed     99.74%
- 830  2003.677                                                                              0.00%    passed     99.74%
- 831  2002.153                                                                              0.00%    passed     99.20%
- 832  2006.159                                                                              0.00%    passed     99.20%
- 833  2006.858_2                                                                            0.00%    passed     99.20%
- 834  2006.732_2                                                                            0.07%    passed     99.30%
- 835  2006.586                                                                              0.00%    passed     99.20%
- 836  2006.074                                                                              0.00%    passed     99.20%
- 837  2006.559                                                                              0.00%    passed     99.20%
- 838  2006.57                                                                               0.00%    passed     99.20%
- 839  2006.17                                                                               0.00%    passed     99.33%
- 840  2006.953                                                                              0.00%    passed     99.33%
- 841  2006.526                                                                              0.00%    passed     99.33%
- 842  2006.97                                                                               0.00%    passed     98.77%
- 843  2006.647                                                                              0.00%    passed     99.33%
- 844  2006.852                                                                              0.00%    passed     99.20%
- 845  2009.808                                                                              0.00%    passed     97.42%
- 846  2011.195                                                                              0.00%    passed     97.95%
- 847  2011.419_2                                                                            0.00%    passed     97.71%
- 848  2009.553                                                                              0.00%    passed     98.36%
- 849  2009.953                                                                              0.00%    passed     98.14%
- 850  2010.244                                                                              0.00%    passed     98.14%
- 851  2010.17                                                                               0.00%    passed     98.14%
- 852  2010.049                                                                              0.00%    passed     97.34%
- 853  2012.025                                                                              0.00%    passed     97.54%
- 854  2012.798                                                                              0.00%    passed     96.51%
- 855  2010.926                                                                              0.00%    passed     97.82%
- 856  2010.907                                                                              0.00%    passed     97.14%
- 857  2011.419                                                                              0.00%    passed     96.59%
- 858  2011.433                                                                              0.00%    passed     97.14%
- 859  2011.879                                                                              0.00%    passed     95.77%
- 860  2011.827                                                                              0.00%    passed     96.59%
- 861  2012.836                                                                              0.00%    passed     97.14%
- 862  2012.702                                                                              0.00%    passed     96.59%
- 863  2013.025                                                                              0.00%    passed     97.14%
- 864  2011.57                                                                               0.00%    passed     96.59%
- 865  2011.411                                                                              0.00%    passed     94.93%
- 866  2012.467                                                                              0.00%    passed     95.62%
- 867  2012.598                                                                              0.00%    passed     95.57%
- 868  2012.855                                                                              0.00%    passed     95.57%
- 869  2013.5                                                                                0.00%    passed     97.42%
- 870  2008.5_11                                                                             0.00%    passed     99.80%
- 871  2011.5                                                                                0.00%    passed     99.68%
- 872  2011.534                                                                              0.00%    passed     99.48%
- 873  2008.5_7                                                                              0.00%    passed     96.86%
- 874  2002.063_2                                                                            0.20%    passed     98.66%
- 875  2012.063                                                                              0.95%    passed     95.82%
- 876  2006.5                                                                                0.00%    passed     99.94%
- 877  2006.5_3                                                                              0.00%    passed     99.94%
- 878  2006.5_7                                                                              0.00%    passed     99.46%
- 879  2007.5                                                                                0.00%    passed     99.46%
- 880  2008.5_3                                                                              0.00%    passed     99.69%
- 881  2007.5_8                                                                              0.00%    passed     99.80%
- 882  2007.5_7                                                                              0.00%    passed     99.46%
- 883  2007.5_6                                                                              0.00%    passed     99.19%
- 884  2008.5_2                                                                              0.00%    passed     98.83%
- 885  2008.5_4                                                                              0.00%    passed     97.37%
- 886  2007.5_2                                                                              0.00%    passed     99.38%
- 887  2007.5_3                                                                              0.00%    passed     99.46%
- 888  2006.5_2                                                                              0.00%    passed     99.95%
- 889  2009.5                                                                                0.47%    passed     98.42%
- 890  2007.063                                                                              2.77%    passed     76.50%
-WARNING: 1 sequences contain more than 50% gaps/ambiguity
-****  TOTAL                                                                                 0.47%  0 sequences failed composition chi2 test (p-value<5%; df=3)
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-603_DELIM-0x2f_2012 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-30121_DELIM-0x2f_2012 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0690589_DELIM-0x2f_2013 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000110_DELIM-0x2f_2013 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-311_DELIM-0x2f_2010 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-310_DELIM-0x2f_2010 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-605_DELIM-0x2f_2013 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-301222_DELIM-0x2f_2013 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000004_DELIM-0x2f_2013 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000013_DELIM-0x2f_2013 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000034_DELIM-0x2f_2012 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000017_DELIM-0x2f_2012 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000103_DELIM-0x2f_2012 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000027_DELIM-0x2f_2013 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000020_DELIM-0x2f_2013 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000019_DELIM-0x2f_2013 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-2978_DELIM-0x2f_2001 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-3012_DELIM-0x2f_2001 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00006_DELIM-0x2f_2003 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000035_DELIM-0x2f_2003 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000034_DELIM-0x2f_2003 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000042_DELIM-0x2f_2003 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DH163_DELIM-0x2f_2003 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000059_DELIM-0x2f_2003 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CDC-029_DELIM-0x2f_2007 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000038_DELIM-0x2f_2007 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00012_DELIM-0x2f_2004 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000045_DELIM-0x2f_2004 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00005_DELIM-0x2f_2003 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000057_DELIM-0x2f_2003 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000026_DELIM-0x2f_2005 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000016_DELIM-0x2f_2005 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00016_DELIM-0x2f_2006 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000018_DELIM-0x2f_2006 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-301_DELIM-0x2f_2003 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-299_DELIM-0x2f_2003 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00007_DELIM-0x2f_2003 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00003_DELIM-0x2f_2001 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-52920369_DELIM-0x2f_2003 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-UWM-5379_DELIM-0x2f_2003 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-158590270_DELIM-0x2f_2002 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-FNSP-223790472_DELIM-0x2f_2004 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-449334_DELIM-0x2f_2015 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-INS-449241_DELIM-0x2f_2015 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-449959_DELIM-0x2f_2015 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-449499_DELIM-0x2f_2015 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02343_DELIM-0x2f_2023 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-08706-2-VI_DELIM-0x2f_2023 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02335_DELIM-0x2f_2023 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06340-VI_DELIM-0x2f_2023 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2404622_DELIM-0x2f_2024 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2401928_DELIM-0x2f_2024 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02780_DELIM-0x2f_2024 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2405830_DELIM-0x2f_2024 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02539_DELIM-0x2f_2024 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2402565_DELIM-0x2f_2024 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2406948-VI_DELIM-0x2f_2024 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-08766-2-VI_DELIM-0x2f_2023 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CNIH-449335_DELIM-0x2f_2015 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-449683_DELIM-0x2f_2015 but kept for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CNIH-476947_DELIM-0x2f_2016 is identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_RIS-INS-483948_DELIM-0x2f_2016 but kept for subsequent analysis
-NOTE: 2012.973 is identical to 2012.94 but kept for subsequent analysis
-NOTE: 2014.937 is identical to 2014.608 but kept for subsequent analysis
-NOTE: 2016.956 is identical to 2016.79 but kept for subsequent analysis
-NOTE: 2014.882 is identical to 2014.844 but kept for subsequent analysis
-NOTE: 1987.5_2 is identical to 1986.956 but kept for subsequent analysis
-NOTE: 1994.038_2 is identical to 1994.038 but kept for subsequent analysis
-NOTE: 1994.5_5 is identical to 1994.5_4 but kept for subsequent analysis
-NOTE: 2006.959 is identical to 1998.384 but kept for subsequent analysis
-NOTE: 2006.814 is identical to 2006.803 but kept for subsequent analysis
-NOTE: 1998.781 is identical to 1998.734 but kept for subsequent analysis
-NOTE: 2006.551_2 is identical to 2006.447 but kept for subsequent analysis
-NOTE: 2010.564 is identical to 2010.4 but kept for subsequent analysis
-NOTE: 1995.063 is identical to 1994.984 but kept for subsequent analysis
-NOTE: 1994.732 is identical to 1994.5_11 but kept for subsequent analysis
-NOTE: 1994.644 is identical to 1994.5_9 but kept for subsequent analysis
-NOTE: 1995.622 is identical to 1995.592 but kept for subsequent analysis
-NOTE: 2006.551 is identical to 1996.697 but kept for subsequent analysis
-NOTE: 2001.488 is identical to 2001.433 but kept for subsequent analysis
-NOTE: 2001.507 is identical to 2001.471 but kept for subsequent analysis
-NOTE: 2003.816 is identical to 2003.586 but kept for subsequent analysis
-NOTE: 1996.59 is identical to 1996.363 but kept for subsequent analysis
-NOTE: 1999.367 is identical to 1999.244 but kept for subsequent analysis
-NOTE: 1994.5_12 is identical to 1994.359 but kept for subsequent analysis
-NOTE: 1998.334 is identical to 1998.244 but kept for subsequent analysis
-NOTE: 2002.619 is identical to 1997.699 but kept for subsequent analysis
-NOTE: 1995.178 is identical to 1994.764 but kept for subsequent analysis
-NOTE: 2003.668 is identical to 1999.542 but kept for subsequent analysis
-NOTE: 2000.582_2 is identical to 2000.574 but kept for subsequent analysis
-NOTE: 2000.689 is identical to 2000.418 but kept for subsequent analysis
-NOTE: 2001.562 is identical to 2001.216 but kept for subsequent analysis
-NOTE: 2006.934 is identical to 2006.011 but kept for subsequent analysis
-NOTE: 2006.918 is identical to 2006.899 but kept for subsequent analysis
-NOTE: 2005.611 is identical to 2001.803 but kept for subsequent analysis
-NOTE: 2006.671 is identical to 2006.367 but kept for subsequent analysis
-NOTE: 2006.408 is identical to 2006.403 but kept for subsequent analysis
-NOTE: 2006.658 is identical to 2006.619 but kept for subsequent analysis
-NOTE: 2004.781 is identical to 2004.541 but kept for subsequent analysis
-NOTE: 2003.5_3 is identical to 2003.5 but kept for subsequent analysis
-NOTE: 2006.5_5 is identical to 2006.5_4 but kept for subsequent analysis
-NOTE: 2008.5_6 is identical to 2008.5_5 but kept for subsequent analysis
-NOTE: 1996.801 is identical to 1995.384 but kept for subsequent analysis
-NOTE: 2002.192 is identical to 1998.118 but kept for subsequent analysis
-NOTE: 2006.381 is identical to 2002.063 but kept for subsequent analysis
-NOTE: 1998.123 is identical to 1998.025 but kept for subsequent analysis
-NOTE: 2003.036 is identical to 2000.194 but kept for subsequent analysis
-NOTE: 2001.014 is identical to 1999.118 but kept for subsequent analysis
-NOTE: 2001.879 is identical to 1996.904 but kept for subsequent analysis
-NOTE: 2003.614 is identical to 1999.827 but kept for subsequent analysis
-NOTE: 2003.677 is identical to 2001.236 but kept for subsequent analysis
-NOTE: 2006.159 is identical to 2002.153 but kept for subsequent analysis
-NOTE: 2010.244 is identical to 2009.953 but kept for subsequent analysis
-NOTE: 2011.827 is identical to 2011.419 but kept for subsequent analysis
-NOTE: 2012.855 is identical to 2012.598 but kept for subsequent analysis
-NOTE: 2007.5 is identical to 2006.5_7 but kept for subsequent analysis
-Checking for duplicate sequences: done in 0.00447864 secs using 1276% CPU
-Identifying sites to remove: done in 0.00430101 secs using 1224% CPU
-NOTE: 68 identical sequences (see below) will be ignored for subsequent analysis
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0671588_DELIM-0x2f_2012 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000110_DELIM-0x2f_2013) is ignored but added at the end
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_ANT-UDS-0109587_DELIM-0x2f_2012 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000110_DELIM-0x2f_2013) is ignored but added at the end
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-312_DELIM-0x2f_2010 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-310_DELIM-0x2f_2010) is ignored but added at the end
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000084_DELIM-0x2f_2013 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000013_DELIM-0x2f_2013) is ignored but added at the end
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000028_DELIM-0x2f_2013 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000017_DELIM-0x2f_2012) is ignored but added at the end
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000100_DELIM-0x2f_2013 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000017_DELIM-0x2f_2012) is ignored but added at the end
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000052_DELIM-0x2f_2001 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-3012_DELIM-0x2f_2001) is ignored but added at the end
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00009_DELIM-0x2f_2003 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000059_DELIM-0x2f_2003) is ignored but added at the end
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-UIDS-303_DELIM-0x2f_2007 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000038_DELIM-0x2f_2007) is ignored but added at the end
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00013_DELIM-0x2f_2004 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-BROAD-0000045_DELIM-0x2f_2004) is ignored but added at the end
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-CIET-00014_DELIM-0x2f_2005 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_NSA-BROAD-0000016_DELIM-0x2f_2005) is ignored but added at the end
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02514_DELIM-0x2f_2024 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06340-VI_DELIM-0x2f_2023) is ignored but added at the end
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02783_DELIM-0x2f_2024 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-06340-VI_DELIM-0x2f_2023) is ignored but added at the end
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2402864_DELIM-0x2f_2024 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2401928_DELIM-0x2f_2024) is ignored but added at the end
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02462_DELIM-0x2f_2023 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2401928_DELIM-0x2f_2024) is ignored but added at the end
-NOTE: hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_un-Yale-DN02848_DELIM-0x2f_2024 (identical to hDenV3_DELIM-0x2f_Colombia_DELIM-0x2f_VAC-LSPVAC-2401928_DELIM-0x2f_2024) is ignored but added at the end
-NOTE: 2014.115 (identical to 2012.94) is ignored but added at the end
-NOTE: 2006.425 (identical to 1998.734) is ignored but added at the end
-NOTE: 2006.512 (identical to 1998.734) is ignored but added at the end
-NOTE: 2006.578 (identical to 1998.734) is ignored but added at the end
-NOTE: 2006.732 (identical to 1998.734) is ignored but added at the end
-NOTE: 2006.934_2 (identical to 1998.734) is ignored but added at the end
-NOTE: 2006.573 (identical to 2006.447) is ignored but added at the end
-NOTE: 2001.521 (identical to 2001.471) is ignored but added at the end
-NOTE: 2001.638 (identical to 2001.471) is ignored but added at the end
-NOTE: 2001.6 (identical to 2001.471) is ignored but added at the end
-NOTE: 2001.603 (identical to 2001.471) is ignored but added at the end
-NOTE: 2001.701 (identical to 2001.471) is ignored but added at the end
-NOTE: 2001.562_2 (identical to 2001.471) is ignored but added at the end
-NOTE: 2001.6_2 (identical to 2001.471) is ignored but added at the end
-NOTE: 2001.603_2 (identical to 2001.471) is ignored but added at the end
-NOTE: 1996.423 (identical to 1996.363) is ignored but added at the end
-NOTE: 1997.663 (identical to 1996.363) is ignored but added at the end
-NOTE: 1995.679 (identical to 1994.359) is ignored but added at the end
-NOTE: 1998.326 (identical to 1998.244) is ignored but added at the end
-NOTE: 1999.307 (identical to 1998.244) is ignored but added at the end
-NOTE: 2000.88 (identical to 2000.418) is ignored but added at the end
-NOTE: 2000.923 (identical to 2000.418) is ignored but added at the end
-NOTE: 2006.384 (identical to 2001.216) is ignored but added at the end
-NOTE: 2005.893 (identical to 2001.803) is ignored but added at the end
-NOTE: 2005.69 (identical to 2001.803) is ignored but added at the end
-NOTE: 2005.959 (identical to 2001.803) is ignored but added at the end
-NOTE: 2006.34 (identical to 2001.803) is ignored but added at the end
-NOTE: 2006.101 (identical to 2001.803) is ignored but added at the end
-NOTE: 2006.175 (identical to 2001.803) is ignored but added at the end
-NOTE: 2005.625 (identical to 2001.803) is ignored but added at the end
-NOTE: 2005.956 (identical to 2001.803) is ignored but added at the end
-NOTE: 2004.839 (identical to 2001.803) is ignored but added at the end
-NOTE: 2006.836 (identical to 2006.367) is ignored but added at the end
-NOTE: 2006.827 (identical to 2006.367) is ignored but added at the end
-NOTE: 2006.5_6 (identical to 2006.5_4) is ignored but added at the end
-NOTE: 2002.389 (identical to 1995.384) is ignored but added at the end
-NOTE: 1996.776 (identical to 1995.384) is ignored but added at the end
-NOTE: 2002.329 (identical to 1998.118) is ignored but added at the end
-NOTE: 1999.986 (identical to 1998.025) is ignored but added at the end
-NOTE: 2000.669 (identical to 1998.025) is ignored but added at the end
-NOTE: 2002.074 (identical to 1998.025) is ignored but added at the end
-NOTE: 2001.047 (identical to 1999.118) is ignored but added at the end
-NOTE: 2003.225_2 (identical to 1999.827) is ignored but added at the end
-NOTE: 2004.762 (identical to 1999.827) is ignored but added at the end
-NOTE: 2006.858_2 (identical to 2002.153) is ignored but added at the end
-NOTE: 2006.074 (identical to 2002.153) is ignored but added at the end
-NOTE: 2006.559 (identical to 2002.153) is ignored but added at the end
-NOTE: 2006.57 (identical to 2002.153) is ignored but added at the end
-NOTE: 2006.852 (identical to 2002.153) is ignored but added at the end
-NOTE: 2010.17 (identical to 2009.953) is ignored but added at the end
-NOTE: 2011.57 (identical to 2011.419) is ignored but added at the end
-NOTE: 2007.5_7 (identical to 2006.5_7) is ignored but added at the end
-Alignment was printed to ../resources/merged_data/cropped/align_DENV3-delim.fasta.uniqueseq.phy
-
-For your convenience alignment with unique sequences printed to ../resources/merged_data/cropped/align_DENV3-delim.fasta.uniqueseq.phy
-
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.096 seconds
-
-NOTE: 81 MB RAM (0 GB) is required!
-Measuring multi-threading efficiency up to 16 CPU cores
-Increase to 10 rounds for branch lengths
-24 trees examined
-Threads: 1 / Time: 16.117 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -137610
-Threads: 2 / Time: 10.737 sec / Speedup: 1.501 / Efficiency: 75% / LogL: -137610
-Threads: 3 / Time: 9.708 sec / Speedup: 1.660 / Efficiency: 55% / LogL: -137610
-Threads: 4 / Time: 8.846 sec / Speedup: 1.822 / Efficiency: 46% / LogL: -137610
-Determining AUTO threadcount: done in 45.4322 secs using 220.6% CPU
-BEST NUMBER OF THREADS: 3
-
-Estimate model parameters (epsilon = 0.500)
-1. Initial log-likelihood: -20440.824
-2. Current log-likelihood: -18305.859
-3. Current log-likelihood: -18291.226
-4. Current log-likelihood: -18289.736
-Optimal log-likelihood: -18289.500
-Rate parameters:  A-C: 1.19931  A-G: 13.96823  A-T: 2.24539  C-G: 0.75757  C-T: 42.61951  G-T: 1.00000
-Base frequencies:  A: 0.314  C: 0.195  G: 0.272  T: 0.218
-Gamma shape alpha: 0.333
-Parameters optimization took 4 rounds (2.559 sec)
-Wrote distance file to... 
-Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.421755 secs using 300.1% CPU
-Computing ML distances took 0.424896 sec (of wall-clock time) 1.266691 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.00391648 secs using 323% CPU
-Constructing RapidNJ tree: done in 0.109399 secs using 188.4% CPU
-Computing RapidNJ tree took 0.113367 sec (of wall-clock time) 0.218892 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -18908.019
---------------------------------------------------------------------
-|             INITIALIZING CANDIDATE TREE SET                      |
---------------------------------------------------------------------
-
-Do NNI search on 2 best initial trees
-Optimizing NNI: done in 0.534956 secs using 295% CPU
-Estimate model parameters (epsilon = 0.500)
-BETTER TREE FOUND at iteration 1: -18277.381
-Optimizing NNI: done in 1.70479 secs using 294.4% CPU
-Finish initializing candidate tree set (4)
-Current best tree score: -18277.381 / CPU time: 2.427
-Number of iterations: 2
-TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:51s
-
---------------------------------------------------------------------
-|                    FINALIZING TREE SEARCH                        |
---------------------------------------------------------------------
-Performs final model parameters optimization
-Estimate model parameters (epsilon = 0.050)
-1. Initial log-likelihood: -18277.381
-Optimal log-likelihood: -18277.350
-Rate parameters:  A-C: 1.16126  A-G: 13.72533  A-T: 2.15604  C-G: 0.74141  C-T: 41.72663  G-T: 1.00000
-Base frequencies:  A: 0.314  C: 0.195  G: 0.272  T: 0.218
-Gamma shape alpha: 0.328
-Parameters optimization took 1 rounds (0.223 sec)
-BEST SCORE FOUND : -18277.350
-Total tree length: 1.531
-
-Total number of iterations: 2
-CPU time used for tree search: 7.160 sec (0h:0m:7s)
-Wall-clock time used for tree search: 2.428 sec (0h:0m:2s)
-Total CPU time used: 118.235 sec (0h:1m:58s)
-Total wall-clock time used: 51.654 sec (0h:0m:51s)
-
-Analysis results written to: 
-  IQ-TREE report:                ../resources/merged_data/cropped/align_DENV3-delim.fasta.iqtree
-  Maximum-likelihood tree:       ../resources/merged_data/cropped/align_DENV3-delim.fasta.treefile
-  Likelihood distances:          ../resources/merged_data/cropped/align_DENV3-delim.fasta.mldist
-  Screen log file:               ../resources/merged_data/cropped/align_DENV3-delim.fasta.log
-
-Date and Time: Wed May 13 18:24:26 2026
+Reading fasta file: done in 0.00870291 secs using 97.99% CPU
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00005_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00007_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00008_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00008_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00009_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_00011_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00018_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00023_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00031_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_00037_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_00055_DELIM-0x2f_04 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00059_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00065_DELIM-0x2f_13 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00072_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00073_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_00075_DELIM-0x2f_10 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00081_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00088_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00092_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00098_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00104_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00106_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00112_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00125_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00128_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00130_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00142_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00145_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00146_DELIM-0x2f_14 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00152_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00156_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00159_DELIM-0x2f_05 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_00165_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_00190_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00209_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_00245_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_00246_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00247_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00253_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00255_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00266_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00273_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00288_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00293_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00295_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00317_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_00317_DELIM-0x2f_04 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_00317_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00323_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_00329_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_00334_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_00342_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00344_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00368_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00372_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00422_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00430_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00432_DELIM-0x2f_14 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_00441_DELIM-0x2f_04 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00452_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00460_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00466_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_00495_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00497_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00501_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00503_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00507_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00507_DELIM-0x2f_14 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00509_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00515_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00519_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00520_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00521_DELIM-0x2f_14 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00523_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00530_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00536_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00541_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00541_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00542_DELIM-0x2f_14 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00544_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00557_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_00557_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00560_DELIM-0x2f_14 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00566_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00567_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00576_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00583_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00588_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_00596_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_00602_DELIM-0x2f_04 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00608_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00617_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00618_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00631_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00633_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_00637_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00638_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00639_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00651_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00654_DELIM-0x2f_05 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00654_DELIM-0x2f_14 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00657_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00664_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00669_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00676_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00679_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00688_DELIM-0x2f_14 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_00688_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00693_DELIM-0x2f_13 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00695_DELIM-0x2f_13 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2009_DELIM-0x2f_00702_DELIM-0x2f_09 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00705_DELIM-0x2f_14 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00705_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00706_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00708_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00708_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00709_DELIM-0x2f_13 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00710_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00710_DELIM-0x2f_14 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00715_DELIM-0x2f_13 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00715_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00717_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00731_DELIM-0x2f_13 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00739_DELIM-0x2f_05 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00739_DELIM-0x2f_14 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00748_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00749_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00749_DELIM-0x2f_14 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_00753_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2014_DELIM-0x2f_00759_DELIM-0x2f_14 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_00767_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00772_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00778_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00779_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00780_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00798_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00800_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00806_DELIM-0x2f_05 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00807_DELIM-0x2f_13 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00817_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00819_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00831_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00831_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00833_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_00833_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00838_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00842_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00846_DELIM-0x2f_05 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00852_DELIM-0x2f_05 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00872_DELIM-0x2f_05 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_00873_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00907_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00910_DELIM-0x2f_13 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00912_DELIM-0x2f_13 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00913_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_00923_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00929_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00936_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00950_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_00957_DELIM-0x2f_13 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00965_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00975_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_00975_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_00979_DELIM-0x2f_04 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_00980_DELIM-0x2f_05 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_00984_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_00991_DELIM-0x2f_04 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_00997_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_00999_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_01022_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01029_DELIM-0x2f_10 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_01035_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01037_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01041_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01042_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01045_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01062_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01067_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01085_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_01094_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_01096_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_01106_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01128_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2012_DELIM-0x2f_01131_DELIM-0x2f_12 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_01144_DELIM-0x2f_04 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_01146_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01166_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01171_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01177_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01179_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01182_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_01184_DELIM-0x2f_04 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_01187_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2009_DELIM-0x2f_01231_DELIM-0x2f_09 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01245_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01249_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_01250_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01251_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01253_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01257_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01260_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01262_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01262_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01263_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01276_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_01278_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01284_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01285_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_01293_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01296_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01300_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_01311_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01313_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01317_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01318_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01330_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01333_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_01335_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_01363_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01367_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01369_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01372_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01373_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01375_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01378_DELIM-0x2f_10 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01379_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01385_DELIM-0x2f_10 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01387_DELIM-0x2f_05 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_01388_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01393_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2004_DELIM-0x2f_01393_DELIM-0x2f_04 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2008_DELIM-0x2f_01398_DELIM-0x2f_08 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01400_DELIM-0x2f_05 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2013_DELIM-0x2f_01401_DELIM-0x2f_13 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01404_DELIM-0x2f_05 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01421_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01423_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_01425_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01434_DELIM-0x2f_10 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01442_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2011_DELIM-0x2f_01445_DELIM-0x2f_11 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01455_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01467_DELIM-0x2f_10 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01468_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01472_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01486_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01487_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01491_DELIM-0x2f_05 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_01494_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01505_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01508_DELIM-0x2f_10 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01509_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01528_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01530_DELIM-0x2f_05 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_01530_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01536_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01537_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01552_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01559_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01565_DELIM-0x2f_05 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2005_DELIM-0x2f_01569_DELIM-0x2f_05 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01575_DELIM-0x2f_10 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2010_DELIM-0x2f_01601_DELIM-0x2f_10 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01619_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01651_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01651_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01654_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01655_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01658_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01671_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01672_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01691_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01697_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_01700_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_01716_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01720_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01720_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01753_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01781_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01781_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_01802_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01828_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01837_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01847_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_01868_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01906_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01908_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_01909_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01933_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_01935_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_01941_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_01956_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01967_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_01976_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_01979_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_01982_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01996_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02000_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_02006_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02016_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_02029_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_02035_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02038_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02042_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02051_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_02080_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02111_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02117_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02121_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_02141_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_02161_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_02171_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_02173_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02174_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02185_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02202_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_02208_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_02213_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1996_DELIM-0x2f_02222_DELIM-0x2f_96 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02224_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2003_DELIM-0x2f_02234_DELIM-0x2f_03 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_02242_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_02251_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02277_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02283_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02292_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02341_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02380_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02384_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02434_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02485_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02490_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02506_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02515_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02519_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02551_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02553_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_02580_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02632_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_02673_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02678_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02701_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02704_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02763_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02784_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02812_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2006_DELIM-0x2f_02814_DELIM-0x2f_06 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_02864_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_02902_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_02906_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_02916_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_02972_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_02983_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_02993_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_03058_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_03080_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2002_DELIM-0x2f_03135_DELIM-0x2f_02 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_03240_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_03291_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_03353_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_03417_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_03565_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_03567_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_03640_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_03749_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_03767_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_03818_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_03879_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04045_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04187_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04236_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04298_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04331_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04378_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04502_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_04514_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04526_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04540_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_04557_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04635_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04680_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_04710_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04763_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_04945_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_04945_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04946_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_04996_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_05100_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_05308_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_05364_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_05379_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05420_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05421_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05443_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05456_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_05480_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05499_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05571_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_05578_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_05611_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05632_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_05718_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_05746_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05772_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05815_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_05838_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05884_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_05951_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_05956_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_05969_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_06012_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_06028_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_06047_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1999_DELIM-0x2f_06060_DELIM-0x2f_99 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_06068_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_06070_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_06117_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_06123_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_06135_DELIM-0x2f_00 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_06198_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_06343_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_06406_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_06419_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_06503_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_06541_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_2001_DELIM-0x2f_06757_DELIM-0x2f_01 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_06912_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1998_DELIM-0x2f_07042_DELIM-0x2f_98 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_07176_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_07180_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_07225_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_07234_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_07597_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1997_DELIM-0x2f_07887_DELIM-0x2f_97 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30017_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30055_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30060_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30071_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30110_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30125_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30175_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30195_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30246_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30301_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30317_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30334_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30362_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30457_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_30460_DELIM-0x2f_95 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30520_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30551_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30590_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30621_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_30677_DELIM-0x2f_94 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_MYANMAR_DELIM-0x2f_2008_DELIM-0x2f_80931 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_FIJI_DELIM-0x2f_1992_DELIM-0x2f_29472-L11422-I contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_NICARAGUA_DELIM-0x2f_2009_DELIM-0x2f_BID-V4753 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_PUERTORICO_DELIM-0x2f_2006_DELIM-0x2f_429965 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_PUERTO-RICO_DELIM-0x2f_1963_DELIM-0x2f_PRS-228762-AC27 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_INDONESIA_DELIM-0x2f_1978_DELIM-0x2f_SLEMAN-1280-AC25 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_VIETNAM_DELIM-0x2f_2006_DELIM-0x2f_BID-V1329 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_VIETNAM_DELIM-0x2f_2007_DELIM-0x2f_BID-V1817 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2007_DELIM-0x2f_FJ639713 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2007_DELIM-0x2f_FJ639714 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2008_DELIM-0x2f_FJ639716 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2000_DELIM-0x2f_FJ639719 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2001_DELIM-0x2f_FJ639720 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2002_DELIM-0x2f_FJ639721 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2007_DELIM-0x2f_FJ639731 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2002_DELIM-0x2f_GQ868627 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2008_DELIM-0x2f_GU131905 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2008_DELIM-0x2f_HM631854 contains too many characters (1485)
+ERROR: Sequence DENV3_DELIM-0x2f_CAMBODIA_DELIM-0x2f_2011_DELIM-0x2f_V0907330 contains too many characters (1485)
+ERROR: 
