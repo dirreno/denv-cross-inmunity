@@ -1,1335 +1,996 @@
-strain	date	region	country	division	genotype	lineage
-hDenV1/Colombia/un-OUCRU-101/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-102/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-103/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-104/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-1/2013	2013	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-10122/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-10123/2012	2012	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-10124/2013	2013	South America	Colombia		V	1V_D.1.2
-hDenV1/Colombia/un-OUCRU-10125/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-10126/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-10128/2013	2013	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-101210/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-101212/2013	2013	South America	Colombia		V	1V_D.1.2
-hDenV1/Colombia/un-OUCRU-101216/2013	2013	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-101218/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-101219/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-101220/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-101221/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-101223/2013	2013	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-OUCRU-101224/2011	2011	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-101225/2013	2013	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-OUCRU-101226/2012	2012	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-101227/2013	2013	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-OUCRU-101228/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-101229/2013	2013	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-OUCRU-101230/2013	2013	South America	Colombia		V	1V_B
-hDenV1/Colombia/un-OUCRU-101253/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-101232/2013	2013	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-101234/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-101245/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-101235/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-101236/2013	2013	South America	Colombia		V	1V_F
-hDenV1/Colombia/SAN-UIS-0000041/2010	2010	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-0000040/2009	2009	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-0000034/2014	2014	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000043/2009	2009	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-0000054/2016	2016	South America	Colombia	Santander	V	1V_D.2
-hDenV1/Colombia/SAN-UIS-0000055/2015	2015	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000052/2010	2010	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-0000051/2016	2016	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000046/2009	2009	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-0000047/2016	2016	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000048/2014	2014	South America	Colombia	Santander	V/V	1V_D.1/1V
-hDenV1/Colombia/SAN-UIS-0000056/2013	2013	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000031/2016	2016	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000028/2013	2013	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000029/2010	2010	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-0000059/2016	2016	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000057/2014	2014	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000005/2015	2015	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000007/2015	2015	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000008/2014	2014	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000009/2010	2010	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-0000030/2010	2010	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000012/2010	2010	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000013/2010	2010	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000014/2016	2016	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000015/2016	2016	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000016/2015	2015	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000017/2015	2015	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-0000018/2016	2016	South America	Colombia	Santander	V	1V_F
-hDenV1/Colombia/SAN-UIS-0000019/2016	2016	South America	Colombia	Santander	V	1V_D.2
-hDenV1/Colombia/SAN-UIS-0000020/2010	2010	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-0000011/2009	2009	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-0000050/2009	2009	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/un-BROAD-0000007/2005	2005	South America	Colombia		V	1V
-hDenV1/Colombia/NSA-BROAD-0000019/2006	2006	South America	Colombia	Norte de Santander	V	1V
-hDenV1/Colombia/NSA-BROAD-0000020/2006	2006	South America	Colombia	Norte de Santander	V	1V
-hDenV1/Colombia/SAN-BROAD-0000053/2007	2007	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-BROAD-0000058/2001	2001	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-BROAD-0000046/2007	2007	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/NSA-BROAD-0000025/2006	2006	South America	Colombia	Norte de Santander	V	1V
-hDenV1/Colombia/SAN-BROAD-0000029/2007	2007	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-BROAD-0000032/2008	2008	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/NSA-BROAD-0000023/2006	2006	South America	Colombia	Norte de Santander	V	1V
-hDenV1/Colombia/SAN-BROAD-0000036/2007	2007	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-BROAD-0000037/2005	2005	South America	Colombia	Santander	V	1V_F
-hDenV1/Colombia/un-OUCRU-0000011/2012	2012	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000010/2013	2013	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-OUCRU-0000008/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000006/2012	2012	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-0000005/2013	2013	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-OUCRU-0000003/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000014/2012	2012	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-OUCRU-0000040/2013	2013	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-0000043/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000045/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000046/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000048/2013	2013	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-0000023/2013	2013	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-OUCRU-0000049/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000087/2013	2013	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-OUCRU-0000088/2012	2012	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000090/2012	2012	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-0000092/2012	2012	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-0000093/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000095/2012	2012	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-0000096/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000081/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000052/2013	2013	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-0000053/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000060/2013	2013	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-OUCRU-0000061/2012	2012	South America	Colombia		V	1V
-hDenV1/Colombia/un-OUCRU-0000063/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000068/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000069/2012	2012	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-0000070/2012	2012	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-0000074/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000075/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-0000076/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-CDC-002/2007	2007	South America	Colombia		V	1V_G
-hDenV1/Colombia/NSA-UIS-00011/2006	2006	South America	Colombia	Norte de Santander	V	1V_F
-hDenV1/Colombia/NSA-UIS-00012/2005	2005	South America	Colombia	Norte de Santander	V	1V_F
-hDenV1/Colombia/NSA-UIS-00009/2006	2006	South America	Colombia	Norte de Santander	V	1V_F
-hDenV1/Colombia/NSA-UIS-00007/2006	2006	South America	Colombia	Norte de Santander	V	1V_F
-hDenV1/Colombia/NSA-UIS-00010/2006	2006	South America	Colombia	Norte de Santander	V	1V_F
-hDenV1/Colombia/NSA-UIS-00045/2006	2006	South America	Colombia	Norte de Santander	V	1V_G
-hDenV1/Colombia/NSA-UIS-00008/2006	2006	South America	Colombia	Norte de Santander	V	1V_F
-hDenV1/Colombia/NSA-UIS-00044/2006	2006	South America	Colombia	Norte de Santander	V	1V_G
-hDenV1/Colombia/SAN-UIS-00036/2007	2007	South America	Colombia	Santander	V	1V_G
-hDenV1/Colombia/SAN-UIS-00027/2008	2008	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-00028/2007	2007	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-00030/2008	2008	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-00031/2004	2004	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/NSA-UIS-00046/2006	2006	South America	Colombia	Norte de Santander	V	1V_G
-hDenV1/Colombia/NSA-UIS-00034/2006	2006	South America	Colombia	Norte de Santander	V	1V_G
-hDenV1/Colombia/SAN-UIS-00033/2008	2008	South America	Colombia	Santander	V	1V_G
-hDenV1/Colombia/NSA-UIS-00014/2006	2006	South America	Colombia	Norte de Santander	V	1V_F
-hDenV1/Colombia/SAN-UIS-00026/2007	2007	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-00024/2008	2008	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/NSA-UIS-00037/2006	2006	South America	Colombia	Norte de Santander	V	1V_G
-hDenV1/Colombia/NSA-UIS-00015/2006	2006	South America	Colombia	Norte de Santander	V	1V_F
-hDenV1/Colombia/SAN-UIS-00016/2007	2007	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/NSA-UIS-00013/2006	2006	South America	Colombia	Norte de Santander	V	1V_F
-hDenV1/Colombia/SAN-UIS-00051/2002	2002	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/NSA-UIS-00039/2006	2006	South America	Colombia	Norte de Santander	V	1V_G
-hDenV1/Colombia/NSA-UIS-00038/2006	2006	South America	Colombia	Norte de Santander	V	1V_G
-hDenV1/Colombia/NSA-UIS-00040/2006	2006	South America	Colombia	Norte de Santander	V	1V_G
-hDenV1/Colombia/SAN-UIS-00017/2007	2007	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-00025/2007	2007	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-00029/2008	2008	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-00035/2008	2008	South America	Colombia	Santander	V	1V_G
-hDenV1/Colombia/SAN-UIS-00018/2008	2008	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/NSA-UIS-00006/2006	2006	South America	Colombia	Norte de Santander	V	1V_F
-hDenV1/Colombia/NSA-UIS-00005/2006	2006	South America	Colombia	Norte de Santander	V	1V_F
-hDenV1/Colombia/SAN-UIS-00004/2008	2008	South America	Colombia	Santander	V	1V_F
-hDenV1/Colombia/SAN-UIS-00003/2008	2008	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-00050/2001	2001	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/SAN-UIS-00002/2008	2008	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-00001/2008	2008	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UIS-00019/2008	2008	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/NSA-UIS-00042/2006	2006	South America	Colombia	Norte de Santander	V	1V_G
-hDenV1/Colombia/SAN-UIS-00022/2008	2008	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/NSA-UIS-00043/2006	2006	South America	Colombia	Norte de Santander	V	1V_G
-hDenV1/Colombia/SAN-UIS-00021/2007	2007	South America	Colombia	Santander	V	1V_G
-hDenV1/Colombia/NSA-UIS-00041/2006	2006	South America	Colombia	Norte de Santander	V	1V_G
-hDenV1/Colombia/SAN-UIS-00023/2008	2008	South America	Colombia	Santander	V	1V
-hDenV1/Colombia/NSA-UIS-00020/2006	2006	South America	Colombia	Norte de Santander	V	1V
-hDenV1/Colombia/SAN-UIS-00032/2007	2007	South America	Colombia	Santander	V	1V_G
-DenV1/un/Colombia/un-UniNorte-1/2001	2001	South America	Colombia		V	1V
-hDenV1/Colombia/un-OUCRU-523/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-521/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-520/2012	2012	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-519/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-508/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-134/2013	2013	South America	Colombia		V	1V_D.1.2
-hDenV1/Colombia/un-OUCRU-135/2013	2013	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-136/2013	2013	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-353/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-522/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-332/2013	2013	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-OUCRU-348/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-356/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-509/2013	2013	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-510/2013	2013	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-OUCRU-511/2013	2013	South America	Colombia		V	1V_D.1.2
-hDenV1/Colombia/un-OUCRU-512/2013	2013	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-513/2013	2013	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-525/2011	2011	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-OUCRU-131/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-133/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-338/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-340/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-341/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-342/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-333/2013	2013	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-OUCRU-360/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-358/2013	2013	South America	Colombia		V	1V_B
-hDenV1/Colombia/un-OUCRU-132/2013	2013	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-OUCRU-506/2013	2013	South America	Colombia		V	1V_D
-hDenV1/Colombia/un-OUCRU-526/2013	2013	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-OUCRU-507/2012	2012	South America	Colombia		V	1V_D
-hDenV1/Colombia/RIS-INS-476947/2016	2016-04-26	South America	Colombia	Risaralda	V	1V_D.1
-hDenV1/Colombia/MET-INS-424735/2013	2013-06-18	South America	Colombia	Meta	V	1V_D.1
-hDenV1/Colombia/CAU-INS-483718/2016	2016-06-24	South America	Colombia	Cauca	V	1V_D.1.2
-hDenV1/Colombia/un-INS-484940/2016	2016-07-07	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-INS-484930/2016	2016-07-19	South America	Colombia		V	1V_F
-hDenV1/Colombia/un-INS-484942/2016	2016-07-14	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-INS-484948/2016	2016-07-12	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/ANT-INS-485061/2016	2016-08-27	South America	Colombia	Antioquia	V	1V_D.1
-hDenV1/Colombia/un-INS-424233/2013	2013-06-01	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/CUN-INS-450339/2015	2015-10-09	South America	Colombia	Cundinamarca	V	1V_D.2
-hDenV1/Colombia/un-Yale-DH141/2004	2004-01-01	South America	Colombia		V	1V
-hDenV1/Colombia/VAC-LSPVAC-2300876/2023	2023-02-09	South America	Colombia	Valle del Cauca	V	1V_D.1
-hDenV1/Colombia/VAC-LSPVAC-2306001/2023	2023-08-21	South America	Colombia	Valle del Cauca	V	1V_D.1
-hDenV1/Colombia/un-BNITM-363/2018	2018-07-01	South America	Colombia		V	1V_D.1.1
-hDenV1/Colombia/VAC-LSPVAC-2400035/2024	2023-12-30	South America	Colombia	Valle del Cauca	V	1V_D.1
-hDenV1/Colombia/VAC-LSPVAC-2400054/2024	2023-12-29	South America	Colombia	Valle del Cauca	V	1V_D.1
-hDenV1/Colombia/VAC-LSPVAC-2400146/2024	2023-12-29	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2400227/2024	2023-12-23	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2400262/2024	2024-01-02	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2400298/2024	2023-12-25	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2400368/2024	2023-12-26	South America	Colombia	Valle del Cauca	V	1V_D.1
-hDenV1/Colombia/VAC-LSPVAC-2401121/2024	2024-01-18	South America	Colombia	Valle del Cauca	V	1V_D.1
-hDenV1/Colombia/VAC-LSPVAC-2401601/2024	2024-01-26	South America	Colombia	Valle del Cauca	V	1V_D.1
-hDenV1/Colombia/VAC-LSPVAC-2401811/2024	2024-01-30	South America	Colombia	Valle del Cauca	V	1V_D.1
-hDenV1/Colombia/VAC-LSPVAC-2401935/2024	2024-01-27	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2402024/2024	2024-02-04	South America	Colombia	Valle del Cauca	V	1V_D.1
-hDenV1/Colombia/VAC-LSPVAC-2402457/2024	2024-02-09	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2402566/2024	2024-02-10	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2402583/2024	2024-01-22	South America	Colombia	Valle del Cauca	V	1V_D.1.1
-hDenV1/Colombia/VAC-LSPVAC-2402847/2024	2024-02-15	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2403830/2024	2024-03-05	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2404263/2024	2024-03-12	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2404314/2024	2024-03-08	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2404461/2024	2024-03-18	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2404681/2024	2024-03-31	South America	Colombia	Valle del Cauca	V	1V_D.1.1
-hDenV1/Colombia/VAC-LSPVAC-2404789/2024	2024-03-18	South America	Colombia	Valle del Cauca	V	1V_D.1
-hDenV1/Colombia/VAC-LSPVAC-2405179/2024	2024-04-01	South America	Colombia	Valle del Cauca	V	1V_D.1
-hDenV1/Colombia/VAC-LSPVAC-2405205/2024	2024-04-05	South America	Colombia	Valle del Cauca	V	1V_D.1
-hDenV1/Colombia/VAC-LSPVAC-2405404/2024	2024-04-04	South America	Colombia	Valle del Cauca	V	1V_D.1.1
-hDenV1/Colombia/VAC-LSPVAC-2405498/2024	2024-03-12	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2405525/2024	2024-04-12	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2405553/2024	2024-04-09	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2405690/2024	2024-03-18	South America	Colombia	Valle del Cauca	V	1V_D.1.1
-hDenV1/Colombia/VAC-LSPVAC-2405731/2024	2024-04-07	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2405754/2024	2024-04-12	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2405774/2024	2024-04-22	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2405625/2024	2024-04-14	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/un-Yale-DN02379/2023	2023-09-13	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-Yale-DN02363/2023	2023-08-26	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-Yale-DN02376/2023	2023-09-11	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-Yale-DN02556/2024	2024-02-20	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-Yale-DN02429/2023	2023-11-12	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-Yale-DN02489/2024	2024-01-10	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-Yale-DN02505/2024	2024-01-21	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-Yale-DN02386/2023	2023-09-21	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-Yale-DN02440/2023	2023-11-23	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-Yale-DN02365/2023	2023-08-30	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/VAC-LSPVAC-2407081-VI/2024	2024-05-20	South America	Colombia	Valle del Cauca	V	1V_D.1
-hDenV1/Colombia/VAC-LSPVAC-2407539-VI/2024	2024-05-28	South America	Colombia	Valle del Cauca	V	1V_D.1.1
-hDenV1/Colombia/ANT-UDEA-COA0053/2021	2021-12-09	South America	Colombia	Antioquia	V	1V_D.1.1
-hDenV1/Colombia/ANT-UDEA-COT0221/2023	2023-08-16	South America	Colombia	Antioquia	V	1V_D.1.1
-hDenV1/Colombia/ANT-UDEA-COT0017/2023	2023-07-28	South America	Colombia	Antioquia	V	1V_D.1.1
-hDenV1/Colombia/ANT-UDEA-COT0028/2023	2023-08-09	South America	Colombia	Antioquia	V	1V_D.1.1
-hDenV1/Colombia/ANT-UDEA-COA0214/2022	2022-03-09	South America	Colombia	Antioquia	V	1V_D.1.1
-hDenV1/Colombia/ANT-UDEA-COA0234/2022	2022-04-01	South America	Colombia	Antioquia	V	1V_D.1.1
-hDenV1/Colombia/ANT-UDEA-COT0011/2023	2023-07-21	South America	Colombia	Antioquia	V	1V_D.1.1
-hDenV1/Colombia/ANT-UDEA-COT0012/2023	2023-07-25	South America	Colombia	Antioquia	V	1V_D.1.1
-hDenV1/Colombia/ANT-UDEA-COT0026/2023	2023-08-05	South America	Colombia	Antioquia	V	1V_D.1.1
-hDenV1/Colombia/un-Yale-DN02838/2024	2024-06-24	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/un-Yale-DN02741/2024	2024-04-14	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-Yale-DN02733/2024	2024-04-11	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-Yale-DN02730/2024	2024-04-07	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/HUI-UEB-033/2011	2011-03-01	South America	Colombia	Huila	V	1V_D.2
-hDenV1/Colombia/VAC-LSPVAC-2409164-VI/2024	2024-06-12	South America	Colombia	Valle del Cauca	V	1V_D.2
-hDenV1/Colombia/RIS-FUAA-DFC059/2021	2021-08-15	South America	Colombia	Risaralda	V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC222/2021	2021-12-03	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC245/2022	2022-07-24	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC217/2021	2021-11-30	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC088/2021	2021-08-28	South America	Colombia		V	1V_D.2
-hDenV1/Colombia/RIS-FUAA-AFI224/2022	2022-04-06	South America	Colombia	Risaralda	V	1V_D.2
-hDenV1/Colombia/RIS-FUAA-AFI101/2021	2021-05-08	South America	Colombia	Risaralda	V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC161/2021	2021-10-16	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC177/2021	2021-10-29	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC265/2022	2022-12-11	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC087/2021	2021-08-24	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC114/2021	2021-09-06	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC096/2021	2021-08-30	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC063/2021	2021-08-15	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC263/2022	2022-05-11	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC162/2021	2021-10-17	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC264/2022	2022-11-11	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/RIS-FUAA-AFI031/2021	2021-02-16	South America	Colombia	Risaralda	V	1V_D.1
-hDenV1/Colombia/RIS-FUAA-AFI082/2021	2021-06-28	South America	Colombia	Risaralda	V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC238/2021	2021-12-12	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/un-FUAA-DFC112/2021	2021-09-06	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/SAN-Yale-DH141-P2/2004	2004	South America	Colombia	Santander	V	1V
-DenV1/mosquito/Colombia/MAG-CIST-0134/2018	2018-10-04	South America	Colombia	Magdalena	V	1V_D.1.1
-DenV1/mosquito/Colombia/MAG-CIST-0151/2018	2018-11-01	South America	Colombia	Magdalena	V	1V_D.2
-hDenV1/Colombia/BOL-UEB-016/2019	2019-09	South America	Colombia	Bolivar	V	1V_D.1.1
-hDenV1/Colombia/BOL-UEB-152/2019	2019-09	South America	Colombia	Bolivar	V	1V_D.1.1
-hDenV1/Colombia/BOL-UEB-152-1/2019	2019-09	South America	Colombia	Bolivar	V	1V_D.1.1
-hDenV1/Colombia/BOL-UEB-016-1/2019	2019-09	South America	Colombia	Bolivar	V	1V_D.1.1
-hDenV1/Colombia/un-FUAA-AFI007673/2019	2019-09	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/SAN-UR-P201080030/2015	2015-03	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/SAN-UR-LV121086/2010	2010-03	South America	Colombia	Santander	V	1V_G
-hDenV1/Colombia/SAN-UR-LV122007/2009	2009-08	South America	Colombia	Santander	V	1V_G
-hDenV1/Colombia/SAN-UR-F15030291/2014	2014-06	South America	Colombia	Santander	V	1V_D.1
-hDenV1/Colombia/NSA-UIDS-555/2001	2001-12	South America	Colombia	Norte de Santander	V	1V_D.1
-hDenV1/Colombia/NSA-UIDS-559/2015	2015-12	South America	Colombia	Norte de Santander	V	1V_D.1
-hDenV1/Colombia/NSA-UIDS-556/2015	2015-04	South America	Colombia	Norte de Santander	V	1V_D.1
-hDenV1/Colombia/NSA-UIDS-558/2016	2016-04	South America	Colombia	Norte de Santander	V	1V_F
-hDenV1/Colombia/NSA-UIDS-557/2009	2009-09	South America	Colombia	Norte de Santander	V	1V
-hDenV1/Colombia/un-UDS-Ov07582/2013	2013-09-08	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/ANT-UDS-0746586/2013	2013-08-09	South America	Colombia	Antioquia	V	1V_D.1
-hDenV1/Colombia/FUADLA-AFI025_676/2021	2021-01-25	South America	Colombia		V	1V_D.1
-hDenV1/Colombia/FUADLA-AFI059_677/2021	2021-01-25	South America	Colombia		V	1V_D.1
-2016.874	2016-01-01		Taiwan			
-2016.79	2016-01-01		Taiwan			
-2004.538	2004-01-01		Taiwan			
-2004.5_3	2004-01-01		Philippines			
-2016.041	2016-01-01		Philippines			
-2002.707	2002-01-01		China			
-2005.5_8	2005-01-01		Malaysia			
-1960.5	1960-01-01		Thailand			
-2017.775	2017-01-01		China			
-2017.315	2017-01-01		China			
-2014.915	2014-01-01		BKK			
-2016.669	2016-01-01		China			
-2014.934	2014-01-01		BKK			
-2017.288	2017-01-01		Thailand			
-2015.808	2015-01-01		China			
-2013.688	2013-01-01		BKK			
-2011.581	2011-01-01		BKK			
-2011.321	2011-01-01		BKK			
-2011.507	2011-01-01		KPP			
-2011.003	2011-01-01		BKK			
-2010.57	2010-01-01		BKK			
-2002.463	2002-01-01		KPP			
-2011.559	2011-01-01		KPP			
-2011.474	2011-01-01		KPP			
-2002.479	2002-01-01		KPP			
-2011.501	2011-01-01		KPP			
-2010.926	2010-01-01		BKK			
-2010.86	2010-01-01		BKK			
-2010.827	2010-01-01		BKK			
-2011.036	2011-01-01		BKK			
-2010.825	2010-01-01		BKK			
-1997.584	1997-01-01		KPP			
-2011.515	2011-01-01		BKK			
-2011.378	2011-01-01		BKK			
-2011.505	2011-01-01		BKK			
-2011.986	2011-01-01		KPP			
-2013.5	2013-01-01		BKK			
-2011.974	2011-01-01		BKK			
-2011.973	2011-01-01		BKK			
-2011.912	2011-01-01		BKK			
-2011.51	2011-01-01		BKK			
-2013.027	2013-01-01		BKK			
-2013.022	2013-01-01		BKK			
-2012.913	2012-01-01		BKK			
-2011.764	2011-01-01		BKK			
-2013.26	2013-01-01		BKK			
-2012.85	2012-01-01		BKK			
-2009.625	2009-01-01		KPP			
-2009.556	2009-01-01		KPP			
-2007.622_2	2007-01-01		KPP			
-2007.488	2007-01-01		KPP			
-2007.419	2007-01-01		KPP			
-2007.479	2007-01-01		KPP			
-2006.97_3	2006-01-01		BKK			
-2006.926_3	2006-01-01		BKK			
-2006.921	2006-01-01		BKK			
-2006.896	2006-01-01		BKK			
-2006.863	2006-01-01		BKK			
-2006.91	2006-01-01		BKK			
-2006.66	2006-01-01		KPP			
-2006.655	2006-01-01		KPP			
-2006.638_2	2006-01-01		KPP			
-2006.622	2006-01-01		KPP			
-2006.6	2006-01-01		KPP			
-2006.619	2006-01-01		KPP			
-2006.638	2006-01-01		KPP			
-2006.614	2006-01-01		KPP			
-1995.685	1995-01-01		KPP			
-2002.463_2	2002-01-01		KPP			
-2006.589	2006-01-01		KPP			
-2006.932	2006-01-01		BKK			
-2007.436	2007-01-01		KPP			
-2000.481	2000-01-01		KPP			
-2006.871_2	2006-01-01		BKK			
-2006.515_2	2006-01-01		BKK			
-2006.696	2006-01-01		BKK			
-2006.852	2006-01-01		BKK			
-2006.649	2006-01-01		KPP			
-2006.614_2	2006-01-01		KPP			
-2006.6_2	2006-01-01		KPP			
-2006.433	2006-01-01		KPP			
-2006.644	2006-01-01		KPP			
-2006.975	2006-01-01		BKK			
-2006.901	2006-01-01		BKK			
-2006.962	2006-01-01		BKK			
-2006.899_3	2006-01-01		BKK			
-2006.871_3	2006-01-01		BKK			
-2006.740	2006-01-01		BKK			
-2006.721_2	2006-01-01		BKK			
-2006.721_3	2006-01-01		BKK			
-2006.784	2006-01-01		BKK			
-2006.819	2006-01-01		BKK			
-2006.855	2006-01-01		BKK			
-2006.611_2	2006-01-01		BKK			
-2006.556	2006-01-01		BKK			
-2006.54	2006-01-01		BKK			
-2006.468	2006-01-01		BKK			
-2006.622_3	2006-01-01		BKK			
-2006.592	2006-01-01		BKK			
-2009.608	2009-01-01		KPP			
-2009.348	2009-01-01		KPP			
-2009.5_3	2009-01-01		H0			
-2014.899	2014-01-01		BKK			
-2014.83	2014-01-01		BKK			
-2014.789	2014-01-01		BKK			
-2013.655	2013-01-01		BKK			
-2014.619	2014-01-01		BKK			
-2014.753	2014-01-01		BKK			
-2011.499	2011-01-01		KPP			
-1999.378	1999-01-01		KPP			
-2002.29	2002-01-01		KPP			
-2002.244	2002-01-01		KPP			
-1998.244_2	1998-01-01		KPP			
-2002.605	2002-01-01		KPP			
-2004.016	2004-01-01		KPP			
-2001.866	2001-01-01		Thailand			
-2001.688	2001-01-01		BKK			
-2001.647	2001-01-01		Thailand			
-2001.638	2001-01-01		Thailand			
-2001.449	2001-01-01		Thailand			
-2001.474_2	2001-01-01		KPP			
-1998.616	1998-01-01		KPP			
-2003.145	2003-01-01		BKK			
-2003.137	2003-01-01		BKK			
-2002.953_2	2002-01-01		BKK			
-2002.953	2002-01-01		BKK			
-2002.918	2002-01-01		BKK			
-2002.923	2002-01-01		BKK			
-2002.907	2002-01-01		BKK			
-2003.134	2003-01-01		BKK			
-2003.104	2003-01-01		BKK			
-2002.564	2002-01-01		BKK			
-2002.43	2002-01-01		BKK			
-2002.389	2002-01-01		BKK			
-2002.252	2002-01-01		BKK			
-2002.175_2	2002-01-01		BKK			
-2001.5	2001-01-01		Thailand			
-2001.356	2001-01-01		BKK			
-2001.493	2001-01-01		BKK			
-2001.025	2001-01-01		BKK			
-2000.689_2	2000-01-01		BKK			
-2000.943	2000-01-01		BKK			
-2000.926	2000-01-01		KPP			
-2001.334	2001-01-01		BKK			
-2001.288_2	2001-01-01		BKK			
-2001.485	2001-01-01		BKK			
-2000.872_2	2000-01-01		BKK			
-2001.353	2001-01-01		BKK			
-2002.214	2002-01-01		BKK			
-2004.623_2	2004-01-01		H0			
-2001.455	2001-01-01		P0			
-2001.203	2001-01-01		P0			
-2001.118	2001-01-01		BKK			
-2000.934	2000-01-01		BKK			
-2006.238	2006-01-01		KPP			
-2001.811	2001-01-01		KPP			
-1998.173	1998-01-01		KPP			
-2001.658	2001-01-01		BKK			
-2010.704	2010-01-01		KPP			
-2002.57	2002-01-01		KPP			
-2002.548	2002-01-01		KPP			
-2001.288	2001-01-01		L0			
-2001.704	2001-01-01		BKK			
-2002.345	2002-01-01		BKK			
-2001.8	2001-01-01		BKK			
-2001.37	2001-01-01		N0			
-2002.074	2002-01-01		BKK			
-2003.17	2003-01-01		BKK			
-2002.586	2002-01-01		BKK			
-2002.09	2002-01-01		BKK			
-2010.6	2010-01-01		KPP			
-2010.545	2010-01-01		KPP			
-2003.386_2	2003-01-01		KPP			
-2003.192	2003-01-01		BKK			
-2003.863	2003-01-01		BKK			
-2003.041	2003-01-01		P0			
-2002.51	2002-01-01		BKK			
-2002.132	2002-01-01		BKK			
-2003.745	2003-01-01		BKK			
-2002.915	2002-01-01		BKK			
-2003.638	2003-01-01		BKK			
-2002.378	2002-01-01		BKK			
-2001.964	2001-01-01		BKK			
-2001.416	2001-01-01		KPP			
-2001.534	2001-01-01		BKK			
-2003.244	2003-01-01		BKK			
-2003.83	2003-01-01		BKK			
-2003.762	2003-01-01		BKK			
-2003.816	2003-01-01		BKK			
-2003.06	2003-01-01		BKK			
-2002.233	2002-01-01		BKK			
-2001.496	2001-01-01		BKK			
-2006.441	2006-01-01		KPP			
-2004.041	2004-01-01		BKK			
-2006.052	2006-01-01		BKK			
-2005.449	2005-01-01		BKK			
-2005.167	2005-01-01		BKK			
-2004.609	2004-01-01		BKK			
-2004.481	2004-01-01		BKK			
-2005.14	2005-01-01		BKK			
-2004.932	2004-01-01		BKK			
-2005.063	2005-01-01		BKK			
-2004.235	2004-01-01		BKK			
-2004.044	2004-01-01		BKK			
-2006.027	2006-01-01		BKK			
-2006.008	2006-01-01		BKK			
-2005.882	2005-01-01		BKK			
-2005.863	2005-01-01		BKK			
-2006.389	2006-01-01		KPP			
-2005.493	2005-01-01		KPP			
-2005.455	2005-01-01		KPP			
-2005.356	2005-01-01		KPP			
-2005.312	2005-01-01		KPP			
-2005.405	2005-01-01		KPP			
-2005.321	2005-01-01		KPP			
-2005.332	2005-01-01		KPP			
-2005.405_2	2005-01-01		KPP			
-2004.883	2004-01-01		BKK			
-2004.844	2004-01-01		BKK			
-2004.803	2004-01-01		BKK			
-2004.596	2004-01-01		BKK			
-2003.241	2003-01-01		BKK			
-2003.205	2003-01-01		BKK			
-2001.827	2001-01-01		BKK			
-2001.827_2	2001-01-01		BKK			
-2005.422	2005-01-01		KPP			
-2005.389	2005-01-01		KPP			
-2005.375	2005-01-01		KPP			
-2005.307	2005-01-01		KPP			
-2005.085	2005-01-01		KPP			
-2004.738	2004-01-01		BKK			
-2003.964	2003-01-01		BKK			
-2002.499_2	2002-01-01		BKK			
-2002.762	2002-01-01		BKK			
-2003.37	2003-01-01		N0			
-2006.97_2	2006-01-01		BKK			
-2006.945_3	2006-01-01		BKK			
-2006.942	2006-01-01		BKK			
-2006.907_2	2006-01-01		BKK			
-2006.899	2006-01-01		BKK			
-2006.852_2	2006-01-01		BKK			
-2006.773_2	2006-01-01		BKK			
-2006.447	2006-01-01		BKK			
-2006.688	2006-01-01		BKK			
-2005.967_2	2005-01-01		BKK			
-2006.658_2	2006-01-01		BKK			
-2006.581_2	2006-01-01		BKK			
-2006.901_2	2006-01-01		BKK			
-2006.625_2	2006-01-01		BKK			
-2006.504	2006-01-01		BKK			
-2006.836	2006-01-01		BKK			
-2006.011_2	2006-01-01		BKK			
-2005.995	2005-01-01		BKK			
-2005.901	2005-01-01		KPP			
-2005.874	2005-01-01		KPP			
-2005.208	2005-01-01		BKK			
-2004.262	2004-01-01		BKK			
-2005.447	2005-01-01		KPP			
-2004.956	2004-01-01		P0			
-2003.271	2003-01-01		BKK			
-2002.203	2002-01-01		P0			
-2001.658_2	2001-01-01		BKK			
-2006.907	2006-01-01		BKK			
-2006.759	2006-01-01		BKK			
-2006.603_3	2006-01-01		BKK			
-2006.597	2006-01-01		BKK			
-2006.581	2006-01-01		BKK			
-2006.567	2006-01-01		BKK			
-2003.403_2	2003-01-01		KPP			
-2003.386	2003-01-01		KPP			
-2003.764	2003-01-01		BKK			
-2002.493	2002-01-01		BKK			
-2003.575	2003-01-01		BKK			
-2003.455	2003-01-01		N0			
-2002.808	2002-01-01		BKK			
-2002.989	2002-01-01		BKK			
-2002.942	2002-01-01		BKK			
-2003.211	2003-01-01		BKK			
-2002.921	2002-01-01		BKK			
-2002.384	2002-01-01		BKK			
-2002.142	2002-01-01		BKK			
-2003.488	2003-01-01		BKK			
-1997.573	1997-01-01		KPP			
-2004.678	2004-01-01		BKK			
-2004.954	2004-01-01		BKK			
-2006.181	2006-01-01		KPP			
-2006.164	2006-01-01		KPP			
-2005.975	2005-01-01		KPP			
-2005.921	2005-01-01		KPP			
-2005.907	2005-01-01		KPP			
-2005.841	2005-01-01		KPP			
-2005.833	2005-01-01		KPP			
-2005.458	2005-01-01		KPP			
-2005.466	2005-01-01		BKK			
-2005.137	2005-01-01		BKK			
-1999.636	1999-01-01		KPP			
-1995.658_2	1995-01-01		KPP			
-1997.477	1997-01-01		KPP			
-1995.658	1995-01-01		KPP			
-1998.718	1998-01-01		KPP			
-2006.91_2	2006-01-01		BKK			
-2006.581_4	2006-01-01		BKK			
-2006.414	2006-01-01		BKK			
-2006.279	2006-01-01		KPP			
-2006.26	2006-01-01		KPP			
-2006.2	2006-01-01		KPP			
-2006.249	2006-01-01		KPP			
-2006.255	2006-01-01		KPP			
-2005.537_2	2005-01-01		BKK			
-2006.197	2006-01-01		BKK			
-2004.055	2004-01-01		BKK			
-2006.852_3	2006-01-01		BKK			
-2006.608	2006-01-01		BKK			
-2006.685	2006-01-01		BKK			
-2006.789_2	2006-01-01		BKK			
-2006.203	2006-01-01		BKK			
-2006.362	2006-01-01		BKK			
-2006.482_2	2006-01-01		KPP			
-2006.214	2006-01-01		BKK			
-2003.395_2	2003-01-01		BKK			
-2006.282	2006-01-01		BKK			
-2006.277	2006-01-01		BKK			
-2006.211	2006-01-01		BKK			
-2006.016	2006-01-01		BKK			
-2006.008_2	2006-01-01		BKK			
-2004.989	2004-01-01		BKK			
-2004.855	2004-01-01		BKK			
-2004.915	2004-01-01		BKK			
-2004.716	2004-01-01		BKK			
-2004.475	2004-01-01		BKK			
-2004.445	2004-01-01		BKK			
-2009.542	2009-01-01		KPP			
-2009.203	2009-01-01		KPP			
-2009.118	2009-01-01		KPP			
-2007.458	2007-01-01		KPP			
-2006.929_2	2006-01-01		BKK			
-2006.926	2006-01-01		BKK			
-2006.57_3	2006-01-01		BKK			
-2006.512	2006-01-01		BKK			
-2006.225	2006-01-01		BKK			
-2006.055	2006-01-01		BKK			
-2006.899_2	2006-01-01		BKK			
-2006.581_3	2006-01-01		BKK			
-2006.397	2006-01-01		BKK			
-2006.485	2006-01-01		BKK			
-2006.129	2006-01-01		BKK			
-2006.279_2	2006-01-01		BKK			
-2005.479	2005-01-01		BKK			
-2006.94	2006-01-01		BKK			
-2006.792_2	2006-01-01		BKK			
-2006.542	2006-01-01		BKK			
-2006.945	2006-01-01		BKK			
-2006.444	2006-01-01		BKK			
-2006.26_2	2006-01-01		BKK			
-2006.855_2	2006-01-01		BKK			
-2006.647	2006-01-01		BKK			
-2004.473	2004-01-01		BKK			
-2004.372	2004-01-01		BKK			
-2006.551	2006-01-01		BKK			
-2006.23	2006-01-01		BKK			
-2005.345	2005-01-01		KPP			
-2005.123	2005-01-01		BKK			
-2011.468	2011-01-01		KPP			
-2006.679_2	2006-01-01		KPP			
-2002.279	2002-01-01		KPP			
-2006.299	2006-01-01		KPP			
-2006.416	2006-01-01		KPP			
-2006.403	2006-01-01		KPP			
-2007.238	2007-01-01		KPP			
-2007.216	2007-01-01		KPP			
-2006.57	2006-01-01		BKK			
-2006.082	2006-01-01		BKK			
-2007.578	2007-01-01		P0			
-2006.907_4	2006-01-01		BKK			
-1997.463	1997-01-01		KPP			
-2006.827	2006-01-01		BKK			
-2006.529_2	2006-01-01		BKK			
-2006.515	2006-01-01		BKK			
-2006.611	2006-01-01		BKK			
-2006.482	2006-01-01		KPP			
-2006.929	2006-01-01		BKK			
-2005.37	2005-01-01		L0			
-2005.37_2	2005-01-01		L0			
-2008.593	2008-01-01		KPP			
-2006.551_2	2006-01-01		BKK			
-2006.518	2006-01-01		BKK			
-2006.529	2006-01-01		BKK			
-2005.959	2005-01-01		BKK			
-2006.258	2006-01-01		BKK			
-2006.115	2006-01-01		BKK			
-2005.773	2005-01-01		BKK			
-2006.038	2006-01-01		BKK			
-2006.622_4	2006-01-01		BKK			
-2007.5_3	2007-01-01		Vietnam			
-1999.537_2	1999-01-01		BKK			
-2006.893_2	2006-01-01		BKK			
-2006.888	2006-01-01		BKK			
-2007.512	2007-01-01		L0			
-2011.441	2011-01-01		BKK			
-2010.871	2010-01-01		BKK			
-2010.866	2010-01-01		BKK			
-2010.764	2010-01-01		BKK			
-2011.26	2011-01-01		BKK			
-2014.732	2014-01-01		BKK			
-2014.641	2014-01-01		BKK			
-2012.53	2012-01-01		BKK			
-2012.948	2012-01-01		BKK			
-2013.658	2013-01-01		BKK			
-2013.025	2013-01-01		BKK			
-2011.345	2011-01-01		BKK			
-2011.34	2011-01-01		BKK			
-2010.792	2010-01-01		BKK			
-2008.585	2008-01-01		KPP			
-2006.871	2006-01-01		BKK			
-2006.395	2006-01-01		BKK			
-2003.307	2003-01-01		KPP			
-2006.685_2	2006-01-01		BKK			
-2006.773	2006-01-01		BKK			
-2006.455	2006-01-01		H0			
-2006.058	2006-01-01		BKK			
-2005.622	2005-01-01		P0			
-2009.5	2009-01-01		P0			
-2009.6	2009-01-01		P0			
-2006.184	2006-01-01		BKK			
-2006.145	2006-01-01		BKK			
-1999.46	1999-01-01		KPP			
-2009.532	2009-01-01		KPP			
-2009.501	2009-01-01		KPP			
-2009.411	2009-01-01		KPP			
-2008.516	2008-01-01		L0			
-2012.724	2012-01-01		BKK			
-2010.362	2010-01-01		KPP			
-2003.342	2003-01-01		KPP			
-2007.666	2007-01-01		BKK			
-2006.318	2006-01-01		BKK			
-2011.945	2011-01-01		KPP			
-2011.502	2011-01-01		KPP			
-2004.295	2004-01-01		KPP			
-2006.625	2006-01-01		KPP			
-2008.943	2008-01-01		H0			
-2007.562	2007-01-01		Thailand			
-2005.707	2005-01-01		H0			
-2006.964	2006-01-01		BKK			
-2006.614_3	2006-01-01		BKK			
-2006.57_4	2006-01-01		BKK			
-2006.559_2	2006-01-01		BKK			
-2006.526_2	2006-01-01		BKK			
-2006.403_3	2006-01-01		BKK			
-2006.948	2006-01-01		BKK			
-2006.945_2	2006-01-01		BKK			
-2006.789_3	2006-01-01		BKK			
-2006.907_3	2006-01-01		BKK			
-2006.732	2006-01-01		BKK			
-2006.926_2	2006-01-01		BKK			
-2006.301	2006-01-01		BKK			
-2006.126	2006-01-01		BKK			
-2006.244	2006-01-01		BKK			
-2006.923	2006-01-01		BKK			
-2006.337	2006-01-01		BKK			
-2006.192	2006-01-01		BKK			
-2006.011	2006-01-01		BKK			
-2004.852	2004-01-01		BKK			
-2004.811	2004-01-01		BKK			
-1995.507	1995-01-01		KPP			
-2003.455_2	2003-01-01		L0			
-2002.499	2002-01-01		BKK			
-2001.956	2001-01-01		H0			
-2000.79	2000-01-01		H0			
-2000.956	2000-01-01		H0			
-2002.077	2002-01-01		BKK			
-2006.597_2	2006-01-01		BKK			
-2006.066	2006-01-01		BKK			
-2003.622	2003-01-01		H0			
-2006.575	2006-01-01		BKK			
-2006.014	2006-01-01		BKK			
-2006.674	2006-01-01		KPP			
-2006.619_2	2006-01-01		KPP			
-2006.236	2006-01-01		KPP			
-2006.504_2	2006-01-01		BKK			
-2006.49_2	2006-01-01		BKK			
-2003.5_4	2003-01-01		Singapore			
-2003.5_5	2003-01-01		Singapore			
-2006.874	2006-01-01		BKK			
-2003.5_6	2003-01-01		Singapore			
-2004.847	2004-01-01		BKK			
-2002.37_2	2002-01-01		BKK			
-2001.877	2001-01-01		BKK			
-2006.814	2006-01-01		BKK			
-1995.918	1995-01-01		KPP			
-2006.581_5	2006-01-01		BKK			
-2004.5_5	2004-01-01		Cambodia			
-2003.5_2	2003-01-01		Vietnam			
-2001.762	2001-01-01		BKK			
-2001.5_5	2001-01-01		Cambodia			
-2000.5_3	2000-01-01		Cambodia			
-2005.5_9	2005-01-01		Malaysia			
-2011.847	2011-01-01		BKK			
-2008.757	2008-01-01		L0			
-2009.414	2009-01-01		KPP			
-2006.97	2006-01-01		BKK			
-2006.767	2006-01-01		BKK			
-2006.932_2	2006-01-01		BKK			
-2006.803	2006-01-01		BKK			
-2006.721	2006-01-01		BKK			
-2006.452	2006-01-01		BKK			
-2006.638_3	2006-01-01		BKK			
-2006.627	2006-01-01		BKK			
-2006.548	2006-01-01		BKK			
-2006.649_2	2006-01-01		BKK			
-2006.49_3	2006-01-01		BKK			
-2006.66_2	2006-01-01		BKK			
-2006.605	2006-01-01		BKK			
-2006.526	2006-01-01		BKK			
-2006.255_2	2006-01-01		BKK			
-2006.241	2006-01-01		BKK			
-2006.608_2	2006-01-01		BKK			
-2006.375	2006-01-01		BKK			
-2006.323	2006-01-01		BKK			
-2006.189	2006-01-01		BKK			
-2005.364	2005-01-01		BKK			
-2011.638	2011-01-01		KPP			
-2011.504	2011-01-01		KPP			
-2002.496	2002-01-01		KPP			
-2006.433_2	2006-01-01		KPP			
-2006.956	2006-01-01		BKK			
-2004.626	2004-01-01		BKK			
-2010.751	2010-01-01		BKK			
-1999.474	1999-01-01		BKK			
-2011.493	2011-01-01		KPP			
-2011.455	2011-01-01		KPP			
-1997.929	1997-01-01		BKK			
-2000.678	2000-01-01		BKK			
-2000.456	2000-01-01		N0			
-1998.405	1998-01-01		BKK			
-1999.082	1999-01-01		BKK			
-1999.671	1999-01-01		BKK			
-1999.471	1999-01-01		BKK			
-1997.797	1997-01-01		BKK			
-1997.792	1997-01-01		BKK			
-1996.907	1996-01-01		BKK			
-1996.62	1996-01-01		BKK			
-1997.112_2	1997-01-01		BKK			
-1998.025	1998-01-01		BKK			
-2003.825	2003-01-01		KPP			
-1997.644	1997-01-01		KPP			
-1999.477	1999-01-01		BKK			
-1998.132	1998-01-01		BKK			
-1999.521	1999-01-01		KPP			
-1998.86	1998-01-01		BKK			
-1999.556	1999-01-01		BKK			
-1997.458	1997-01-01		KPP			
-2001.948	2001-01-01		KPP			
-2001.655	2001-01-01		BKK			
-2001.589	2001-01-01		BKK			
-2001.573	2001-01-01		BKK			
-2001.332	2001-01-01		KPP			
-2000.694	2000-01-01		BKK			
-1999.97	1999-01-01		BKK			
-2001.296	2001-01-01		KPP			
-1998.742	1998-01-01		BKK			
-1998.186_2	1998-01-01		BKK			
-1997.351	1997-01-01		BKK			
-1996.787	1996-01-01		BKK			
-2000.904	2000-01-01		BKK			
-2000.503	2000-01-01		BKK			
-1999.537	1999-01-01		L9			
-2011.332	2011-01-01		KPP			
-1997.433	1997-01-01		BKK			
-1998.485	1998-01-01		BKK			
-1997.707_2	1997-01-01		BKK			
-1997.616	1997-01-01		BKK			
-1995.71	1995-01-01		BKK			
-1996.568	1996-01-01		BKK			
-1995.885	1995-01-01		BKK			
-1995.723	1995-01-01		BKK			
-1995.589	1995-01-01		BKK			
-1996.705	1996-01-01		BKK			
-1997.373	1997-01-01		BKK			
-1998.575	1998-01-01		BKK			
-1997.652_2	1997-01-01		BKK			
-1996.814	1996-01-01		BKK			
-1996.579	1996-01-01		BKK			
-1998.096	1998-01-01		BKK			
-1994.707	1994-01-01		KPP			
-1994.364	1994-01-01		BKK			
-1994.5_11	1994-01-01		KPP			
-1999.638_3	1999-01-01		BKK			
-1998.255	1998-01-01		KPP			
-1996.486	1996-01-01		KPP			
-1998.016	1998-01-01		BKK			
-1996.932_2	1996-01-01		BKK			
-2003.795	2003-01-01		KPP			
-1998.345	1998-01-01		KPP			
-1998.367	1998-01-01		KPP			
-1998.241	1998-01-01		BKK			
-1997.052	1997-01-01		BKK			
-1998.074	1998-01-01		BKK			
-1997.304	1997-01-01		BKK			
-1996.205	1996-01-01		BKK			
-1996.781	1996-01-01		BKK			
-1996.53	1996-01-01		BKK			
-1995.304	1995-01-01		BKK			
-1995.126	1995-01-01		BKK			
-1995.197	1995-01-01		BKK			
-1995.666_2	1995-01-01		BKK			
-1995.595	1995-01-01		BKK			
-1995.584_2	1995-01-01		BKK			
-1995.63	1995-01-01		BKK			
-1995.66	1995-01-01		BKK			
-1995.638	1995-01-01		BKK			
-1995.548	1995-01-01		BKK			
-1994.926	1994-01-01		KPP			
-1994.6	1994-01-01		KPP			
-1994.5_10	1994-01-01		KPP			
-1994.504	1994-01-01		BKK			
-1998.052	1998-01-01		BKK			
-1998.216	1998-01-01		KPP			
-1996.574	1996-01-01		BKK			
-1995.786	1995-01-01		BKK			
-1998.055	1998-01-01		BKK			
-1997.671	1997-01-01		BKK			
-1997.559	1997-01-01		BKK			
-2002.126	2002-01-01		KPP			
-1997.5	1997-01-01		BKK			
-1996.921	1996-01-01		BKK			
-1998.926	1998-01-01		BKK			
-1998.896	1998-01-01		BKK			
-1998.173_2	1998-01-01		BKK			
-1999.071	1999-01-01		BKK			
-1999.06	1999-01-01		BKK			
-2002.145	2002-01-01		BKK			
-2000.929	2000-01-01		BKK			
-2000.574	2000-01-01		BKK			
-2001.638_2	2001-01-01		BKK			
-2000.814	2000-01-01		BKK			
-1999.521_2	1999-01-01		BKK			
-1999.534	1999-01-01		BKK			
-1998.797	1998-01-01		BKK			
-2001.797	2001-01-01		BKK			
-2001.704_2	2001-01-01		BKK			
-2001.186	2001-01-01		BKK			
-2000.388	2000-01-01		BKK			
-1999.367	1999-01-01		BKK			
-2000.907	2000-01-01		BKK			
-2000.743	2000-01-01		KPP			
-2000.661_2	2000-01-01		KPP			
-2000.661	2000-01-01		KPP			
-2000.593	2000-01-01		KPP			
-2000.5	2000-01-01		N0			
-2000.134	2000-01-01		BKK			
-2001.474	2001-01-01		KPP			
-1997.71	1997-01-01		BKK			
-1997.652	1997-01-01		BKK			
-1998.879	1998-01-01		BKK			
-1998.726	1998-01-01		BKK			
-1998.205	1998-01-01		KPP			
-1998.06	1998-01-01		BKK			
-2006.603	2006-01-01		KPP			
-2000.615	2000-01-01		KPP			
-2001.375	2001-01-01		KPP			
-2000.923	2000-01-01		KPP			
-2000.874	2000-01-01		KPP			
-2000.872	2000-01-01		KPP			
-2000.609	2000-01-01		KPP			
-2000.689	2000-01-01		KPP			
-2001.595	2001-01-01		BKK			
-2001.515	2001-01-01		BKK			
-2001.493_2	2001-01-01		BKK			
-2000.945	2000-01-01		BKK			
-2000.363	2000-01-01		BKK			
-2002.992	2002-01-01		BKK			
-2002.992_2	2002-01-01		BKK			
-2006.496	2006-01-01		KPP			
-1996.945	1996-01-01		BKK			
-1996.779	1996-01-01		BKK			
-1996.56	1996-01-01		BKK			
-1997.304_2	1997-01-01		BKK			
-1997.729	1997-01-01		BKK			
-1998.167	1998-01-01		BKK			
-1998.104	1998-01-01		BKK			
-1998.737	1998-01-01		BKK			
-1998.923	1998-01-01		BKK			
-1998.214	1998-01-01		BKK			
-1999.074	1999-01-01		BKK			
-1998.827	1998-01-01		BKK			
-2011.367	2011-01-01		KPP			
-1997.112	1997-01-01		BKK			
-1996.549	1996-01-01		BKK			
-2000.432	2000-01-01		KPP			
-1999.17	1999-01-01		BKK			
-2000.432_2	2000-01-01		BKK			
-1999.479	1999-01-01		BKK			
-1998.734	1998-01-01		BKK			
-1998.09	1998-01-01		BKK			
-1997.54	1997-01-01		BKK			
-1998.496	1998-01-01		BKK			
-1995.581	1995-01-01		KPP			
-2006.559	2006-01-01		KPP			
-1998.252	1998-01-01		KPP			
-1997.444	1997-01-01		BKK			
-1999.638_2	1999-01-01		BKK			
-1998.315	1998-01-01		BKK			
-1996.932	1996-01-01		BKK			
-1998.5_3	1998-01-01		Myanmar			
-2006.734	2006-01-01		BKK			
-2001.89	2001-01-01		BKK			
-2001.54	2001-01-01		Thailand			
-2001.54_2	2001-01-01		Thailand			
-2001.463	2001-01-01		Thailand			
-2001.452	2001-01-01		BKK			
-2001.403	2001-01-01		BKK			
-2000.866	2000-01-01		BKK			
-2000.787	2000-01-01		BKK			
-2000.495	2000-01-01		BKK			
-2000.62	2000-01-01		BKK			
-2001.14	2001-01-01		BKK			
-2001.263	2001-01-01		BKK			
-2001.356_2	2001-01-01		BKK			
-2006.532	2006-01-01		BKK			
-2005.967	2005-01-01		BKK			
-2005.537	2005-01-01		BKK			
-2005.721	2005-01-01		BKK			
-2008.738	2008-01-01		H0			
-2006.5_4	2006-01-01		Singapore			
-2006.5_5	2006-01-01		Singapore			
-2005.5_4	2005-01-01		Singapore			
-2005.5_5	2005-01-01		Singapore			
-2005.5_6	2005-01-01		Singapore			
-2005.5_10	2005-01-01		Malaysia			
-2011.811	2011-01-01		BKK			
-2010.693	2010-01-01		BKK			
-2010.619	2010-01-01		KPP			
-2010.512	2010-01-01		Thailand			
-2008.246	2008-01-01		P0			
-2007.5_4	2007-01-01		Thailand			
-2011.411	2011-01-01		BKK			
-2010.608	2010-01-01		BKK			
-2006.784_2	2006-01-01		BKK			
-2014.197	2014-01-01		BKK			
-2013.405	2013-01-01		BKK			
-2012.582	2012-01-01		BKK			
-2012.361	2012-01-01		H1			
-2012.362	2012-01-01		H1			
-2011.033	2011-01-01		BKK			
-2011.458	2011-01-01		BKK			
-2007.419_3	2007-01-01		KPP			
-2007.397	2007-01-01		KPP			
-2001.126	2001-01-01		N0			
-2000.454	2000-01-01		BKK			
-2000.363_2	2000-01-01		BKK			
-1999.83	1999-01-01		BKK			
-2000.568	2000-01-01		BKK			
-1998.907	1998-01-01		BKK			
-1999.132	1999-01-01		BKK			
-1999.167	1999-01-01		BKK			
-1998.603	1998-01-01		BKK			
-2008.5_4	2008-01-01		Singapore			
-2008.5_5	2008-01-01		Singapore			
-2008.5_6	2008-01-01		Singapore			
-2001.241	2001-01-01		BKK			
-2000.989	2000-01-01		BKK			
-2000.795	2000-01-01		BKK			
-2000.858	2000-01-01		BKK			
-2000.847	2000-01-01		BKK			
-2000.973	2000-01-01		BKK			
-2000.623	2000-01-01		L0			
-2000.538	2000-01-01		L0			
-2000.986	2000-01-01		BKK			
-2003.359_2	2003-01-01		BKK			
-2003.118	2003-01-01		BKK			
-2002.247	2002-01-01		BKK			
-2001.214	2001-01-01		KPP			
-2000.53	2000-01-01		KPP			
-2000.527	2000-01-01		KPP			
-2000.557	2000-01-01		BKK			
-2000.511	2000-01-01		BKK			
-1999.641	1999-01-01		BKK			
-2010.647	2010-01-01		BKK			
-2010.553	2010-01-01		KPP			
-2010.455	2010-01-01		Thailand			
-2009.5_2	2009-01-01		L0			
-2008.566	2008-01-01		L0			
-2007.893	2007-01-01		L0			
-2007.633	2007-01-01		Thailand			
-2007.633_2	2007-01-01		KPP			
-2007.392	2007-01-01		KPP			
-2007.614	2007-01-01		KPP			
-2006.926_4	2006-01-01		BKK			
-2006.915	2006-01-01		BKK			
-2006.364	2006-01-01		KPP			
-2006.148_2	2006-01-01		BKK			
-2005.932	2005-01-01		KPP			
-2006.14_2	2006-01-01		BKK			
-2006.137	2006-01-01		BKK			
-2005.814	2005-01-01		KPP			
-2005.811	2005-01-01		KPP			
-2006.036	2006-01-01		KPP			
-2006.29	2006-01-01		BKK			
-2006.159	2006-01-01		BKK			
-2006.789	2006-01-01		BKK			
-2006.46	2006-01-01		KPP			
-2006.403_2	2006-01-01		BKK			
-2006.414_2	2006-01-01		BKK			
-2005.978	2005-01-01		BKK			
-2006.266	2006-01-01		BKK			
-2006.304	2006-01-01		BKK			
-2006.616	2006-01-01		BKK			
-2002.175	2002-01-01		KPP			
-2006.381	2006-01-01		BKK			
-2006.91_3	2006-01-01		BKK			
-2006.679	2006-01-01		KPP			
-2006.668	2006-01-01		KPP			
-2006.622_2	2006-01-01		KPP			
-2006.603_2	2006-01-01		KPP			
-2006.658	2006-01-01		KPP			
-2006.808	2006-01-01		BKK			
-2006.748	2006-01-01		BKK			
-2006.792	2006-01-01		BKK			
-2006.973	2006-01-01		BKK			
-2006.893	2006-01-01		BKK			
-2006.162	2006-01-01		BKK			
-2006.148	2006-01-01		BKK			
-2006.14	2006-01-01		BKK			
-2006.521	2006-01-01		BKK			
-2006.677	2006-01-01		BKK			
-2006.641	2006-01-01		BKK			
-2006.57_2	2006-01-01		BKK			
-2005.14_2	2005-01-01		BKK			
-2006.94_2	2006-01-01		BKK			
-2007.622	2007-01-01		KPP			
-2006.764	2006-01-01		BKK			
-2006.271	2006-01-01		BKK			
-2013.159	2013-01-01		BKK			
-2012.842	2012-01-01		BKK			
-2012.858	2012-01-01		BKK			
-2012.762	2012-01-01		BKK			
-2012.883	2012-01-01		BKK			
-2012.697	2012-01-01		BKK			
-2009.5_4	2009-01-01		Cambodia			
-2008.5	2008-01-01		Vietnam			
-2008.5_8	2008-01-01		Cambodia			
-2006.5_6	2006-01-01		Cambodia			
-2007.5_6	2007-01-01		Cambodia			
-2008.5_7	2008-01-01		Cambodia			
-2008.5_9	2008-01-01		Cambodia			
-2007.5_5	2007-01-01		Cambodia			
-2006.693	2006-01-01		KPP			
-2005.5_13	2005-01-01		Cambodia			
-2006.5_8	2006-01-01		Cambodia			
-2013.11	2013-01-01		BKK			
-2012.861	2012-01-01		BKK			
-2005.5_11	2005-01-01		Cambodia			
-2002.899	2002-01-01		BKK			
-2013.066	2013-01-01		BKK			
-2013.129	2013-01-01		BKK			
-2008.5_3	2008-01-01		Vietnam			
-2006.5_3	2006-01-01		Vietnam			
-2007.5	2007-01-01		Vietnam			
-2008.5_2	2008-01-01		Vietnam			
-2006.5	2006-01-01		Vietnam			
-2005.5	2005-01-01		Vietnam			
-2006.5_2	2006-01-01		Vietnam			
-2003.5_3	2003-01-01		Vietnam			
-2002.5_3	2002-01-01		Cambodia			
-2007.5_7	2007-01-01		Cambodia			
-2006.5_7	2006-01-01		Cambodia			
-2005.5_12	2005-01-01		Cambodia			
-2007.5_2	2007-01-01		Vietnam			
-2000.992	2000-01-01		BKK			
-2000.637	2000-01-01		BKK			
-2002.37	2002-01-01		P0			
-2013.279	2013-01-01		BKK			
-2012.893	2012-01-01		BKK			
-2005.5_7	2005-01-01		Myanmar			
-2002.5	2002-01-01		Myanmar			
-2001.5_2	2001-01-01		Myanmar			
-2001.5_3	2001-01-01		Myanmar			
-2001.5_4	2001-01-01		Myanmar			
-2013.866	2013-01-01		BKK			
-2012.598	2012-01-01		BKK			
-2010.655	2010-01-01		BKK			
-2009.827	2009-01-01		KPP			
-2010.833	2010-01-01		BKK			
-2013.69	2013-01-01		BKK			
-2016.014	2016-01-01		China			
-2014.745	2014-01-01		BKK			
-2007.419_2	2007-01-01		KPP			
-2003.326	2003-01-01		KPP			
-1995.6	1995-01-01		KPP			
-1995.6_2	1995-01-01		KPP			
-1995.5	1995-01-01		KPP			
-2004.074	2004-01-01		KPP			
-1995.584	1995-01-01		KPP			
-1995.641	1995-01-01		KPP			
-1995.551	1995-01-01		KPP			
-1998.244	1998-01-01		KPP			
-1997.685	1997-01-01		KPP			
-2003.353	2003-01-01		KPP			
-1997.523	1997-01-01		KPP			
-2003.315	2003-01-01		KPP			
-1999.427	1999-01-01		KPP			
-2002.236	2002-01-01		KPP			
-2000.869	2000-01-01		BKK			
-2000.549	2000-01-01		BKK			
-1994.014	1994-01-01		BKK			
-2001.093	2001-01-01		BKK			
-2001.907	2001-01-01		BKK			
-2001.055	2001-01-01		BKK			
-2003.91	2003-01-01		KPP			
-1999.638	1999-01-01		KPP			
-1999.351	1999-01-01		KPP			
-1999.348	1999-01-01		KPP			
-1994.896	1994-01-01		BKK			
-1994.847	1994-01-01		BKK			
-1994.523	1994-01-01		BKK			
-1995.666_3	1995-01-01		BKK			
-1995.567	1995-01-01		BKK			
-1994.663	1994-01-01		BKK			
-1994.214	1994-01-01		BKK			
-1994.167	1994-01-01		BKK			
-2006.441_2	2006-01-01		KPP			
-2001.37_2	2001-01-01		L0			
-2004.033	2004-01-01		KPP			
-1995.688	1995-01-01		KPP			
-1996.754	1996-01-01		BKK			
-1996.393	1996-01-01		BKK			
-1995.77	1995-01-01		Thailand			
-1994.816	1994-01-01		KPP			
-2006.46_2	2006-01-01		KPP			
-1998.189	1998-01-01		KPP			
-1997.707	1997-01-01		KPP			
-1997.471	1997-01-01		Thailand			
-2003.359	2003-01-01		KPP			
-2001.279	2001-01-01		KPP			
-1996.489	1996-01-01		KPP			
-1997.833	1997-01-01		KPP			
-1998.186	1998-01-01		KPP			
-1997.488	1997-01-01		KPP			
-1996.497	1996-01-01		BKK			
-2004.623	2004-01-01		L0			
-2003.707	2003-01-01		L0			
-2003.403	2003-01-01		KPP			
-1998.058	1998-01-01		BKK			
-1997.69	1997-01-01		BKK			
-1997.978	1997-01-01		BKK			
-1994.088	1994-01-01		BKK			
-2006.49	2006-01-01		KPP			
-1995.225	1995-01-01		BKK			
-1994.97	1994-01-01		BKK			
-1994.805	1994-01-01		BKK			
-1994.5_2	1994-01-01		Thailand			
-1994.5	1994-01-01		Thailand			
-1994.121	1994-01-01		BKK			
-1995.107	1995-01-01		BKK			
-1998.071	1998-01-01		KPP			
-1994.956	1994-01-01		BKK			
-1995.666	1995-01-01		BKK			
-1996.544	1996-01-01		BKK			
-1994.458	1994-01-01		BKK			
-1994.058	1994-01-01		BKK			
-1995.458	1995-01-01		BKK			
-1998.167_2	1998-01-01		BKK			
-1999.485	1999-01-01		KPP			
-1995.37	1995-01-01		BKK			
-1995.079	1995-01-01		BKK			
-1995.030	1995-01-01		BKK			
-1994.729	1994-01-01		BKK			
-1994.5_5	1994-01-01		KPP			
-1994.918	1994-01-01		BKK			
-1995.411	1995-01-01		BKK			
-1994.921	1994-01-01		BKK			
-2006.479	2006-01-01		KPP			
-2003.395	2003-01-01		KPP			
-1999.455	1999-01-01		KPP			
-1999.416	1999-01-01		KPP			
-2004.5_4	2004-01-01		Cambodia			
-2003.5_7	2003-01-01		Cambodia			
-2003.5_9	2003-01-01		Cambodia			
-2001.5_6	2001-01-01		Cambodia			
-2000.5_2	2000-01-01		Cambodia			
-2003.5_8	2003-01-01		Cambodia			
-2005.5_2	2005-01-01		Vietnam			
-2005.5_3	2005-01-01		Vietnam			
-2003.5	2003-01-01		Vietnam			
-2004.5	2004-01-01		Vietnam			
-2004.5_2	2004-01-01		Vietnam			
-1994.5_3	1994-01-01		Taiwan			
-2004.12	2004-01-01		KPP			
-2004.074_2	2004-01-01		KPP			
-1995.321	1995-01-01		BKK			
-1994.945	1994-01-01		BKK			
-1994.592	1994-01-01		BKK			
-1991.5	1991-01-01					
-1995.186	1995-01-01		Thailand			
-1994.5_7	1994-01-01		KPP			
-1994.5_9	1994-01-01		KPP			
-1994.5_8	1994-01-01		KPP			
-1994.5_13	1994-01-01		KPP			
-1994.5_4	1994-01-01		Taiwan			
-1988.5	1988-01-01					
-1994.375	1994-01-01		BKK			
-1996.904	1996-01-01		BKK			
-1995.381	1995-01-01		BKK			
-1995.326	1995-01-01		BKK			
-1995.69	1995-01-01		BKK			
-1985.455	1985-01-01		BKK			
-1983.455	1983-01-01		BKK			
-1982.5	1982-01-01					
-1978.455	1978-01-01		BKK			
-2002.5_2	2002-01-01		Myanmar			
-1998.5_2	1998-01-01		Myanmar			
-1995.258	1995-01-01		BKK			
-1994.238	1994-01-01		BKK			
-1994.805_2	1994-01-01		BKK			
-1994.595	1994-01-01		BKK			
-1994.5_6	1994-01-01		KPP			
-1994.5_12	1994-01-01		KPP			
-1998.5	1998-01-01		Myanmar			
-1996.5	1996-01-01		Myanmar			
-1987.126	1987-01-01		BKK			
-1980.5_3	1980-01-01					
-1980.5	1980-01-01					
-1980.5_2	1980-01-01					
-1980.372	1980-01-01		BKK			
-1982.455	1982-01-01		BKK			
-1983.5	1983-01-01					
+strain	date	region	country	division	genotype	lineage	accession	extra
+hDenV1/Colombia/un-OUCRU-101/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-102/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-103/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-104/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-1/2013	2013	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-10122/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-10123/2012	2012	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-10124/2013	2013	South America	Colombia		V	1V_D.1.2		
+hDenV1/Colombia/un-OUCRU-10125/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-10126/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-10128/2013	2013	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-101210/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-101212/2013	2013	South America	Colombia		V	1V_D.1.2		
+hDenV1/Colombia/un-OUCRU-101216/2013	2013	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-101218/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-101219/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-101220/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-101221/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-101223/2013	2013	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-OUCRU-101224/2011	2011	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-101225/2013	2013	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-OUCRU-101226/2012	2012	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-101227/2013	2013	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-OUCRU-101228/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-101229/2013	2013	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-OUCRU-101230/2013	2013	South America	Colombia		V	1V_B		
+hDenV1/Colombia/un-OUCRU-101253/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-101232/2013	2013	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-101234/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-101245/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-101235/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-101236/2013	2013	South America	Colombia		V	1V_F		
+hDenV1/Colombia/SAN-UIS-0000041/2010	2010	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-0000040/2009	2009	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-0000034/2014	2014	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000043/2009	2009	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-0000054/2016	2016	South America	Colombia	Santander	V	1V_D.2		
+hDenV1/Colombia/SAN-UIS-0000055/2015	2015	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000052/2010	2010	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-0000051/2016	2016	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000046/2009	2009	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-0000047/2016	2016	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000048/2014	2014	South America	Colombia	Santander	V/V	1V_D.1/1V		
+hDenV1/Colombia/SAN-UIS-0000056/2013	2013	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000031/2016	2016	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000028/2013	2013	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000029/2010	2010	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-0000059/2016	2016	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000057/2014	2014	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000005/2015	2015	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000007/2015	2015	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000008/2014	2014	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000009/2010	2010	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-0000030/2010	2010	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000012/2010	2010	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000013/2010	2010	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000014/2016	2016	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000015/2016	2016	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000016/2015	2015	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000017/2015	2015	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-0000018/2016	2016	South America	Colombia	Santander	V	1V_F		
+hDenV1/Colombia/SAN-UIS-0000019/2016	2016	South America	Colombia	Santander	V	1V_D.2		
+hDenV1/Colombia/SAN-UIS-0000020/2010	2010	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-0000011/2009	2009	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-0000050/2009	2009	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/un-BROAD-0000007/2005	2005	South America	Colombia		V	1V		
+hDenV1/Colombia/NSA-BROAD-0000019/2006	2006	South America	Colombia	Norte de Santander	V	1V		
+hDenV1/Colombia/NSA-BROAD-0000020/2006	2006	South America	Colombia	Norte de Santander	V	1V		
+hDenV1/Colombia/SAN-BROAD-0000053/2007	2007	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-BROAD-0000058/2001	2001	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-BROAD-0000046/2007	2007	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/NSA-BROAD-0000025/2006	2006	South America	Colombia	Norte de Santander	V	1V		
+hDenV1/Colombia/SAN-BROAD-0000029/2007	2007	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-BROAD-0000032/2008	2008	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/NSA-BROAD-0000023/2006	2006	South America	Colombia	Norte de Santander	V	1V		
+hDenV1/Colombia/SAN-BROAD-0000036/2007	2007	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-BROAD-0000037/2005	2005	South America	Colombia	Santander	V	1V_F		
+hDenV1/Colombia/un-OUCRU-0000011/2012	2012	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000010/2013	2013	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-OUCRU-0000008/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000006/2012	2012	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-0000005/2013	2013	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-OUCRU-0000003/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000014/2012	2012	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-OUCRU-0000040/2013	2013	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-0000043/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000045/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000046/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000048/2013	2013	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-0000023/2013	2013	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-OUCRU-0000049/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000087/2013	2013	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-OUCRU-0000088/2012	2012	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000090/2012	2012	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-0000092/2012	2012	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-0000093/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000095/2012	2012	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-0000096/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000081/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000052/2013	2013	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-0000053/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000060/2013	2013	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-OUCRU-0000061/2012	2012	South America	Colombia		V	1V		
+hDenV1/Colombia/un-OUCRU-0000063/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000068/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000069/2012	2012	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-0000070/2012	2012	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-0000074/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000075/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-0000076/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-CDC-002/2007	2007	South America	Colombia		V	1V_G		
+hDenV1/Colombia/NSA-UIS-00011/2006	2006	South America	Colombia	Norte de Santander	V	1V_F		
+hDenV1/Colombia/NSA-UIS-00012/2005	2005	South America	Colombia	Norte de Santander	V	1V_F		
+hDenV1/Colombia/NSA-UIS-00009/2006	2006	South America	Colombia	Norte de Santander	V	1V_F		
+hDenV1/Colombia/NSA-UIS-00007/2006	2006	South America	Colombia	Norte de Santander	V	1V_F		
+hDenV1/Colombia/NSA-UIS-00010/2006	2006	South America	Colombia	Norte de Santander	V	1V_F		
+hDenV1/Colombia/NSA-UIS-00045/2006	2006	South America	Colombia	Norte de Santander	V	1V_G		
+hDenV1/Colombia/NSA-UIS-00008/2006	2006	South America	Colombia	Norte de Santander	V	1V_F		
+hDenV1/Colombia/NSA-UIS-00044/2006	2006	South America	Colombia	Norte de Santander	V	1V_G		
+hDenV1/Colombia/SAN-UIS-00036/2007	2007	South America	Colombia	Santander	V	1V_G		
+hDenV1/Colombia/SAN-UIS-00027/2008	2008	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-00028/2007	2007	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-00030/2008	2008	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-00031/2004	2004	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/NSA-UIS-00046/2006	2006	South America	Colombia	Norte de Santander	V	1V_G		
+hDenV1/Colombia/NSA-UIS-00034/2006	2006	South America	Colombia	Norte de Santander	V	1V_G		
+hDenV1/Colombia/SAN-UIS-00033/2008	2008	South America	Colombia	Santander	V	1V_G		
+hDenV1/Colombia/NSA-UIS-00014/2006	2006	South America	Colombia	Norte de Santander	V	1V_F		
+hDenV1/Colombia/SAN-UIS-00026/2007	2007	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-00024/2008	2008	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/NSA-UIS-00037/2006	2006	South America	Colombia	Norte de Santander	V	1V_G		
+hDenV1/Colombia/NSA-UIS-00015/2006	2006	South America	Colombia	Norte de Santander	V	1V_F		
+hDenV1/Colombia/SAN-UIS-00016/2007	2007	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/NSA-UIS-00013/2006	2006	South America	Colombia	Norte de Santander	V	1V_F		
+hDenV1/Colombia/SAN-UIS-00051/2002	2002	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/NSA-UIS-00039/2006	2006	South America	Colombia	Norte de Santander	V	1V_G		
+hDenV1/Colombia/NSA-UIS-00038/2006	2006	South America	Colombia	Norte de Santander	V	1V_G		
+hDenV1/Colombia/NSA-UIS-00040/2006	2006	South America	Colombia	Norte de Santander	V	1V_G		
+hDenV1/Colombia/SAN-UIS-00017/2007	2007	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-00025/2007	2007	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-00029/2008	2008	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-00035/2008	2008	South America	Colombia	Santander	V	1V_G		
+hDenV1/Colombia/SAN-UIS-00018/2008	2008	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/NSA-UIS-00006/2006	2006	South America	Colombia	Norte de Santander	V	1V_F		
+hDenV1/Colombia/NSA-UIS-00005/2006	2006	South America	Colombia	Norte de Santander	V	1V_F		
+hDenV1/Colombia/SAN-UIS-00004/2008	2008	South America	Colombia	Santander	V	1V_F		
+hDenV1/Colombia/SAN-UIS-00003/2008	2008	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-00050/2001	2001	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-00002/2008	2008	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-00001/2008	2008	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UIS-00019/2008	2008	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/NSA-UIS-00042/2006	2006	South America	Colombia	Norte de Santander	V	1V_G		
+hDenV1/Colombia/SAN-UIS-00022/2008	2008	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/NSA-UIS-00043/2006	2006	South America	Colombia	Norte de Santander	V	1V_G		
+hDenV1/Colombia/SAN-UIS-00021/2007	2007	South America	Colombia	Santander	V	1V_G		
+hDenV1/Colombia/NSA-UIS-00041/2006	2006	South America	Colombia	Norte de Santander	V	1V_G		
+hDenV1/Colombia/SAN-UIS-00023/2008	2008	South America	Colombia	Santander	V	1V		
+hDenV1/Colombia/NSA-UIS-00020/2006	2006	South America	Colombia	Norte de Santander	V	1V		
+hDenV1/Colombia/SAN-UIS-00032/2007	2007	South America	Colombia	Santander	V	1V_G		
+DenV1/un/Colombia/un-UniNorte-1/2001	2001	South America	Colombia		V	1V		
+hDenV1/Colombia/un-OUCRU-523/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-521/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-520/2012	2012	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-519/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-508/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-134/2013	2013	South America	Colombia		V	1V_D.1.2		
+hDenV1/Colombia/un-OUCRU-135/2013	2013	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-136/2013	2013	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-353/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-522/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-332/2013	2013	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-OUCRU-348/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-356/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-509/2013	2013	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-510/2013	2013	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-OUCRU-511/2013	2013	South America	Colombia		V	1V_D.1.2		
+hDenV1/Colombia/un-OUCRU-512/2013	2013	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-513/2013	2013	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-525/2011	2011	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-OUCRU-131/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-133/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-338/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-340/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-341/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-342/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-333/2013	2013	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-OUCRU-360/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-358/2013	2013	South America	Colombia		V	1V_B		
+hDenV1/Colombia/un-OUCRU-132/2013	2013	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-OUCRU-506/2013	2013	South America	Colombia		V	1V_D		
+hDenV1/Colombia/un-OUCRU-526/2013	2013	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-OUCRU-507/2012	2012	South America	Colombia		V	1V_D		
+hDenV1/Colombia/RIS-INS-476947/2016	2016-04-26	South America	Colombia	Risaralda	V	1V_D.1		
+hDenV1/Colombia/MET-INS-424735/2013	2013-06-18	South America	Colombia	Meta	V	1V_D.1		
+hDenV1/Colombia/CAU-INS-483718/2016	2016-06-24	South America	Colombia	Cauca	V	1V_D.1.2		
+hDenV1/Colombia/un-INS-484940/2016	2016-07-07	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-INS-484930/2016	2016-07-19	South America	Colombia		V	1V_F		
+hDenV1/Colombia/un-INS-484942/2016	2016-07-14	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-INS-484948/2016	2016-07-12	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/ANT-INS-485061/2016	2016-08-27	South America	Colombia	Antioquia	V	1V_D.1		
+hDenV1/Colombia/un-INS-424233/2013	2013-06-01	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/CUN-INS-450339/2015	2015-10-09	South America	Colombia	Cundinamarca	V	1V_D.2		
+hDenV1/Colombia/un-Yale-DH141/2004	2004-01-01	South America	Colombia		V	1V		
+hDenV1/Colombia/VAC-LSPVAC-2300876/2023	2023-02-09	South America	Colombia	Valle del Cauca	V	1V_D.1		
+hDenV1/Colombia/VAC-LSPVAC-2306001/2023	2023-08-21	South America	Colombia	Valle del Cauca	V	1V_D.1		
+hDenV1/Colombia/un-BNITM-363/2018	2018-07-01	South America	Colombia		V	1V_D.1.1		
+hDenV1/Colombia/VAC-LSPVAC-2400035/2024	2023-12-30	South America	Colombia	Valle del Cauca	V	1V_D.1		
+hDenV1/Colombia/VAC-LSPVAC-2400054/2024	2023-12-29	South America	Colombia	Valle del Cauca	V	1V_D.1		
+hDenV1/Colombia/VAC-LSPVAC-2400146/2024	2023-12-29	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2400227/2024	2023-12-23	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2400262/2024	2024-01-02	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2400298/2024	2023-12-25	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2400368/2024	2023-12-26	South America	Colombia	Valle del Cauca	V	1V_D.1		
+hDenV1/Colombia/VAC-LSPVAC-2401121/2024	2024-01-18	South America	Colombia	Valle del Cauca	V	1V_D.1		
+hDenV1/Colombia/VAC-LSPVAC-2401601/2024	2024-01-26	South America	Colombia	Valle del Cauca	V	1V_D.1		
+hDenV1/Colombia/VAC-LSPVAC-2401811/2024	2024-01-30	South America	Colombia	Valle del Cauca	V	1V_D.1		
+hDenV1/Colombia/VAC-LSPVAC-2401935/2024	2024-01-27	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2402024/2024	2024-02-04	South America	Colombia	Valle del Cauca	V	1V_D.1		
+hDenV1/Colombia/VAC-LSPVAC-2402457/2024	2024-02-09	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2402566/2024	2024-02-10	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2402583/2024	2024-01-22	South America	Colombia	Valle del Cauca	V	1V_D.1.1		
+hDenV1/Colombia/VAC-LSPVAC-2402847/2024	2024-02-15	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2403830/2024	2024-03-05	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2404263/2024	2024-03-12	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2404314/2024	2024-03-08	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2404461/2024	2024-03-18	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2404681/2024	2024-03-31	South America	Colombia	Valle del Cauca	V	1V_D.1.1		
+hDenV1/Colombia/VAC-LSPVAC-2404789/2024	2024-03-18	South America	Colombia	Valle del Cauca	V	1V_D.1		
+hDenV1/Colombia/VAC-LSPVAC-2405179/2024	2024-04-01	South America	Colombia	Valle del Cauca	V	1V_D.1		
+hDenV1/Colombia/VAC-LSPVAC-2405205/2024	2024-04-05	South America	Colombia	Valle del Cauca	V	1V_D.1		
+hDenV1/Colombia/VAC-LSPVAC-2405404/2024	2024-04-04	South America	Colombia	Valle del Cauca	V	1V_D.1.1		
+hDenV1/Colombia/VAC-LSPVAC-2405498/2024	2024-03-12	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2405525/2024	2024-04-12	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2405553/2024	2024-04-09	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2405690/2024	2024-03-18	South America	Colombia	Valle del Cauca	V	1V_D.1.1		
+hDenV1/Colombia/VAC-LSPVAC-2405731/2024	2024-04-07	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2405754/2024	2024-04-12	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2405774/2024	2024-04-22	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2405625/2024	2024-04-14	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/un-Yale-DN02379/2023	2023-09-13	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-Yale-DN02363/2023	2023-08-26	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-Yale-DN02376/2023	2023-09-11	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-Yale-DN02556/2024	2024-02-20	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-Yale-DN02429/2023	2023-11-12	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-Yale-DN02489/2024	2024-01-10	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-Yale-DN02505/2024	2024-01-21	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-Yale-DN02386/2023	2023-09-21	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-Yale-DN02440/2023	2023-11-23	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-Yale-DN02365/2023	2023-08-30	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/VAC-LSPVAC-2407081-VI/2024	2024-05-20	South America	Colombia	Valle del Cauca	V	1V_D.1		
+hDenV1/Colombia/VAC-LSPVAC-2407539-VI/2024	2024-05-28	South America	Colombia	Valle del Cauca	V	1V_D.1.1		
+hDenV1/Colombia/ANT-UDEA-COA0053/2021	2021-12-09	South America	Colombia	Antioquia	V	1V_D.1.1		
+hDenV1/Colombia/ANT-UDEA-COT0221/2023	2023-08-16	South America	Colombia	Antioquia	V	1V_D.1.1		
+hDenV1/Colombia/ANT-UDEA-COT0017/2023	2023-07-28	South America	Colombia	Antioquia	V	1V_D.1.1		
+hDenV1/Colombia/ANT-UDEA-COT0028/2023	2023-08-09	South America	Colombia	Antioquia	V	1V_D.1.1		
+hDenV1/Colombia/ANT-UDEA-COA0214/2022	2022-03-09	South America	Colombia	Antioquia	V	1V_D.1.1		
+hDenV1/Colombia/ANT-UDEA-COA0234/2022	2022-04-01	South America	Colombia	Antioquia	V	1V_D.1.1		
+hDenV1/Colombia/ANT-UDEA-COT0011/2023	2023-07-21	South America	Colombia	Antioquia	V	1V_D.1.1		
+hDenV1/Colombia/ANT-UDEA-COT0012/2023	2023-07-25	South America	Colombia	Antioquia	V	1V_D.1.1		
+hDenV1/Colombia/ANT-UDEA-COT0026/2023	2023-08-05	South America	Colombia	Antioquia	V	1V_D.1.1		
+hDenV1/Colombia/un-Yale-DN02838/2024	2024-06-24	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/un-Yale-DN02741/2024	2024-04-14	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-Yale-DN02733/2024	2024-04-11	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-Yale-DN02730/2024	2024-04-07	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/HUI-UEB-033/2011	2011-03-01	South America	Colombia	Huila	V	1V_D.2		
+hDenV1/Colombia/VAC-LSPVAC-2409164-VI/2024	2024-06-12	South America	Colombia	Valle del Cauca	V	1V_D.2		
+hDenV1/Colombia/RIS-FUAA-DFC059/2021	2021-08-15	South America	Colombia	Risaralda	V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC222/2021	2021-12-03	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC245/2022	2022-07-24	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC217/2021	2021-11-30	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC088/2021	2021-08-28	South America	Colombia		V	1V_D.2		
+hDenV1/Colombia/RIS-FUAA-AFI224/2022	2022-04-06	South America	Colombia	Risaralda	V	1V_D.2		
+hDenV1/Colombia/RIS-FUAA-AFI101/2021	2021-05-08	South America	Colombia	Risaralda	V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC161/2021	2021-10-16	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC177/2021	2021-10-29	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC265/2022	2022-12-11	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC087/2021	2021-08-24	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC114/2021	2021-09-06	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC096/2021	2021-08-30	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC063/2021	2021-08-15	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC263/2022	2022-05-11	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC162/2021	2021-10-17	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC264/2022	2022-11-11	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/RIS-FUAA-AFI031/2021	2021-02-16	South America	Colombia	Risaralda	V	1V_D.1		
+hDenV1/Colombia/RIS-FUAA-AFI082/2021	2021-06-28	South America	Colombia	Risaralda	V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC238/2021	2021-12-12	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/un-FUAA-DFC112/2021	2021-09-06	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/SAN-Yale-DH141-P2/2004	2004	South America	Colombia	Santander	V	1V		
+DenV1/mosquito/Colombia/MAG-CIST-0134/2018	2018-10-04	South America	Colombia	Magdalena	V	1V_D.1.1		
+DenV1/mosquito/Colombia/MAG-CIST-0151/2018	2018-11-01	South America	Colombia	Magdalena	V	1V_D.2		
+hDenV1/Colombia/BOL-UEB-016/2019	2019-09	South America	Colombia	Bolivar	V	1V_D.1.1		
+hDenV1/Colombia/BOL-UEB-152/2019	2019-09	South America	Colombia	Bolivar	V	1V_D.1.1		
+hDenV1/Colombia/BOL-UEB-152-1/2019	2019-09	South America	Colombia	Bolivar	V	1V_D.1.1		
+hDenV1/Colombia/BOL-UEB-016-1/2019	2019-09	South America	Colombia	Bolivar	V	1V_D.1.1		
+hDenV1/Colombia/un-FUAA-AFI007673/2019	2019-09	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/SAN-UR-P201080030/2015	2015-03	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/SAN-UR-LV121086/2010	2010-03	South America	Colombia	Santander	V	1V_G		
+hDenV1/Colombia/SAN-UR-LV122007/2009	2009-08	South America	Colombia	Santander	V	1V_G		
+hDenV1/Colombia/SAN-UR-F15030291/2014	2014-06	South America	Colombia	Santander	V	1V_D.1		
+hDenV1/Colombia/NSA-UIDS-555/2001	2001-12	South America	Colombia	Norte de Santander	V	1V_D.1		
+hDenV1/Colombia/NSA-UIDS-559/2015	2015-12	South America	Colombia	Norte de Santander	V	1V_D.1		
+hDenV1/Colombia/NSA-UIDS-556/2015	2015-04	South America	Colombia	Norte de Santander	V	1V_D.1		
+hDenV1/Colombia/NSA-UIDS-558/2016	2016-04	South America	Colombia	Norte de Santander	V	1V_F		
+hDenV1/Colombia/NSA-UIDS-557/2009	2009-09	South America	Colombia	Norte de Santander	V	1V		
+hDenV1/Colombia/un-UDS-Ov07582/2013	2013-09-08	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/ANT-UDS-0746586/2013	2013-08-09	South America	Colombia	Antioquia	V	1V_D.1		
+hDenV1/Colombia/FUADLA-AFI025_676/2021	2021-01-25	South America	Colombia		V	1V_D.1		
+hDenV1/Colombia/FUADLA-AFI059_677/2021	2021-01-25	South America	Colombia		V	1V_D.1		
+DENV1/THAILAND/2006/00002/06	2006-01-01		THAILAND		DENV1		00002	06
+DENV1/THAILAND/2011/00002/11	2011-01-01		THAILAND		DENV1		00002	11
+DENV1/THAILAND/2006/00003/06	2006-01-01		THAILAND		DENV1		00003	06
+DENV1/THAILAND/2006/00004/06	2006-01-01		THAILAND		DENV1		00004	06
+DENV1/THAILAND/2006/00006/06	2006-01-01		THAILAND		DENV1		00006	06
+DENV1/THAILAND/2006/00007/06	2006-01-01		THAILAND		DENV1		00007	06
+DENV1/THAILAND/2006/00010/06	2006-01-01		THAILAND		DENV1		00010	06
+DENV1/THAILAND/1997/00012/97	1997-01-01		THAILAND		DENV1		00012	97
+DENV1/THAILAND/2006/00030/06	2006-01-01		THAILAND		DENV1		00030	06
+DENV1/THAILAND/2011/00046/11	2011-01-01		THAILAND		DENV1		00046	11
+DENV1/THAILAND/2001/00047/01	2001-01-01		THAILAND		DENV1		00047	01
+DENV1/THAILAND/2006/00048/06	2006-01-01		THAILAND		DENV1		00048	06
+DENV1/THAILAND/2011/00055/11	2011-01-01		THAILAND		DENV1		00055	11
+DENV1/THAILAND/2013/00059/13	2013-01-01		THAILAND		DENV1		00059	13
+DENV1/THAILAND/2004/00062/04	2004-01-01		THAILAND		DENV1		00062	04
+DENV1/THAILAND/2013/00062/13	2013-01-01		THAILAND		DENV1		00062	13
+DENV1/THAILAND/1994/00066/94	1994-01-01		THAILAND		DENV1		00066	94
+DENV1/THAILAND/2004/00068/04	2004-01-01		THAILAND		DENV1		00068	04
+DENV1/THAILAND/2006/00068/06	2006-01-01		THAILAND		DENV1		00068	06
+DENV1/THAILAND/2006/00069/06	2006-01-01		THAILAND		DENV1		00069	06
+DENV1/THAILAND/2006/00074/06	2006-01-01		THAILAND		DENV1		00074	06
+DENV1/THAILAND/2006/00080/06	2006-01-01		THAILAND		DENV1		00080	06
+DENV1/THAILAND/2004/00088/04	2004-01-01		THAILAND		DENV1		00088	04
+DENV1/THAILAND/2013/00090/13	2013-01-01		THAILAND		DENV1		00090	13
+DENV1/THAILAND/1991/00098/91	1991-01-01		THAILAND		DENV1		00098	91
+DENV1/THAILAND/2005/00109/05	2005-01-01		THAILAND		DENV1		00109	05
+DENV1/THAILAND/2006/00113/06	2006-01-01		THAILAND		DENV1		00113	06
+DENV1/THAILAND/1997/00115/97	1997-01-01		THAILAND		DENV1		00115	97
+DENV1/THAILAND/1998/00141/98	1998-01-01		THAILAND		DENV1		00141	98
+DENV1/THAILAND/2000/00163/00	2000-01-01		THAILAND		DENV1		00163	00
+DENV1/THAILAND/1994/00168/94	1994-01-01		THAILAND		DENV1		00168	94
+DENV1/THAILAND/2003/00170/03	2003-01-01		THAILAND		DENV1		00170	03
+DENV1/THAILAND/2006/00172/06	2006-01-01		THAILAND		DENV1		00172	06
+DENV1/THAILAND/2005/00186/05	2005-01-01		THAILAND		DENV1		00186	05
+DENV1/THAILAND/2006/00188/06	2006-01-01		THAILAND		DENV1		00188	06
+DENV1/THAILAND/2001/00189/01	2001-01-01		THAILAND		DENV1		00189	01
+DENV1/THAILAND/2013/00192/13	2013-01-01		THAILAND		DENV1		00192	13
+DENV1/THAILAND/2006/00201/06	2006-01-01		THAILAND		DENV1		00201	06
+DENV1/THAILAND/1995/00207/95	1995-01-01		THAILAND		DENV1		00207	95
+DENV1/THAILAND/2005/00208/05	2005-01-01		THAILAND		DENV1		00208	05
+DENV1/THAILAND/2006/00209/06	2006-01-01		THAILAND		DENV1		00209	06
+DENV1/THAILAND/2005/00210/05	2005-01-01		THAILAND		DENV1		00210	05
+DENV1/THAILAND/2005/00211/05	2005-01-01		THAILAND		DENV1		00211	05
+DENV1/THAILAND/2006/00211/06	2006-01-01		THAILAND		DENV1		00211	06
+DENV1/THAILAND/1994/00212/94	1994-01-01		THAILAND		DENV1		00212	94
+DENV1/THAILAND/2006/00213/06	2006-01-01		THAILAND		DENV1		00213	06
+DENV1/THAILAND/2014/00213/14	2014-01-01		THAILAND		DENV1		00213	14
+DENV1/THAILAND/2004/00223/04	2004-01-01		THAILAND		DENV1		00223	04
+DENV1/THAILAND/2006/00228/06	2006-01-01		THAILAND		DENV1		00228	06
+DENV1/THAILAND/1995/00229/95	1995-01-01		THAILAND		DENV1		00229	95
+DENV1/THAILAND/2006/00231/06	2006-01-01		THAILAND		DENV1		00231	06
+DENV1/THAILAND/2006/00232/06	2006-01-01		THAILAND		DENV1		00232	06
+DENV1/THAILAND/1998/00233/98	1998-01-01		THAILAND		DENV1		00233	98
+DENV1/THAILAND/2006/00248/06	2006-01-01		THAILAND		DENV1		00248	06
+DENV1/THAILAND/1995/00257/95	1995-01-01		THAILAND		DENV1		00257	95
+DENV1/THAILAND/2005/00258/05	2005-01-01		THAILAND		DENV1		00258	05
+DENV1/THAILAND/2004/00259/04	2004-01-01		THAILAND		DENV1		00259	04
+DENV1/THAILAND/1999/00262/99	1999-01-01		THAILAND		DENV1		00262	99
+DENV1/THAILAND/1994/00263/94	1994-01-01		THAILAND		DENV1		00263	94
+DENV1/THAILAND/2006/00265/06	2006-01-01		THAILAND		DENV1		00265	06
+DENV1/THAILAND/2013/00270/13	2013-01-01		THAILAND		DENV1		00270	13
+DENV1/THAILAND/2011/00272/11	2011-01-01		THAILAND		DENV1		00272	11
+DENV1/THAILAND/2003/00275/03	2003-01-01		THAILAND		DENV1		00275	03
+DENV1/THAILAND/2006/00287/06	2006-01-01		THAILAND		DENV1		00287	06
+DENV1/THAILAND/1995/00288/95	1995-01-01		THAILAND		DENV1		00288	95
+DENV1/THAILAND/2013/00297/13	2013-01-01		THAILAND		DENV1		00297	13
+DENV1/THAILAND/2012/00305/12	2012-01-01		THAILAND		DENV1		00305	12
+DENV1/THAILAND/2005/00306/05	2005-01-01		THAILAND		DENV1		00306	05
+DENV1/THAILAND/2003/00311/03	2003-01-01		THAILAND		DENV1		00311	03
+DENV1/THAILAND/2006/00318/06	2006-01-01		THAILAND		DENV1		00318	06
+DENV1/THAILAND/2006/00326/06	2006-01-01		THAILAND		DENV1		00326	06
+DENV1/THAILAND/2011/00330/11	2011-01-01		THAILAND		DENV1		00330	11
+DENV1/THAILAND/2006/00332/06	2006-01-01		THAILAND		DENV1		00332	06
+DENV1/THAILAND/2006/00334/06	2006-01-01		THAILAND		DENV1		00334	06
+DENV1/THAILAND/2013/00343/13	2013-01-01		THAILAND		DENV1		00343	13
+DENV1/THAILAND/2012/00346/12	2012-01-01		THAILAND		DENV1		00346	12
+DENV1/THAILAND/2003/00348/03	2003-01-01		THAILAND		DENV1		00348	03
+DENV1/THAILAND/2003/00349/03	2003-01-01		THAILAND		DENV1		00349	03
+DENV1/THAILAND/2011/00349/11	2011-01-01		THAILAND		DENV1		00349	11
+DENV1/THAILAND/1994/00350/94	1994-01-01		THAILAND		DENV1		00350	94
+DENV1/THAILAND/2001/00355/01	2001-01-01		THAILAND		DENV1		00355	01
+DENV1/THAILAND/2011/00358/11	2011-01-01		THAILAND		DENV1		00358	11
+DENV1/THAILAND/2012/00358/12	2012-01-01		THAILAND		DENV1		00358	12
+DENV1/THAILAND/2006/00365/06	2006-01-01		THAILAND		DENV1		00365	06
+DENV1/THAILAND/1999/00365/99	1999-01-01		THAILAND		DENV1		00365	99
+DENV1/THAILAND/2004/00369/04	2004-01-01		THAILAND		DENV1		00369	04
+DENV1/THAILAND/2006/00369/06	2006-01-01		THAILAND		DENV1		00369	06
+DENV1/THAILAND/2006/00371/06	2006-01-01		THAILAND		DENV1		00371	06
+DENV1/THAILAND/2003/00373/03	2003-01-01		THAILAND		DENV1		00373	03
+DENV1/THAILAND/1996/00375/96	1996-01-01		THAILAND		DENV1		00375	96
+DENV1/THAILAND/1997/00377/97	1997-01-01		THAILAND		DENV1		00377	97
+DENV1/THAILAND/1999/00380/99	1999-01-01		THAILAND		DENV1		00380	99
+DENV1/THAILAND/1997/00382/97	1997-01-01		THAILAND		DENV1		00382	97
+DENV1/THAILAND/2006/00392/06	2006-01-01		THAILAND		DENV1		00392	06
+DENV1/THAILAND/1994/00395/94	1994-01-01		THAILAND		DENV1		00395	94
+DENV1/THAILAND/2006/00398/06	2006-01-01		THAILAND		DENV1		00398	06
+DENV1/THAILAND/1995/00410/95	1995-01-01		THAILAND		DENV1		00410	95
+DENV1/THAILAND/2006/00411/06	2006-01-01		THAILAND		DENV1		00411	06
+DENV1/THAILAND/1999/00413/99	1999-01-01		THAILAND		DENV1		00413	99
+DENV1/THAILAND/2006/00418/06	2006-01-01		THAILAND		DENV1		00418	06
+DENV1/THAILAND/1998/00422/98	1998-01-01		THAILAND		DENV1		00422	98
+DENV1/THAILAND/1994/00424/94	1994-01-01		THAILAND		DENV1		00424	94
+DENV1/THAILAND/2003/00427/03	2003-01-01		THAILAND		DENV1		00427	03
+DENV1/THAILAND/1998/00428/98	1998-01-01		THAILAND		DENV1		00428	98
+DENV1/THAILAND/2002/00431/02	2002-01-01		THAILAND		DENV1		00431	02
+DENV1/THAILAND/2011/00432/11	2011-01-01		THAILAND		DENV1		00432	11
+DENV1/THAILAND/2004/00436/04	2004-01-01		THAILAND		DENV1		00436	04
+DENV1/THAILAND/2006/00437/06	2006-01-01		THAILAND		DENV1		00437	06
+DENV1/THAILAND/1982/00437/82	1982-01-01		THAILAND		DENV1		00437	82
+DENV1/THAILAND/2006/00438/06	2006-01-01		THAILAND		DENV1		00438	06
+DENV1/THAILAND/2002/00440/02	2002-01-01		THAILAND		DENV1		00440	02
+DENV1/THAILAND/1998/00442/98	1998-01-01		THAILAND		DENV1		00442	98
+DENV1/THAILAND/2006/00443/06	2006-01-01		THAILAND		DENV1		00443	06
+DENV1/THAILAND/2014/00444/14	2014-01-01		THAILAND		DENV1		00444	14
+DENV1/THAILAND/2013/00456/13	2013-01-01		THAILAND		DENV1		00456	13
+DENV1/THAILAND/2006/00458/06	2006-01-01		THAILAND		DENV1		00458	06
+DENV1/THAILAND/2006/00462/06	2006-01-01		THAILAND		DENV1		00462	06
+DENV1/THAILAND/1995/00471/95	1995-01-01		THAILAND		DENV1		00471	95
+DENV1/THAILAND/1998/00473/98	1998-01-01		THAILAND		DENV1		00473	98
+DENV1/THAILAND/2004/00477/04	2004-01-01		THAILAND		DENV1		00477	04
+DENV1/THAILAND/2002/00479/02	2002-01-01		THAILAND		DENV1		00479	02
+DENV1/THAILAND/2004/00479/04	2004-01-01		THAILAND		DENV1		00479	04
+DENV1/THAILAND/2005/00479/05	2005-01-01		THAILAND		DENV1		00479	05
+DENV1/THAILAND/2006/00482/06	2006-01-01		THAILAND		DENV1		00482	06
+DENV1/THAILAND/2013/00485/13	2013-01-01		THAILAND		DENV1		00485	13
+DENV1/THAILAND/2014/00485/14	2014-01-01		THAILAND		DENV1		00485	14
+DENV1/THAILAND/1995/00487/95	1995-01-01		THAILAND		DENV1		00487	95
+DENV1/THAILAND/2006/00490/06	2006-01-01		THAILAND		DENV1		00490	06
+DENV1/THAILAND/2006/00492/06	2006-01-01		THAILAND		DENV1		00492	06
+DENV1/THAILAND/2004/00493/04	2004-01-01		THAILAND		DENV1		00493	04
+DENV1/THAILAND/2011/00493/11	2011-01-01		THAILAND		DENV1		00493	11
+DENV1/THAILAND/1983/00493/83	1983-01-01		THAILAND		DENV1		00493	83
+DENV1/THAILAND/2001/00494/01	2001-01-01		THAILAND		DENV1		00494	01
+DENV1/THAILAND/2003/00496/03	2003-01-01		THAILAND		DENV1		00496	03
+DENV1/THAILAND/2006/00498/06	2006-01-01		THAILAND		DENV1		00498	06
+DENV1/THAILAND/2012/00511/12	2012-01-01		THAILAND		DENV1		00511	12
+DENV1/THAILAND/2006/00514/06	2006-01-01		THAILAND		DENV1		00514	06
+DENV1/THAILAND/1988/00522/88	1988-01-01		THAILAND		DENV1		00522	88
+DENV1/THAILAND/2006/00527/06	2006-01-01		THAILAND		DENV1		00527	06
+DENV1/THAILAND/2004/00532/04	2004-01-01		THAILAND		DENV1		00532	04
+DENV1/THAILAND/1994/00532/94	1994-01-01		THAILAND		DENV1		00532	94
+DENV1/THAILAND/2003/00537/03	2003-01-01		THAILAND		DENV1		00537	03
+DENV1/THAILAND/1994/00537/94	1994-01-01		THAILAND		DENV1		00537	94
+DENV1/THAILAND/2003/00543/03	2003-01-01		THAILAND		DENV1		00543	03
+DENV1/THAILAND/2012/00543/12	2012-01-01		THAILAND		DENV1		00543	12
+DENV1/THAILAND/2006/00551/06	2006-01-01		THAILAND		DENV1		00551	06
+DENV1/THAILAND/2014/00554/14	2014-01-01		THAILAND		DENV1		00554	14
+DENV1/THAILAND/2006/00555/06	2006-01-01		THAILAND		DENV1		00555	06
+DENV1/THAILAND/2014/00559/14	2014-01-01		THAILAND		DENV1		00559	14
+DENV1/THAILAND/1995/00569/95	1995-01-01		THAILAND		DENV1		00569	95
+DENV1/THAILAND/2014/00572/14	2014-01-01		THAILAND		DENV1		00572	14
+DENV1/THAILAND/2006/00577/06	2006-01-01		THAILAND		DENV1		00577	06
+DENV1/THAILAND/2011/00577/11	2011-01-01		THAILAND		DENV1		00577	11
+DENV1/THAILAND/2001/00580/01	2001-01-01		THAILAND		DENV1		00580	01
+DENV1/THAILAND/2012/00580/12	2012-01-01		THAILAND		DENV1		00580	12
+DENV1/THAILAND/1995/00582/95	1995-01-01		THAILAND		DENV1		00582	95
+DENV1/THAILAND/1995/00590/95	1995-01-01		THAILAND		DENV1		00590	95
+DENV1/THAILAND/1998/00592/98	1998-01-01		THAILAND		DENV1		00592	98
+DENV1/THAILAND/1999/00594/99	1999-01-01		THAILAND		DENV1		00594	99
+DENV1/THAILAND/1995/00595/95	1995-01-01		THAILAND		DENV1		00595	95
+DENV1/THAILAND/2003/00596/03	2003-01-01		THAILAND		DENV1		00596	03
+DENV1/THAILAND/2003/00598/03	2003-01-01		THAILAND		DENV1		00598	03
+DENV1/THAILAND/2002/00600/02	2002-01-01		THAILAND		DENV1		00600	02
+DENV1/THAILAND/2013/00607/13	2013-01-01		THAILAND		DENV1		00607	13
+DENV1/THAILAND/1995/00614/95	1995-01-01		THAILAND		DENV1		00614	95
+DENV1/THAILAND/2006/00616/06	2006-01-01		THAILAND		DENV1		00616	06
+DENV1/THAILAND/2005/00617/05	2005-01-01		THAILAND		DENV1		00617	05
+DENV1/THAILAND/2014/00624/14	2014-01-01		THAILAND		DENV1		00624	14
+DENV1/THAILAND/2011/00626/11	2011-01-01		THAILAND		DENV1		00626	11
+DENV1/THAILAND/2006/00631/06	2006-01-01		THAILAND		DENV1		00631	06
+DENV1/THAILAND/1980/00633/80	1980-01-01		THAILAND		DENV1		00633	80
+DENV1/THAILAND/2014/00634/14	2014-01-01		THAILAND		DENV1		00634	14
+DENV1/THAILAND/1995/00637/95	1995-01-01		THAILAND		DENV1		00637	95
+DENV1/THAILAND/2002/00644/02	2002-01-01		THAILAND		DENV1		00644	02
+DENV1/THAILAND/2005/00647/05	2005-01-01		THAILAND		DENV1		00647	05
+DENV1/THAILAND/2002/00650/02	2002-01-01		THAILAND		DENV1		00650	02
+DENV1/THAILAND/1994/00650/94	1994-01-01		THAILAND		DENV1		00650	94
+DENV1/THAILAND/2005/00667/05	2005-01-01		THAILAND		DENV1		00667	05
+DENV1/THAILAND/1995/00668/95	1995-01-01		THAILAND		DENV1		00668	95
+DENV1/THAILAND/1998/00669/98	1998-01-01		THAILAND		DENV1		00669	98
+DENV1/THAILAND/2006/00674/06	2006-01-01		THAILAND		DENV1		00674	06
+DENV1/THAILAND/1999/00684/99	1999-01-01		THAILAND		DENV1		00684	99
+DENV1/THAILAND/2006/00690/06	2006-01-01		THAILAND		DENV1		00690	06
+DENV1/THAILAND/1999/00692/99	1999-01-01		THAILAND		DENV1		00692	99
+DENV1/THAILAND/2003/00697/03	2003-01-01		THAILAND		DENV1		00697	03
+DENV1/THAILAND/2006/00698/06	2006-01-01		THAILAND		DENV1		00698	06
+DENV1/THAILAND/2006/00709/06	2006-01-01		THAILAND		DENV1		00709	06
+DENV1/THAILAND/2006/00713/06	2006-01-01		THAILAND		DENV1		00713	06
+DENV1/THAILAND/1994/00713/94	1994-01-01		THAILAND		DENV1		00713	94
+DENV1/THAILAND/2004/00725/04	2004-01-01		THAILAND		DENV1		00725	04
+DENV1/THAILAND/2014/00725/14	2014-01-01		THAILAND		DENV1		00725	14
+DENV1/THAILAND/2006/00728/06	2006-01-01		THAILAND		DENV1		00728	06
+DENV1/THAILAND/2002/00731/02	2002-01-01		THAILAND		DENV1		00731	02
+DENV1/THAILAND/2014/00738/14	2014-01-01		THAILAND		DENV1		00738	14
+DENV1/THAILAND/1998/00739/98	1998-01-01		THAILAND		DENV1		00739	98
+DENV1/THAILAND/1994/00740/94	1994-01-01		THAILAND		DENV1		00740	94
+DENV1/THAILAND/2005/00743/05	2005-01-01		THAILAND		DENV1		00743	05
+DENV1/THAILAND/2005/00744/05	2005-01-01		THAILAND		DENV1		00744	05
+DENV1/THAILAND/2011/00750/11	2011-01-01		THAILAND		DENV1		00750	11
+DENV1/THAILAND/2011/00757/11	2011-01-01		THAILAND		DENV1		00757	11
+DENV1/THAILAND/2004/00758/04	2004-01-01		THAILAND		DENV1		00758	04
+DENV1/THAILAND/2014/00758/14	2014-01-01		THAILAND		DENV1		00758	14
+DENV1/THAILAND/2006/00761/06	2006-01-01		THAILAND		DENV1		00761	06
+DENV1/THAILAND/2012/00763/12	2012-01-01		THAILAND		DENV1		00763	12
+DENV1/THAILAND/1995/00769/95	1995-01-01		THAILAND		DENV1		00769	95
+DENV1/THAILAND/2012/00777/12	2012-01-01		THAILAND		DENV1		00777	12
+DENV1/THAILAND/2011/00785/11	2011-01-01		THAILAND		DENV1		00785	11
+DENV1/THAILAND/2010/00792/10	2010-01-01		THAILAND		DENV1		00792	10
+DENV1/THAILAND/2004/00793/04	2004-01-01		THAILAND		DENV1		00793	04
+DENV1/THAILAND/2012/00807/12	2012-01-01		THAILAND		DENV1		00807	12
+DENV1/THAILAND/2012/00809/12	2012-01-01		THAILAND		DENV1		00809	12
+DENV1/THAILAND/2006/00817/06	2006-01-01		THAILAND		DENV1		00817	06
+DENV1/THAILAND/1994/00817/94	1994-01-01		THAILAND		DENV1		00817	94
+DENV1/THAILAND/1994/00821/94	1994-01-01		THAILAND		DENV1		00821	94
+DENV1/THAILAND/2001/00822/01	2001-01-01		THAILAND		DENV1		00822	01
+DENV1/THAILAND/2006/00825/06	2006-01-01		THAILAND		DENV1		00825	06
+DENV1/THAILAND/2012/00829/12	2012-01-01		THAILAND		DENV1		00829	12
+DENV1/THAILAND/2006/00833/06	2006-01-01		THAILAND		DENV1		00833	06
+DENV1/THAILAND/2012/00840/12	2012-01-01		THAILAND		DENV1		00840	12
+DENV1/THAILAND/2006/00841/06	2006-01-01		THAILAND		DENV1		00841	06
+DENV1/THAILAND/2004/00878/04	2004-01-01		THAILAND		DENV1		00878	04
+DENV1/THAILAND/2012/00878/12	2012-01-01		THAILAND		DENV1		00878	12
+DENV1/THAILAND/2010/00887/10	2010-01-01		THAILAND		DENV1		00887	10
+DENV1/THAILAND/2006/00921/06	2006-01-01		THAILAND		DENV1		00921	06
+DENV1/THAILAND/1997/00926/97	1997-01-01		THAILAND		DENV1		00926	97
+DENV1/THAILAND/1997/00927/97	1997-01-01		THAILAND		DENV1		00927	97
+DENV1/THAILAND/2011/00938/11	2011-01-01		THAILAND		DENV1		00938	11
+DENV1/THAILAND/1994/00938/94	1994-01-01		THAILAND		DENV1		00938	94
+DENV1/THAILAND/1996/00942/96	1996-01-01		THAILAND		DENV1		00942	96
+DENV1/THAILAND/2012/00943/12	2012-01-01		THAILAND		DENV1		00943	12
+DENV1/THAILAND/2003/00961/03	2003-01-01		THAILAND		DENV1		00961	03
+DENV1/THAILAND/2006/00966/06	2006-01-01		THAILAND		DENV1		00966	06
+DENV1/THAILAND/1995/00968/95	1995-01-01		THAILAND		DENV1		00968	95
+DENV1/THAILAND/1996/00970/96	1996-01-01		THAILAND		DENV1		00970	96
+DENV1/THAILAND/2004/00975/04	2004-01-01		THAILAND		DENV1		00975	04
+DENV1/THAILAND/1995/00975/95	1995-01-01		THAILAND		DENV1		00975	95
+DENV1/THAILAND/1995/00978/95	1995-01-01		THAILAND		DENV1		00978	95
+DENV1/THAILAND/2002/00995/02	2002-01-01		THAILAND		DENV1		00995	02
+DENV1/THAILAND/1995/00995/95	1995-01-01		THAILAND		DENV1		00995	95
+DENV1/THAILAND/2006/01001/06	2006-01-01		THAILAND		DENV1		01001	06
+DENV1/THAILAND/2012/01006/12	2012-01-01		THAILAND		DENV1		01006	12
+DENV1/THAILAND/2006/01014/06	2006-01-01		THAILAND		DENV1		01014	06
+DENV1/THAILAND/1995/01014/95	1995-01-01		THAILAND		DENV1		01014	95
+DENV1/THAILAND/2003/01023/03	2003-01-01		THAILAND		DENV1		01023	03
+DENV1/THAILAND/1996/01023/96	1996-01-01		THAILAND		DENV1		01023	96
+DENV1/THAILAND/2013/01031/13	2013-01-01		THAILAND		DENV1		01031	13
+DENV1/THAILAND/2004/01038/04	2004-01-01		THAILAND		DENV1		01038	04
+DENV1/THAILAND/2006/01038/06	2006-01-01		THAILAND		DENV1		01038	06
+DENV1/THAILAND/2001/01039/01	2001-01-01		THAILAND		DENV1		01039	01
+DENV1/THAILAND/2005/01040/05	2005-01-01		THAILAND		DENV1		01040	05
+DENV1/THAILAND/2010/01040/10	2010-01-01		THAILAND		DENV1		01040	10
+DENV1/THAILAND/2010/01044/10	2010-01-01		THAILAND		DENV1		01044	10
+DENV1/THAILAND/2002/01048/02	2002-01-01		THAILAND		DENV1		01048	02
+DENV1/THAILAND/1996/01049/96	1996-01-01		THAILAND		DENV1		01049	96
+DENV1/THAILAND/1996/01055/96	1996-01-01		THAILAND		DENV1		01055	96
+DENV1/THAILAND/2006/01057/06	2006-01-01		THAILAND		DENV1		01057	06
+DENV1/THAILAND/1997/01057/97	1997-01-01		THAILAND		DENV1		01057	97
+DENV1/THAILAND/2013/01060/13	2013-01-01		THAILAND		DENV1		01060	13
+DENV1/THAILAND/1994/01088/94	1994-01-01		THAILAND		DENV1		01088	94
+DENV1/THAILAND/2006/01089/06	2006-01-01		THAILAND		DENV1		01089	06
+DENV1/THAILAND/2002/01091/02	2002-01-01		THAILAND		DENV1		01091	02
+DENV1/THAILAND/2006/01093/06	2006-01-01		THAILAND		DENV1		01093	06
+DENV1/THAILAND/1996/01095/96	1996-01-01		THAILAND		DENV1		01095	96
+DENV1/THAILAND/2006/01096/06	2006-01-01		THAILAND		DENV1		01096	06
+DENV1/THAILAND/1995/01097/95	1995-01-01		THAILAND		DENV1		01097	95
+DENV1/THAILAND/2006/01104/06	2006-01-01		THAILAND		DENV1		01104	06
+DENV1/THAILAND/2006/01108/06	2006-01-01		THAILAND		DENV1		01108	06
+DENV1/THAILAND/1996/01114/96	1996-01-01		THAILAND		DENV1		01114	96
+DENV1/THAILAND/2002/01117/02	2002-01-01		THAILAND		DENV1		01117	02
+DENV1/THAILAND/2012/01133/12	2012-01-01		THAILAND		DENV1		01133	12
+DENV1/THAILAND/1996/01134/96	1996-01-01		THAILAND		DENV1		01134	96
+DENV1/THAILAND/1996/01139/96	1996-01-01		THAILAND		DENV1		01139	96
+DENV1/THAILAND/2006/01140/06	2006-01-01		THAILAND		DENV1		01140	06
+DENV1/THAILAND/2006/01141/06	2006-01-01		THAILAND		DENV1		01141	06
+DENV1/THAILAND/2006/01143/06	2006-01-01		THAILAND		DENV1		01143	06
+DENV1/THAILAND/2013/01143/13	2013-01-01		THAILAND		DENV1		01143	13
+DENV1/THAILAND/2006/01145/06	2006-01-01		THAILAND		DENV1		01145	06
+DENV1/THAILAND/2005/01147/05	2005-01-01		THAILAND		DENV1		01147	05
+DENV1/THAILAND/2013/01152/13	2013-01-01		THAILAND		DENV1		01152	13
+DENV1/THAILAND/2006/01170/06	2006-01-01		THAILAND		DENV1		01170	06
+DENV1/THAILAND/1998/01173/98	1998-01-01		THAILAND		DENV1		01173	98
+DENV1/THAILAND/2010/01175/10	2010-01-01		THAILAND		DENV1		01175	10
+DENV1/THAILAND/1995/01199/95	1995-01-01		THAILAND		DENV1		01199	95
+DENV1/THAILAND/2011/01202/11	2011-01-01		THAILAND		DENV1		01202	11
+DENV1/THAILAND/2003/01203/03	2003-01-01		THAILAND		DENV1		01203	03
+DENV1/THAILAND/2006/01211/06	2006-01-01		THAILAND		DENV1		01211	06
+DENV1/THAILAND/1995/01213/95	1995-01-01		THAILAND		DENV1		01213	95
+DENV1/THAILAND/2006/01214/06	2006-01-01		THAILAND		DENV1		01214	06
+DENV1/THAILAND/2006/01229/06	2006-01-01		THAILAND		DENV1		01229	06
+DENV1/THAILAND/1996/01231/96	1996-01-01		THAILAND		DENV1		01231	96
+DENV1/THAILAND/2000/01236/00	2000-01-01		THAILAND		DENV1		01236	00
+DENV1/THAILAND/2000/01239/00	2000-01-01		THAILAND		DENV1		01239	00
+DENV1/THAILAND/2006/01241/06	2006-01-01		THAILAND		DENV1		01241	06
+DENV1/THAILAND/2006/01242/06	2006-01-01		THAILAND		DENV1		01242	06
+DENV1/THAILAND/2011/01259/11	2011-01-01		THAILAND		DENV1		01259	11
+DENV1/THAILAND/1995/01262/95	1995-01-01		THAILAND		DENV1		01262	95
+DENV1/THAILAND/2000/01264/00	2000-01-01		THAILAND		DENV1		01264	00
+DENV1/THAILAND/2006/01273/06	2006-01-01		THAILAND		DENV1		01273	06
+DENV1/THAILAND/2004/01274/04	2004-01-01		THAILAND		DENV1		01274	04
+DENV1/THAILAND/2006/01277/06	2006-01-01		THAILAND		DENV1		01277	06
+DENV1/THAILAND/1995/01277/95	1995-01-01		THAILAND		DENV1		01277	95
+DENV1/THAILAND/1995/01283/95	1995-01-01		THAILAND		DENV1		01283	95
+DENV1/THAILAND/1995/01293/95	1995-01-01		THAILAND		DENV1		01293	95
+DENV1/THAILAND/2010/01302/10	2010-01-01		THAILAND		DENV1		01302	10
+DENV1/THAILAND/2011/01302/11	2011-01-01		THAILAND		DENV1		01302	11
+DENV1/THAILAND/1994/01308/94	1994-01-01		THAILAND		DENV1		01308	94
+DENV1/THAILAND/2004/01309/04	2004-01-01		THAILAND		DENV1		01309	04
+DENV1/THAILAND/1994/01310/94	1994-01-01		THAILAND		DENV1		01310	94
+DENV1/THAILAND/2004/01313/04	2004-01-01		THAILAND		DENV1		01313	04
+DENV1/THAILAND/1998/01315/98	1998-01-01		THAILAND		DENV1		01315	98
+DENV1/THAILAND/2010/01327/10	2010-01-01		THAILAND		DENV1		01327	10
+DENV1/THAILAND/2006/01330/06	2006-01-01		THAILAND		DENV1		01330	06
+DENV1/THAILAND/2005/01331/05	2005-01-01		THAILAND		DENV1		01331	05
+DENV1/THAILAND/2006/01332/06	2006-01-01		THAILAND		DENV1		01332	06
+DENV1/THAILAND/2006/01334/06	2006-01-01		THAILAND		DENV1		01334	06
+DENV1/THAILAND/2006/01335/06	2006-01-01		THAILAND		DENV1		01335	06
+DENV1/THAILAND/2000/01349/00	2000-01-01		THAILAND		DENV1		01349	00
+DENV1/THAILAND/1995/01364/95	1995-01-01		THAILAND		DENV1		01364	95
+DENV1/THAILAND/2003/01373/03	2003-01-01		THAILAND		DENV1		01373	03
+DENV1/THAILAND/2006/01376/06	2006-01-01		THAILAND		DENV1		01376	06
+DENV1/THAILAND/2006/01377/06	2006-01-01		THAILAND		DENV1		01377	06
+DENV1/THAILAND/2006/01380/06	2006-01-01		THAILAND		DENV1		01380	06
+DENV1/THAILAND/2006/01381/06	2006-01-01		THAILAND		DENV1		01381	06
+DENV1/THAILAND/2010/01381/10	2010-01-01		THAILAND		DENV1		01381	10
+DENV1/THAILAND/2005/01383/05	2005-01-01		THAILAND		DENV1		01383	05
+DENV1/THAILAND/2006/01383/06	2006-01-01		THAILAND		DENV1		01383	06
+DENV1/THAILAND/1994/01385/94	1994-01-01		THAILAND		DENV1		01385	94
+DENV1/THAILAND/2006/01386/06	2006-01-01		THAILAND		DENV1		01386	06
+DENV1/THAILAND/2011/01392/11	2011-01-01		THAILAND		DENV1		01392	11
+DENV1/THAILAND/2002/01393/02	2002-01-01		THAILAND		DENV1		01393	02
+DENV1/THAILAND/2000/01397/00	2000-01-01		THAILAND		DENV1		01397	00
+DENV1/THAILAND/2006/01402/06	2006-01-01		THAILAND		DENV1		01402	06
+DENV1/THAILAND/1997/01403/97	1997-01-01		THAILAND		DENV1		01403	97
+DENV1/THAILAND/2004/01411/04	2004-01-01		THAILAND		DENV1		01411	04
+DENV1/THAILAND/2004/01416/04	2004-01-01		THAILAND		DENV1		01416	04
+DENV1/THAILAND/2004/01420/04	2004-01-01		THAILAND		DENV1		01420	04
+DENV1/THAILAND/1995/01423/95	1995-01-01		THAILAND		DENV1		01423	95
+DENV1/THAILAND/2004/01425/04	2004-01-01		THAILAND		DENV1		01425	04
+DENV1/THAILAND/2010/01436/10	2010-01-01		THAILAND		DENV1		01436	10
+DENV1/THAILAND/2002/01443/02	2002-01-01		THAILAND		DENV1		01443	02
+DENV1/THAILAND/2006/01444/06	2006-01-01		THAILAND		DENV1		01444	06
+DENV1/THAILAND/2010/01446/10	2010-01-01		THAILAND		DENV1		01446	10
+DENV1/THAILAND/2010/01447/10	2010-01-01		THAILAND		DENV1		01447	10
+DENV1/THAILAND/1994/01447/94	1994-01-01		THAILAND		DENV1		01447	94
+DENV1/THAILAND/2006/01448/06	2006-01-01		THAILAND		DENV1		01448	06
+DENV1/THAILAND/2011/01450/11	2011-01-01		THAILAND		DENV1		01450	11
+DENV1/THAILAND/2006/01453/06	2006-01-01		THAILAND		DENV1		01453	06
+DENV1/THAILAND/2011/01453/11	2011-01-01		THAILAND		DENV1		01453	11
+DENV1/THAILAND/2002/01459/02	2002-01-01		THAILAND		DENV1		01459	02
+DENV1/THAILAND/1995/01459/95	1995-01-01		THAILAND		DENV1		01459	95
+DENV1/THAILAND/2002/01462/02	2002-01-01		THAILAND		DENV1		01462	02
+DENV1/THAILAND/1994/01471/94	1994-01-01		THAILAND		DENV1		01471	94
+DENV1/THAILAND/2002/01473/02	2002-01-01		THAILAND		DENV1		01473	02
+DENV1/THAILAND/2000/01476/00	2000-01-01		THAILAND		DENV1		01476	00
+DENV1/THAILAND/1994/01476/94	1994-01-01		THAILAND		DENV1		01476	94
+DENV1/THAILAND/2007/01479/07	2007-01-01		THAILAND		DENV1		01479	07
+DENV1/THAILAND/2000/01483/00	2000-01-01		THAILAND		DENV1		01483	00
+DENV1/THAILAND/2006/01483/06	2006-01-01		THAILAND		DENV1		01483	06
+DENV1/THAILAND/2000/01492/00	2000-01-01		THAILAND		DENV1		01492	00
+DENV1/THAILAND/1994/01495/94	1994-01-01		THAILAND		DENV1		01495	94
+DENV1/THAILAND/2006/01499/06	2006-01-01		THAILAND		DENV1		01499	06
+DENV1/THAILAND/2006/01505/06	2006-01-01		THAILAND		DENV1		01505	06
+DENV1/THAILAND/2010/01510/10	2010-01-01		THAILAND		DENV1		01510	10
+DENV1/THAILAND/2006/01511/06	2006-01-01		THAILAND		DENV1		01511	06
+DENV1/THAILAND/2006/01512/06	2006-01-01		THAILAND		DENV1		01512	06
+DENV1/THAILAND/2010/01518/10	2010-01-01		THAILAND		DENV1		01518	10
+DENV1/THAILAND/2010/01521/10	2010-01-01		THAILAND		DENV1		01521	10
+DENV1/THAILAND/1996/01524/96	1996-01-01		THAILAND		DENV1		01524	96
+DENV1/THAILAND/2006/01528/06	2006-01-01		THAILAND		DENV1		01528	06
+DENV1/THAILAND/2006/01529/06	2006-01-01		THAILAND		DENV1		01529	06
+DENV1/THAILAND/2004/01530/04	2004-01-01		THAILAND		DENV1		01530	04
+DENV1/THAILAND/2006/01530/06	2006-01-01		THAILAND		DENV1		01530	06
+DENV1/THAILAND/1994/01533/94	1994-01-01		THAILAND		DENV1		01533	94
+DENV1/THAILAND/2006/01535/06	2006-01-01		THAILAND		DENV1		01535	06
+DENV1/THAILAND/2006/01538/06	2006-01-01		THAILAND		DENV1		01538	06
+DENV1/THAILAND/2003/01555/03	2003-01-01		THAILAND		DENV1		01555	03
+DENV1/THAILAND/2006/01561/06	2006-01-01		THAILAND		DENV1		01561	06
+DENV1/THAILAND/2006/01563/06	2006-01-01		THAILAND		DENV1		01563	06
+DENV1/THAILAND/2000/01565/00	2000-01-01		THAILAND		DENV1		01565	00
+DENV1/THAILAND/2005/01567/05	2005-01-01		THAILAND		DENV1		01567	05
+DENV1/THAILAND/2013/01570/13	2013-01-01		THAILAND		DENV1		01570	13
+DENV1/THAILAND/2006/01573/06	2006-01-01		THAILAND		DENV1		01573	06
+DENV1/THAILAND/2005/01578/05	2005-01-01		THAILAND		DENV1		01578	05
+DENV1/THAILAND/2002/01579/02	2002-01-01		THAILAND		DENV1		01579	02
+DENV1/THAILAND/1998/01579/98	1998-01-01		THAILAND		DENV1		01579	98
+DENV1/THAILAND/1998/01582/98	1998-01-01		THAILAND		DENV1		01582	98
+DENV1/THAILAND/2005/01591/05	2005-01-01		THAILAND		DENV1		01591	05
+DENV1/THAILAND/2006/01595/06	2006-01-01		THAILAND		DENV1		01595	06
+DENV1/THAILAND/2010/01600/10	2010-01-01		THAILAND		DENV1		01600	10
+DENV1/THAILAND/2004/01604/04	2004-01-01		THAILAND		DENV1		01604	04
+DENV1/THAILAND/2000/01606/00	2000-01-01		THAILAND		DENV1		01606	00
+DENV1/THAILAND/1995/01608/95	1995-01-01		THAILAND		DENV1		01608	95
+DENV1/THAILAND/1998/01610/98	1998-01-01		THAILAND		DENV1		01610	98
+DENV1/THAILAND/2005/01616/05	2005-01-01		THAILAND		DENV1		01616	05
+DENV1/THAILAND/2000/01624/00	2000-01-01		THAILAND		DENV1		01624	00
+DENV1/THAILAND/2006/01635/06	2006-01-01		THAILAND		DENV1		01635	06
+DENV1/THAILAND/2000/01639/00	2000-01-01		THAILAND		DENV1		01639	00
+DENV1/THAILAND/2004/01640/04	2004-01-01		THAILAND		DENV1		01640	04
+DENV1/THAILAND/2006/01650/06	2006-01-01		THAILAND		DENV1		01650	06
+DENV1/THAILAND/2005/01651/05	2005-01-01		THAILAND		DENV1		01651	05
+DENV1/THAILAND/2000/01661/00	2000-01-01		THAILAND		DENV1		01661	00
+DENV1/THAILAND/2006/01678/06	2006-01-01		THAILAND		DENV1		01678	06
+DENV1/THAILAND/2006/01690/06	2006-01-01		THAILAND		DENV1		01690	06
+DENV1/THAILAND/2004/01692/04	2004-01-01		THAILAND		DENV1		01692	04
+DENV1/THAILAND/2006/01710/06	2006-01-01		THAILAND		DENV1		01710	06
+DENV1/THAILAND/1994/01723/94	1994-01-01		THAILAND		DENV1		01723	94
+DENV1/THAILAND/1998/01723/98	1998-01-01		THAILAND		DENV1		01723	98
+DENV1/THAILAND/1980/01738/80	1980-01-01		THAILAND		DENV1		01738	80
+DENV1/THAILAND/1996/01763/96	1996-01-01		THAILAND		DENV1		01763	96
+DENV1/THAILAND/2004/01764/04	2004-01-01		THAILAND		DENV1		01764	04
+DENV1/THAILAND/1996/01771/96	1996-01-01		THAILAND		DENV1		01771	96
+DENV1/THAILAND/2006/01774/06	2006-01-01		THAILAND		DENV1		01774	06
+DENV1/THAILAND/1996/01789/96	1996-01-01		THAILAND		DENV1		01789	96
+DENV1/THAILAND/1996/01792/96	1996-01-01		THAILAND		DENV1		01792	96
+DENV1/THAILAND/2000/01798/00	2000-01-01		THAILAND		DENV1		01798	00
+DENV1/THAILAND/2002/01813/02	2002-01-01		THAILAND		DENV1		01813	02
+DENV1/THAILAND/2003/01815/03	2003-01-01		THAILAND		DENV1		01815	03
+DENV1/THAILAND/2002/01819/02	2002-01-01		THAILAND		DENV1		01819	02
+DENV1/THAILAND/2006/01820/06	2006-01-01		THAILAND		DENV1		01820	06
+DENV1/THAILAND/2002/01821/02	2002-01-01		THAILAND		DENV1		01821	02
+DENV1/THAILAND/2006/01823/06	2006-01-01		THAILAND		DENV1		01823	06
+DENV1/THAILAND/1995/01827/95	1995-01-01		THAILAND		DENV1		01827	95
+DENV1/THAILAND/2006/01830/06	2006-01-01		THAILAND		DENV1		01830	06
+DENV1/THAILAND/2006/01831/06	2006-01-01		THAILAND		DENV1		01831	06
+DENV1/THAILAND/2003/01849/03	2003-01-01		THAILAND		DENV1		01849	03
+DENV1/THAILAND/2003/01851/03	2003-01-01		THAILAND		DENV1		01851	03
+DENV1/THAILAND/2006/01858/06	2006-01-01		THAILAND		DENV1		01858	06
+DENV1/THAILAND/1996/01867/96	1996-01-01		THAILAND		DENV1		01867	96
+DENV1/THAILAND/2002/01893/02	2002-01-01		THAILAND		DENV1		01893	02
+DENV1/THAILAND/2000/01909/00	2000-01-01		THAILAND		DENV1		01909	00
+DENV1/THAILAND/2006/01931/06	2006-01-01		THAILAND		DENV1		01931	06
+DENV1/THAILAND/2006/01932/06	2006-01-01		THAILAND		DENV1		01932	06
+DENV1/THAILAND/1998/01932/98	1998-01-01		THAILAND		DENV1		01932	98
+DENV1/THAILAND/2006/01934/06	2006-01-01		THAILAND		DENV1		01934	06
+DENV1/THAILAND/2006/01936/06	2006-01-01		THAILAND		DENV1		01936	06
+DENV1/THAILAND/2006/01937/06	2006-01-01		THAILAND		DENV1		01937	06
+DENV1/THAILAND/2003/01982/03	2003-01-01		THAILAND		DENV1		01982	03
+DENV1/THAILAND/2006/02000/06	2006-01-01		THAILAND		DENV1		02000	06
+DENV1/THAILAND/2003/02031/03	2003-01-01		THAILAND		DENV1		02031	03
+DENV1/THAILAND/2006/02035/06	2006-01-01		THAILAND		DENV1		02035	06
+DENV1/THAILAND/2006/02046/06	2006-01-01		THAILAND		DENV1		02046	06
+DENV1/THAILAND/2006/02050/06	2006-01-01		THAILAND		DENV1		02050	06
+DENV1/THAILAND/2000/02059/00	2000-01-01		THAILAND		DENV1		02059	00
+DENV1/THAILAND/2006/02076/06	2006-01-01		THAILAND		DENV1		02076	06
+DENV1/THAILAND/2006/02079/06	2006-01-01		THAILAND		DENV1		02079	06
+DENV1/THAILAND/2006/02080/06	2006-01-01		THAILAND		DENV1		02080	06
+DENV1/THAILAND/1997/02080/97	1997-01-01		THAILAND		DENV1		02080	97
+DENV1/THAILAND/2000/02089/00	2000-01-01		THAILAND		DENV1		02089	00
+DENV1/THAILAND/1997/02090/97	1997-01-01		THAILAND		DENV1		02090	97
+DENV1/THAILAND/2000/02094/00	2000-01-01		THAILAND		DENV1		02094	00
+DENV1/THAILAND/2002/02110/02	2002-01-01		THAILAND		DENV1		02110	02
+DENV1/THAILAND/2006/02114/06	2006-01-01		THAILAND		DENV1		02114	06
+DENV1/THAILAND/2006/02116/06	2006-01-01		THAILAND		DENV1		02116	06
+DENV1/THAILAND/2006/02118/06	2006-01-01		THAILAND		DENV1		02118	06
+DENV1/THAILAND/2006/02122/06	2006-01-01		THAILAND		DENV1		02122	06
+DENV1/THAILAND/2006/02127/06	2006-01-01		THAILAND		DENV1		02127	06
+DENV1/THAILAND/1998/02128/98	1998-01-01		THAILAND		DENV1		02128	98
+DENV1/THAILAND/2006/02129/06	2006-01-01		THAILAND		DENV1		02129	06
+DENV1/THAILAND/2006/02131/06	2006-01-01		THAILAND		DENV1		02131	06
+DENV1/THAILAND/2003/02150/03	2003-01-01		THAILAND		DENV1		02150	03
+DENV1/THAILAND/2002/02168/02	2002-01-01		THAILAND		DENV1		02168	02
+DENV1/THAILAND/1996/02174/96	1996-01-01		THAILAND		DENV1		02174	96
+DENV1/THAILAND/1996/02185/96	1996-01-01		THAILAND		DENV1		02185	96
+DENV1/THAILAND/2006/02193/06	2006-01-01		THAILAND		DENV1		02193	06
+DENV1/THAILAND/2006/02196/06	2006-01-01		THAILAND		DENV1		02196	06
+DENV1/THAILAND/1996/02208/96	1996-01-01		THAILAND		DENV1		02208	96
+DENV1/THAILAND/2006/02239/06	2006-01-01		THAILAND		DENV1		02239	06
+DENV1/THAILAND/1996/02264/96	1996-01-01		THAILAND		DENV1		02264	96
+DENV1/THAILAND/2006/02270/06	2006-01-01		THAILAND		DENV1		02270	06
+DENV1/THAILAND/2006/02296/06	2006-01-01		THAILAND		DENV1		02296	06
+DENV1/THAILAND/2006/02333/06	2006-01-01		THAILAND		DENV1		02333	06
+DENV1/THAILAND/2006/02340/06	2006-01-01		THAILAND		DENV1		02340	06
+DENV1/THAILAND/2006/02344/06	2006-01-01		THAILAND		DENV1		02344	06
+DENV1/THAILAND/1998/02355/98	1998-01-01		THAILAND		DENV1		02355	98
+DENV1/THAILAND/2006/02356/06	2006-01-01		THAILAND		DENV1		02356	06
+DENV1/THAILAND/2006/02358/06	2006-01-01		THAILAND		DENV1		02358	06
+DENV1/THAILAND/2006/02361/06	2006-01-01		THAILAND		DENV1		02361	06
+DENV1/THAILAND/2003/02371/03	2003-01-01		THAILAND		DENV1		02371	03
+DENV1/THAILAND/2006/02395/06	2006-01-01		THAILAND		DENV1		02395	06
+DENV1/THAILAND/2006/02424/06	2006-01-01		THAILAND		DENV1		02424	06
+DENV1/THAILAND/2006/02433/06	2006-01-01		THAILAND		DENV1		02433	06
+DENV1/THAILAND/1996/02443/96	1996-01-01		THAILAND		DENV1		02443	96
+DENV1/THAILAND/1996/02452/96	1996-01-01		THAILAND		DENV1		02452	96
+DENV1/THAILAND/2006/02454/06	2006-01-01		THAILAND		DENV1		02454	06
+DENV1/THAILAND/2006/02459/06	2006-01-01		THAILAND		DENV1		02459	06
+DENV1/THAILAND/2001/02478/01	2001-01-01		THAILAND		DENV1		02478	01
+DENV1/THAILAND/2006/02499/06	2006-01-01		THAILAND		DENV1		02499	06
+DENV1/THAILAND/2006/02508/06	2006-01-01		THAILAND		DENV1		02508	06
+DENV1/THAILAND/2006/02509/06	2006-01-01		THAILAND		DENV1		02509	06
+DENV1/THAILAND/2006/02511/06	2006-01-01		THAILAND		DENV1		02511	06
+DENV1/THAILAND/2006/02539/06	2006-01-01		THAILAND		DENV1		02539	06
+DENV1/THAILAND/2006/02547/06	2006-01-01		THAILAND		DENV1		02547	06
+DENV1/THAILAND/2006/02548/06	2006-01-01		THAILAND		DENV1		02548	06
+DENV1/THAILAND/2006/02549/06	2006-01-01		THAILAND		DENV1		02549	06
+DENV1/THAILAND/2006/02553/06	2006-01-01		THAILAND		DENV1		02553	06
+DENV1/THAILAND/2006/02554/06	2006-01-01		THAILAND		DENV1		02554	06
+DENV1/THAILAND/2002/02557/02	2002-01-01		THAILAND		DENV1		02557	02
+DENV1/THAILAND/2006/02583/06	2006-01-01		THAILAND		DENV1		02583	06
+DENV1/THAILAND/2006/02584/06	2006-01-01		THAILAND		DENV1		02584	06
+DENV1/THAILAND/2006/02585/06	2006-01-01		THAILAND		DENV1		02585	06
+DENV1/THAILAND/2006/02588/06	2006-01-01		THAILAND		DENV1		02588	06
+DENV1/THAILAND/1997/02588/97	1997-01-01		THAILAND		DENV1		02588	97
+DENV1/THAILAND/2006/02592/06	2006-01-01		THAILAND		DENV1		02592	06
+DENV1/THAILAND/2006/02595/06	2006-01-01		THAILAND		DENV1		02595	06
+DENV1/THAILAND/2006/02615/06	2006-01-01		THAILAND		DENV1		02615	06
+DENV1/THAILAND/2002/02630/02	2002-01-01		THAILAND		DENV1		02630	02
+DENV1/THAILAND/2001/02633/01	2001-01-01		THAILAND		DENV1		02633	01
+DENV1/THAILAND/2006/02634/06	2006-01-01		THAILAND		DENV1		02634	06
+DENV1/THAILAND/1998/02640/98	1998-01-01		THAILAND		DENV1		02640	98
+DENV1/THAILAND/2006/02648/06	2006-01-01		THAILAND		DENV1		02648	06
+DENV1/THAILAND/2006/02653/06	2006-01-01		THAILAND		DENV1		02653	06
+DENV1/THAILAND/2006/02657/06	2006-01-01		THAILAND		DENV1		02657	06
+DENV1/THAILAND/2006/02673/06	2006-01-01		THAILAND		DENV1		02673	06
+DENV1/THAILAND/2006/02676/06	2006-01-01		THAILAND		DENV1		02676	06
+DENV1/THAILAND/2006/02677/06	2006-01-01		THAILAND		DENV1		02677	06
+DENV1/THAILAND/2006/02679/06	2006-01-01		THAILAND		DENV1		02679	06
+DENV1/THAILAND/2006/02681/06	2006-01-01		THAILAND		DENV1		02681	06
+DENV1/THAILAND/1997/02701/97	1997-01-01		THAILAND		DENV1		02701	97
+DENV1/THAILAND/2006/02717/06	2006-01-01		THAILAND		DENV1		02717	06
+DENV1/THAILAND/2006/02718/06	2006-01-01		THAILAND		DENV1		02718	06
+DENV1/THAILAND/2006/02719/06	2006-01-01		THAILAND		DENV1		02719	06
+DENV1/THAILAND/2006/02723/06	2006-01-01		THAILAND		DENV1		02723	06
+DENV1/THAILAND/2006/02725/06	2006-01-01		THAILAND		DENV1		02725	06
+DENV1/THAILAND/2006/02729/06	2006-01-01		THAILAND		DENV1		02729	06
+DENV1/THAILAND/2006/02730/06	2006-01-01		THAILAND		DENV1		02730	06
+DENV1/THAILAND/2006/02776/06	2006-01-01		THAILAND		DENV1		02776	06
+DENV1/THAILAND/2006/02789/06	2006-01-01		THAILAND		DENV1		02789	06
+DENV1/THAILAND/2006/02808/06	2006-01-01		THAILAND		DENV1		02808	06
+DENV1/THAILAND/2006/02815/06	2006-01-01		THAILAND		DENV1		02815	06
+DENV1/THAILAND/2006/02817/06	2006-01-01		THAILAND		DENV1		02817	06
+DENV1/THAILAND/2006/02834/06	2006-01-01		THAILAND		DENV1		02834	06
+DENV1/THAILAND/2006/02835/06	2006-01-01		THAILAND		DENV1		02835	06
+DENV1/THAILAND/2006/02847/06	2006-01-01		THAILAND		DENV1		02847	06
+DENV1/THAILAND/2006/02848/06	2006-01-01		THAILAND		DENV1		02848	06
+DENV1/THAILAND/1999/02859/99	1999-01-01		THAILAND		DENV1		02859	99
+DENV1/THAILAND/2002/02860/02	2002-01-01		THAILAND		DENV1		02860	02
+DENV1/THAILAND/2002/02894/02	2002-01-01		THAILAND		DENV1		02894	02
+DENV1/THAILAND/2002/02908/02	2002-01-01		THAILAND		DENV1		02908	02
+DENV1/THAILAND/2002/02912/02	2002-01-01		THAILAND		DENV1		02912	02
+DENV1/THAILAND/2002/02913/02	2002-01-01		THAILAND		DENV1		02913	02
+DENV1/THAILAND/2002/02928/02	2002-01-01		THAILAND		DENV1		02928	02
+DENV1/THAILAND/1998/02932/98	1998-01-01		THAILAND		DENV1		02932	98
+DENV1/THAILAND/2002/02986/02	2002-01-01		THAILAND		DENV1		02986	02
+DENV1/THAILAND/1998/02988/98	1998-01-01		THAILAND		DENV1		02988	98
+DENV1/THAILAND/2001/02991/01	2001-01-01		THAILAND		DENV1		02991	01
+DENV1/THAILAND/2002/03029/02	2002-01-01		THAILAND		DENV1		03029	02
+DENV1/THAILAND/2002/03030/02	2002-01-01		THAILAND		DENV1		03030	02
+DENV1/THAILAND/2001/03086/01	2001-01-01		THAILAND		DENV1		03086	01
+DENV1/THAILAND/2001/03090/01	2001-01-01		THAILAND		DENV1		03090	01
+DENV1/THAILAND/2001/03116/01	2001-01-01		THAILAND		DENV1		03116	01
+DENV1/THAILAND/1997/03152/97	1997-01-01		THAILAND		DENV1		03152	97
+DENV1/THAILAND/2002/03161/02	2002-01-01		THAILAND		DENV1		03161	02
+DENV1/THAILAND/2002/03162/02	2002-01-01		THAILAND		DENV1		03162	02
+DENV1/THAILAND/2002/03163/02	2002-01-01		THAILAND		DENV1		03163	02
+DENV1/THAILAND/1980/03228/80	1980-01-01		THAILAND		DENV1		03228	80
+DENV1/THAILAND/2001/03334/01	2001-01-01		THAILAND		DENV1		03334	01
+DENV1/THAILAND/1997/03398/97	1997-01-01		THAILAND		DENV1		03398	97
+DENV1/THAILAND/1997/03401/97	1997-01-01		THAILAND		DENV1		03401	97
+DENV1/THAILAND/1999/03410/99	1999-01-01		THAILAND		DENV1		03410	99
+DENV1/THAILAND/1999/03427/99	1999-01-01		THAILAND		DENV1		03427	99
+DENV1/THAILAND/1999/03440/99	1999-01-01		THAILAND		DENV1		03440	99
+DENV1/THAILAND/1999/03450/99	1999-01-01		THAILAND		DENV1		03450	99
+DENV1/THAILAND/2001/03599/01	2001-01-01		THAILAND		DENV1		03599	01
+DENV1/THAILAND/1999/03646/99	1999-01-01		THAILAND		DENV1		03646	99
+DENV1/THAILAND/1999/03704/99	1999-01-01		THAILAND		DENV1		03704	99
+DENV1/THAILAND/1999/03739/99	1999-01-01		THAILAND		DENV1		03739	99
+DENV1/THAILAND/1999/03805/99	1999-01-01		THAILAND		DENV1		03805	99
+DENV1/THAILAND/2001/03878/01	2001-01-01		THAILAND		DENV1		03878	01
+DENV1/THAILAND/2001/03897/01	2001-01-01		THAILAND		DENV1		03897	01
+DENV1/THAILAND/2001/03910/01	2001-01-01		THAILAND		DENV1		03910	01
+DENV1/THAILAND/2001/03916/01	2001-01-01		THAILAND		DENV1		03916	01
+DENV1/THAILAND/1997/03948/97	1997-01-01		THAILAND		DENV1		03948	97
+DENV1/THAILAND/2001/04083/01	2001-01-01		THAILAND		DENV1		04083	01
+DENV1/THAILAND/2001/04247/01	2001-01-01		THAILAND		DENV1		04247	01
+DENV1/THAILAND/1998/04294/98	1998-01-01		THAILAND		DENV1		04294	98
+DENV1/THAILAND/1999/04347/99	1999-01-01		THAILAND		DENV1		04347	99
+DENV1/THAILAND/1999/04348/99	1999-01-01		THAILAND		DENV1		04348	99
+DENV1/THAILAND/1999/04350/99	1999-01-01		THAILAND		DENV1		04350	99
+DENV1/THAILAND/1998/04404/98	1998-01-01		THAILAND		DENV1		04404	98
+DENV1/THAILAND/1999/04438/99	1999-01-01		THAILAND		DENV1		04438	99
+DENV1/THAILAND/2001/04601/01	2001-01-01		THAILAND		DENV1		04601	01
+DENV1/THAILAND/2001/04762/01	2001-01-01		THAILAND		DENV1		04762	01
+DENV1/THAILAND/1997/04772/97	1997-01-01		THAILAND		DENV1		04772	97
+DENV1/THAILAND/2001/04774/01	2001-01-01		THAILAND		DENV1		04774	01
+DENV1/THAILAND/2000/04850/00	2000-01-01		THAILAND		DENV1		04850	00
+DENV1/THAILAND/2000/04866/00	2000-01-01		THAILAND		DENV1		04866	00
+DENV1/THAILAND/1998/04922/98	1998-01-01		THAILAND		DENV1		04922	98
+DENV1/THAILAND/1998/04979/98	1998-01-01		THAILAND		DENV1		04979	98
+DENV1/THAILAND/1998/04985/98	1998-01-01		THAILAND		DENV1		04985	98
+DENV1/THAILAND/1997/05014/97	1997-01-01		THAILAND		DENV1		05014	97
+DENV1/THAILAND/1997/05035/97	1997-01-01		THAILAND		DENV1		05035	97
+DENV1/THAILAND/2001/05097/01	2001-01-01		THAILAND		DENV1		05097	01
+DENV1/THAILAND/1997/05131/97	1997-01-01		THAILAND		DENV1		05131	97
+DENV1/THAILAND/2001/05236/01	2001-01-01		THAILAND		DENV1		05236	01
+DENV1/THAILAND/2001/05282/01	2001-01-01		THAILAND		DENV1		05282	01
+DENV1/THAILAND/2001/05287/01	2001-01-01		THAILAND		DENV1		05287	01
+DENV1/THAILAND/1999/05390/99	1999-01-01		THAILAND		DENV1		05390	99
+DENV1/THAILAND/2000/05411/00	2000-01-01		THAILAND		DENV1		05411	00
+DENV1/THAILAND/2001/05491/01	2001-01-01		THAILAND		DENV1		05491	01
+DENV1/THAILAND/2000/05522/00	2000-01-01		THAILAND		DENV1		05522	00
+DENV1/THAILAND/2000/05574/00	2000-01-01		THAILAND		DENV1		05574	00
+DENV1/THAILAND/2000/05580/00	2000-01-01		THAILAND		DENV1		05580	00
+DENV1/THAILAND/2001/05600/01	2001-01-01		THAILAND		DENV1		05600	01
+DENV1/THAILAND/2001/05601/01	2001-01-01		THAILAND		DENV1		05601	01
+DENV1/THAILAND/2000/05603/00	2000-01-01		THAILAND		DENV1		05603	00
+DENV1/THAILAND/2000/05605/00	2000-01-01		THAILAND		DENV1		05605	00
+DENV1/THAILAND/2000/05722/00	2000-01-01		THAILAND		DENV1		05722	00
+DENV1/THAILAND/2000/05725/00	2000-01-01		THAILAND		DENV1		05725	00
+DENV1/THAILAND/1997/05802/97	1997-01-01		THAILAND		DENV1		05802	97
+DENV1/THAILAND/2000/05829/00	2000-01-01		THAILAND		DENV1		05829	00
+DENV1/THAILAND/1997/05865/97	1997-01-01		THAILAND		DENV1		05865	97
+DENV1/THAILAND/2000/05866/00	2000-01-01		THAILAND		DENV1		05866	00
+DENV1/THAILAND/2000/05886/00	2000-01-01		THAILAND		DENV1		05886	00
+DENV1/THAILAND/2000/05899/00	2000-01-01		THAILAND		DENV1		05899	00
+DENV1/THAILAND/2001/05905/01	2001-01-01		THAILAND		DENV1		05905	01
+DENV1/THAILAND/1998/05917/98	1998-01-01		THAILAND		DENV1		05917	98
+DENV1/THAILAND/1999/05946/99	1999-01-01		THAILAND		DENV1		05946	99
+DENV1/THAILAND/2000/06012/00	2000-01-01		THAILAND		DENV1		06012	00
+DENV1/THAILAND/2000/06069/00	2000-01-01		THAILAND		DENV1		06069	00
+DENV1/THAILAND/2001/06099/01	2001-01-01		THAILAND		DENV1		06099	01
+DENV1/THAILAND/2000/06103/00	2000-01-01		THAILAND		DENV1		06103	00
+DENV1/THAILAND/2001/06112/01	2001-01-01		THAILAND		DENV1		06112	01
+DENV1/THAILAND/2000/06113/00	2000-01-01		THAILAND		DENV1		06113	00
+DENV1/THAILAND/1998/06169/98	1998-01-01		THAILAND		DENV1		06169	98
+DENV1/THAILAND/2001/06236/01	2001-01-01		THAILAND		DENV1		06236	01
+DENV1/THAILAND/2001/06237/01	2001-01-01		THAILAND		DENV1		06237	01
+DENV1/THAILAND/1998/06329/98	1998-01-01		THAILAND		DENV1		06329	98
+DENV1/THAILAND/1998/06491/98	1998-01-01		THAILAND		DENV1		06491	98
+DENV1/THAILAND/2001/06498/01	2001-01-01		THAILAND		DENV1		06498	01
+DENV1/THAILAND/2001/06552/01	2001-01-01		THAILAND		DENV1		06552	01
+DENV1/THAILAND/1998/06566/98	1998-01-01		THAILAND		DENV1		06566	98
+DENV1/THAILAND/2001/06632/01	2001-01-01		THAILAND		DENV1		06632	01
+DENV1/THAILAND/1998/06705/98	1998-01-01		THAILAND		DENV1		06705	98
+DENV1/THAILAND/1998/06761/98	1998-01-01		THAILAND		DENV1		06761	98
+DENV1/THAILAND/1998/06810/98	1998-01-01		THAILAND		DENV1		06810	98
+DENV1/THAILAND/1998/06870/98	1998-01-01		THAILAND		DENV1		06870	98
+DENV1/THAILAND/2001/06889/01	2001-01-01		THAILAND		DENV1		06889	01
+DENV1/THAILAND/1997/07423/97	1997-01-01		THAILAND		DENV1		07423	97
+DENV1/THAILAND/1997/07794/97	1997-01-01		THAILAND		DENV1		07794	97
+DENV1/THAILAND/1994/30031/94	1994-01-01		THAILAND		DENV1		30031	94
+DENV1/THAILAND/1995/30103/95	1995-01-01		THAILAND		DENV1		30103	95
+DENV1/THAILAND/1994/30116/94	1994-01-01		THAILAND		DENV1		30116	94
+DENV1/THAILAND/1995/30139/95	1995-01-01		THAILAND		DENV1		30139	95
+DENV1/THAILAND/1994/30156/94	1994-01-01		THAILAND		DENV1		30156	94
+DENV1/THAILAND/1994/30157/94	1994-01-01		THAILAND		DENV1		30157	94
+DENV1/THAILAND/1995/30158/95	1995-01-01		THAILAND		DENV1		30158	95
+DENV1/THAILAND/1995/30166/95	1995-01-01		THAILAND		DENV1		30166	95
+DENV1/THAILAND/1994/30174/94	1994-01-01		THAILAND		DENV1		30174	94
+DENV1/THAILAND/1995/30177/95	1995-01-01		THAILAND		DENV1		30177	95
+DENV1/THAILAND/1995/30179/95	1995-01-01		THAILAND		DENV1		30179	95
+DENV1/THAILAND/1994/30182/94	1994-01-01		THAILAND		DENV1		30182	94
+DENV1/THAILAND/1995/30201/95	1995-01-01		THAILAND		DENV1		30201	95
+DENV1/THAILAND/1995/30211/95	1995-01-01		THAILAND		DENV1		30211	95
+DENV1/THAILAND/1994/30253/94	1994-01-01		THAILAND		DENV1		30253	94
+DENV1/THAILAND/1995/30254/95	1995-01-01		THAILAND		DENV1		30254	95
+DENV1/THAILAND/1995/30255/95	1995-01-01		THAILAND		DENV1		30255	95
+DENV1/THAILAND/1994/30262/94	1994-01-01		THAILAND		DENV1		30262	94
+DENV1/THAILAND/1995/30295/95	1995-01-01		THAILAND		DENV1		30295	95
+DENV1/THAILAND/1994/30299/94	1994-01-01		THAILAND		DENV1		30299	94
+DENV1/THAILAND/1995/30423/95	1995-01-01		THAILAND		DENV1		30423	95
+DENV1/THAILAND/1995/30466/95	1995-01-01		THAILAND		DENV1		30466	95
+DENV1/THAILAND/1994/30515/94	1994-01-01		THAILAND		DENV1		30515	94
+DENV1/THAILAND/1994/30577/94	1994-01-01		THAILAND		DENV1		30577	94
+DENV1/THAILAND/1994/30620/94	1994-01-01		THAILAND		DENV1		30620	94
+DENV1/THAILAND/1994/30722/94	1994-01-01		THAILAND		DENV1		30722	94
+DENV1/THAILAND/1994/30778/94	1994-01-01		THAILAND		DENV1		30778	94
+DENV1/THAILAND/1994/30797/94	1994-01-01		THAILAND		DENV1		30797	94
+DENV1/BOLIVIA/2010/FSB-3363	2010-01-01		BOLIVIA		DENV1		FSB-3363	.
+DENV1/MYANMAR/2005/61117	2005-01-01		MYANMAR		DENV1		61117	.
+DENV1/NAURU/1974/RDENV1-WP-1A	1974-01-01		NAURU		DENV1		RDENV1-WP-1A	.
+DENV1/PERU/2000/IQT-6152	2000-01-01		PERU		DENV1		IQT-6152	.
+DENV1/PUERTORICO/2006/BID-V852	2006-01-01		PUERTORICO		DENV1		BID-V852	.
+DENV1/THAILAND/1964/16007	1964-01-01		THAILAND		DENV1		16007	.
+DENV1/VENEZUELA/2000/OBT-1298	2000-01-01		VENEZUELA		DENV1		OBT-1298	.
+DENV1/VIETNAM/2008/BID-V1937	2008-01-01		VIETNAM		DENV1		BID-V1937	.
+DENV1/CAMBODIA/2003/FJ639680	2003-01-01		CAMBODIA		DENV1		FJ639680	.
+DENV1/CAMBODIA/2006/FJ639687	2006-01-01		CAMBODIA		DENV1		FJ639687	.
+DENV1/CAMBODIA/2007/FJ639693	2007-01-01		CAMBODIA		DENV1		FJ639693	.
+DENV1/CAMBODIA/2007/FJ639696	2007-01-01		CAMBODIA		DENV1		FJ639696	.
+DENV1/CAMBODIA/2003/FJ850069	2003-01-01		CAMBODIA		DENV1		FJ850069	.
+DENV1/CAMBODIA/2003/GQ868619	2003-01-01		CAMBODIA		DENV1		GQ868619	.
+DENV1/CAMBODIA/2008/GQ868632	2008-01-01		CAMBODIA		DENV1		GQ868632	.
+DENV1/CAMBODIA/2008/GU131894	2008-01-01		CAMBODIA		DENV1		GU131894	.
+DENV1/CAMBODIA/2010/U0616272	2010-01-01		CAMBODIA		DENV1		U0616272	.
+DENV1/CAMBODIA/2010/U0609271	2010-01-01		CAMBODIA		DENV1		U0609271	.
+DENV1/CAMBODIA/2011/V0524313	2011-01-01		CAMBODIA		DENV1		V0524313	.
+DENV1/CAMBODIA/2011/V0504308	2011-01-01		CAMBODIA		DENV1		V0504308	.
