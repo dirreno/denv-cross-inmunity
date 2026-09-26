@@ -1,1 +1,5 @@
 /.venv
+resources/BEAST/BDSKY_DENV1.xml.state
+resources/BEAST/BDSKY_DENV1_resample_10000.trees
+resources/BEAST/BDSKY_DENV1_resample_10000_mcc.tree
+resources/BEAST/BDSKY_DENV1-align_DENV1_BEAST.trees
