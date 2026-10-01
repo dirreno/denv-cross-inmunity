@@ -21,7 +21,7 @@ def extract_date_from_header(header):
     return None
 
 input_fasta = "../resources/colombia_data/aligned/align_DENV4_BEAST.fasta"
-output_txt = "../resources/BEAST/DENV4_dates_beauti.txt"
+output_txt = "../resources/colombia_data/format_dates/DENV4_dates_beauti.txt"
 
 with open(input_fasta, 'r') as f_in, open(output_txt, 'w') as f_out:
     for line in f_in:

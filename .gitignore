@@ -3,3 +3,10 @@ resources/BEAST/BDSKY_DENV1.xml.state
 resources/BEAST/BDSKY_DENV1_resample_10000.trees
 resources/BEAST/BDSKY_DENV1_resample_10000_mcc.tree
 resources/BEAST/BDSKY_DENV1-align_DENV1_BEAST.trees
+resources/BEAST/DENV1_BDSKY-align_DENV1.trees
+resources/BEAST/DENV1_BDSKY.log
+resources/BEAST/DENV1_BDSKY.xml.state
+resources/BEAST/DENV1_BDSKY_10K.trees
+resources/BEAST/DENV2_BDSKY-align_DENV2.trees
+resources/BEAST/DENV2_BDSKY.log
+resources/BEAST/DENV2_BDSKY.xml.state
