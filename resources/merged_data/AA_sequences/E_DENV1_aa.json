@@ -1,0 +1,10106 @@
+{
+  "annotations": {
+    "E": {
+      "end": 1485,
+      "seqid": "../resources/merged_data/tmp/E_DENV1.gff",
+      "start": 1,
+      "strand": "+",
+      "type": "gene"
+    },
+    "nuc": {
+      "end": 1485,
+      "seqid": "../resources/merged_data/tmp/E_DENV1.gff",
+      "start": 1,
+      "strand": "+",
+      "type": "source"
+    }
+  },
+  "generated_by": {
+    "program": "augur",
+    "version": "33.0.0"
+  },
+  "nodes": {
+    "DENV1/BOLIVIA/2010/FSB-3363": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/CAMBODIA/2003/FJ639680": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/CAMBODIA/2003/FJ850069": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/CAMBODIA/2003/GQ868619": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/CAMBODIA/2006/FJ639687": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/CAMBODIA/2007/FJ639693": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/CAMBODIA/2007/FJ639696": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/CAMBODIA/2008/GQ868632": {
+      "aa_muts": {
+        "E": [
+          "M297V"
+        ]
+      }
+    },
+    "DENV1/CAMBODIA/2008/GU131894": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/MYANMAR/2005/61117": {
+      "aa_muts": {
+        "E": [
+          "T359I"
+        ]
+      }
+    },
+    "DENV1/NAURU/1974/RDENV1-WP-1A": {
+      "aa_muts": {
+        "E": [
+          "A88T",
+          "K202E",
+          "E203K",
+          "T339S",
+          "V436I"
+        ]
+      }
+    },
+    "DENV1/PERU/2000/IQT-6152": {
+      "aa_muts": {
+        "E": [
+          "S338L"
+        ]
+      }
+    },
+    "DENV1/PUERTORICO/2006/BID-V852": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1964/16007": {
+      "aa_muts": {
+        "E": [
+          "A180T",
+          "K204R",
+          "V345A",
+          "V432M",
+          "S472N",
+          "T478M"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1980/00633/80": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1980/01738/80": {
+      "aa_muts": {
+        "E": [
+          "I425M"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1980/03228/80": {
+      "aa_muts": {
+        "E": [
+          "E203K"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1982/00437/82": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1983/00493/83": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1988/00522/88": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1991/00098/91": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/00066/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/00168/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/00212/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/00263/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/00350/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/00395/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/00424/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/00532/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/00537/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/00650/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/00713/94": {
+      "aa_muts": {
+        "E": [
+          "K210R"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1994/00740/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/00817/94": {
+      "aa_muts": {
+        "E": [
+          "V197M"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1994/00821/94": {
+      "aa_muts": {
+        "E": [
+          "F96L",
+          "V365I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1994/00938/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/01088/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/01308/94": {
+      "aa_muts": {
+        "E": [
+          "V380I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1994/01310/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/01385/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/01447/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/01471/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/01476/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/01495/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/01533/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/01723/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/30031/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/30116/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/30156/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/30157/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/30174/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/30182/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/30253/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/30262/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/30299/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/30515/94": {
+      "aa_muts": {
+        "E": [
+          "S338L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1994/30577/94": {
+      "aa_muts": {
+        "E": [
+          "T95A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1994/30620/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1994/30722/94": {
+      "aa_muts": {
+        "E": [
+          "S338L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1994/30778/94": {
+      "aa_muts": {
+        "E": [
+          "I140V",
+          "T473A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1994/30797/94": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00207/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00229/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00257/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00288/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00410/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00471/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00487/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00569/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00582/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00590/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00595/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00614/95": {
+      "aa_muts": {
+        "E": [
+          "T156I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1995/00637/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00668/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00769/95": {
+      "aa_muts": {
+        "E": [
+          "T68I",
+          "T170A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1995/00968/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00975/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/00978/95": {
+      "aa_muts": {
+        "E": [
+          "E203G"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1995/00995/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/01014/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/01097/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/01199/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/01213/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/01262/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/01277/95": {
+      "aa_muts": {
+        "E": [
+          "I114V"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1995/01283/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/01293/95": {
+      "aa_muts": {
+        "E": [
+          "V345A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1995/01364/95": {
+      "aa_muts": {
+        "E": [
+          "A280S"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1995/01423/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/01459/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/01608/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/01827/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/30103/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/30139/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/30158/95": {
+      "aa_muts": {
+        "E": [
+          "F279Y"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1995/30166/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/30177/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/30179/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/30201/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/30211/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/30254/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/30255/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/30295/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/30423/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1995/30466/95": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/00375/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/00942/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/00970/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/01023/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/01049/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/01055/96": {
+      "aa_muts": {
+        "E": [
+          "A224T"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1996/01095/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/01114/96": {
+      "aa_muts": {
+        "E": [
+          "I425M"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1996/01134/96": {
+      "aa_muts": {
+        "E": [
+          "E342G"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1996/01139/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/01231/96": {
+      "aa_muts": {
+        "E": [
+          "Q174R"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1996/01524/96": {
+      "aa_muts": {
+        "E": [
+          "A180P"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1996/01763/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/01771/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/01789/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/01792/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/01867/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/02174/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/02185/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/02208/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/02264/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/02443/96": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1996/02452/96": {
+      "aa_muts": {
+        "E": [
+          "A382V"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1997/00012/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/00115/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/00377/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/00382/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/00926/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/00927/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/01057/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/01403/97": {
+      "aa_muts": {
+        "E": [
+          "M34L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1997/02080/97": {
+      "aa_muts": {
+        "E": [
+          "S338L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1997/02090/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/02588/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/02701/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/03152/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/03398/97": {
+      "aa_muts": {
+        "E": [
+          "S338L",
+          "S470T"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1997/03401/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/03948/97": {
+      "aa_muts": {
+        "E": [
+          "T293A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1997/04772/97": {
+      "aa_muts": {
+        "E": [
+          "E203G"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1997/05014/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/05035/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/05131/97": {
+      "aa_muts": {
+        "E": [
+          "K124R"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1997/05802/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/05865/97": {
+      "aa_muts": {
+        "E": [
+          "S227L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1997/07423/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1997/07794/97": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/00141/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/00233/98": {
+      "aa_muts": {
+        "E": [
+          "A481V"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1998/00422/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/00428/98": {
+      "aa_muts": {
+        "E": [
+          "T182I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1998/00442/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/00473/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/00592/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/00669/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/00739/98": {
+      "aa_muts": {
+        "E": [
+          "T163I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1998/01173/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/01315/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/01579/98": {
+      "aa_muts": {
+        "E": [
+          "T145N",
+          "K361R",
+          "L447M"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1998/01582/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/01610/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/01723/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/01932/98": {
+      "aa_muts": {
+        "E": [
+          "S338L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1998/02128/98": {
+      "aa_muts": {
+        "E": [
+          "P169S"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1998/02355/98": {
+      "aa_muts": {
+        "E": [
+          "G274V"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1998/02640/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/02932/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/02988/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/04294/98": {
+      "aa_muts": {
+        "E": [
+          "V139L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1998/04404/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/04922/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/04979/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/04985/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/05917/98": {
+      "aa_muts": {
+        "E": [
+          "Y132H",
+          "T242I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1998/06169/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/06329/98": {
+      "aa_muts": {
+        "E": [
+          "T81I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1998/06491/98": {
+      "aa_muts": {
+        "E": [
+          "Q323R"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1998/06566/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/06705/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/06761/98": {
+      "aa_muts": {
+        "E": [
+          "T346I",
+          "Y377H",
+          "L475F"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1998/06810/98": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1998/06870/98": {
+      "aa_muts": {
+        "E": [
+          "A168S"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1999/00262/99": {
+      "aa_muts": {
+        "E": [
+          "K361E"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1999/00365/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1999/00380/99": {
+      "aa_muts": {
+        "E": [
+          "S305P",
+          "A386T"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1999/00413/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1999/00594/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1999/00684/99": {
+      "aa_muts": {
+        "E": [
+          "D290E"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1999/00692/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1999/02859/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1999/03410/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1999/03427/99": {
+      "aa_muts": {
+        "E": [
+          "E362D"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1999/03440/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1999/03450/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1999/03646/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1999/03704/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1999/03739/99": {
+      "aa_muts": {
+        "E": [
+          "E342G"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1999/03805/99": {
+      "aa_muts": {
+        "E": [
+          "S338L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/1999/04347/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1999/04348/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1999/04350/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1999/04438/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1999/05390/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/1999/05946/99": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/00163/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/01236/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/01239/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/01264/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/01349/00": {
+      "aa_muts": {
+        "E": [
+          "E327A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2000/01397/00": {
+      "aa_muts": {
+        "E": [
+          "I114V"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2000/01476/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/01483/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/01492/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/01565/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/01606/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/01624/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/01639/00": {
+      "aa_muts": {
+        "E": [
+          "T359I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2000/01661/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/01798/00": {
+      "aa_muts": {
+        "E": [
+          "T163I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2000/01909/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/02059/00": {
+      "aa_muts": {
+        "E": [
+          "Y132H"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2000/02089/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/02094/00": {
+      "aa_muts": {
+        "E": [
+          "V83L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2000/04850/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/04866/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/05411/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/05522/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/05574/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/05580/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/05603/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/05605/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/05722/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/05725/00": {
+      "aa_muts": {
+        "E": [
+          "D235H"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2000/05829/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/05866/00": {
+      "aa_muts": {
+        "E": [
+          "T478M"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2000/05886/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/05899/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/06012/00": {
+      "aa_muts": {
+        "E": [
+          "Y137H"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2000/06069/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/06103/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2000/06113/00": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/00047/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/00189/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/00355/01": {
+      "aa_muts": {
+        "E": [
+          "R343K"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2001/00494/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/00580/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/00822/01": {
+      "aa_muts": {
+        "E": [
+          "T239A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2001/01039/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/02478/01": {
+      "aa_muts": {
+        "E": [
+          "V250I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2001/02633/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/02991/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/03086/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/03090/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/03116/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/03334/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/03599/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/03878/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/03897/01": {
+      "aa_muts": {
+        "E": [
+          "D22E"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2001/03910/01": {
+      "aa_muts": {
+        "E": [
+          "T163I",
+          "S227T"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2001/03916/01": {
+      "aa_muts": {
+        "E": [
+          "A386V"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2001/04083/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/04247/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/04601/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/04762/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/04774/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/05097/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/05236/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/05282/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/05287/01": {
+      "aa_muts": {
+        "E": [
+          "M297V"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2001/05491/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/05600/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/05601/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/05905/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/06099/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/06112/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/06236/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/06237/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/06498/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2001/06552/01": {
+      "aa_muts": {
+        "E": [
+          "P364S"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2001/06632/01": {
+      "aa_muts": {
+        "E": [
+          "S227L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2001/06889/01": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/00431/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/00440/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/00479/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/00600/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/00644/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/00650/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/00731/02": {
+      "aa_muts": {
+        "E": [
+          "M297I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2002/00995/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/01048/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/01091/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/01117/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/01393/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/01443/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/01459/02": {
+      "aa_muts": {
+        "E": [
+          "F96L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2002/01462/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/01473/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/01579/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/01813/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/01819/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/01821/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/01893/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/02110/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/02168/02": {
+      "aa_muts": {
+        "E": [
+          "V345A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2002/02557/02": {
+      "aa_muts": {
+        "E": [
+          "V432A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2002/02630/02": {
+      "aa_muts": {
+        "E": [
+          "F96L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2002/02860/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/02894/02": {
+      "aa_muts": {
+        "E": [
+          "S305L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2002/02908/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/02912/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/02913/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/02928/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/02986/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/03029/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/03030/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/03161/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/03162/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2002/03163/02": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/00170/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/00275/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/00311/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/00348/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/00349/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/00373/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/00427/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/00496/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/00537/03": {
+      "aa_muts": {
+        "E": [
+          "D360A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2003/00543/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/00596/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/00598/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/00697/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/00961/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/01023/03": {
+      "aa_muts": {
+        "E": [
+          "H149Y",
+          "A386T"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2003/01203/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/01373/03": {
+      "aa_muts": {
+        "E": [
+          "P364L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2003/01555/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/01815/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/01849/03": {
+      "aa_muts": {
+        "E": [
+          "T176A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2003/01851/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/01982/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2003/02031/03": {
+      "aa_muts": {
+        "E": [
+          "K343E"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2003/02150/03": {
+      "aa_muts": {
+        "E": [
+          "T123A",
+          "S305P"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2003/02371/03": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/00062/04": {
+      "aa_muts": {
+        "E": [
+          "H149Y"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2004/00068/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/00088/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/00223/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/00259/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/00369/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/00436/04": {
+      "aa_muts": {
+        "E": [
+          "S338T"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2004/00477/04": {
+      "aa_muts": {
+        "E": [
+          "S338L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2004/00479/04": {
+      "aa_muts": {
+        "E": [
+          "T161I",
+          "V461A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2004/00493/04": {
+      "aa_muts": {
+        "E": [
+          "K361N"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2004/00532/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/00725/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/00758/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/00793/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/00878/04": {
+      "aa_muts": {
+        "E": [
+          "V55I",
+          "A280S"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2004/00975/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/01038/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/01274/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/01309/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/01313/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/01411/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/01416/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/01420/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/01425/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/01530/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/01604/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/01640/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/01692/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2004/01764/04": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/00109/05": {
+      "aa_muts": {
+        "E": [
+          "T339I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2005/00186/05": {
+      "aa_muts": {
+        "E": [
+          "H149Y",
+          "A481V"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2005/00208/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/00210/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/00211/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/00258/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/00306/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/00479/05": {
+      "aa_muts": {
+        "E": [
+          "T346I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2005/00617/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/00647/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/00667/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/00743/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/00744/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/01040/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/01147/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/01331/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/01383/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/01567/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/01578/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/01591/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/01616/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2005/01651/05": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00002/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00003/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00004/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00006/06": {
+      "aa_muts": {
+        "E": [
+          "K241R"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/00007/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00010/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00030/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00048/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00068/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00069/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00074/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00080/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00113/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00172/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00188/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00201/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00209/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00211/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00213/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00228/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00231/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00232/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00248/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00265/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00287/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00318/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00326/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00332/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00334/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00365/06": {
+      "aa_muts": {
+        "E": [
+          "T303I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/00369/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00371/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00392/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00398/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00411/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00418/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00437/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00438/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00443/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00458/06": {
+      "aa_muts": {
+        "E": [
+          "E384G"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/00462/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00482/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00490/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00492/06": {
+      "aa_muts": {
+        "E": [
+          "P364L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/00498/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00514/06": {
+      "aa_muts": {
+        "E": [
+          "A331V"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/00527/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00551/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00555/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00577/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00616/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00631/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00674/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00690/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00698/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00709/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00713/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00728/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00761/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00817/06": {
+      "aa_muts": {
+        "E": [
+          "K343R"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/00825/06": {
+      "aa_muts": {
+        "E": [
+          "V485I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/00833/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00841/06": {
+      "aa_muts": {
+        "E": [
+          "T33I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/00921/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/00966/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01001/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01014/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01038/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01057/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01089/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01093/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01096/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01104/06": {
+      "aa_muts": {
+        "E": [
+          "V345A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/01108/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01140/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01141/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01143/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01145/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01170/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01211/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01214/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01229/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01241/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01242/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01273/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01277/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01330/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01332/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01334/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01335/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01376/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01377/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01380/06": {
+      "aa_muts": {
+        "E": [
+          "V485I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/01381/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01383/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01386/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01402/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01444/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01448/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01453/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01483/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01499/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01505/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01511/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01512/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01528/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01529/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01530/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01535/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01538/06": {
+      "aa_muts": {
+        "E": [
+          "T51I",
+          "S338L",
+          "I425V"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/01561/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01563/06": {
+      "aa_muts": {
+        "E": [
+          "Y137H"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/01573/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01595/06": {
+      "aa_muts": {
+        "E": [
+          "V345A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/01635/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01650/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01678/06": {
+      "aa_muts": {
+        "E": [
+          "Q148H"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/01690/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01710/06": {
+      "aa_muts": {
+        "E": [
+          "K58R"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/01774/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01820/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01823/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01830/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01831/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01858/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01931/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01932/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01934/06": {
+      "aa_muts": {
+        "E": [
+          "A280S"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/01936/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/01937/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02000/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02035/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02046/06": {
+      "aa_muts": {
+        "E": [
+          "M297T"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/02050/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02076/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02079/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02080/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02114/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02116/06": {
+      "aa_muts": {
+        "E": [
+          "M297I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/02118/06": {
+      "aa_muts": {
+        "E": [
+          "T454I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/02122/06": {
+      "aa_muts": {
+        "E": [
+          "S225T"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/02127/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02129/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02131/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02193/06": {
+      "aa_muts": {
+        "E": [
+          "Q131E"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/02196/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02239/06": {
+      "aa_muts": {
+        "E": [
+          "K128R"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/02270/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02296/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02333/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02340/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02344/06": {
+      "aa_muts": {
+        "E": [
+          "V358I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/02356/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02358/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02361/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02395/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02424/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02433/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02454/06": {
+      "aa_muts": {
+        "E": [
+          "V436I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/02459/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02499/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02508/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02509/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02511/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02539/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02547/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02548/06": {
+      "aa_muts": {
+        "E": [
+          "S66L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/02549/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02553/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02554/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02583/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02584/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02585/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02588/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02592/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02595/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02615/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02634/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02648/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02653/06": {
+      "aa_muts": {
+        "E": [
+          "M301L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/02657/06": {
+      "aa_muts": {
+        "E": [
+          "V428L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/02673/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02676/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02677/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02679/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02681/06": {
+      "aa_muts": {
+        "E": [
+          "A481V"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/02717/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02718/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02719/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02723/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02725/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02729/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02730/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02776/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02789/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02808/06": {
+      "aa_muts": {
+        "E": [
+          "A369V",
+          "I425V"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2006/02815/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02817/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02834/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02835/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02847/06": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2006/02848/06": {
+      "aa_muts": {
+        "E": [
+          "L475I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2007/01479/07": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2010/00792/10": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2010/00887/10": {
+      "aa_muts": {
+        "E": [
+          "F96L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2010/01040/10": {
+      "aa_muts": {
+        "E": [
+          "E384G",
+          "V446I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2010/01044/10": {
+      "aa_muts": {
+        "E": [
+          "T272M",
+          "S338L",
+          "F429L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2010/01175/10": {
+      "aa_muts": {
+        "E": [
+          "L462M"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2010/01302/10": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2010/01327/10": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2010/01381/10": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2010/01436/10": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2010/01446/10": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2010/01447/10": {
+      "aa_muts": {
+        "E": [
+          "T171A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2010/01510/10": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2010/01518/10": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2010/01521/10": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2010/01600/10": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/00002/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/00046/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/00055/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/00272/11": {
+      "aa_muts": {
+        "E": [
+          "T171A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2011/00330/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/00349/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/00358/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/00432/11": {
+      "aa_muts": {
+        "E": [
+          "I164V"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2011/00493/11": {
+      "aa_muts": {
+        "E": [
+          "A481V"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2011/00577/11": {
+      "aa_muts": {
+        "E": [
+          "F392Y"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2011/00626/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/00750/11": {
+      "aa_muts": {
+        "E": [
+          "T272A"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2011/00757/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/00785/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/00938/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/01202/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/01259/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/01302/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/01392/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/01450/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2011/01453/11": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2012/00305/12": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2012/00346/12": {
+      "aa_muts": {
+        "E": [
+          "D192N"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2012/00358/12": {
+      "aa_muts": {
+        "E": [
+          "S227L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2012/00511/12": {
+      "aa_muts": {
+        "E": [
+          "E342G"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2012/00543/12": {
+      "aa_muts": {
+        "E": [
+          "I324V",
+          "T329A",
+          "E342G"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2012/00580/12": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2012/00763/12": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2012/00777/12": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2012/00807/12": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2012/00809/12": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2012/00829/12": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2012/00840/12": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2012/00878/12": {
+      "aa_muts": {
+        "E": [
+          "V21I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2012/00943/12": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2012/01006/12": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2012/01133/12": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2013/00059/13": {
+      "aa_muts": {
+        "E": [
+          "E384G"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2013/00062/13": {
+      "aa_muts": {
+        "E": [
+          "S227P"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2013/00090/13": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2013/00192/13": {
+      "aa_muts": {
+        "E": [
+          "V379I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2013/00270/13": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2013/00297/13": {
+      "aa_muts": {
+        "E": [
+          "L475F",
+          "V485I"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2013/00343/13": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2013/00456/13": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2013/00485/13": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2013/00607/13": {
+      "aa_muts": {
+        "E": [
+          "I173V"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2013/01031/13": {
+      "aa_muts": {
+        "E": [
+          "K36R"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2013/01060/13": {
+      "aa_muts": {
+        "E": [
+          "T200S",
+          "Q340L"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2013/01143/13": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2013/01152/13": {
+      "aa_muts": {
+        "E": [
+          "S227P"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2013/01570/13": {
+      "aa_muts": {
+        "E": [
+          "V55I",
+          "E342G",
+          "Q347R"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2014/00213/14": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2014/00444/14": {
+      "aa_muts": {
+        "E": [
+          "T272M"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2014/00485/14": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2014/00554/14": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2014/00559/14": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2014/00572/14": {
+      "aa_muts": {
+        "E": [
+          "A386T"
+        ]
+      }
+    },
+    "DENV1/THAILAND/2014/00624/14": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2014/00634/14": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2014/00725/14": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2014/00738/14": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/THAILAND/2014/00758/14": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/VENEZUELA/2000/OBT-1298": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DENV1/VIETNAM/2008/BID-V1937": {
+      "aa_muts": {
+        "E": [
+          "V83M",
+          "T346I",
+          "A382V"
+        ]
+      }
+    },
+    "DenV1/mosquito/Colombia/MAG-CIST-0134/2018": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DenV1/mosquito/Colombia/MAG-CIST-0151/2018": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "DenV1/un/Colombia/un-UniNorte-1/2001": {
+      "aa_muts": {
+        "E": [
+          "P332R",
+          "S338L",
+          "I414N",
+          "S452Y"
+        ]
+      }
+    },
+    "NODE_0000000": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000001": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000002": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000003": {
+      "aa_muts": {
+        "E": [
+          "S225L"
+        ]
+      }
+    },
+    "NODE_0000004": {
+      "aa_muts": {
+        "E": []
+      },
+      "aa_sequences": {
+        "E": "MRCVGIGNRDFVEGLSGATWVDVVLEHGSCVTTMAKNKPTLDIELLKTEVTNPAVLRKLCIEAKISNTTTDSRCPTQGEATLVEEQDANFVCRRTFVDRGWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGNETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMKEKSWLVHKQWFLDLPLPWTSGASTSQETWNRQDLLVTFKTAHAKKQEVVVLGSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTLKGMSYVMCTGSFKLEKEVAETQHGTVLVQVKYEGTDAPCKIPFSTQDEKGVTQNGRLITANPIVTDKEKPVNIEAEPPFGESYIVVGAGEKALKLSWFKKGSSIGKMFEATARGARRMAILGDTAWDFGSIGGVFTSVGKLVHQVFGTAYGVLFSGVSWTMKIGIGILLTWLGLNSRSTSLSMTCIAVGMVTLYLGVMVQA"
+      }
+    },
+    "NODE_0000005": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000007": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000018": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000022": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000024": {
+      "aa_muts": {
+        "E": [
+          "T454I"
+        ]
+      }
+    },
+    "NODE_0000026": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000027": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000028": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000029": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000030": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000031": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000032": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000033": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000034": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000035": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000036": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000037": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000038": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000039": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000040": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000041": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000042": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000043": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000044": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000045": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000046": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000047": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000048": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000049": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000050": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000051": {
+      "aa_muts": {
+        "E": [
+          "Y132H"
+        ]
+      }
+    },
+    "NODE_0000052": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000053": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000054": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000055": {
+      "aa_muts": {
+        "E": [
+          "E62K"
+        ]
+      }
+    },
+    "NODE_0000056": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000057": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000058": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000059": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000060": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000061": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000062": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000063": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000064": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000065": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000066": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000067": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000068": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000069": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000070": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000071": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000072": {
+      "aa_muts": {
+        "E": [
+          "T339I"
+        ]
+      }
+    },
+    "NODE_0000073": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000074": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000075": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000076": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000077": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000078": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000079": {
+      "aa_muts": {
+        "E": [
+          "L387M"
+        ]
+      }
+    },
+    "NODE_0000081": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000082": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000083": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000084": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000085": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000086": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000087": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000088": {
+      "aa_muts": {
+        "E": [
+          "V491A"
+        ]
+      }
+    },
+    "NODE_0000089": {
+      "aa_muts": {
+        "E": [
+          "A88T"
+        ]
+      }
+    },
+    "NODE_0000090": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000101": {
+      "aa_muts": {
+        "E": [
+          "Q174R"
+        ]
+      }
+    },
+    "NODE_0000105": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000106": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000110": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000112": {
+      "aa_muts": {
+        "E": [
+          "S338L"
+        ]
+      }
+    },
+    "NODE_0000113": {
+      "aa_muts": {
+        "E": [
+          "V55I"
+        ]
+      }
+    },
+    "NODE_0000114": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000115": {
+      "aa_muts": {
+        "E": [
+          "N8S"
+        ]
+      }
+    },
+    "NODE_0000116": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000117": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000118": {
+      "aa_muts": {
+        "E": [
+          "I425M"
+        ]
+      }
+    },
+    "NODE_0000119": {
+      "aa_muts": {
+        "E": [
+          "N8S"
+        ]
+      }
+    },
+    "NODE_0000122": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000123": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000124": {
+      "aa_muts": {
+        "E": [
+          "I457V"
+        ]
+      }
+    },
+    "NODE_0000125": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000126": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000131": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000132": {
+      "aa_muts": {
+        "E": [
+          "S171A"
+        ]
+      }
+    },
+    "NODE_0000133": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000134": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000135": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000136": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000137": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000138": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000139": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000140": {
+      "aa_muts": {
+        "E": [
+          "V250M"
+        ]
+      }
+    },
+    "NODE_0000141": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000142": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000143": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000144": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000145": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000146": {
+      "aa_muts": {
+        "E": [
+          "V457I",
+          "I480M"
+        ]
+      }
+    },
+    "NODE_0000147": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000150": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000151": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000153": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000154": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000155": {
+      "aa_muts": {
+        "E": [
+          "V439I"
+        ]
+      }
+    },
+    "NODE_0000156": {
+      "aa_muts": {
+        "E": [
+          "V436I"
+        ]
+      }
+    },
+    "NODE_0000157": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000158": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000160": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000161": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000162": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000163": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000164": {
+      "aa_muts": {
+        "E": [
+          "L198I"
+        ]
+      }
+    },
+    "NODE_0000165": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000166": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000167": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000168": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000169": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000170": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000171": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000172": {
+      "aa_muts": {
+        "E": [
+          "T346I"
+        ]
+      }
+    },
+    "NODE_0000173": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000177": {
+      "aa_muts": {
+        "E": [
+          "S225L"
+        ]
+      }
+    },
+    "NODE_0000178": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000179": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000180": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000181": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000182": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000183": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000184": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000185": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000186": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000188": {
+      "aa_muts": {
+        "E": [
+          "V55I"
+        ]
+      }
+    },
+    "NODE_0000189": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000190": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000192": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000193": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000194": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000195": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000197": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000200": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000201": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000202": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000203": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000205": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000208": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000209": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000210": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000211": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000212": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000213": {
+      "aa_muts": {
+        "E": [
+          "E384G"
+        ]
+      }
+    },
+    "NODE_0000214": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000215": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000216": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000217": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000218": {
+      "aa_muts": {
+        "E": [
+          "T51A"
+        ]
+      }
+    },
+    "NODE_0000219": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000220": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000221": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000222": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000223": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000224": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000225": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000226": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000227": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000229": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000233": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000234": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000237": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000238": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000241": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000242": {
+      "aa_muts": {
+        "E": [
+          "T454I"
+        ]
+      }
+    },
+    "NODE_0000243": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000244": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000245": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000246": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000247": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000248": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000249": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000250": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000251": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000256": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000260": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000261": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000262": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000263": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000264": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000265": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000266": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000267": {
+      "aa_muts": {
+        "E": [
+          "F96L"
+        ]
+      }
+    },
+    "NODE_0000268": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000270": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000271": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000272": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000273": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000274": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000275": {
+      "aa_muts": {
+        "E": [
+          "Y132H"
+        ]
+      }
+    },
+    "NODE_0000276": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000277": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000278": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000279": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000280": {
+      "aa_muts": {
+        "E": [
+          "N8S"
+        ]
+      }
+    },
+    "NODE_0000281": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000282": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000283": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000284": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000285": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000286": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000287": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000288": {
+      "aa_muts": {
+        "E": [
+          "S338L"
+        ]
+      }
+    },
+    "NODE_0000289": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000290": {
+      "aa_muts": {
+        "E": [
+          "N8S"
+        ]
+      }
+    },
+    "NODE_0000291": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000292": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000293": {
+      "aa_muts": {
+        "E": [
+          "F240L",
+          "I378L"
+        ]
+      }
+    },
+    "NODE_0000294": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000295": {
+      "aa_muts": {
+        "E": [
+          "Q271R",
+          "M289I"
+        ]
+      }
+    },
+    "NODE_0000296": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000297": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000298": {
+      "aa_muts": {
+        "E": [
+          "T430S"
+        ]
+      }
+    },
+    "NODE_0000299": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000300": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000301": {
+      "aa_muts": {
+        "E": [
+          "T297M"
+        ]
+      }
+    },
+    "NODE_0000302": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000303": {
+      "aa_muts": {
+        "E": [
+          "K394R"
+        ]
+      }
+    },
+    "NODE_0000304": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000305": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000306": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000307": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000308": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000309": {
+      "aa_muts": {
+        "E": [
+          "T293A",
+          "T454I"
+        ]
+      }
+    },
+    "NODE_0000310": {
+      "aa_muts": {
+        "E": [
+          "M297T"
+        ]
+      }
+    },
+    "NODE_0000311": {
+      "aa_muts": {
+        "E": [
+          "I114L",
+          "T161I",
+          "A369T"
+        ]
+      }
+    },
+    "NODE_0000312": {
+      "aa_muts": {
+        "E": [
+          "T272M",
+          "M297V",
+          "V380I"
+        ]
+      }
+    },
+    "NODE_0000313": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000314": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000315": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000316": {
+      "aa_muts": {
+        "E": [
+          "N37D",
+          "V439I"
+        ]
+      }
+    },
+    "NODE_0000317": {
+      "aa_muts": {
+        "E": [
+          "T155S",
+          "I461V",
+          "M484L"
+        ]
+      }
+    },
+    "NODE_0000318": {
+      "aa_muts": {
+        "E": [
+          "S225T",
+          "L351V",
+          "S397T"
+        ]
+      }
+    },
+    "NODE_0000319": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000320": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000321": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000322": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000323": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000324": {
+      "aa_muts": {
+        "E": [
+          "N52D"
+        ]
+      }
+    },
+    "NODE_0000325": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000326": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000327": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000328": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000329": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000330": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000331": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000332": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000333": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000334": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000335": {
+      "aa_muts": {
+        "E": [
+          "T346N",
+          "A382V"
+        ]
+      }
+    },
+    "NODE_0000336": {
+      "aa_muts": {
+        "E": [
+          "S338L"
+        ]
+      }
+    },
+    "NODE_0000337": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000338": {
+      "aa_muts": {
+        "E": [
+          "N8S",
+          "V324I",
+          "V380I"
+        ]
+      }
+    },
+    "NODE_0000339": {
+      "aa_muts": {
+        "E": [
+          "K343R"
+        ]
+      }
+    },
+    "NODE_0000340": {
+      "aa_muts": {
+        "E": [
+          "T51S"
+        ]
+      }
+    },
+    "NODE_0000341": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000342": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000343": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000344": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000345": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000346": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000347": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000348": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000349": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000352": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000353": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000354": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000356": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000360": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000361": {
+      "aa_muts": {
+        "E": [
+          "N52D"
+        ]
+      }
+    },
+    "NODE_0000362": {
+      "aa_muts": {
+        "E": [
+          "V320I"
+        ]
+      }
+    },
+    "NODE_0000363": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000364": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000365": {
+      "aa_muts": {
+        "E": [
+          "K361R"
+        ]
+      }
+    },
+    "NODE_0000366": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000367": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000368": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000369": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000370": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000371": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000372": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000375": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000376": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000377": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000378": {
+      "aa_muts": {
+        "E": [
+          "T33I",
+          "I114M"
+        ]
+      }
+    },
+    "NODE_0000379": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000380": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000381": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000382": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000383": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000384": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000385": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000386": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000387": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000388": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000389": {
+      "aa_muts": {
+        "E": [
+          "S171T"
+        ]
+      }
+    },
+    "NODE_0000390": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000391": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000392": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000393": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000394": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000395": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000397": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000399": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000401": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000403": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000404": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000405": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000407": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000409": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000410": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000411": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000412": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000413": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000416": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000417": {
+      "aa_muts": {
+        "E": [
+          "A224T"
+        ]
+      }
+    },
+    "NODE_0000418": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000419": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000420": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000421": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000422": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000423": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000426": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000427": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000428": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000429": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000430": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000431": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000432": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000436": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000437": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000438": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000439": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000440": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000441": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000442": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000444": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000446": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000448": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000449": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000450": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000451": {
+      "aa_muts": {
+        "E": [
+          "V55I"
+        ]
+      }
+    },
+    "NODE_0000452": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000454": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000455": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000456": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000457": {
+      "aa_muts": {
+        "E": [
+          "M297V"
+        ]
+      }
+    },
+    "NODE_0000458": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000459": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000461": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000462": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000464": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000465": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000466": {
+      "aa_muts": {
+        "E": [
+          "K343R"
+        ]
+      }
+    },
+    "NODE_0000467": {
+      "aa_muts": {
+        "E": [
+          "N52D",
+          "V55I"
+        ]
+      }
+    },
+    "NODE_0000468": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000469": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000470": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000472": {
+      "aa_muts": {
+        "E": [
+          "T170S"
+        ]
+      }
+    },
+    "NODE_0000474": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000475": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000476": {
+      "aa_muts": {
+        "E": [
+          "S305L"
+        ]
+      }
+    },
+    "NODE_0000477": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000478": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000480": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000481": {
+      "aa_muts": {
+        "E": [
+          "S390N"
+        ]
+      }
+    },
+    "NODE_0000482": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000483": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000485": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000486": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000487": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000488": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000489": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000490": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000491": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000494": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000495": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000497": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000498": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000499": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000500": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000501": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000504": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000510": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000511": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000512": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000513": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000514": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000516": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000517": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000518": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000519": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000520": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000522": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000525": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000526": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000528": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000529": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000530": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000531": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000532": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000533": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000534": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000535": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000536": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000537": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000538": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000542": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000543": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000544": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000545": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000546": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000547": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000548": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000550": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000554": {
+      "aa_muts": {
+        "E": [
+          "V320I"
+        ]
+      }
+    },
+    "NODE_0000555": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000556": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000557": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000559": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000561": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000562": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000563": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000564": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000565": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000566": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000567": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000568": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000569": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000570": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000571": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000573": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000574": {
+      "aa_muts": {
+        "E": [
+          "V345A"
+        ]
+      }
+    },
+    "NODE_0000575": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000576": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000577": {
+      "aa_muts": {
+        "E": [
+          "V432A"
+        ]
+      }
+    },
+    "NODE_0000578": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000579": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000580": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000581": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000582": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000583": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000584": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000585": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000586": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000587": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000588": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000590": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000591": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000592": {
+      "aa_muts": {
+        "E": [
+          "V482I"
+        ]
+      }
+    },
+    "NODE_0000594": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000595": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000596": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000597": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000598": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000599": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000602": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000603": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000604": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000605": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000606": {
+      "aa_muts": {
+        "E": [
+          "V345A"
+        ]
+      }
+    },
+    "NODE_0000607": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000608": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000609": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000610": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000614": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000615": {
+      "aa_muts": {
+        "E": [
+          "I114M"
+        ]
+      }
+    },
+    "NODE_0000616": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000617": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000618": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000619": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000620": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000621": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000624": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000625": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000626": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000628": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000629": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000630": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000632": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000633": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000635": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000638": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000639": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000640": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000642": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000643": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000644": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000645": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000646": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000647": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000648": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000649": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000650": {
+      "aa_muts": {
+        "E": [
+          "M297T"
+        ]
+      }
+    },
+    "NODE_0000651": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000652": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000653": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000654": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000655": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000656": {
+      "aa_muts": {
+        "E": [
+          "V322L"
+        ]
+      }
+    },
+    "NODE_0000657": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000658": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000659": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000660": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000661": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000662": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000663": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000664": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000665": {
+      "aa_muts": {
+        "E": [
+          "A168T"
+        ]
+      }
+    },
+    "NODE_0000666": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000667": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000668": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000670": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000671": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000672": {
+      "aa_muts": {
+        "E": [
+          "Q228H"
+        ]
+      }
+    },
+    "NODE_0000673": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000675": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000676": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000677": {
+      "aa_muts": {
+        "E": [
+          "T160I"
+        ]
+      }
+    },
+    "NODE_0000678": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000679": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000680": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000681": {
+      "aa_muts": {
+        "E": [
+          "S338L"
+        ]
+      }
+    },
+    "NODE_0000682": {
+      "aa_muts": {
+        "E": [
+          "L389I"
+        ]
+      }
+    },
+    "NODE_0000683": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000684": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000685": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000686": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000687": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000688": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000689": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000690": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000691": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000692": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000694": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000695": {
+      "aa_muts": {
+        "E": [
+          "I114V"
+        ]
+      }
+    },
+    "NODE_0000700": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000701": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000705": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000707": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000708": {
+      "aa_muts": {
+        "E": [
+          "N52D"
+        ]
+      }
+    },
+    "NODE_0000709": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000710": {
+      "aa_muts": {
+        "E": [
+          "S227P",
+          "V432F"
+        ]
+      }
+    },
+    "NODE_0000711": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000712": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000713": {
+      "aa_muts": {
+        "E": [
+          "Q86G"
+        ]
+      }
+    },
+    "NODE_0000714": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000715": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000716": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000717": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000718": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000719": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000720": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000721": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000722": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000723": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000726": {
+      "aa_muts": {
+        "E": [
+          "I114L"
+        ]
+      }
+    },
+    "NODE_0000727": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000728": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000729": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000730": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000731": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000732": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000733": {
+      "aa_muts": {
+        "E": [
+          "L125M",
+          "S338L"
+        ]
+      }
+    },
+    "NODE_0000734": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000735": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000736": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000737": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000738": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000739": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000740": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000741": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000742": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000743": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000747": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000748": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000749": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000750": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000751": {
+      "aa_muts": {
+        "E": [
+          "I425M"
+        ]
+      }
+    },
+    "NODE_0000752": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000753": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000754": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000756": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000757": {
+      "aa_muts": {
+        "E": [
+          "M297V"
+        ]
+      }
+    },
+    "NODE_0000758": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000759": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000760": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000761": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000762": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000764": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000765": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000769": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000770": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000771": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000772": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000773": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000774": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000775": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000779": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000780": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000783": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000784": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000785": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000786": {
+      "aa_muts": {
+        "E": [
+          "F96L"
+        ]
+      }
+    },
+    "NODE_0000787": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000788": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000789": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000790": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000791": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000792": {
+      "aa_muts": {
+        "E": [
+          "E342G"
+        ]
+      }
+    },
+    "NODE_0000793": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000794": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000795": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000797": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000798": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000799": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000800": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000802": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000803": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000804": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000805": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000807": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000809": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000810": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000811": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000812": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000813": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000815": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000816": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000817": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000818": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000819": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000820": {
+      "aa_muts": {
+        "E": [
+          "I425V"
+        ]
+      }
+    },
+    "NODE_0000821": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000822": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000823": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000825": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000826": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000827": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000828": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000829": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000830": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000832": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000833": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000834": {
+      "aa_muts": {
+        "E": [
+          "V491A"
+        ]
+      }
+    },
+    "NODE_0000835": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000837": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000838": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000839": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000840": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000841": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000842": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000843": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000844": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000845": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000846": {
+      "aa_muts": {
+        "E": [
+          "F96L"
+        ]
+      }
+    },
+    "NODE_0000847": {
+      "aa_muts": {
+        "E": [
+          "V436I"
+        ]
+      }
+    },
+    "NODE_0000849": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000850": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000851": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000853": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000854": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000855": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000856": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000857": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000858": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000859": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000860": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000861": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000862": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000863": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000865": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000867": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000868": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000869": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000870": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000871": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000872": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000873": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000874": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000875": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000877": {
+      "aa_muts": {
+        "E": [
+          "T51S"
+        ]
+      }
+    },
+    "NODE_0000878": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000879": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000880": {
+      "aa_muts": {
+        "E": [
+          "N232D",
+          "Q234R"
+        ]
+      }
+    },
+    "NODE_0000881": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000882": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000883": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000884": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000885": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000886": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000887": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000888": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000890": {
+      "aa_muts": {
+        "E": [
+          "S338L",
+          "D417N"
+        ]
+      }
+    },
+    "NODE_0000891": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000893": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000894": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000895": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000896": {
+      "aa_muts": {
+        "E": [
+          "A88T",
+          "S305P",
+          "L475F"
+        ]
+      }
+    },
+    "NODE_0000897": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000898": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000899": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000902": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000903": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000904": {
+      "aa_muts": {
+        "E": [
+          "I357V"
+        ]
+      }
+    },
+    "NODE_0000905": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000908": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000910": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000911": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000912": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000913": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000915": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000916": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000917": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000918": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000919": {
+      "aa_muts": {
+        "E": [
+          "I129T"
+        ]
+      }
+    },
+    "NODE_0000920": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000922": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000923": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000924": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000925": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000926": {
+      "aa_muts": {
+        "E": [
+          "I173V"
+        ]
+      }
+    },
+    "NODE_0000927": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000928": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000929": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000931": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000932": {
+      "aa_muts": {
+        "E": [
+          "A382V"
+        ]
+      }
+    },
+    "NODE_0000933": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000934": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000935": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000936": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000937": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000938": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000939": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000941": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000943": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000944": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000946": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000947": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000948": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000949": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000950": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000951": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000952": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000953": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000954": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000955": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000956": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000957": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000958": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000959": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000960": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000961": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000962": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000963": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000964": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000965": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000966": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000967": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000968": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000971": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000972": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000973": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000976": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000977": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000978": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000979": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000980": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000981": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000982": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000985": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000986": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000987": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000988": {
+      "aa_muts": {
+        "E": [
+          "T272M"
+        ]
+      }
+    },
+    "NODE_0000989": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000990": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000991": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000993": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0000994": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001000": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001001": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001002": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001003": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001005": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001007": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001008": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001009": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001015": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001018": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001023": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001028": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001029": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001034": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001035": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001036": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001037": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001038": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001039": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001040": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001041": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001042": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001044": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001045": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001046": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001047": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001048": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001050": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001051": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001052": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001054": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001057": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001060": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001062": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001063": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001064": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001067": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001068": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001069": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001070": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001075": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001076": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001078": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001079": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001080": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001081": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001082": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001083": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001084": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001085": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001086": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001095": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001096": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001098": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001099": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001100": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001102": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001103": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001104": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001105": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001107": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001108": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001112": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001113": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001114": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001115": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001117": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001118": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001120": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001121": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001122": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001123": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001127": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001128": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001129": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001130": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001131": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001132": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001133": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001134": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001135": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001139": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001140": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001141": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001142": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001148": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001149": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001150": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001151": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001152": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001153": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001154": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001156": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001158": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001159": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001160": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "NODE_0001161": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/ANT-INS-485061/2016": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/ANT-UDEA-COA0053/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/ANT-UDEA-COA0214/2022": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/ANT-UDEA-COA0234/2022": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/ANT-UDEA-COT0011/2023": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/ANT-UDEA-COT0012/2023": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/ANT-UDEA-COT0017/2023": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/ANT-UDEA-COT0026/2023": {
+      "aa_muts": {
+        "E": [
+          "N37D"
+        ]
+      }
+    },
+    "hDenV1/Colombia/ANT-UDEA-COT0028/2023": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/ANT-UDEA-COT0221/2023": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/ANT-UDS-0746586/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/CAU-INS-483718/2016": {
+      "aa_muts": {
+        "E": [
+          "A117V",
+          "G445E"
+        ]
+      }
+    },
+    "hDenV1/Colombia/CUN-INS-450339/2015": {
+      "aa_muts": {
+        "E": [
+          "E62K"
+        ]
+      }
+    },
+    "hDenV1/Colombia/FUADLA-AFI025_676/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/FUADLA-AFI059_677/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/HUI-UEB-033/2011": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/MET-INS-424735/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-BROAD-0000019/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-BROAD-0000020/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-BROAD-0000023/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-BROAD-0000025/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIDS-555/2001": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIDS-556/2015": {
+      "aa_muts": {
+        "E": [
+          "D235N",
+          "Q256P"
+        ]
+      }
+    },
+    "hDenV1/Colombia/NSA-UIDS-557/2009": {
+      "aa_muts": {
+        "E": [
+          "G383S"
+        ]
+      }
+    },
+    "hDenV1/Colombia/NSA-UIDS-558/2016": {
+      "aa_muts": {
+        "E": [
+          "T430S"
+        ]
+      }
+    },
+    "hDenV1/Colombia/NSA-UIDS-559/2015": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00005/2006": {
+      "aa_muts": {
+        "E": [
+          "E154D"
+        ]
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00006/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00007/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00008/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00009/2006": {
+      "aa_muts": {
+        "E": [
+          "D235N"
+        ]
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00010/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00011/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00012/2005": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00013/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00014/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00015/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00020/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00034/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00037/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00038/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00039/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00040/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00041/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00042/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00043/2006": {
+      "aa_muts": {
+        "E": [
+          "I425M"
+        ]
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00044/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00045/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/NSA-UIS-00046/2006": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/RIS-FUAA-AFI031/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/RIS-FUAA-AFI082/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/RIS-FUAA-AFI101/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/RIS-FUAA-AFI224/2022": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/RIS-FUAA-DFC059/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/RIS-INS-476947/2016": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-BROAD-0000029/2007": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-BROAD-0000032/2008": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-BROAD-0000036/2007": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-BROAD-0000037/2005": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-BROAD-0000046/2007": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-BROAD-0000053/2007": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-BROAD-0000058/2001": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000005/2015": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000007/2015": {
+      "aa_muts": {
+        "E": [
+          "A382V"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000008/2014": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000009/2010": {
+      "aa_muts": {
+        "E": [
+          "T242S",
+          "I278F"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000011/2009": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000012/2010": {
+      "aa_muts": {
+        "E": [
+          "K128E"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000013/2010": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000014/2016": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000015/2016": {
+      "aa_muts": {
+        "E": [
+          "M250L",
+          "G254R"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000016/2015": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000017/2015": {
+      "aa_muts": {
+        "E": [
+          "Q248P"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000018/2016": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000019/2016": {
+      "aa_muts": {
+        "E": [
+          "V436L",
+          "A443V"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000020/2010": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000028/2013": {
+      "aa_muts": {
+        "E": [
+          "S255P",
+          "Q256P"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000029/2010": {
+      "aa_muts": {
+        "E": [
+          "T230P"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000030/2010": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000031/2016": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000034/2014": {
+      "aa_muts": {
+        "E": [
+          "F240L",
+          "Q248R",
+          "E249V",
+          "G274E"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000040/2009": {
+      "aa_muts": {
+        "E": [
+          "Q248R"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000041/2010": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000043/2009": {
+      "aa_muts": {
+        "E": [
+          "V482I"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000046/2009": {
+      "aa_muts": {
+        "E": [
+          "M34I",
+          "Q248H"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000047/2016": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000048/2014": {
+      "aa_muts": {
+        "E": [
+          "A243V"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000050/2009": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000051/2016": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000052/2010": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000054/2016": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000055/2015": {
+      "aa_muts": {
+        "E": [
+          "S222W"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000056/2013": {
+      "aa_muts": {
+        "E": [
+          "L387W"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000057/2014": {
+      "aa_muts": {
+        "E": [
+          "K247N",
+          "Q248R",
+          "E249K",
+          "V250I",
+          "V251I",
+          "Q256R"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-0000059/2016": {
+      "aa_muts": {
+        "E": [
+          "E249G"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00001/2008": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00002/2008": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00003/2008": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00004/2008": {
+      "aa_muts": {
+        "E": [
+          "S138L",
+          "E342D"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00016/2007": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00017/2007": {
+      "aa_muts": {
+        "E": [
+          "P364S"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00018/2008": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00019/2008": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00021/2007": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00022/2008": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00023/2008": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00024/2008": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00025/2007": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00026/2007": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00027/2008": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00028/2007": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00029/2008": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00030/2008": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00031/2004": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00032/2007": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00033/2008": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00035/2008": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00036/2007": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00050/2001": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UIS-00051/2002": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UR-F15030291/2014": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UR-LV121086/2010": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/SAN-UR-LV122007/2009": {
+      "aa_muts": {
+        "E": [
+          "Q248H"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-UR-P201080030/2015": {
+      "aa_muts": {
+        "E": [
+          "V380L"
+        ]
+      }
+    },
+    "hDenV1/Colombia/SAN-Yale-DH141-P2/2004": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2300876/2023": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2306001/2023": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2400035/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2400054/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2400146/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2400227/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2400262/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2400298/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2400368/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2401121/2024": {
+      "aa_muts": {
+        "E": [
+          "S305L",
+          "I425M"
+        ]
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2401601/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2401811/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2401935/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2402024/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2402457/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2402566/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2402583/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2402847/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2403830/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2404263/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2404314/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2404461/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2404681/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2404789/2024": {
+      "aa_muts": {
+        "E": [
+          "T430I"
+        ]
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2405179/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2405205/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2405404/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2405498/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2405525/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2405553/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2405625/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2405690/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2405731/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2405754/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2405774/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2407081-VI/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2407539-VI/2024": {
+      "aa_muts": {
+        "E": [
+          "F96L"
+        ]
+      }
+    },
+    "hDenV1/Colombia/VAC-LSPVAC-2409164-VI/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-BNITM-363/2018": {
+      "aa_muts": {
+        "E": [
+          "A88T"
+        ]
+      }
+    },
+    "hDenV1/Colombia/un-BROAD-0000007/2005": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-CDC-002/2007": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-AFI007673/2019": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC063/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC087/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC088/2021": {
+      "aa_muts": {
+        "E": [
+          "T478A"
+        ]
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC096/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC112/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC114/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC161/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC162/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC177/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC217/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC222/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC238/2021": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC245/2022": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC263/2022": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC264/2022": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-FUAA-DFC265/2022": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-INS-424233/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-INS-484930/2016": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-INS-484940/2016": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-INS-484942/2016": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-INS-484948/2016": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000003/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000005/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000006/2012": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000008/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000010/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000011/2012": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000014/2012": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000023/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000040/2013": {
+      "aa_muts": {
+        "E": [
+          "S474P"
+        ]
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000043/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000045/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000046/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000048/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000049/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000052/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000053/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000060/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000061/2012": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000063/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000068/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000069/2012": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000070/2012": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000074/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000075/2013": {
+      "aa_muts": {
+        "E": [
+          "N232S",
+          "M425I"
+        ]
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000076/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000081/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000087/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000088/2012": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000090/2012": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000092/2012": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000093/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000095/2012": {
+      "aa_muts": {
+        "E": [
+          "K241I",
+          "T242A"
+        ]
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-0000096/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-1/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101210/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101212/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101216/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101218/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101219/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-10122/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101220/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101221/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101223/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101224/2011": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101225/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101226/2012": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101227/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101228/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101229/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-10123/2012": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101230/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101232/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101234/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101235/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101236/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-10124/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101245/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-10125/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-101253/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-10126/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-10128/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-102/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-103/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-104/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-131/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-132/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-133/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-134/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-135/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-136/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-332/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-333/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-338/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-340/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-341/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-342/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-348/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-353/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-356/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-358/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-360/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-506/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-507/2012": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-508/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-509/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-510/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-511/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-512/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-513/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-519/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-520/2012": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-521/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-522/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-523/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-525/2011": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-OUCRU-526/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-UDS-Ov07582/2013": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-Yale-DH141/2004": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-Yale-DN02363/2023": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-Yale-DN02365/2023": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-Yale-DN02376/2023": {
+      "aa_muts": {
+        "E": [
+          "T329S"
+        ]
+      }
+    },
+    "hDenV1/Colombia/un-Yale-DN02379/2023": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-Yale-DN02386/2023": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-Yale-DN02429/2023": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-Yale-DN02440/2023": {
+      "aa_muts": {
+        "E": [
+          "S227F",
+          "F440L"
+        ]
+      }
+    },
+    "hDenV1/Colombia/un-Yale-DN02489/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-Yale-DN02505/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-Yale-DN02556/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-Yale-DN02730/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-Yale-DN02733/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-Yale-DN02741/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    },
+    "hDenV1/Colombia/un-Yale-DN02838/2024": {
+      "aa_muts": {
+        "E": []
+      }
+    }
+  },
+  "reference": {
+    "E": "MRCVGIGNRDFVEGLSGATWVDVVLEHGSCVTTMAKNKPTLDIELLKTEVTNPAVLRKLCIEAKISNTTTDSRCPTQGEATLVEEQDANFVCRRTFVDRGWGNGCGLFGKGSLITCAKFKCVTKLEGKIVQYENLKYSVIVTVHTGDQHQVGNETTEHGTTATITPQAPTSEIQLTDYGALTLDCSPRTGLDFNEMVLLTMKEKSWLVHKQWFLDLPLPWTSGASTSQETWNRQDLLVTFKTAHAKKQEVVVLGSQEGAMHTALTGATEIQTSGTTTIFAGHLKCRLKMDKLTLKGMSYVMCTGSFKLEKEVAETQHGTVLVQVKYEGTDAPCKIPFSTQDEKGVTQNGRLITANPIVTDKEKPVNIEAEPPFGESYIVVGAGEKALKLSWFKKGSSIGKMFEATARGARRMAILGDTAWDFGSIGGVFTSVGKLVHQVFGTAYGVLFSGVSWTMKIGIGILLTWLGLNSRSTSLSMTCIAVGMVTLYLGVMVQA"
+  }
+}

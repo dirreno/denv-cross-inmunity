@@ -1,0 +1,5344 @@
+{
+  "avidity": {
+    "DENV4/BRAZIL/2012/BR-12": -0.2506,
+    "DENV4/BRAZIL/2012/BR-2": 0.6832,
+    "DENV4/BRAZIL/2012/BR-23": -0.4207,
+    "DENV4/DOMINICA/1981/42A": -0.1316,
+    "DENV4/INDONESIA/1973/M30153-AC36": -0.4061,
+    "DENV4/MALAYSIA/1973/P73-1120": 0.1989,
+    "DENV4/NICARAGUA/1999/703": 0.0879,
+    "DENV4/PUERTORICO/1998/347751": -0.3617,
+    "DENV4/PUERTORICO/1999/BID-V2446": 0.5142,
+    "DENV4/THAILAND/1985/D85-052": -0.121,
+    "DENV4/THAILAND/1994/00329/94": 0.5943,
+    "DENV4/THAILAND/1994/00615/94": -0.2208,
+    "DENV4/THAILAND/1995/00036/95": 0.7717,
+    "DENV4/THAILAND/1995/00241/95": 0.1355,
+    "DENV4/THAILAND/1995/00425/95": 0.1659,
+    "DENV4/THAILAND/1995/00458/95": 0.1514,
+    "DENV4/THAILAND/1995/01569/95": -0.1031,
+    "DENV4/THAILAND/1996/01129/96": 0.0812,
+    "DENV4/THAILAND/1996/01626/96": 0.3278,
+    "DENV4/THAILAND/1997/00049/97": -0.2288,
+    "DENV4/THAILAND/1997/02739/97": -0.243,
+    "DENV4/THAILAND/1998/04634/98": 0.034,
+    "DENV4/THAILAND/1998/04786/98": -0.409,
+    "DENV4/THAILAND/1998/06181/98": 0.1317,
+    "DENV4/THAILAND/1998/06523/98": -0.4217,
+    "DENV4/THAILAND/1998/06564/98": -0.1343,
+    "DENV4/THAILAND/1999/04390/99": 0.3753,
+    "DENV4/THAILAND/1999/05538/99": 0.3775,
+    "DENV4/THAILAND/2000/02021/00": 0.705,
+    "DENV4/THAILAND/2000/02143/00": 0.1951,
+    "DENV4/THAILAND/2000/05997/00": -0.3331,
+    "DENV4/THAILAND/2001/00103/01": -0.2888,
+    "DENV4/THAILAND/2001/00886/01": 0.0329,
+    "DENV4/THAILAND/2001/04094/01": 0.2778,
+    "DENV4/THAILAND/2001/04134/01": 0.0372,
+    "DENV4/THAILAND/2001/05386/01": 0.6587,
+    "DENV4/THAILAND/2001/06019/01": -0.7662,
+    "DENV4/THAILAND/2001/06949/01": -0.562,
+    "DENV4/THAILAND/2002/01222/02": 0.7949,
+    "DENV4/THAILAND/2002/03060/02": -0.0731,
+    "DENV4/THAILAND/2002/03096/02": 0.0245,
+    "DENV4/THAILAND/2002/03113/02": -0.6862,
+    "DENV4/THAILAND/2002/03169/02": -0.537,
+    "DENV4/THAILAND/2003/02207/03": 0.537,
+    "DENV4/THAILAND/2003/02377/03": -0.5137,
+    "DENV4/THAILAND/2004/00217/04": -0.2271,
+    "DENV4/THAILAND/2004/00624/04": -0.229,
+    "DENV4/THAILAND/2004/00965/04": -0.2441,
+    "DENV4/THAILAND/2004/01315/04": -0.2596,
+    "DENV4/THAILAND/2004/01369/04": 0.0282,
+    "DENV4/THAILAND/2004/01544/04": 0.4133,
+    "DENV4/THAILAND/2005/00201/05": -0.5162,
+    "DENV4/THAILAND/2006/00047/06": -0.4729,
+    "DENV4/THAILAND/2006/00189/06": -0.1416,
+    "DENV4/THAILAND/2006/00356/06": -0.0442,
+    "DENV4/THAILAND/2006/00533/06": -0.4824,
+    "DENV4/THAILAND/2006/00578/06": -0.1103,
+    "DENV4/THAILAND/2006/00617/06": -0.473,
+    "DENV4/THAILAND/2006/01881/06": 0.4416,
+    "DENV4/THAILAND/2006/02190/06": 0.0365,
+    "DENV4/THAILAND/2006/02540/06": 0.3902,
+    "DENV4/THAILAND/2007/00119/07": -0.1775,
+    "DENV4/THAILAND/2007/00504/07": 0.2246,
+    "DENV4/THAILAND/2007/00694/07": -0.0294,
+    "DENV4/THAILAND/2007/01101/07": 0.3822,
+    "DENV4/THAILAND/2007/01118/07": -0.1681,
+    "DENV4/THAILAND/2007/01391/07": -0.3822,
+    "DENV4/THAILAND/2007/01840/07": 0.0139,
+    "DENV4/THAILAND/2007/01991/07": 0.2237,
+    "DENV4/THAILAND/2007/01993/07": -0.9022,
+    "DENV4/THAILAND/2007/02392/07": -0.0071,
+    "DENV4/THAILAND/2008/00274/08": -0.375,
+    "DENV4/THAILAND/2008/00471/08": 0.5162,
+    "DENV4/THAILAND/2008/01380/08": -0.2314,
+    "DENV4/THAILAND/2008/01387/08": -0.3865,
+    "DENV4/THAILAND/2008/02023/08": 0.4539,
+    "DENV4/THAILAND/2009/00781/09": 0.0681,
+    "DENV4/THAILAND/2009/01432/09": 0.5647,
+    "DENV4/THAILAND/2009/01559/09": 0.3194,
+    "DENV4/THAILAND/2010/00249/10": 0.0669,
+    "DENV4/THAILAND/2010/00283/10": -0.1082,
+    "DENV4/THAILAND/2010/00780/10": 0.3735,
+    "DENV4/THAILAND/2010/01270/10": 0.4133,
+    "DENV4/THAILAND/2010/01513/10": -0.326,
+    "DENV4/THAILAND/2010/01677/10": 0.289,
+    "DENV4/THAILAND/2011/00251/11": -0.0428,
+    "DENV4/THAILAND/2011/00257/11": 0.2443,
+    "DENV4/THAILAND/2011/00369/11": -0.2762,
+    "DENV4/THAILAND/2011/00477/11": 0.2443,
+    "DENV4/THAILAND/2012/00112/12": -0.1665,
+    "DENV4/THAILAND/2012/00637/12": -0.0117,
+    "DENV4/THAILAND/2012/01104/12": 0.1916,
+    "DENV4/THAILAND/2013/00300/13": -0.4136,
+    "DENV4/THAILAND/2013/00691/13": 0.3735,
+    "DENV4/THAILAND/2013/00801/13": 0.0749,
+    "DENV4/THAILAND/2013/01012/13": 0.2671,
+    "DENV4/THAILAND/2014/00214/14": 0.2471,
+    "DENV4/THAILAND/2014/00555/14": -0.3978,
+    "DENV4/THAILAND/2014/00595/14": 0.0659,
+    "DENV4/THAILAND/2014/00615/14": -0.1364
+  },
+  "generated_by": {
+    "program": "augur",
+    "version": "33.0.0"
+  },
+  "nodes": {
+    "DENV4/BRAZIL/2012/BR-12": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "DENV4/BRAZIL/2012/BR-2": {
+      "cTiter": 0.8958246860270825,
+      "dTiter": 0
+    },
+    "DENV4/BRAZIL/2012/BR-23": {
+      "cTiter": 0.8958246860270825,
+      "dTiter": 0
+    },
+    "DENV4/DOMINICA/1981/42A": {
+      "cTiter": 0.895824636525089,
+      "dTiter": 0
+    },
+    "DENV4/INDONESIA/1973/M30153-AC36": {
+      "cTiter": 0.712361580187806,
+      "dTiter": 0
+    },
+    "DENV4/MALAYSIA/1973/P73-1120": {
+      "cTiter": 0,
+      "dTiter": 0
+    },
+    "DENV4/MYANMAR/2008/81087": {
+      "cTiter": 1.700139004040461,
+      "dTiter": 0
+    },
+    "DENV4/NICARAGUA/1999/703": {
+      "cTiter": 0.895824639397713,
+      "dTiter": 0
+    },
+    "DENV4/PUERTORICO/1998/347751": {
+      "cTiter": 0.9817830810510748,
+      "dTiter": 0
+    },
+    "DENV4/PUERTORICO/1999/BID-V2446": {
+      "cTiter": 0.9817830810510748,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1985/D85-052": {
+      "cTiter": 0.7123615791182826,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1993/02838/93": {
+      "cTiter": 0.7123615801498169,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00095/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00101/94": {
+      "cTiter": 0.7123615809148258,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00190/94": {
+      "cTiter": 0.7123615819050432,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00307/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00329/94": {
+      "cTiter": 0.7123615801498169,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00500/94": {
+      "cTiter": 0.7123615822618775,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00506/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00615/94": {
+      "cTiter": 0.7123615819050432,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00690/94": {
+      "cTiter": 0.7123615818450002,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00719/94": {
+      "cTiter": 0.7123616019386732,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00737/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00794/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00846/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00867/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00890/94": {
+      "cTiter": 0.7123616019386732,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/00900/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/01073/94": {
+      "cTiter": 0.7123615809148258,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/01074/94": {
+      "cTiter": 0.7123615809148258,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/01124/94": {
+      "cTiter": 0.7123615819050432,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/01201/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/01534/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/30071/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/30091/94": {
+      "cTiter": 0.7123615819050432,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/30127/94": {
+      "cTiter": 0.7123615819050432,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/30158/94": {
+      "cTiter": 0.7123616048038469,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/30292/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/30302/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/30324/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/30341/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/30343/94": {
+      "cTiter": 0.7123616019386732,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/30344/94": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/30446/94": {
+      "cTiter": 0.7123616019386732,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/30479/94": {
+      "cTiter": 0.7123615819050432,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/30540/94": {
+      "cTiter": 0.7123615819050432,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1994/30610/94": {
+      "cTiter": 0.7123616019386732,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1995/00036/95": {
+      "cTiter": 0.7123615822618775,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1995/00241/95": {
+      "cTiter": 0.7123616048038469,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1995/00269/95": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1995/00425/95": {
+      "cTiter": 0.7123615805706998,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1995/00458/95": {
+      "cTiter": 0.7123615946872287,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1995/00533/95": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1995/00687/95": {
+      "cTiter": 0.7123616019386732,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1995/00877/95": {
+      "cTiter": 0.7123616048038469,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1995/01569/95": {
+      "cTiter": 0.7123616048038469,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1995/01832/95": {
+      "cTiter": 0.7123616048038469,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1995/30035/95": {
+      "cTiter": 0.7123616019386732,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1995/30056/95": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1996/00756/96": {
+      "cTiter": 0.7123616048038469,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1996/01129/96": {
+      "cTiter": 0.7123615946872287,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1996/01626/96": {
+      "cTiter": 1.3461560567226896e-08,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1997/00049/97": {
+      "cTiter": 1.471217743223451e-08,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1997/02739/97": {
+      "cTiter": 9.307061643614155e-09,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1998/04444/98": {
+      "cTiter": 0.712361610506101,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1998/04634/98": {
+      "cTiter": 1.9386150239683527e-08,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1998/04786/98": {
+      "cTiter": 2.127571338234711e-08,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1998/06075/98": {
+      "cTiter": 0.712361610506101,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1998/06181/98": {
+      "cTiter": 0.7123615824287941,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1998/06523/98": {
+      "cTiter": 0.7123615835179508,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1998/06564/98": {
+      "cTiter": 0.712361610506101,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/00003/99": {
+      "cTiter": 0.712361610506101,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/00027/99": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/00259/99": {
+      "cTiter": 0.712361583323046,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/00261/99": {
+      "cTiter": 0.712361610506101,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/00336/99": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/00362/99": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/00508/99": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/00984/99": {
+      "cTiter": 0.7123615824287941,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/02821/99": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/02897/99": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/02966/99": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/03401/99": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/03471/99": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/03494/99": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/03541/99": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/04058/99": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/04390/99": {
+      "cTiter": 2.127571338234711e-08,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/04425/99": {
+      "cTiter": 0.712361610506101,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/05341/99": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/05475/99": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/1999/05538/99": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/00010/00": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/00235/00": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/00303/00": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/00414/00": {
+      "cTiter": 1.317425406502684,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/01232/00": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/01278/00": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/01394/00": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/01441/00": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/01477/00": {
+      "cTiter": 1.317425406502684,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/01645/00": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/01702/00": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/01757/00": {
+      "cTiter": 1.3174254070165186,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/02021/00": {
+      "cTiter": 1.317425406502684,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/02098/00": {
+      "cTiter": 1.317425406502684,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/02111/00": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/02143/00": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/04784/00": {
+      "cTiter": 1.317425406502684,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/04854/00": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/05548/00": {
+      "cTiter": 1.3174254077791727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/05771/00": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/05782/00": {
+      "cTiter": 1.3174254078913061,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/05984/00": {
+      "cTiter": 1.3174254078913061,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2000/05997/00": {
+      "cTiter": 1.3174254078913061,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/00044/01": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/00103/01": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/00114/01": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/00534/01": {
+      "cTiter": 1.3174254078913061,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/00565/01": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/00575/01": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/00886/01": {
+      "cTiter": 1.7203280632888657e-08,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/00887/01": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/02623/01": {
+      "cTiter": 1.3174254320732268,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/02765/01": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/03081/01": {
+      "cTiter": 1.7646036504747535,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/03348/01": {
+      "cTiter": 1.7646036504747535,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/03531/01": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/03643/01": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/03843/01": {
+      "cTiter": 1.317425406502684,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/04094/01": {
+      "cTiter": 7.828408768653883e-09,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/04134/01": {
+      "cTiter": 1.3174254078913061,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/05386/01": {
+      "cTiter": 1.317425409055754,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/05429/01": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/05432/01": {
+      "cTiter": 1.317425406502684,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/05908/01": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/06019/01": {
+      "cTiter": 1.317425409055754,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/06122/01": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/06575/01": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/06712/01": {
+      "cTiter": 1.317425408755472,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/06949/01": {
+      "cTiter": 1.317425408755472,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2001/06951/01": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/01222/02": {
+      "cTiter": 1.7646036504747535,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/01227/02": {
+      "cTiter": 1.3174254320732268,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/01480/02": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/01606/02": {
+      "cTiter": 1.317425408755472,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/01648/02": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/02020/02": {
+      "cTiter": 0.7123615827013915,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/02131/02": {
+      "cTiter": 1.317425408755472,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/02269/02": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/02412/02": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/02414/02": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/02572/02": {
+      "cTiter": 1.3174254320732268,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/02705/02": {
+      "cTiter": 1.7646036504747535,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/02862/02": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/02899/02": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/03060/02": {
+      "cTiter": 1.3174254320732268,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/03096/02": {
+      "cTiter": 0.7123615836312749,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/03113/02": {
+      "cTiter": 1.7646036504747535,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2002/03169/02": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/00187/03": {
+      "cTiter": 0.7123615850015859,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/00205/03": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/00225/03": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/00286/03": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/00498/03": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/00641/03": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/00823/03": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/00875/03": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/00964/03": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/00987/03": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/01216/03": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/01710/03": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/01743/03": {
+      "cTiter": 1.3174254320732268,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/01798/03": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/01947/03": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/02012/03": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/02090/03": {
+      "cTiter": 0.7123615861879228,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/02168/03": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/02197/03": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/02198/03": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/02201/03": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/02207/03": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/02373/03": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/02377/03": {
+      "cTiter": 0.7123615839229258,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2003/02452/03": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00097/04": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00217/04": {
+      "cTiter": 0.7123615916040726,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00278/04": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00395/04": {
+      "cTiter": 0.7123615916040726,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00455/04": {
+      "cTiter": 0.712361583323046,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00535/04": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00564/04": {
+      "cTiter": 0.7123615892785984,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00567/04": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00624/04": {
+      "cTiter": 0.7123615861879228,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00641/04": {
+      "cTiter": 1.2489148005258224,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00674/04": {
+      "cTiter": 1.7646036504747535,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00680/04": {
+      "cTiter": 0.7123615892785984,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00717/04": {
+      "cTiter": 0.7123615836142922,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00746/04": {
+      "cTiter": 0.9865381352917233,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00950/04": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00965/04": {
+      "cTiter": 1.248914801512412,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/00994/04": {
+      "cTiter": 0.7123615861879228,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/01170/04": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/01234/04": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/01258/04": {
+      "cTiter": 0.7123615836142922,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/01306/04": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/01315/04": {
+      "cTiter": 0.7123615850015859,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/01369/04": {
+      "cTiter": 0.7123615903738232,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/01388/04": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/01515/04": {
+      "cTiter": 1.248914801512412,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/01544/04": {
+      "cTiter": 1.2489148005258224,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/01622/04": {
+      "cTiter": 0.7123615836142922,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/01639/04": {
+      "cTiter": 1.149353142799155,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/01645/04": {
+      "cTiter": 0.712361583323046,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/01660/04": {
+      "cTiter": 0.7123615903738232,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/01719/04": {
+      "cTiter": 1.616854973853349,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2004/01769/04": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00201/05": {
+      "cTiter": 0.9865381352917233,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00460/05": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00523/05": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00558/05": {
+      "cTiter": 1.7646036504747535,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00581/05": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00588/05": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00618/05": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00646/05": {
+      "cTiter": 1.7203280632888657e-08,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00653/05": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00700/05": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00714/05": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00762/05": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00775/05": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00820/05": {
+      "cTiter": 0.9865381352917233,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00854/05": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00882/05": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00943/05": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/00993/05": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/01009/05": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/01055/05": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/01320/05": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2005/01494/05": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00047/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00109/06": {
+      "cTiter": 0.7123615916040726,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00171/06": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00176/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00189/06": {
+      "cTiter": 0.712361583323046,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00225/06": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00234/06": {
+      "cTiter": 1.2489148031978932,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00270/06": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00311/06": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00356/06": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00367/06": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00370/06": {
+      "cTiter": 1.2489148005258224,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00394/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00395/06": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00409/06": {
+      "cTiter": 0.7123615916040726,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00410/06": {
+      "cTiter": 0.7123615916040726,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00420/06": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00426/06": {
+      "cTiter": 0.7123615916040726,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00464/06": {
+      "cTiter": 0.9865381352917233,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00512/06": {
+      "cTiter": 0.7123615916040726,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00524/06": {
+      "cTiter": 0.9865381352917233,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00532/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00533/06": {
+      "cTiter": 0.7123615848200152,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00559/06": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00578/06": {
+      "cTiter": 0.7123615848200152,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00584/06": {
+      "cTiter": 1.2489148031978932,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00585/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00599/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00617/06": {
+      "cTiter": 1.2489148031978932,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00619/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00632/06": {
+      "cTiter": 1.2489148031978932,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00650/06": {
+      "cTiter": 1.2489148031978932,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00705/06": {
+      "cTiter": 1.7001390047702465,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00759/06": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00779/06": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00810/06": {
+      "cTiter": 0.7123615892785984,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00837/06": {
+      "cTiter": 0.7123615861879228,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/00842/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01107/06": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01174/06": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01244/06": {
+      "cTiter": 0.7123615861879228,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01258/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01261/06": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01270/06": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01271/06": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01278/06": {
+      "cTiter": 0.8172865355253488,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01295/06": {
+      "cTiter": 0.8172868387252642,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01374/06": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01382/06": {
+      "cTiter": 1.616854973853349,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01405/06": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01479/06": {
+      "cTiter": 0.7123615842517715,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01579/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01594/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01647/06": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01711/06": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01782/06": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01837/06": {
+      "cTiter": 0.7123615842517715,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01862/06": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01881/06": {
+      "cTiter": 1.149353142799155,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01928/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01938/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/01944/06": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02183/06": {
+      "cTiter": 0.8172873505160309,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02187/06": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02190/06": {
+      "cTiter": 0.8172865355253488,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02192/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02194/06": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02197/06": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02198/06": {
+      "cTiter": 0.8172873505160309,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02286/06": {
+      "cTiter": 0.7123615892785984,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02383/06": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02385/06": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02456/06": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02498/06": {
+      "cTiter": 0.7123615842517715,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02540/06": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02586/06": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02606/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02674/06": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02700/06": {
+      "cTiter": 0.7123615842517715,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02720/06": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02749/06": {
+      "cTiter": 0.8172865355253488,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2006/02852/06": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/00119/07": {
+      "cTiter": 0.7123615844156225,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/00307/07": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/00348/07": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/00433/07": {
+      "cTiter": 1.616854973853349,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/00504/07": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/00694/07": {
+      "cTiter": 0.8172873505160309,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/01101/07": {
+      "cTiter": 1.2285250120565936,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/01118/07": {
+      "cTiter": 0.7123615892785984,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/01130/07": {
+      "cTiter": 1.2285250120565936,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/01391/07": {
+      "cTiter": 1.2285250120565936,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/01402/07": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/01458/07": {
+      "cTiter": 0.7123615892785984,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/01570/07": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/01840/07": {
+      "cTiter": 1.616854973853349,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/01923/07": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/01991/07": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/01993/07": {
+      "cTiter": 0.7123615850403993,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/02204/07": {
+      "cTiter": 0.8172865355253488,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2007/02392/07": {
+      "cTiter": 0.8172868387252642,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2008/00274/08": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2008/00447/08": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2008/00471/08": {
+      "cTiter": 0.9865381352917233,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2008/00744/08": {
+      "cTiter": 0.7123615850403993,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2008/01268/08": {
+      "cTiter": 0.7123615892785984,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2008/01284/08": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2008/01380/08": {
+      "cTiter": 1.0459249941673328,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2008/01387/08": {
+      "cTiter": 0.7123615842517715,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2008/01810/08": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2008/02023/08": {
+      "cTiter": 0.7123615850403993,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2009/00781/09": {
+      "cTiter": 0.7123615916040726,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2009/01432/09": {
+      "cTiter": 1.0459249941673328,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2009/01559/09": {
+      "cTiter": 1.616854973853349,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2010/00249/10": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2010/00283/10": {
+      "cTiter": 1.149353142799155,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2010/00780/10": {
+      "cTiter": 1.8879738377391928,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2010/01270/10": {
+      "cTiter": 1.2489148031978932,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2010/01344/10": {
+      "cTiter": 1.7001390006553851,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2010/01386/10": {
+      "cTiter": 1.7001390006553851,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2010/01513/10": {
+      "cTiter": 1.7001390047702465,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2010/01677/10": {
+      "cTiter": 1.7001390006553851,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2011/00116/11": {
+      "cTiter": 1.8879738395844705,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2011/00251/11": {
+      "cTiter": 2.1463818213845043,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2011/00257/11": {
+      "cTiter": 2.1463818213845043,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2011/00369/11": {
+      "cTiter": 1.7001390066333375,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2011/00477/11": {
+      "cTiter": 2.1463837747659547,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2011/00630/11": {
+      "cTiter": 2.1463818213845043,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2011/00697/11": {
+      "cTiter": 1.7001390066333375,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2012/00112/12": {
+      "cTiter": 2.146381822351383,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2012/00637/12": {
+      "cTiter": 2.146381822351383,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2012/01104/12": {
+      "cTiter": 1.5850366265636917,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2013/00152/13": {
+      "cTiter": 1.8879738395844705,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2013/00300/13": {
+      "cTiter": 1.8879738395844705,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2013/00691/13": {
+      "cTiter": 1.8879738395844705,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2013/00789/13": {
+      "cTiter": 2.146381820237391,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2013/00801/13": {
+      "cTiter": 1.5850366265636917,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2013/00835/13": {
+      "cTiter": 1.700139004040461,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2013/01012/13": {
+      "cTiter": 1.7001420536078902,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2013/01211/13": {
+      "cTiter": 1.700142042834437,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2013/01389/13": {
+      "cTiter": 2.146381820237391,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2014/00214/14": {
+      "cTiter": 1.7001420552819244,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2014/00365/14": {
+      "cTiter": 1.7001420552819244,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2014/00385/14": {
+      "cTiter": 1.7001420552819244,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2014/00514/14": {
+      "cTiter": 1.7001420463239358,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2014/00555/14": {
+      "cTiter": 1.7001420552819244,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2014/00575/14": {
+      "cTiter": 1.7001420552819244,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2014/00595/14": {
+      "cTiter": 2.1463837747659547,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2014/00615/14": {
+      "cTiter": 1.7001420463239358,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2014/00685/14": {
+      "cTiter": 1.7001420463239358,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2014/00728/14": {
+      "cTiter": 1.700142042834437,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2014/00752/14": {
+      "cTiter": 1.7001420463239358,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2014/00777/14": {
+      "cTiter": 1.700142042834437,
+      "dTiter": 0
+    },
+    "DENV4/THAILAND/2014/00789/14": {
+      "cTiter": 1.7001420536078902,
+      "dTiter": 0
+    },
+    "NODE_0000000": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000001": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000002": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000003": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000004": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000005": {
+      "cTiter": 0,
+      "dTiter": 1.912618595161858e-09
+    },
+    "NODE_0000006": {
+      "cTiter": 1.471217743223451e-08,
+      "dTiter": 1.2506168650076146e-09
+    },
+    "NODE_0000007": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000008": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000009": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000010": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000011": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000012": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000013": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000014": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000015": {
+      "cTiter": 0.8958246860270825,
+      "dTiter": 4.369605450274737e-08
+    },
+    "NODE_0000016": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000017": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000018": {
+      "cTiter": 1.7203280632888657e-08,
+      "dTiter": 2.4911032006541456e-09
+    },
+    "NODE_0000019": {
+      "cTiter": 1.7203280632888657e-08,
+      "dTiter": 0
+    },
+    "NODE_0000020": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000021": {
+      "cTiter": 2.127571338234711e-08,
+      "dTiter": 1.889563142663583e-09
+    },
+    "NODE_0000022": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000023": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000024": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000027": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000028": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000029": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000030": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000035": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 2.9333150420281437e-09
+    },
+    "NODE_0000036": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000037": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000039": {
+      "cTiter": 0.895824639397713,
+      "dTiter": 0
+    },
+    "NODE_0000040": {
+      "cTiter": 0.895824639397713,
+      "dTiter": 0
+    },
+    "NODE_0000041": {
+      "cTiter": 0.895824639397713,
+      "dTiter": 0
+    },
+    "NODE_0000042": {
+      "cTiter": 0.895824639397713,
+      "dTiter": 0
+    },
+    "NODE_0000043": {
+      "cTiter": 0.895824639397713,
+      "dTiter": 0
+    },
+    "NODE_0000044": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000047": {
+      "cTiter": 0.895824639397713,
+      "dTiter": 6.782143322460223e-10
+    },
+    "NODE_0000048": {
+      "cTiter": 0.8958246387194986,
+      "dTiter": 2.1944095017735326e-09
+    },
+    "NODE_0000049": {
+      "cTiter": 0.9817830810510748,
+      "dTiter": 0.08595844233157623
+    },
+    "NODE_0000050": {
+      "cTiter": 0.895824636525089,
+      "dTiter": 0.18346305633728296
+    },
+    "NODE_0000051": {
+      "cTiter": 0.895824636525089,
+      "dTiter": 0
+    },
+    "NODE_0000052": {
+      "cTiter": 0.712361580187806,
+      "dTiter": 1.9494322675808192e-09
+    },
+    "NODE_0000053": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000056": {
+      "cTiter": 0.7123615782383738,
+      "dTiter": 0.7123615746519666
+    },
+    "NODE_0000057": {
+      "cTiter": 3.5864071920749874e-09,
+      "dTiter": 3.5864071920749874e-09
+    },
+    "NODE_0000058": {
+      "cTiter": 7.828408768653883e-09,
+      "dTiter": 4.242001576578896e-09
+    },
+    "NODE_0000059": {
+      "cTiter": 9.307061643614155e-09,
+      "dTiter": 1.478652874960271e-09
+    },
+    "NODE_0000060": {
+      "cTiter": 1.3461560567226896e-08,
+      "dTiter": 4.154498923612742e-09
+    },
+    "NODE_0000063": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000064": {
+      "cTiter": 1.9386150239683527e-08,
+      "dTiter": 2.18286960679487e-09
+    },
+    "NODE_0000065": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000066": {
+      "cTiter": 0.7123615791182826,
+      "dTiter": 8.799088560659257e-10
+    },
+    "NODE_0000067": {
+      "cTiter": 0.7123615801498169,
+      "dTiter": 1.0315342636226681e-09
+    },
+    "NODE_0000068": {
+      "cTiter": 0.7123615801498169,
+      "dTiter": 0
+    },
+    "NODE_0000069": {
+      "cTiter": 0.7123615805706998,
+      "dTiter": 4.208828799425006e-10
+    },
+    "NODE_0000070": {
+      "cTiter": 0.7123615809148258,
+      "dTiter": 3.4412606707392685e-10
+    },
+    "NODE_0000071": {
+      "cTiter": 0.7123615809148258,
+      "dTiter": 0
+    },
+    "NODE_0000072": {
+      "cTiter": 0.7123615809148258,
+      "dTiter": 0
+    },
+    "NODE_0000073": {
+      "cTiter": 0.7123615809148258,
+      "dTiter": 0
+    },
+    "NODE_0000074": {
+      "cTiter": 0.7123615819050432,
+      "dTiter": 9.902173389760355e-10
+    },
+    "NODE_0000075": {
+      "cTiter": 0.7123615819050432,
+      "dTiter": 0
+    },
+    "NODE_0000076": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "NODE_0000077": {
+      "cTiter": 0.7123615819050432,
+      "dTiter": 0
+    },
+    "NODE_0000078": {
+      "cTiter": 0.7123615819050432,
+      "dTiter": 0
+    },
+    "NODE_0000079": {
+      "cTiter": 0.7123615819050432,
+      "dTiter": 0
+    },
+    "NODE_0000080": {
+      "cTiter": 0.7123615819050432,
+      "dTiter": 0
+    },
+    "NODE_0000081": {
+      "cTiter": 0.7123615819050432,
+      "dTiter": 0
+    },
+    "NODE_0000082": {
+      "cTiter": 1.149353142799155,
+      "dTiter": 0.4369915592812042
+    },
+    "NODE_0000083": {
+      "cTiter": 1.149353142799155,
+      "dTiter": 0
+    },
+    "NODE_0000084": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 4.958899737802309e-10
+    },
+    "NODE_0000085": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000086": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000087": {
+      "cTiter": 0.7123615835179508,
+      "dTiter": 1.6129076285482405e-09
+    },
+    "NODE_0000090": {
+      "cTiter": 0.7123616019386732,
+      "dTiter": 0
+    },
+    "NODE_0000092": {
+      "cTiter": 0.712361610506101,
+      "dTiter": 8.567427931014296e-09
+    },
+    "NODE_0000093": {
+      "cTiter": 0.712361610506101,
+      "dTiter": 0
+    },
+    "NODE_0000094": {
+      "cTiter": 0.712361610506101,
+      "dTiter": 0
+    },
+    "NODE_0000095": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000097": {
+      "cTiter": 0.712361610506101,
+      "dTiter": 0
+    },
+    "NODE_0000098": {
+      "cTiter": 1.048981477064658,
+      "dTiter": 0.33661986655855697
+    },
+    "NODE_0000099": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 2.188639282236793e-09
+    },
+    "NODE_0000100": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "NODE_0000101": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000102": {
+      "cTiter": 0.7123616019386732,
+      "dTiter": 2.0527957344767036e-08
+    },
+    "NODE_0000103": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "NODE_0000104": {
+      "cTiter": 0.7123616048038469,
+      "dTiter": 2.8651737882027943e-09
+    },
+    "NODE_0000105": {
+      "cTiter": 0.7123616048038469,
+      "dTiter": 0
+    },
+    "NODE_0000106": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "NODE_0000107": {
+      "cTiter": 1.7001390006553851,
+      "dTiter": 0.6511575235907272
+    },
+    "NODE_0000108": {
+      "cTiter": 1.7001390006553851,
+      "dTiter": 0
+    },
+    "NODE_0000109": {
+      "cTiter": 1.7001390006553851,
+      "dTiter": 0
+    },
+    "NODE_0000110": {
+      "cTiter": 1.700139004040461,
+      "dTiter": 3.3850757815491694e-09
+    },
+    "NODE_0000111": {
+      "cTiter": 1.700139004040461,
+      "dTiter": 0
+    },
+    "NODE_0000112": {
+      "cTiter": 1.700139004040461,
+      "dTiter": 0
+    },
+    "NODE_0000113": {
+      "cTiter": 0.7123616048038469,
+      "dTiter": 0
+    },
+    "NODE_0000115": {
+      "cTiter": 2.146381820237391,
+      "dTiter": 0
+    },
+    "NODE_0000116": {
+      "cTiter": 1.7001390047702465,
+      "dTiter": 7.297856385239597e-10
+    },
+    "NODE_0000117": {
+      "cTiter": 1.7001390047702465,
+      "dTiter": 0
+    },
+    "NODE_0000118": {
+      "cTiter": 0.7123616048038469,
+      "dTiter": 0
+    },
+    "NODE_0000119": {
+      "cTiter": 0.7123616019386732,
+      "dTiter": 0
+    },
+    "NODE_0000121": {
+      "cTiter": 1.8879738395844705,
+      "dTiter": 1.8452777819824828e-09
+    },
+    "NODE_0000122": {
+      "cTiter": 0.7123616019386732,
+      "dTiter": 0
+    },
+    "NODE_0000123": {
+      "cTiter": 1.8879738395844705,
+      "dTiter": 0
+    },
+    "NODE_0000124": {
+      "cTiter": 0.7123616019386732,
+      "dTiter": 0
+    },
+    "NODE_0000125": {
+      "cTiter": 0.7123616019386732,
+      "dTiter": 0
+    },
+    "NODE_0000126": {
+      "cTiter": 2.1463818213845043,
+      "dTiter": 1.147113193112578e-09
+    },
+    "NODE_0000127": {
+      "cTiter": 0.7123616019386732,
+      "dTiter": 0
+    },
+    "NODE_0000130": {
+      "cTiter": 1.700142042834437,
+      "dTiter": 0
+    },
+    "NODE_0000131": {
+      "cTiter": 1.700142042834437,
+      "dTiter": 0
+    },
+    "NODE_0000132": {
+      "cTiter": 1.700142042834437,
+      "dTiter": 0
+    },
+    "NODE_0000133": {
+      "cTiter": 1.7001420463239358,
+      "dTiter": 3.4894990073180587e-09
+    },
+    "NODE_0000134": {
+      "cTiter": 0.712361610506101,
+      "dTiter": 0
+    },
+    "NODE_0000135": {
+      "cTiter": 1.7001420536078902,
+      "dTiter": 0
+    },
+    "NODE_0000136": {
+      "cTiter": 0.712361610506101,
+      "dTiter": 0
+    },
+    "NODE_0000137": {
+      "cTiter": 1.7001420552819244,
+      "dTiter": 0
+    },
+    "NODE_0000140": {
+      "cTiter": 1.7001420463239358,
+      "dTiter": 0
+    },
+    "NODE_0000141": {
+      "cTiter": 1.7001420463239358,
+      "dTiter": 0
+    },
+    "NODE_0000142": {
+      "cTiter": 1.7001420463239358,
+      "dTiter": 0
+    },
+    "NODE_0000143": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "NODE_0000145": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000146": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "NODE_0000147": {
+      "cTiter": 0.7123616019386732,
+      "dTiter": 0
+    },
+    "NODE_0000149": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "NODE_0000150": {
+      "cTiter": 1.0489814792532972,
+      "dTiter": 0
+    },
+    "NODE_0000151": {
+      "cTiter": 2.146381822351383,
+      "dTiter": 9.668785568150534e-10
+    },
+    "NODE_0000152": {
+      "cTiter": 0.7123616048038469,
+      "dTiter": 0
+    },
+    "NODE_0000154": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000155": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000157": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000159": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000160": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000161": {
+      "cTiter": 1.7001390066333375,
+      "dTiter": 1.8630911073161023e-09
+    },
+    "NODE_0000162": {
+      "cTiter": 1.7001390066333375,
+      "dTiter": 0
+    },
+    "NODE_0000163": {
+      "cTiter": 1.8879738377391928,
+      "dTiter": 0.1878348311058554
+    },
+    "NODE_0000165": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000166": {
+      "cTiter": 1.8879738395844705,
+      "dTiter": 0
+    },
+    "NODE_0000167": {
+      "cTiter": 1.700142042834437,
+      "dTiter": 3.0387939759994534e-06
+    },
+    "NODE_0000168": {
+      "cTiter": 0.7123615818450002,
+      "dTiter": 4.342844188356315e-10
+    },
+    "NODE_0000169": {
+      "cTiter": 2.146381820237391,
+      "dTiter": 0.4462397774029541
+    },
+    "NODE_0000170": {
+      "cTiter": 0.7123615946872287,
+      "dTiter": 1.284222845145731e-08
+    },
+    "NODE_0000171": {
+      "cTiter": 0.7123615822618775,
+      "dTiter": 4.1687730519069336e-10
+    },
+    "NODE_0000172": {
+      "cTiter": 2.146381820237391,
+      "dTiter": 0
+    },
+    "NODE_0000173": {
+      "cTiter": 0.7123615824287941,
+      "dTiter": 1.669165441800688e-10
+    },
+    "NODE_0000174": {
+      "cTiter": 2.1463837747659547,
+      "dTiter": 1.9545285636104126e-06
+    },
+    "NODE_0000179": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "NODE_0000183": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "NODE_0000184": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "NODE_0000185": {
+      "cTiter": 1.7001420536078902,
+      "dTiter": 7.283954304303922e-09
+    },
+    "NODE_0000186": {
+      "cTiter": 0.7123615825670879,
+      "dTiter": 1.3829382900235387e-10
+    },
+    "NODE_0000187": {
+      "cTiter": 0.7123615824287941,
+      "dTiter": 0
+    },
+    "NODE_0000188": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "NODE_0000189": {
+      "cTiter": 1.7001420552819244,
+      "dTiter": 1.6740341528647754e-09
+    },
+    "NODE_0000191": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0.4471782421911296
+    },
+    "NODE_0000192": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000193": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000194": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000195": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "NODE_0000197": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000198": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000199": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000200": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000201": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000202": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000203": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000204": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000205": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000206": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000207": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000208": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000209": {
+      "cTiter": 0.7123615814107158,
+      "dTiter": 0
+    },
+    "NODE_0000211": {
+      "cTiter": 1.7646036504747535,
+      "dTiter": 3.3945025473549905e-09
+    },
+    "NODE_0000212": {
+      "cTiter": 0.7123615818450002,
+      "dTiter": 0
+    },
+    "NODE_0000213": {
+      "cTiter": 1.7646036504747535,
+      "dTiter": 0
+    },
+    "NODE_0000214": {
+      "cTiter": 1.7646036504747535,
+      "dTiter": 0
+    },
+    "NODE_0000215": {
+      "cTiter": 1.7646036504747535,
+      "dTiter": 0
+    },
+    "NODE_0000216": {
+      "cTiter": 0.7123615822618775,
+      "dTiter": 0
+    },
+    "NODE_0000218": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "NODE_0000219": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 1.3929334097803102e-08
+    },
+    "NODE_0000220": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "NODE_0000221": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "NODE_0000222": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 1.6572974107398451e-09
+    },
+    "NODE_0000223": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "NODE_0000225": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "NODE_0000229": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "NODE_0000230": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "NODE_0000231": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "NODE_0000232": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "NODE_0000233": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "NODE_0000234": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "NODE_0000235": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "NODE_0000236": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "NODE_0000237": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "NODE_0000238": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "NODE_0000239": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "NODE_0000240": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "NODE_0000241": {
+      "cTiter": 0.7123615981537195,
+      "dTiter": 0
+    },
+    "NODE_0000242": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "NODE_0000244": {
+      "cTiter": 1.317425406502684,
+      "dTiter": 1.6135625316855158e-09
+    },
+    "NODE_0000245": {
+      "cTiter": 0.7123615964964221,
+      "dTiter": 0
+    },
+    "NODE_0000246": {
+      "cTiter": 1.3174254078913061,
+      "dTiter": 8.747875872919726e-10
+    },
+    "NODE_0000247": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0.6050638083926994
+    },
+    "NODE_0000248": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "NODE_0000251": {
+      "cTiter": 1.317425406502684,
+      "dTiter": 0
+    },
+    "NODE_0000252": {
+      "cTiter": 1.317425406502684,
+      "dTiter": 0
+    },
+    "NODE_0000253": {
+      "cTiter": 1.317425406502684,
+      "dTiter": 0
+    },
+    "NODE_0000254": {
+      "cTiter": 1.317425406502684,
+      "dTiter": 0
+    },
+    "NODE_0000255": {
+      "cTiter": 1.317425406502684,
+      "dTiter": 0
+    },
+    "NODE_0000256": {
+      "cTiter": 1.3174254070165186,
+      "dTiter": 5.138344245428307e-10
+    },
+    "NODE_0000257": {
+      "cTiter": 1.3174254077791727,
+      "dTiter": 7.626542329541198e-10
+    },
+    "NODE_0000258": {
+      "cTiter": 1.3174254070165186,
+      "dTiter": 0
+    },
+    "NODE_0000260": {
+      "cTiter": 1.3174254078913061,
+      "dTiter": 0
+    },
+    "NODE_0000263": {
+      "cTiter": 1.317425409055754,
+      "dTiter": 1.276581211911008e-09
+    },
+    "NODE_0000264": {
+      "cTiter": 1.317425408755472,
+      "dTiter": 0
+    },
+    "NODE_0000265": {
+      "cTiter": 1.3174254077791727,
+      "dTiter": 0
+    },
+    "NODE_0000266": {
+      "cTiter": 1.3174254320732268,
+      "dTiter": 0
+    },
+    "NODE_0000267": {
+      "cTiter": 1.317425408755472,
+      "dTiter": 9.762992474495342e-10
+    },
+    "NODE_0000269": {
+      "cTiter": 1.616854973853349,
+      "dTiter": 0.29942954178012227
+    },
+    "NODE_0000270": {
+      "cTiter": 1.616854973853349,
+      "dTiter": 0
+    },
+    "NODE_0000271": {
+      "cTiter": 1.317425408755472,
+      "dTiter": 0
+    },
+    "NODE_0000272": {
+      "cTiter": 1.616854973853349,
+      "dTiter": 0
+    },
+    "NODE_0000273": {
+      "cTiter": 0.7123615827013915,
+      "dTiter": 1.3430351724967852e-10
+    },
+    "NODE_0000274": {
+      "cTiter": 0.7123615827013915,
+      "dTiter": 0
+    },
+    "NODE_0000275": {
+      "cTiter": 1.317425408755472,
+      "dTiter": 0
+    },
+    "NODE_0000276": {
+      "cTiter": 1.3174254320732268,
+      "dTiter": 2.3317754839498693e-08
+    },
+    "NODE_0000277": {
+      "cTiter": 1.3174254320732268,
+      "dTiter": 0
+    },
+    "NODE_0000279": {
+      "cTiter": 1.3174254320732268,
+      "dTiter": 0
+    },
+    "NODE_0000280": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "NODE_0000281": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "NODE_0000282": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "NODE_0000283": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "NODE_0000284": {
+      "cTiter": 1.3174254320732268,
+      "dTiter": 0
+    },
+    "NODE_0000286": {
+      "cTiter": 0.7123615830436018,
+      "dTiter": 3.422102144233999e-10
+    },
+    "NODE_0000287": {
+      "cTiter": 1.616854973853349,
+      "dTiter": 0
+    },
+    "NODE_0000288": {
+      "cTiter": 0.9865381352917233,
+      "dTiter": 1.7807404200259735e-09
+    },
+    "NODE_0000289": {
+      "cTiter": 0.9865381352917233,
+      "dTiter": 0
+    },
+    "NODE_0000290": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "NODE_0000291": {
+      "cTiter": 0.9865381352917233,
+      "dTiter": 0
+    },
+    "NODE_0000292": {
+      "cTiter": 0.9865381352917233,
+      "dTiter": 0
+    },
+    "NODE_0000293": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0.262376663449634
+    },
+    "NODE_0000294": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "NODE_0000295": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "NODE_0000296": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "NODE_0000297": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "NODE_0000298": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "NODE_0000299": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "NODE_0000300": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "NODE_0000301": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "NODE_0000302": {
+      "cTiter": 1.2489148005258224,
+      "dTiter": 3.565205566525722e-09
+    },
+    "NODE_0000303": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "NODE_0000304": {
+      "cTiter": 1.3174254048891214,
+      "dTiter": 0
+    },
+    "NODE_0000305": {
+      "cTiter": 1.248914801512412,
+      "dTiter": 9.865896412807966e-10
+    },
+    "NODE_0000306": {
+      "cTiter": 1.248914801512412,
+      "dTiter": 0
+    },
+    "NODE_0000307": {
+      "cTiter": 1.2489148031978932,
+      "dTiter": 0
+    },
+    "NODE_0000308": {
+      "cTiter": 1.2489148031978932,
+      "dTiter": 0
+    },
+    "NODE_0000312": {
+      "cTiter": 0.712361583323046,
+      "dTiter": 2.7944424663502516e-10
+    },
+    "NODE_0000313": {
+      "cTiter": 0.7123615844156225,
+      "dTiter": 4.926966157072205e-10
+    },
+    "NODE_0000314": {
+      "cTiter": 0.7123615850403993,
+      "dTiter": 6.247768340288852e-10
+    },
+    "NODE_0000315": {
+      "cTiter": 0.7123615850403993,
+      "dTiter": 0
+    },
+    "NODE_0000316": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000318": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000319": {
+      "cTiter": 0.712361583323046,
+      "dTiter": 0
+    },
+    "NODE_0000320": {
+      "cTiter": 0.712361583323046,
+      "dTiter": 0
+    },
+    "NODE_0000321": {
+      "cTiter": 0.712361583323046,
+      "dTiter": 0
+    },
+    "NODE_0000322": {
+      "cTiter": 0.7123615861879228,
+      "dTiter": 2.8648767261279595e-09
+    },
+    "NODE_0000323": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000325": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000326": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000327": {
+      "cTiter": 1.2285250102318293,
+      "dTiter": 0.5161634240439065
+    },
+    "NODE_0000328": {
+      "cTiter": 1.2285250120565936,
+      "dTiter": 1.8247642990300273e-09
+    },
+    "NODE_0000329": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000330": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0.6513777018761491
+    },
+    "NODE_0000332": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "NODE_0000333": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000334": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000335": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000336": {
+      "cTiter": 1.764603647080251,
+      "dTiter": 0
+    },
+    "NODE_0000338": {
+      "cTiter": 1.7646036504747535,
+      "dTiter": 0
+    },
+    "NODE_0000341": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 1.8629373780595634e-10
+    },
+    "NODE_0000342": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "NODE_0000343": {
+      "cTiter": 1.7646036504747535,
+      "dTiter": 0
+    },
+    "NODE_0000345": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "NODE_0000346": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "NODE_0000347": {
+      "cTiter": 0.9865381335109829,
+      "dTiter": 0.27417655046738115
+    },
+    "NODE_0000348": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "NODE_0000349": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "NODE_0000350": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "NODE_0000351": {
+      "cTiter": 0.9865381352917233,
+      "dTiter": 0
+    },
+    "NODE_0000352": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "NODE_0000353": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "NODE_0000356": {
+      "cTiter": 0.7123615833965431,
+      "dTiter": 2.4381608339768733e-10
+    },
+    "NODE_0000357": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000359": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000360": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "NODE_0000361": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "NODE_0000362": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000363": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000364": {
+      "cTiter": 1.248914796960617,
+      "dTiter": 0
+    },
+    "NODE_0000367": {
+      "cTiter": 0.7123615836142922,
+      "dTiter": 0
+    },
+    "NODE_0000368": {
+      "cTiter": 0.7123615836142922,
+      "dTiter": 0
+    },
+    "NODE_0000369": {
+      "cTiter": 1.2489148005258224,
+      "dTiter": 0
+    },
+    "NODE_0000370": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000371": {
+      "cTiter": 1.2489148005258224,
+      "dTiter": 0
+    },
+    "NODE_0000372": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000374": {
+      "cTiter": 1.2489148031978932,
+      "dTiter": 1.6854810831227854e-09
+    },
+    "NODE_0000375": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000377": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000380": {
+      "cTiter": 0.7123615836312749,
+      "dTiter": 3.0822887747922995e-10
+    },
+    "NODE_0000381": {
+      "cTiter": 0.7123615842517715,
+      "dTiter": 3.857034462079453e-10
+    },
+    "NODE_0000382": {
+      "cTiter": 0.7123615839229258,
+      "dTiter": 2.916509330600587e-10
+    },
+    "NODE_0000387": {
+      "cTiter": 0.7123615861879228,
+      "dTiter": 0
+    },
+    "NODE_0000388": {
+      "cTiter": 0.7123615861879228,
+      "dTiter": 0
+    },
+    "NODE_0000389": {
+      "cTiter": 0.7123615850015859,
+      "dTiter": 1.3872936521773724e-09
+    },
+    "NODE_0000390": {
+      "cTiter": 0.8172865355253488,
+      "dTiter": 0
+    },
+    "NODE_0000391": {
+      "cTiter": 0.8172865355253488,
+      "dTiter": 0
+    },
+    "NODE_0000392": {
+      "cTiter": 0.7123615861879228,
+      "dTiter": 0
+    },
+    "NODE_0000393": {
+      "cTiter": 0.7123615861879228,
+      "dTiter": 0
+    },
+    "NODE_0000396": {
+      "cTiter": 1.2285250120565936,
+      "dTiter": 0
+    },
+    "NODE_0000398": {
+      "cTiter": 0.7123615892785984,
+      "dTiter": 0
+    },
+    "NODE_0000399": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "NODE_0000401": {
+      "cTiter": 0.7123615892785984,
+      "dTiter": 0
+    },
+    "NODE_0000402": {
+      "cTiter": 0.8172868387252642,
+      "dTiter": 3.031999154169362e-07
+    },
+    "NODE_0000403": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "NODE_0000404": {
+      "cTiter": 0.8172873505160309,
+      "dTiter": 5.117907666514512e-07
+    },
+    "NODE_0000405": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "NODE_0000406": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "NODE_0000407": {
+      "cTiter": 0.8172873505160309,
+      "dTiter": 0
+    },
+    "NODE_0000408": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 5.669262513717439e-09
+    },
+    "NODE_0000409": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "NODE_0000410": {
+      "cTiter": 1.8799027121079783,
+      "dTiter": 0
+    },
+    "NODE_0000411": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 2.6504180690119256e-10
+    },
+    "NODE_0000412": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "NODE_0000413": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "NODE_0000416": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "NODE_0000417": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "NODE_0000418": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "NODE_0000419": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "NODE_0000420": {
+      "cTiter": 1.5850366265636917,
+      "dTiter": 2.4547117421341196e-08
+    },
+    "NODE_0000421": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "NODE_0000422": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "NODE_0000423": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "NODE_0000424": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "NODE_0000425": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "NODE_0000426": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "NODE_0000427": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "NODE_0000428": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "NODE_0000429": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "NODE_0000430": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "NODE_0000431": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "NODE_0000432": {
+      "cTiter": 0.7123615829664333,
+      "dTiter": 0
+    },
+    "NODE_0000434": {
+      "cTiter": 0.7123615916040726,
+      "dTiter": 0
+    },
+    "NODE_0000435": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "NODE_0000436": {
+      "cTiter": 0.7123615916040726,
+      "dTiter": 0
+    },
+    "NODE_0000437": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "NODE_0000438": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "NODE_0000439": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "NODE_0000440": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "NODE_0000441": {
+      "cTiter": 0.7123615848200152,
+      "dTiter": 5.682436702644663e-10
+    },
+    "NODE_0000442": {
+      "cTiter": 0.7123615842517715,
+      "dTiter": 0
+    },
+    "NODE_0000443": {
+      "cTiter": 0.7123615842517715,
+      "dTiter": 0
+    },
+    "NODE_0000444": {
+      "cTiter": 0.7123615842517715,
+      "dTiter": 0
+    },
+    "NODE_0000445": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "NODE_0000448": {
+      "cTiter": 0.712361583152727,
+      "dTiter": 0
+    },
+    "NODE_0000451": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "NODE_0000452": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0.8726750129507687
+    },
+    "NODE_0000453": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "NODE_0000455": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "NODE_0000456": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "NODE_0000460": {
+      "cTiter": 1.5850366020165743,
+      "dTiter": 0
+    },
+    "NODE_0000465": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "NODE_0000468": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "NODE_0000472": {
+      "cTiter": 0.7123615890658056,
+      "dTiter": 0
+    },
+    "NODE_0000473": {
+      "cTiter": 0.7123615903738232,
+      "dTiter": 1.308017588355671e-09
+    },
+    "NODE_0000474": {
+      "cTiter": 0.7123615903738232,
+      "dTiter": 0
+    },
+    "NODE_0000475": {
+      "cTiter": 0.7123615916040726,
+      "dTiter": 1.2302494069913826e-09
+    },
+    "NODE_0000476": {
+      "cTiter": 0.7123615916040726,
+      "dTiter": 0
+    },
+    "NODE_0000477": {
+      "cTiter": 0.7123615916040726,
+      "dTiter": 0
+    },
+    "NODE_0000479": {
+      "cTiter": 0.7123615916040726,
+      "dTiter": 0
+    },
+    "NODE_0000481": {
+      "cTiter": 0.7123615836142922,
+      "dTiter": 2.1774910600446296e-10
+    },
+    "NODE_0000484": {
+      "cTiter": 0.7123615836142922,
+      "dTiter": 0
+    },
+    "NODE_0000486": {
+      "cTiter": 0.7123615850015859,
+      "dTiter": 0
+    },
+    "NODE_0000487": {
+      "cTiter": 0.7123615892785984,
+      "dTiter": 4.277012537297675e-09
+    },
+    "NODE_0000488": {
+      "cTiter": 0.7123615892785984,
+      "dTiter": 0
+    },
+    "NODE_0000490": {
+      "cTiter": 0.7123615892785984,
+      "dTiter": 0
+    },
+    "NODE_0000491": {
+      "cTiter": 0.7123615892785984,
+      "dTiter": 0
+    },
+    "NODE_0000493": {
+      "cTiter": 0.7123615892785984,
+      "dTiter": 0
+    },
+    "NODE_0000494": {
+      "cTiter": 0.8172865355253488,
+      "dTiter": 0.10492494624675042
+    },
+    "NODE_0000498": {
+      "cTiter": 0.8172868387252642,
+      "dTiter": 0
+    },
+    "NODE_0000501": {
+      "cTiter": 0.8172873505160309,
+      "dTiter": 0
+    },
+    "NODE_0000502": {
+      "cTiter": 1.0459249941673328,
+      "dTiter": 0.2286376436513018
+    },
+    "NODE_0000503": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 2.517758632334474e-10
+    },
+    "NODE_0000505": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000507": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000508": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000511": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000512": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000513": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000515": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000517": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000519": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000520": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000522": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000523": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "NODE_0000524": {
+      "cTiter": 0.7123615838660681,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/ANT-UDS-0179595/2013": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/ANT-UDS-0676596/2013": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/ANT-UDS-0678597/2013": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/ANT-UDS-0681598/2013": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/ANT-UDS-0728599/2013": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/ANT-UDS-0732600/2013": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/ANT-UDS-1723601/2013": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/CES-UR-P201080317/2015": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/CUN-UEB-032/2014": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/NSA-BROAD-0000022/2005": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/NSA-UIS-0000003/2005": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/NSA-UIS-0000004/2005": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/RIS-INS-426553/2013": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-BROAD-0000027/2001": {
+      "cTiter": 0.895824639397713,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-BROAD-0000028/2001": {
+      "cTiter": 0.895824639397713,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-BROAD-0000039/2001": {
+      "cTiter": 0.895824639397713,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-BROAD-0000047/2004": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-BROAD-0000051/2004": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-BROAD-0000056/2001": {
+      "cTiter": 0.895824639397713,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UIS-0000021/2004": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UIS-0000022/2001": {
+      "cTiter": 0.895824639397713,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UIS-0000024/2004": {
+      "cTiter": 0.895824639397713,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UIS-0000025/2004": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UIS-0000026/2001": {
+      "cTiter": 0.895824639397713,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UIS-0000027/2001": {
+      "cTiter": 0.895824639397713,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UIS-0000042/2016": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UR-F14100091/2014": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UR-LV111117/2014": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UR-LV121101/2010": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UR-LV122006/2009": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UR-LV141007/2010": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UR-LV141010/2010": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UR-LV141021/2010": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UR-LV192075/2009": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UR-P200120105/2015": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/SAN-UR-P202090076/2015": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/VAC-LSPVAC-2401630/2024": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/VAC-LSPVAC-2403871/2024": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/un-CDC-039/2006": {
+      "cTiter": 0.895824636525089,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/un-INS-480579/2016": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/un-OUCRU-401211/2013": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/un-OUCRU-401213/2013": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/un-OUCRU-401215/2013": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/un-OUCRU-594/2013": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/un-OUCRU-595/2013": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    },
+    "hDenV4/Colombia/un-OUCRU-596/2013": {
+      "cTiter": 0.895824642331028,
+      "dTiter": 0
+    }
+  },
+  "potency": {
+    "DENV4/INDONESIA/1973/M30153-AC36": {
+      "DEN4_INDONESIA_1973_M30153_P5": 0.0169,
+      "mean_potency": 0.016939046113505794
+    },
+    "DENV4/MALAYSIA/1973/P73-1120": {
+      "DEN4_MALAYSIA_1973_P73_1120_SYLVATIC": -0.5943,
+      "mean_potency": -0.5942816263903784
+    },
+    "DENV4/NICARAGUA/1999/703": {
+      "DEN4_NICARAGUA_1999_703": 0.7341,
+      "mean_potency": 0.7341053608507419
+    },
+    "DENV4/PUERTORICO/1999/BID-V2446": {
+      "DEN4_PUERTORICO_1999_BID_V2446": -0.1478,
+      "mean_potency": -0.14783838204210664
+    }
+  },
+  "titers": {
+    "DENV4/INDONESIA/1973/M30153-AC36": {
+      "DENV4/BRAZIL/2012/BR-12": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.1699,
+          54.0
+        ]
+      },
+      "DENV4/BRAZIL/2012/BR-2": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          1.337,
+          19.0
+        ]
+      },
+      "DENV4/BRAZIL/2012/BR-23": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.0,
+          48.0
+        ]
+      },
+      "DENV4/DOMINICA/1981/42A": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.5406,
+          33.0
+        ]
+      },
+      "DENV4/INDONESIA/1973/M30153-AC36": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.0,
+          48.0
+        ]
+      },
+      "DENV4/MALAYSIA/1973/P73-1120": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          2.1255,
+          11.0
+        ]
+      },
+      "DENV4/NICARAGUA/1999/703": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.7776,
+          28.0
+        ]
+      },
+      "DENV4/PUERTORICO/1998/347751": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.0,
+          48.0
+        ]
+      },
+      "DENV4/PUERTORICO/1999/BID-V2446": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.6308,
+          31.0
+        ]
+      },
+      "DENV4/THAILAND/1985/D85-052": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.585,
+          32.0
+        ]
+      },
+      "DENV4/THAILAND/1994/00329/94": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.0614,
+          46.0
+        ]
+      },
+      "DENV4/THAILAND/1994/00615/94": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.6439,
+          75.0
+        ]
+      },
+      "DENV4/THAILAND/1995/00036/95": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          1.1255,
+          22.0
+        ]
+      },
+      "DENV4/THAILAND/1995/00241/95": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.585,
+          32.0
+        ]
+      },
+      "DENV4/THAILAND/1995/00425/95": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          1.0614,
+          23.0
+        ]
+      },
+      "DENV4/THAILAND/1995/00458/95": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.1587,
+          43.0
+        ]
+      },
+      "DENV4/THAILAND/1995/01569/95": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.2274,
+          41.0
+        ]
+      },
+      "DENV4/THAILAND/1996/01129/96": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.5406,
+          33.0
+        ]
+      },
+      "DENV4/THAILAND/1996/01626/96": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.5406,
+          33.0
+        ]
+      },
+      "DENV4/THAILAND/1997/00049/97": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.5406,
+          33.0
+        ]
+      },
+      "DENV4/THAILAND/1997/02739/97": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.3923,
+          63.0
+        ]
+      },
+      "DENV4/THAILAND/1998/04634/98": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.585,
+          32.0
+        ]
+      },
+      "DENV4/THAILAND/1998/04786/98": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.273,
+          58.0
+        ]
+      },
+      "DENV4/THAILAND/1998/06181/98": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.4557,
+          35.0
+        ]
+      },
+      "DENV4/THAILAND/1998/06523/98": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.4811,
+          67.0
+        ]
+      },
+      "DENV4/THAILAND/1998/06564/98": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.1926,
+          42.0
+        ]
+      },
+      "DENV4/THAILAND/1999/04390/99": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.8845,
+          26.0
+        ]
+      },
+      "DENV4/THAILAND/1999/05538/99": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          2.263,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2000/02021/00": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.5406,
+          33.0
+        ]
+      },
+      "DENV4/THAILAND/2000/02143/00": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.8845,
+          26.0
+        ]
+      },
+      "DENV4/THAILAND/2000/05997/00": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.3755,
+          37.0
+        ]
+      },
+      "DENV4/THAILAND/2001/00103/01": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.1926,
+          42.0
+        ]
+      },
+      "DENV4/THAILAND/2001/00886/01": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.6781,
+          30.0
+        ]
+      },
+      "DENV4/THAILAND/2001/04094/01": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          2.263,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2001/04134/01": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          1.4975,
+          17.0
+        ]
+      },
+      "DENV4/THAILAND/2001/05386/01": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          2.263,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2001/06019/01": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.273,
+          58.0
+        ]
+      },
+      "DENV4/THAILAND/2001/06949/01": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.2224,
+          56.0
+        ]
+      },
+      "DENV4/THAILAND/2002/01222/02": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          1.7776,
+          14.0
+        ]
+      },
+      "DENV4/THAILAND/2002/03060/02": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.8301,
+          27.0
+        ]
+      },
+      "DENV4/THAILAND/2002/03096/02": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.4557,
+          35.0
+        ]
+      },
+      "DENV4/THAILAND/2002/03113/02": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.663,
+          76.0
+        ]
+      },
+      "DENV4/THAILAND/2002/03169/02": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.7726,
+          82.0
+        ]
+      },
+      "DENV4/THAILAND/2003/02207/03": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          2.263,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2003/02377/03": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.9542,
+          93.0
+        ]
+      },
+      "DENV4/THAILAND/2004/00217/04": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.4975,
+          34.0
+        ]
+      },
+      "DENV4/THAILAND/2004/00624/04": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.415,
+          36.0
+        ]
+      },
+      "DENV4/THAILAND/2004/00965/04": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.5236,
+          69.0
+        ]
+      },
+      "DENV4/THAILAND/2004/01315/04": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.0931,
+          45.0
+        ]
+      },
+      "DENV4/THAILAND/2004/01369/04": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.4975,
+          34.0
+        ]
+      },
+      "DENV4/THAILAND/2004/01544/04": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          2.263,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2005/00201/05": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -1.0732,
+          101.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00047/06": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.5025,
+          68.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00189/06": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.585,
+          32.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00356/06": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          1.337,
+          19.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00533/06": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -1.1832,
+          109.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00578/06": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.415,
+          36.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00617/06": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.1587,
+          43.0
+        ]
+      },
+      "DENV4/THAILAND/2006/01881/06": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.4557,
+          35.0
+        ]
+      },
+      "DENV4/THAILAND/2006/02190/06": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.0,
+          48.0
+        ]
+      },
+      "DENV4/THAILAND/2006/02540/06": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.1587,
+          43.0
+        ]
+      },
+      "DENV4/THAILAND/2007/00119/07": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.5236,
+          69.0
+        ]
+      },
+      "DENV4/THAILAND/2007/00504/07": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          1.0,
+          24.0
+        ]
+      },
+      "DENV4/THAILAND/2007/00694/07": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.0297,
+          49.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01101/07": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.337,
+          38.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01118/07": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.1255,
+          44.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01391/07": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.7549,
+          81.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01840/07": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.7776,
+          28.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01991/07": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.585,
+          32.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01993/07": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -1.1832,
+          109.0
+        ]
+      },
+      "DENV4/THAILAND/2007/02392/07": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.0304,
+          47.0
+        ]
+      },
+      "DENV4/THAILAND/2008/00274/08": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.6439,
+          75.0
+        ]
+      },
+      "DENV4/THAILAND/2008/00471/08": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.415,
+          36.0
+        ]
+      },
+      "DENV4/THAILAND/2008/01380/08": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.8745,
+          88.0
+        ]
+      },
+      "DENV4/THAILAND/2008/01387/08": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.4374,
+          65.0
+        ]
+      },
+      "DENV4/THAILAND/2008/02023/08": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.5406,
+          33.0
+        ]
+      },
+      "DENV4/THAILAND/2009/00781/09": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.585,
+          72.0
+        ]
+      },
+      "DENV4/THAILAND/2009/01432/09": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.8845,
+          26.0
+        ]
+      },
+      "DENV4/THAILAND/2009/01559/09": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          1.1255,
+          22.0
+        ]
+      },
+      "DENV4/THAILAND/2010/00249/10": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          1.1926,
+          21.0
+        ]
+      },
+      "DENV4/THAILAND/2010/00283/10": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.4557,
+          35.0
+        ]
+      },
+      "DENV4/THAILAND/2010/00780/10": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          2.263,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2010/01270/10": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.585,
+          32.0
+        ]
+      },
+      "DENV4/THAILAND/2010/01513/10": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.7776,
+          28.0
+        ]
+      },
+      "DENV4/THAILAND/2010/01677/10": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          1.1926,
+          21.0
+        ]
+      },
+      "DENV4/THAILAND/2011/00251/11": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.5406,
+          33.0
+        ]
+      },
+      "DENV4/THAILAND/2011/00257/11": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          2.263,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2011/00369/11": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.4975,
+          34.0
+        ]
+      },
+      "DENV4/THAILAND/2011/00477/11": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          2.263,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2012/00112/12": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          1.0614,
+          23.0
+        ]
+      },
+      "DENV4/THAILAND/2012/00637/12": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.727,
+          29.0
+        ]
+      },
+      "DENV4/THAILAND/2012/01104/12": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.263,
+          40.0
+        ]
+      },
+      "DENV4/THAILAND/2013/00300/13": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.0,
+          48.0
+        ]
+      },
+      "DENV4/THAILAND/2013/00691/13": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          2.263,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2013/00801/13": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          -0.4374,
+          65.0
+        ]
+      },
+      "DENV4/THAILAND/2013/01012/13": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          1.0614,
+          23.0
+        ]
+      },
+      "DENV4/THAILAND/2014/00214/14": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.9411,
+          25.0
+        ]
+      },
+      "DENV4/THAILAND/2014/00555/14": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.0931,
+          45.0
+        ]
+      },
+      "DENV4/THAILAND/2014/00595/14": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          2.263,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2014/00615/14": {
+        "DEN4_INDONESIA_1973_M30153_P5": [
+          0.7776,
+          28.0
+        ]
+      }
+    },
+    "DENV4/MALAYSIA/1973/P73-1120": {
+      "DENV4/DOMINICA/1981/42A": {
+        "DEN4_MALAYSIA_1973_P73_1120_SYLVATIC": [
+          0.0,
+          11.0
+        ]
+      },
+      "DENV4/INDONESIA/1973/M30153-AC36": {
+        "DEN4_MALAYSIA_1973_P73_1120_SYLVATIC": [
+          0.0,
+          11.0
+        ]
+      },
+      "DENV4/MALAYSIA/1973/P73-1120": {
+        "DEN4_MALAYSIA_1973_P73_1120_SYLVATIC": [
+          0.0,
+          11.0
+        ]
+      },
+      "DENV4/NICARAGUA/1999/703": {
+        "DEN4_MALAYSIA_1973_P73_1120_SYLVATIC": [
+          0.0,
+          11.0
+        ]
+      },
+      "DENV4/PUERTORICO/1998/347751": {
+        "DEN4_MALAYSIA_1973_P73_1120_SYLVATIC": [
+          0.0,
+          11.0
+        ]
+      }
+    },
+    "DENV4/NICARAGUA/1999/703": {
+      "DENV4/BRAZIL/2012/BR-12": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.0753,
+          56.0
+        ]
+      },
+      "DENV4/BRAZIL/2012/BR-2": {
+        "DEN4_NICARAGUA_1999_703": [
+          3.5607,
+          5.0
+        ]
+      },
+      "DENV4/BRAZIL/2012/BR-23": {
+        "DEN4_NICARAGUA_1999_703": [
+          -0.2873,
+          72.0
+        ]
+      },
+      "DENV4/DOMINICA/1981/42A": {
+        "DEN4_NICARAGUA_1999_703": [
+          -0.7023,
+          96.0
+        ]
+      },
+      "DENV4/INDONESIA/1973/M30153-AC36": {
+        "DEN4_NICARAGUA_1999_703": [
+          -1.3072,
+          146.0
+        ]
+      },
+      "DENV4/MALAYSIA/1973/P73-1120": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.5972,
+          39.0
+        ]
+      },
+      "DENV4/NICARAGUA/1999/703": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.0,
+          59.0
+        ]
+      },
+      "DENV4/PUERTORICO/1998/347751": {
+        "DEN4_NICARAGUA_1999_703": [
+          -0.6252,
+          91.0
+        ]
+      },
+      "DENV4/PUERTORICO/1999/BID-V2446": {
+        "DEN4_NICARAGUA_1999_703": [
+          3.5607,
+          5.0
+        ]
+      },
+      "DENV4/THAILAND/1985/D85-052": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.8826,
+          32.0
+        ]
+      },
+      "DENV4/THAILAND/1994/00329/94": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/1994/00615/94": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.1822,
+          26.0
+        ]
+      },
+      "DENV4/THAILAND/1995/00036/95": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/1995/00241/95": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.6347,
+          19.0
+        ]
+      },
+      "DENV4/THAILAND/1995/00425/95": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.8382,
+          33.0
+        ]
+      },
+      "DENV4/THAILAND/1995/00458/95": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.9758,
+          15.0
+        ]
+      },
+      "DENV4/THAILAND/1995/01569/95": {
+        "DEN4_NICARAGUA_1999_703": [
+          -0.0242,
+          60.0
+        ]
+      },
+      "DENV4/THAILAND/1996/01129/96": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.9284,
+          31.0
+        ]
+      },
+      "DENV4/THAILAND/1996/01626/96": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.2977,
+          24.0
+        ]
+      },
+      "DENV4/THAILAND/1997/00049/97": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.1278,
+          27.0
+        ]
+      },
+      "DENV4/THAILAND/1997/02739/97": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.1278,
+          27.0
+        ]
+      },
+      "DENV4/THAILAND/1998/04634/98": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.8826,
+          16.0
+        ]
+      },
+      "DENV4/THAILAND/1998/04786/98": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.5972,
+          39.0
+        ]
+      },
+      "DENV4/THAILAND/1998/06181/98": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.9758,
+          30.0
+        ]
+      },
+      "DENV4/THAILAND/1998/06523/98": {
+        "DEN4_NICARAGUA_1999_703": [
+          -0.3841,
+          77.0
+        ]
+      },
+      "DENV4/THAILAND/1998/06564/98": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.4903,
+          42.0
+        ]
+      },
+      "DENV4/THAILAND/1999/04390/99": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/1999/05538/99": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2000/02021/00": {
+        "DEN4_NICARAGUA_1999_703": [
+          3.5607,
+          5.0
+        ]
+      },
+      "DENV4/THAILAND/2000/02143/00": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.6347,
+          19.0
+        ]
+      },
+      "DENV4/THAILAND/2000/05997/00": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.6347,
+          38.0
+        ]
+      },
+      "DENV4/THAILAND/2001/00103/01": {
+        "DEN4_NICARAGUA_1999_703": [
+          -0.3841,
+          77.0
+        ]
+      },
+      "DENV4/THAILAND/2001/00886/01": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.7127,
+          36.0
+        ]
+      },
+      "DENV4/THAILAND/2001/04094/01": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.5972,
+          39.0
+        ]
+      },
+      "DENV4/THAILAND/2001/04134/01": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.5972,
+          39.0
+        ]
+      },
+      "DENV4/THAILAND/2001/05386/01": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2001/06019/01": {
+        "DEN4_NICARAGUA_1999_703": [
+          -0.2048,
+          68.0
+        ]
+      },
+      "DENV4/THAILAND/2001/06949/01": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.1278,
+          54.0
+        ]
+      },
+      "DENV4/THAILAND/2002/01222/02": {
+        "DEN4_NICARAGUA_1999_703": [
+          3.8826,
+          4.0
+        ]
+      },
+      "DENV4/THAILAND/2002/03060/02": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.4903,
+          21.0
+        ]
+      },
+      "DENV4/THAILAND/2002/03096/02": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.6347,
+          38.0
+        ]
+      },
+      "DENV4/THAILAND/2002/03113/02": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.9284,
+          31.0
+        ]
+      },
+      "DENV4/THAILAND/2002/03169/02": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.1278,
+          54.0
+        ]
+      },
+      "DENV4/THAILAND/2003/02207/03": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2003/02377/03": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.5251,
+          41.0
+        ]
+      },
+      "DENV4/THAILAND/2004/00217/04": {
+        "DEN4_NICARAGUA_1999_703": [
+          -0.8039,
+          103.0
+        ]
+      },
+      "DENV4/THAILAND/2004/00624/04": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.1547,
+          53.0
+        ]
+      },
+      "DENV4/THAILAND/2004/00965/04": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.4903,
+          42.0
+        ]
+      },
+      "DENV4/THAILAND/2004/01315/04": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.1278,
+          54.0
+        ]
+      },
+      "DENV4/THAILAND/2004/01369/04": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.2388,
+          25.0
+        ]
+      },
+      "DENV4/THAILAND/2004/01544/04": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.8826,
+          32.0
+        ]
+      },
+      "DENV4/THAILAND/2005/00201/05": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.0247,
+          58.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00047/06": {
+        "DEN4_NICARAGUA_1999_703": [
+          -0.4924,
+          83.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00189/06": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.0,
+          59.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00356/06": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.6347,
+          19.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00533/06": {
+        "DEN4_NICARAGUA_1999_703": [
+          -0.0946,
+          63.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00578/06": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.4903,
+          42.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00617/06": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.1547,
+          53.0
+        ]
+      },
+      "DENV4/THAILAND/2006/01881/06": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2006/02190/06": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.0753,
+          14.0
+        ]
+      },
+      "DENV4/THAILAND/2006/02540/06": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2007/00119/07": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.0753,
+          28.0
+        ]
+      },
+      "DENV4/THAILAND/2007/00504/07": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2007/00694/07": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01101/07": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01118/07": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.1547,
+          53.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01391/07": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.3591,
+          23.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01840/07": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.0753,
+          28.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01991/07": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01993/07": {
+        "DEN4_NICARAGUA_1999_703": [
+          -0.6565,
+          93.0
+        ]
+      },
+      "DENV4/THAILAND/2007/02392/07": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.5607,
+          40.0
+        ]
+      },
+      "DENV4/THAILAND/2008/00274/08": {
+        "DEN4_NICARAGUA_1999_703": [
+          -0.1174,
+          64.0
+        ]
+      },
+      "DENV4/THAILAND/2008/00471/08": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2008/01380/08": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2008/01387/08": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.3281,
+          47.0
+        ]
+      },
+      "DENV4/THAILAND/2008/02023/08": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2009/00781/09": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2009/01432/09": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2009/01559/09": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2010/00249/10": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2010/00283/10": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.2977,
+          24.0
+        ]
+      },
+      "DENV4/THAILAND/2010/00780/10": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2010/01270/10": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2010/01513/10": {
+        "DEN4_NICARAGUA_1999_703": [
+          0.4232,
+          44.0
+        ]
+      },
+      "DENV4/THAILAND/2010/01677/10": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2011/00251/11": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2011/00257/11": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2011/00369/11": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.2977,
+          24.0
+        ]
+      },
+      "DENV4/THAILAND/2011/00477/11": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2012/00112/12": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2012/00637/12": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2012/01104/12": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2013/00300/13": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2013/00691/13": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2013/00801/13": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2013/01012/13": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2014/00214/14": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2014/00555/14": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.0247,
+          29.0
+        ]
+      },
+      "DENV4/THAILAND/2014/00595/14": {
+        "DEN4_NICARAGUA_1999_703": [
+          2.5607,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2014/00615/14": {
+        "DEN4_NICARAGUA_1999_703": [
+          1.4232,
+          22.0
+        ]
+      }
+    },
+    "DENV4/PUERTORICO/1999/BID-V2446": {
+      "DENV4/BRAZIL/2012/BR-12": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.5361,
+          58.0
+        ]
+      },
+      "DENV4/BRAZIL/2012/BR-2": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.074,
+          38.0
+        ]
+      },
+      "DENV4/BRAZIL/2012/BR-23": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -1.3646,
+          103.0
+        ]
+      },
+      "DENV4/DOMINICA/1981/42A": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.415,
+          30.0
+        ]
+      },
+      "DENV4/INDONESIA/1973/M30153-AC36": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.3785,
+          52.0
+        ]
+      },
+      "DENV4/MALAYSIA/1973/P73-1120": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          1.8625,
+          11.0
+        ]
+      },
+      "DENV4/NICARAGUA/1999/703": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.2775,
+          33.0
+        ]
+      },
+      "DENV4/PUERTORICO/1998/347751": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.5607,
+          59.0
+        ]
+      },
+      "DENV4/PUERTORICO/1999/BID-V2446": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.0,
+          40.0
+        ]
+      },
+      "DENV4/THAILAND/1985/D85-052": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -1.1375,
+          88.0
+        ]
+      },
+      "DENV4/THAILAND/1994/00329/94": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/1994/00615/94": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.8074,
+          70.0
+        ]
+      },
+      "DENV4/THAILAND/1995/00036/95": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/1995/00241/95": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.3505,
+          51.0
+        ]
+      },
+      "DENV4/THAILAND/1995/00425/95": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.152,
+          36.0
+        ]
+      },
+      "DENV4/THAILAND/1995/00458/95": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.1699,
+          45.0
+        ]
+      },
+      "DENV4/THAILAND/1995/01569/95": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.2345,
+          34.0
+        ]
+      },
+      "DENV4/THAILAND/1996/01129/96": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.074,
+          38.0
+        ]
+      },
+      "DENV4/THAILAND/1996/01626/96": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          3.3219,
+          4.0
+        ]
+      },
+      "DENV4/THAILAND/1997/00049/97": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.152,
+          36.0
+        ]
+      },
+      "DENV4/THAILAND/1997/02739/97": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          1.0,
+          20.0
+        ]
+      },
+      "DENV4/THAILAND/1998/04634/98": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.9296,
+          21.0
+        ]
+      },
+      "DENV4/THAILAND/1998/04786/98": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.415,
+          30.0
+        ]
+      },
+      "DENV4/THAILAND/1998/06181/98": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.415,
+          30.0
+        ]
+      },
+      "DENV4/THAILAND/1998/06523/98": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.6088,
+          61.0
+        ]
+      },
+      "DENV4/THAILAND/1998/06564/98": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.433,
+          54.0
+        ]
+      },
+      "DENV4/THAILAND/1999/04390/99": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/1999/05538/99": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2000/02021/00": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          3.0,
+          5.0
+        ]
+      },
+      "DENV4/THAILAND/2000/02143/00": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.2928,
+          49.0
+        ]
+      },
+      "DENV4/THAILAND/2000/05997/00": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.1375,
+          44.0
+        ]
+      },
+      "DENV4/THAILAND/2001/00103/01": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.4854,
+          56.0
+        ]
+      },
+      "DENV4/THAILAND/2001/00886/01": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2001/04094/01": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2001/04134/01": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          1.0,
+          20.0
+        ]
+      },
+      "DENV4/THAILAND/2001/05386/01": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2001/06019/01": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -1.2479,
+          95.0
+        ]
+      },
+      "DENV4/THAILAND/2001/06949/01": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.406,
+          53.0
+        ]
+      },
+      "DENV4/THAILAND/2002/01222/02": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          3.3219,
+          4.0
+        ]
+      },
+      "DENV4/THAILAND/2002/03060/02": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.1125,
+          37.0
+        ]
+      },
+      "DENV4/THAILAND/2002/03096/02": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.1125,
+          37.0
+        ]
+      },
+      "DENV4/THAILAND/2002/03113/02": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.1699,
+          45.0
+        ]
+      },
+      "DENV4/THAILAND/2002/03169/02": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.511,
+          57.0
+        ]
+      },
+      "DENV4/THAILAND/2003/02207/03": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.4639,
+          29.0
+        ]
+      },
+      "DENV4/THAILAND/2003/02377/03": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -1.5969,
+          121.0
+        ]
+      },
+      "DENV4/THAILAND/2004/00217/04": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.0,
+          40.0
+        ]
+      },
+      "DENV4/THAILAND/2004/00624/04": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.8875,
+          74.0
+        ]
+      },
+      "DENV4/THAILAND/2004/00965/04": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          1.2345,
+          17.0
+        ]
+      },
+      "DENV4/THAILAND/2004/01315/04": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.7225,
+          66.0
+        ]
+      },
+      "DENV4/THAILAND/2004/01369/04": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.511,
+          57.0
+        ]
+      },
+      "DENV4/THAILAND/2004/01544/04": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2005/00201/05": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.1699,
+          45.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00047/06": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.7866,
+          69.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00189/06": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.3785,
+          52.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00356/06": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          1.3219,
+          16.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00533/06": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.5607,
+          59.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00578/06": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.511,
+          57.0
+        ]
+      },
+      "DENV4/THAILAND/2006/00617/06": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.4854,
+          56.0
+        ]
+      },
+      "DENV4/THAILAND/2006/01881/06": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2006/02190/06": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.4854,
+          56.0
+        ]
+      },
+      "DENV4/THAILAND/2006/02540/06": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.6781,
+          25.0
+        ]
+      },
+      "DENV4/THAILAND/2007/00119/07": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.5607,
+          59.0
+        ]
+      },
+      "DENV4/THAILAND/2007/00504/07": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2007/00694/07": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -1.3363,
+          101.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01101/07": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01118/07": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.2327,
+          47.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01391/07": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.2928,
+          49.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01840/07": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01991/07": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.8625,
+          22.0
+        ]
+      },
+      "DENV4/THAILAND/2007/01993/07": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -2.5173,
+          229.0
+        ]
+      },
+      "DENV4/THAILAND/2007/02392/07": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.737,
+          24.0
+        ]
+      },
+      "DENV4/THAILAND/2008/00274/08": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.433,
+          54.0
+        ]
+      },
+      "DENV4/THAILAND/2008/00471/08": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2008/01380/08": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -1.0179,
+          81.0
+        ]
+      },
+      "DENV4/THAILAND/2008/01387/08": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -1.1538,
+          89.0
+        ]
+      },
+      "DENV4/THAILAND/2008/02023/08": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.6781,
+          25.0
+        ]
+      },
+      "DENV4/THAILAND/2009/00781/09": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.511,
+          57.0
+        ]
+      },
+      "DENV4/THAILAND/2009/01432/09": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2009/01559/09": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2010/00249/10": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.3219,
+          32.0
+        ]
+      },
+      "DENV4/THAILAND/2010/00283/10": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.0356,
+          41.0
+        ]
+      },
+      "DENV4/THAILAND/2010/00780/10": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2010/01270/10": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2010/01513/10": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.8625,
+          22.0
+        ]
+      },
+      "DENV4/THAILAND/2010/01677/10": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2011/00251/11": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2011/00257/11": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2011/00369/11": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.567,
+          27.0
+        ]
+      },
+      "DENV4/THAILAND/2011/00477/11": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2012/00112/12": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.737,
+          24.0
+        ]
+      },
+      "DENV4/THAILAND/2012/00637/12": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2012/01104/12": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2013/00300/13": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          -0.4594,
+          55.0
+        ]
+      },
+      "DENV4/THAILAND/2013/00691/13": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2013/00801/13": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2013/01012/13": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2014/00214/14": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          2.0,
+          10.0
+        ]
+      },
+      "DENV4/THAILAND/2014/00555/14": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.5146,
+          28.0
+        ]
+      },
+      "DENV4/THAILAND/2014/00595/14": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          0.9296,
+          21.0
+        ]
+      },
+      "DENV4/THAILAND/2014/00615/14": {
+        "DEN4_PUERTORICO_1999_BID_V2446": [
+          1.0,
+          20.0
+        ]
+      }
+    }
+  }
+}

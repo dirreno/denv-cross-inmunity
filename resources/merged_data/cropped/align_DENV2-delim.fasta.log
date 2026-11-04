@@ -5,18 +5,18 @@ Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
 
 Host:    dirreno-B650-AORUS-ELITE-AX (AVX512, FMA3, 30 GB RAM)
 Command: iqtree3 --threads-max 16 -s ../resources/merged_data/cropped/align_DENV2-delim.fasta -m GTR+G --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo
-Seed:    284625 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Wed Jul 15 14:56:15 2026
+Seed:    624937 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Nov  4 02:34:18 2026
 Kernel:  AVX+FMA - auto-detect threads (16 CPU cores detected)
 
 Reading alignment file ../resources/merged_data/cropped/align_DENV2-delim.fasta ... Fasta format detected
-Reading fasta file: done in 0.0100417 secs using 98.11% CPU
+Reading fasta file: done in 0.0105791 secs using 97.49% CPU
 Alignment most likely contains DNA/RNA sequences
-Constructing alignment: done in 0.00656757 secs using 1172% CPU
+Constructing alignment: done in 0.00674073 secs using 1133% CPU
 Alignment has 931 sequences with 1485 columns, 869 distinct patterns
 552 parsimony-informative, 154 singleton sites, 779 constant sites
                                                                                             Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 0.000145757 secs using 3848% CPU
+Analyzing sequences: done in 0.000139345 secs using 2026% CPU
    1  hDenV2_DELIM-0x2f_Colombia_DELIM-0x2f_SAN-UIS-0000033_DELIM-0x2f_2016                         0.00%    passed     98.26%
    2  hDenV2_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-20129_DELIM-0x2f_2012                          0.00%    passed     99.24%
    3  hDenV2_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-261_DELIM-0x2f_2012                            0.00%    passed     99.24%
@@ -1036,8 +1036,8 @@ NOTE: DENV2_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_00849_DELIM-0x2f_94 i
 NOTE: DENV2_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_02247_DELIM-0x2f_00 is identical to DENV2_DELIM-0x2f_THAILAND_DELIM-0x2f_2000_DELIM-0x2f_01667_DELIM-0x2f_00 but kept for subsequent analysis
 NOTE: DENV2_DELIM-0x2f_THAILAND_DELIM-0x2f_1994_DELIM-0x2f_01414_DELIM-0x2f_94 is identical to DENV2_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00033_DELIM-0x2f_95 but kept for subsequent analysis
 NOTE: DENV2_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_01281_DELIM-0x2f_95 is identical to DENV2_DELIM-0x2f_THAILAND_DELIM-0x2f_1995_DELIM-0x2f_00656_DELIM-0x2f_95 but kept for subsequent analysis
-Checking for duplicate sequences: done in 0.00498738 secs using 1381% CPU
-Identifying sites to remove: done in 0.0046263 secs using 461.9% CPU
+Checking for duplicate sequences: done in 0.00516946 secs using 1379% CPU
+Identifying sites to remove: done in 0.00501784 secs using 768.9% CPU
 NOTE: 73 identical sequences (see below) will be ignored for subsequent analysis
 NOTE: hDenV2_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000071_DELIM-0x2f_2013 (identical to hDenV2_DELIM-0x2f_Colombia_DELIM-0x2f_un-OUCRU-0000062_DELIM-0x2f_2013) is ignored but added at the end
 NOTE: hDenV2_DELIM-0x2f_Colombia_DELIM-0x2f_TOL-INS-449418_DELIM-0x2f_2015 (identical to hDenV2_DELIM-0x2f_Colombia_DELIM-0x2f_un-CNIH-449418_DELIM-0x2f_2015) is ignored but added at the end
@@ -1116,70 +1116,70 @@ Alignment was printed to ../resources/merged_data/cropped/align_DENV2-delim.fast
 
 For your convenience alignment with unique sequences printed to ../resources/merged_data/cropped/align_DENV2-delim.fasta.uniqueseq.phy
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.120 seconds
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.105 seconds
 
 NOTE: 97 MB RAM (0 GB) is required!
 Measuring multi-threading efficiency up to 16 CPU cores
 Increase to 10 rounds for branch lengths
 20 trees examined
-Threads: 1 / Time: 16.125 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -176965
-Threads: 2 / Time: 11.061 sec / Speedup: 1.458 / Efficiency: 73% / LogL: -176965
-Threads: 3 / Time: 9.207 sec / Speedup: 1.751 / Efficiency: 58% / LogL: -176965
-Threads: 4 / Time: 8.283 sec / Speedup: 1.947 / Efficiency: 49% / LogL: -176965
-Determining AUTO threadcount: done in 44.7053 secs using 217.9% CPU
+Threads: 1 / Time: 16.360 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -172227
+Threads: 2 / Time: 11.218 sec / Speedup: 1.458 / Efficiency: 73% / LogL: -172227
+Threads: 3 / Time: 9.398 sec / Speedup: 1.741 / Efficiency: 58% / LogL: -172227
+Threads: 4 / Time: 8.215 sec / Speedup: 1.992 / Efficiency: 50% / LogL: -172227
+Determining AUTO threadcount: done in 45.2107 secs using 217.7% CPU
 BEST NUMBER OF THREADS: 3
 
 Estimate model parameters (epsilon = 0.500)
-1. Initial log-likelihood: -24866.849
-2. Current log-likelihood: -21939.595
-3. Current log-likelihood: -21898.429
-4. Current log-likelihood: -21896.903
-Optimal log-likelihood: -21896.712
-Rate parameters:  A-C: 0.90128  A-G: 13.44094  A-T: 1.86755  C-G: 0.61589  C-T: 38.89695  G-T: 1.00000
+1. Initial log-likelihood: -24897.051
+2. Current log-likelihood: -21953.301
+3. Current log-likelihood: -21911.301
+4. Current log-likelihood: -21909.882
+Optimal log-likelihood: -21909.704
+Rate parameters:  A-C: 0.90633  A-G: 13.38241  A-T: 1.85482  C-G: 0.62012  C-T: 39.62817  G-T: 1.00000
 Base frequencies:  A: 0.334  C: 0.199  G: 0.256  T: 0.211
 Gamma shape alpha: 0.308
-Parameters optimization took 4 rounds (2.695 sec)
+Parameters optimization took 4 rounds (2.696 sec)
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.483573 secs using 299.9% CPU
-Computing ML distances took 0.486645 sec (of wall-clock time) 1.451642 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.00421135 secs using 314.6% CPU
-Constructing RapidNJ tree: done in 0.116361 secs using 179% CPU
-Computing RapidNJ tree took 0.120645 sec (of wall-clock time) 0.221630 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -22314.543
+Calculating distance matrix: done in 0.483905 secs using 300% CPU
+Computing ML distances took 0.487275 sec (of wall-clock time) 1.453622 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00414366 secs using 344.7% CPU
+Constructing RapidNJ tree: done in 0.123669 secs using 178% CPU
+Computing RapidNJ tree took 0.127890 sec (of wall-clock time) 0.234481 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -22305.005
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 
 Do NNI search on 2 best initial trees
-Optimizing NNI: done in 0.673247 secs using 295.6% CPU
+Optimizing NNI: done in 0.593736 secs using 294.5% CPU
 Estimate model parameters (epsilon = 0.500)
-BETTER TREE FOUND at iteration 1: -21857.456
-Optimizing NNI: done in 1.24246 secs using 294.3% CPU
+BETTER TREE FOUND at iteration 1: -21884.616
+Optimizing NNI: done in 1.15846 secs using 295.7% CPU
 Finish initializing candidate tree set (4)
-Current best tree score: -21857.456 / CPU time: 2.129
+Current best tree score: -21884.616 / CPU time: 2.039
 Number of iterations: 2
-TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:50s
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:51s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.050)
-1. Initial log-likelihood: -21857.456
-Optimal log-likelihood: -21857.452
-Rate parameters:  A-C: 0.90112  A-G: 13.43698  A-T: 1.85726  C-G: 0.61522  C-T: 38.89826  G-T: 1.00000
+1. Initial log-likelihood: -21884.616
+Optimal log-likelihood: -21884.613
+Rate parameters:  A-C: 0.91099  A-G: 13.49913  A-T: 1.84911  C-G: 0.62085  C-T: 39.56845  G-T: 1.00000
 Base frequencies:  A: 0.334  C: 0.199  G: 0.256  T: 0.211
 Gamma shape alpha: 0.305
 Parameters optimization took 1 rounds (0.183 sec)
-BEST SCORE FOUND : -21857.452
-Total tree length: 2.472
+BEST SCORE FOUND : -21884.613
+Total tree length: 2.486
 
 Total number of iterations: 2
-CPU time used for tree search: 6.281 sec (0h:0m:6s)
-Wall-clock time used for tree search: 2.130 sec (0h:0m:2s)
-Total CPU time used: 115.148 sec (0h:1m:55s)
-Total wall-clock time used: 50.852 sec (0h:0m:50s)
+CPU time used for tree search: 6.034 sec (0h:0m:6s)
+Wall-clock time used for tree search: 2.041 sec (0h:0m:2s)
+Total CPU time used: 115.956 sec (0h:1m:55s)
+Total wall-clock time used: 51.263 sec (0h:0m:51s)
 
 Analysis results written to: 
   IQ-TREE report:                ../resources/merged_data/cropped/align_DENV2-delim.fasta.iqtree
@@ -1187,4 +1187,4 @@ Analysis results written to:
   Likelihood distances:          ../resources/merged_data/cropped/align_DENV2-delim.fasta.mldist
   Screen log file:               ../resources/merged_data/cropped/align_DENV2-delim.fasta.log
 
-Date and Time: Wed Jul 15 14:57:06 2026
+Date and Time: Wed Nov  4 02:35:09 2026
