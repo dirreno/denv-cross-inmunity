@@ -54,9 +54,16 @@ import types
 
 import numpy as np
 
-TITERS = "resources/merged_data/titers/titers_DENV{}.tsv"
-ALIGN = "resources/merged_data/AA_sequences/E_DENV{}_aa_E.fasta"
-TREE = "resources/merged_data/refined/E_DENV{}_tree_time.nwk"
+TITERS = "resources/experimental_data/titers/titers_DENV{}.tsv"
+# OJO: no se usa E_DENV{}_aa_E.fasta. Ese archivo sale de 'augur translate'
+# sobre el arbol REFINADO, y 'augur refine --clock-filter-iqd 4' poda las cepas
+# atipicas de reloj molecular. Entre las podadas hay virus de referencia de
+# suero: en DENV2 se perdian 7 de 8, lo que vaciaba el modelo en silencio.
+# SubstitutionModel no usa arbol, asi que el insumo correcto es la traduccion
+# directa del alineamiento recortado (sin gaps, ambiguedad < 0,01 %), que
+# conserva las 412 cepas con titulos.
+ALIGN = "resources/experimental_data/AA_sequences/E_DENV{}_aa_E_full.fasta"
+TREE = "resources/experimental_data/refined/E_DENV{}_tree_time.nwk"
 OUT_PAIRS = "output/loo_titers_pairs.csv"
 OUT_SUMMARY = "output/loo_titers_summary.csv"
 GENE = "E"
@@ -143,24 +150,47 @@ def split_dejando_fuera(strain):
     return _make_training_set
 
 
+_ALN_CACHE = {}
+
+
+def cargar_alineamiento(aln):
+    """{gen: alineamiento}, que es lo que espera SubstitutionModel.
+
+    No es una ruta: augur.titers.load_alignments hace AlignIO.read y pasa el
+    objeto. Se cachea porque el bucle LOO reconstruye el modelo una vez por
+    virus apartado y releer el FASTA cada vez es puro desperdicio.
+    """
+    if aln not in _ALN_CACHE:
+        try:
+            from augur.titers import load_alignments
+        except ImportError:                     # versiones antiguas
+            from Bio import AlignIO
+            _ALN_CACHE[aln] = {GENE: AlignIO.read(aln, "fasta")}
+        else:
+            _ALN_CACHE[aln] = load_alignments([aln], [GENE])
+    return _ALN_CACHE[aln]
+
+
 def construir(tm, sero):
     """Crea un SubstitutionModel. La firma se comprueba antes de llamar."""
-    aln, tit, tree = ALIGN.format(sero), TITERS.format(sero), TREE.format(sero)
-    for p in (aln, tit, tree):
+    aln, tit = ALIGN.format(sero), TITERS.format(sero)
+    for p in (aln, tit):
         if not os.path.exists(p):
             raise SystemExit(f"falta {p} (correr desde la raiz del repo)")
     params = inspect.signature(tm.SubstitutionModel.__init__).parameters
     kw = {}
-    if "alignment" in params:
+    if "alignments" in params:        # firma actual (33.x): dict {gen: alineamiento}
+        kw["alignments"] = cargar_alineamiento(aln)
+    elif "alignment" in params:       # firmas antiguas: ruta al FASTA
         kw["alignment"] = aln
+        if "gene_names" in params:
+            kw["gene_names"] = [GENE]
+    else:
+        raise SystemExit(
+            f"SubstitutionModel.__init__ no acepta ni 'alignments' ni "
+            f"'alignment': {list(params)}")
     if "titers" in params:
         kw["titers"] = tit
-    if "gene_names" in params:
-        kw["gene_names"] = [GENE]
-    if "tree" in params:
-        kw["tree"] = tree
-    if not kw:
-        raise SystemExit(f"firma inesperada de SubstitutionModel.__init__: {params}")
     return tm.SubstitutionModel(**kw)
 
 

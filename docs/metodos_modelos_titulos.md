@@ -116,10 +116,35 @@ la capacidad de generalización.
 omite celdas individuales de la matriz de títulos conservando el virus y el suero en el
 conjunto de entrenamiento, de modo que los términos de potencia y avidez siguen siendo
 estimables. Ese esquema no corresponde a la pregunta aquí planteada, que requiere
-predecir la totalidad de la fila de un virus nunca medido. El esquema pertinente es la
-omisión por virus, disponible en el paquete mediante el parámetro `subset_strains`.
-*(Nota para los autores: este tercer nivel no se ha ejecutado todavía; no debe
-reportarse como realizado.)*
+predecir la totalidad de la fila de un virus nunca medido. Se implementó, por tanto, una
+validación de omisión por virus (*leave-one-virus-out*): para cada virus de prueba se
+apartó la totalidad de sus mediciones, se reajustó el modelo sobre el resto y se
+predijeron sus títulos. Al retirarse la fila completa, la avidez del virus apartado deja
+de ser estimable y se fija en cero, reproduciendo exactamente la situación de una
+secuencia sin datos serológicos. Los virus de referencia de los sueros no se apartaron,
+por cuanto su omisión dejaría al suero correspondiente sin anclaje. El procedimiento se
+ejecutó sobre 99, 89, 98 y 96 virus para DENV1–DENV4, sin fallos de ajuste.
+
+El rendimiento se evaluó contra un modelo nulo consistente en la potencia del suero
+únicamente. Los resultados agregados (RMSE en unidades log2) fueron:
+
+| Serotipo | Virus | Pares | RMSE LOO | RMSE nulo | Destreza |
+|---|---|---|---|---|---|
+| DENV1 | 99 | 492 | 0,768 | 0,774 | 0,007 |
+| DENV2 | 89 | 285 | 1,070 | 1,112 | 0,038 |
+| DENV3 | 98 | 390 | 0,792 | 1,028 | 0,230 |
+| DENV4 | 96 | 290 | 1,056 | 1,246 | 0,152 |
+
+Estas cifras agregadas sobrestiman la capacidad predictiva, por cuanto la mayor parte de
+la varianza de los títulos se explica por la identidad del suero y no por la del virus.
+Al centrar las observaciones dentro de cada suero —lo que aísla la componente
+virus-específica, única pertinente para predecir aislados nuevos— la correlación entre
+predicción y observación resulta de 0,007, −0,061, 0,581 y 0,258 para DENV1–DENV4, con
+destrezas intraséricas de −0,016, −0,028, 0,187 y 0,035, respectivamente.
+
+El modelo de sustituciones posee, por consiguiente, capacidad predictiva
+virus-específica apreciable únicamente en DENV3, marginal en DENV4 y nula en DENV1 y
+DENV2, donde no mejora sobre la predicción del promedio del suero correspondiente.
 
 ## Resultados del ajuste relevantes para la interpretación
 
