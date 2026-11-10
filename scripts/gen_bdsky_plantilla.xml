@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beast version="2.7"
+ namespace="beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.alignment:beast.base.evolution.tree:beast.base.evolution.tree.coalescent:beast.base.util:beast.base.math:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood:beast.base.inference.distribution:bdsky.evolution.speciation">
+
+<!-- {{TAG}} | linaje {{LINAJE}} | n={{N}} | {{L}} nt
+     muestras {{PRIMERA}} - {{RECIENTE}} | altura muestral {{ALTURA}} anios
+     Re: {{NRE}} intervalos | samplingProportion: {{NSP}} intervalos (el 1o fijo en 0) -->
+
+    <data id="aln" spec="Alignment" name="alignment">
+{{SEQS}}
+    </data>
+
+    <map name="Uniform">beast.base.inference.distribution.Uniform</map>
+    <map name="Exponential">beast.base.inference.distribution.Exponential</map>
+    <map name="LogNormal">beast.base.inference.distribution.LogNormalDistributionModel</map>
+    <map name="Gamma">beast.base.inference.distribution.Gamma</map>
+    <map name="Beta">beast.base.inference.distribution.Beta</map>
+    <map name="prior">beast.base.inference.distribution.Prior</map>
+
+    <run id="mcmc" spec="MCMC" chainLength="{{CADENA}}">
+
+    <state id="state" spec="State" storeEvery="20000">
+        <tree id="Tree" spec="beast.base.evolution.tree.Tree" name="stateNode">
+            <trait id="dateTrait" spec="beast.base.evolution.tree.TraitSet"
+                   traitname="date" value="{{TRAIT}}">
+                <taxa id="taxa" spec="TaxonSet" alignment="@aln"/>
+            </trait>
+            <taxonset idref="taxa"/>
+        </tree>
+        <parameter id="origin"    spec="parameter.RealParameter" lower="0.0" name="stateNode">{{ORG0}}</parameter>
+        <parameter id="Re"        spec="parameter.RealParameter" dimension="{{NRE}}" lower="0.0" name="stateNode">1.2</parameter>
+        <parameter id="delta"     spec="parameter.RealParameter" lower="0.0" name="stateNode">26.07</parameter>
+        <parameter id="sProp"     spec="parameter.RealParameter" dimension="{{NSP}}" lower="0.0" upper="1.0" name="stateNode">{{SPVAL}}</parameter>
+        <parameter id="ucldMean"  spec="parameter.RealParameter" lower="0.0" name="stateNode">{{CLOCK0}}</parameter>
+        <parameter id="ucldStdev" spec="parameter.RealParameter" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories" spec="parameter.IntegerParameter" dimension="{{NCAT}}">1</stateNode>
+        <parameter id="gammaShape" spec="parameter.RealParameter" lower="0.1" name="stateNode">1.0</parameter>
+        <parameter id="rateAC" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="rateAG" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="rateAT" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="rateCG" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="rateGT" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        <parameter id="freqParameter" spec="parameter.RealParameter" dimension="4" lower="0.0" upper="1.0" name="stateNode">0.25</parameter>
+    </state>
+
+    <init id="RandomTree" spec="beast.base.evolution.tree.coalescent.RandomTree"
+          estimate="false" initial="@Tree" taxa="@aln">
+        <populationModel id="ConstantPopulation0" spec="ConstantPopulation">
+            <parameter id="randomPopSize" spec="parameter.RealParameter" name="popSize">{{POPSIZE}}</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="beast.base.inference.CompoundDistribution">
+        <distribution id="prior" spec="beast.base.inference.CompoundDistribution">
+
+            <distribution id="BDSKY" spec="bdsky.evolution.speciation.BirthDeathSkylineModel"
+                          tree="@Tree" origin="@origin" conditionOnSurvival="true"
+                          reproductiveNumber="@Re" becomeUninfectiousRate="@delta"
+                          samplingProportion="@sProp">
+                <birthRateChangeTimes    spec="parameter.RealParameter" dimension="{{NRE}}">{{RET}}</birthRateChangeTimes>
+                <samplingRateChangeTimes spec="parameter.RealParameter" dimension="{{NSP}}">{{SPT}}</samplingRateChangeTimes>
+                <reverseTimeArrays spec="parameter.BooleanParameter" dimension="5">true false true false false</reverseTimeArrays>
+            </distribution>
+
+            <prior id="originPrior" name="distribution" x="@origin">
+                <LogNormal name="distr">
+                    <parameter spec="parameter.RealParameter" estimate="false" name="M">{{ORGM}}</parameter>
+                    <parameter spec="parameter.RealParameter" estimate="false" name="S">0.3</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="RePrior" name="distribution" x="@Re">
+                <LogNormal name="distr">
+                    <parameter spec="parameter.RealParameter" estimate="false" name="M">0.0</parameter>
+                    <parameter spec="parameter.RealParameter" estimate="false" name="S">0.5</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="deltaPrior" name="distribution" x="@delta">
+                <LogNormal name="distr">
+                    <parameter spec="parameter.RealParameter" estimate="false" name="M">{{DELTAM}}</parameter>
+                    <parameter spec="parameter.RealParameter" estimate="false" name="S">{{DELTAS}}</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="sPropPrior" name="distribution" x="@sProp">
+                <Beta name="distr">
+                    <parameter spec="parameter.RealParameter" estimate="false" name="alpha">1.0</parameter>
+                    <parameter spec="parameter.RealParameter" estimate="false" name="beta">999.0</parameter>
+                </Beta>
+            </prior>
+            <prior id="ucldMeanPrior" name="distribution" x="@ucldMean">
+                <LogNormal name="distr">
+                    <parameter spec="parameter.RealParameter" estimate="false" name="M">{{CLOCKM}}</parameter>
+                    <parameter spec="parameter.RealParameter" estimate="false" name="S">{{CLOCKS}}</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="ucldStdevPrior" name="distribution" x="@ucldStdev">
+                <Exponential name="distr">
+                    <parameter spec="parameter.RealParameter" estimate="false" name="mean">0.3333</parameter>
+                </Exponential>
+            </prior>
+            <prior id="gammaShapePrior" name="distribution" x="@gammaShape">
+                <Exponential name="distr">
+                    <parameter spec="parameter.RealParameter" estimate="false" name="mean">1.0</parameter>
+                </Exponential>
+            </prior>
+            <prior id="rateACPrior" name="distribution" x="@rateAC"><Gamma name="distr">
+                <parameter spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                <parameter spec="parameter.RealParameter" estimate="false" name="beta">20.0</parameter></Gamma></prior>
+            <prior id="rateAGPrior" name="distribution" x="@rateAG"><Gamma name="distr">
+                <parameter spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                <parameter spec="parameter.RealParameter" estimate="false" name="beta">20.0</parameter></Gamma></prior>
+            <prior id="rateATPrior" name="distribution" x="@rateAT"><Gamma name="distr">
+                <parameter spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                <parameter spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter></Gamma></prior>
+            <prior id="rateCGPrior" name="distribution" x="@rateCG"><Gamma name="distr">
+                <parameter spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                <parameter spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter></Gamma></prior>
+            <prior id="rateGTPrior" name="distribution" x="@rateGT"><Gamma name="distr">
+                <parameter spec="parameter.RealParameter" estimate="false" name="alpha">0.05</parameter>
+                <parameter spec="parameter.RealParameter" estimate="false" name="beta">10.0</parameter></Gamma></prior>
+        </distribution>
+
+        <distribution id="likelihood" spec="beast.base.inference.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood" spec="TreeLikelihood" data="@aln" tree="@Tree">
+                <siteModel id="siteModel" spec="SiteModel" gammaCategoryCount="4" shape="@gammaShape">
+                    <parameter id="mutationRate" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                    <parameter id="proportionInvariant" spec="parameter.RealParameter" estimate="false" lower="0.0" upper="1.0" name="proportionInvariant">0.0</parameter>
+                    <substModel id="gtr" spec="GTR" rateAC="@rateAC" rateAG="@rateAG" rateAT="@rateAT" rateCG="@rateCG" rateGT="@rateGT">
+                        <parameter id="rateCT" spec="parameter.RealParameter" estimate="false" lower="0.0" name="rateCT">1.0</parameter>
+                        <frequencies id="freqs" spec="Frequencies" frequencies="@freqParameter"/>
+                    </substModel>
+                </siteModel>
+                <branchRateModel id="relaxedClock" spec="beast.base.evolution.branchratemodel.UCRelaxedClockModel"
+                                 clock.rate="@ucldMean" rateCategories="@rateCategories" tree="@Tree">
+                    <LogNormal id="lnClock" S="@ucldStdev" meanInRealSpace="true" name="distr">
+                        <parameter id="lnClockM" spec="parameter.RealParameter" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="opTreeScale" spec="ScaleOperator" tree="@Tree" weight="3.0" scaleFactor="0.5"/>
+    <operator id="opRootScale" spec="ScaleOperator" tree="@Tree" weight="3.0" scaleFactor="0.5" rootOnly="true"/>
+    <operator id="opNodeUnif"  spec="beast.base.evolution.operator.Uniform" tree="@Tree" weight="30.0"/>
+    <operator id="opNarrow"    spec="beast.base.evolution.operator.Exchange" tree="@Tree" weight="15.0" isNarrow="true"/>
+    <operator id="opWide"      spec="beast.base.evolution.operator.Exchange" tree="@Tree" weight="3.0"  isNarrow="false"/>
+    <operator id="opSlide"     spec="beast.base.evolution.operator.SubtreeSlide" tree="@Tree" weight="15.0" size="{{SLIDE}}"/>
+    <operator id="opWilson"    spec="beast.base.evolution.operator.WilsonBalding" tree="@Tree" weight="3.0"/>
+
+    <operator id="opRe"     spec="ScaleOperator" parameter="@Re"     weight="10.0" scaleFactor="0.75"/>
+    <operator id="opDelta"  spec="ScaleOperator" parameter="@delta"  weight="2.0"  scaleFactor="0.75"/>
+    <operator id="opOrigin" spec="ScaleOperator" parameter="@origin" weight="3.0"  scaleFactor="0.75"/>
+    <!-- 'indicator' deja fijo en 0 el primer elemento de sProp (periodo previo al muestreo) -->
+    <operator id="opSProp"  spec="ScaleOperator" parameter="@sProp"  weight="8.0"  scaleFactor="0.75">
+        <parameter id="sPropInd" spec="parameter.BooleanParameter" dimension="{{NSP}}" estimate="false" name="indicator">{{SPIND}}</parameter>
+    </operator>
+
+    <operator id="opClockMean"  spec="ScaleOperator" parameter="@ucldMean"  weight="3.0" scaleFactor="0.8"/>
+    <operator id="opClockStdev" spec="ScaleOperator" parameter="@ucldStdev" weight="3.0" scaleFactor="0.8"/>
+    <operator id="opRateCat"    spec="IntRandomWalkOperator" parameter="@rateCategories" weight="10.0" windowSize="1"/>
+    <operator id="opRateCatU"   spec="UniformOperator" parameter="@rateCategories" weight="10.0"/>
+    <operator id="opUpDown"     spec="UpDownOperator" weight="5.0" scaleFactor="0.8">
+        <up idref="ucldMean"/>
+        <down idref="Tree"/>
+    </operator>
+    <operator id="opShape" spec="ScaleOperator" parameter="@gammaShape" weight="0.5" scaleFactor="0.8"/>
+    <operator id="opAC" spec="ScaleOperator" parameter="@rateAC" weight="0.5" scaleFactor="0.8"/>
+    <operator id="opAG" spec="ScaleOperator" parameter="@rateAG" weight="0.5" scaleFactor="0.8"/>
+    <operator id="opAT" spec="ScaleOperator" parameter="@rateAT" weight="0.5" scaleFactor="0.8"/>
+    <operator id="opCG" spec="ScaleOperator" parameter="@rateCG" weight="0.5" scaleFactor="0.8"/>
+    <operator id="opGT" spec="ScaleOperator" parameter="@rateGT" weight="0.5" scaleFactor="0.8"/>
+    <operator id="opFreq" spec="DeltaExchangeOperator" parameter="@freqParameter" weight="0.5" delta="0.01"/>
+
+    <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="10000" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood"/>
+        <log id="TreeHeight" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree"/>
+        <log idref="origin"/>
+        <log idref="Re"/>
+        <log idref="delta"/>
+        <log idref="sProp"/>
+        <log idref="ucldMean"/>
+        <log idref="ucldStdev"/>
+        <log id="rateStat" spec="beast.base.evolution.RateStatistic" branchratemodel="@relaxedClock" tree="@Tree"/>
+        <log idref="gammaShape"/>
+        <log idref="rateAC"/>
+        <log idref="rateAG"/>
+        <log idref="rateAT"/>
+        <log idref="rateCG"/>
+        <log idref="rateGT"/>
+        <log idref="freqParameter"/>
+    </logger>
+
+    <logger id="screenlog" spec="Logger" logEvery="100000">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog" spec="Logger" fileName="$(filebase).trees" logEvery="10000" mode="tree">
+        <log id="treeWithMetaData" spec="beast.base.evolution.TreeWithMetaDataLogger" branchratemodel="@relaxedClock" tree="@Tree"/>
+    </logger>
+
+    <operatorschedule id="opSchedule" spec="OperatorSchedule"/>
+    </run>
+</beast>

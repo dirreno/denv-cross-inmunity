@@ -1,0 +1,7 @@
+evento,contraste,papel,predictor,n_residente,n_entrante,n_pares,frac_calibrada,antigenica_mediana,antigenica_mediana_calibrada,esperada_mediana,residuo,residuo_lo,residuo_hi,razon,exceso,deficit,legible
+DENV-2 · 2022,2III_D.2 → 2II_F.1.1.2,introduccion de un genotipo nuevo,no epítopo,87,172,14964,1.0,0.2813,0.2813,0.2155,0.068,0.0613,0.0953,1.3055,True,False,True
+DENV-2 · 2022,2III_D.2 → 2II_F.1.1.2,introduccion de un genotipo nuevo,patrística,87,172,14964,1.0,0.2813,0.2813,0.2634,0.0011,0.0,0.0206,1.0681,False,False,True
+DENV-3 · ~2010,3III_C.1 hist → 3III_C.2,relevo entre sublinajes cocirculantes,no epítopo,77,108,8316,1.0,0.0375,0.0375,0.0245,0.014,0.0096,0.0222,1.5313,True,False,True
+DENV-3 · ~2010,3III_C.1 hist → 3III_C.2,relevo entre sublinajes cocirculantes,patrística,77,108,8316,1.0,0.0375,0.0375,0.0272,0.0195,0.0103,0.0195,1.3768,True,False,True
+DENV-3 · 2023,3III_C.2 → 3III_C.1 (2023–24),reemergencia tras siete anios sin DENV-3,no epítopo,108,76,8208,1.0,0.0245,0.0245,0.041,-0.0077,-0.0165,0.0,0.5981,False,False,True
+DENV-3 · 2023,3III_C.2 → 3III_C.1 (2023–24),reemergencia tras siete anios sin DENV-3,patrística,108,76,8208,0.378,0.0245,0.0,0.0341,-0.0245,-0.0245,-0.0096,0.0,False,True,False

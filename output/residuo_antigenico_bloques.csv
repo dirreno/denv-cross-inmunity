@@ -1,0 +1,10 @@
+evento,bloque,n_cepas,n_pares,antig_mediana,antig_media,antig_frac_cero,noepi_mediana,noepi_media
+DENV-2 · 2022,dentro del residente,87.0,3741,0.0888,0.0781,0.1756,0.0083,0.016
+DENV-2 · 2022,dentro del entrante,172.0,14706,0.0,0.018,0.577,0.0,0.0056
+DENV-2 · 2022,entre los dos,,14964,0.2813,0.2804,0.0,0.0567,0.058
+DENV-3 · ~2010,dentro del residente,77.0,2926,0.0272,0.0342,0.298,0.0,0.0156
+DENV-3 · ~2010,dentro del entrante,108.0,5778,0.0245,0.0348,0.2295,0.0,0.0109
+DENV-3 · ~2010,entre los dos,,8316,0.0375,0.0403,0.1866,0.0183,0.0316
+DENV-3 · 2023,dentro del residente,108.0,5778,0.0245,0.0348,0.2295,0.0,0.0109
+DENV-3 · 2023,dentro del entrante,76.0,2850,0.0,0.0062,0.8004,0.0223,0.0155
+DENV-3 · 2023,entre los dos,,8208,0.0245,0.0291,0.3148,0.0183,0.0331
